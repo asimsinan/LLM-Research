@@ -1,27 +1,13 @@
-A curated list of papers on Large Language Models by year. I'll try to update the list if new papers are published. Let me know if I am missing important papers.
+A curated list of papers on Large Language Models by year. I'll try to update the list if new papers are published. Let me know if I am missing important papers or there are errors.
 ### To-do: 
 * Sort by publication date.
 * Add keywords/categories
 ## 2017
-1. [**All the attention you need: Global-local, spatial-channel attention for image retrieval**](http://arxiv.org/pdf/2107.08000v1) by Chull Hwan Song, Hye Joo Han, Yannis Avrithis
+1. [**Attention is All You Need**]([http://arxiv.org/pdf/2107.08000v1](https://arxiv.org/pdf/1706.03762.pdf)) by Chull Hwan Song, Hye Joo Han, Yannis Avrithis
 
 	### Summary
 
-	We address representation learning for large-scale instance-level image
-retrieval. Apart from backbone, training pipelines and loss functions, popular
-approaches have focused on different spatial pooling and attention mechanisms,
-which are at the core of learning a powerful global image representation. There
-are different forms of attention according to the interaction of elements of
-the feature tensor (local and global) and the dimensions where it is applied
-(spatial and channel). Unfortunately, each study addresses only one or two
-forms of attention and applies it to different problems like classification,
-detection or retrieval.
-  We present global-local attention module (GLAM), which is attached at the end
-of a backbone network and incorporates all four forms of attention: local and
-global, spatial and channel. We obtain a new feature tensor and, by spatial
-pooling, we learn a powerful embedding for image retrieval. Focusing on global
-descriptors, we provide empirical evidence of the interaction of all forms of
-attention and improve the state of the art on standard benchmarks.
+	The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English- to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.
 
 ----
 
