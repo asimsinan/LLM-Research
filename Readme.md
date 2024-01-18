@@ -326,22 +326,6 @@ LMTurk is an important step towards making effective use of current PLMs.
 
 ----
 
-7. [**An axiomatic limitation on the deterministic scope required for superdeterminism and its consequentially greater likelihood**](http://arxiv.org/pdf/2311.15470v1) by Cameron Shackell
-
-	### Summary
-
-	By positing a universe where all events are determined by initial conditions,
-superdeterminism as conceded by Bell frames correlations observed in quantum
-measurements as the consequence of an inherently predetermined cosmic order
-that shapes even our experimental choices. I use an axiomatic formulation of
-superdeterminism to demonstrate that Bell overstated the scope of determinism
-required. Assuming only the existence of a universe containing observers, I
-show that determinism in just the observer scope is sufficient. I then discuss
-how this sufficiency increases the theory's plausibility and suggest a path to
-its integration with results from other disciplines.
-
-----
-
 8. [**Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism**](http://arxiv.org/pdf/1909.08053v4) by Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, Bryan Catanzaro
 
 	### Summary
