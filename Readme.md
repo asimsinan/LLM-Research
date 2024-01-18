@@ -3,7 +3,7 @@ A curated list of papers on Large Language Models by year. I'll try to update th
 * Sort by publication date.
 * Add keywords/categories
 ## 2017
-1. [**Attention is All You Need**]([http://arxiv.org/pdf/2107.08000v1](https://arxiv.org/pdf/1706.03762.pdf)) by Chull Hwan Song, Hye Joo Han, Yannis Avrithis
+1. [**Attention is All You Need**]([http://arxiv.org/pdf/2107.08000v1](https://arxiv.org/pdf/1706.03762.pdf) by Chull Hwan Song, Hye Joo Han, Yannis Avrithis
 
 	### Summary
 
