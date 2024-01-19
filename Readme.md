@@ -1,6 +1,5 @@
+A curated list of papers on Large Language Models by year. I'll try to update the list if new papers are published. Let me know if I am missing important papers.
 ## 2017 (1 paper)
-
-
 
 1. [Attention Is All You Need](http://arxiv.org/abs/1706.03762v7), Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, 12-06-2017
      ### Categories
@@ -21,11 +20,10 @@ BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction
 of the training costs of the best models from the literature. We show that the
 Transformer generalizes well to other tasks by applying it successfully to
 English constituency parsing both with large and limited training data.
+
 ## 2018 (1 paper)
 
-
-
-2. [BERT: Pre-training of Deep Bidirectional Transformers for Language
+1. [BERT: Pre-training of Deep Bidirectional Transformers for Language
   Understanding](http://arxiv.org/abs/1810.04805v2), Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova, 11-10-2018
      ### Categories
      Computation and Language
@@ -45,11 +43,10 @@ pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
 accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
 Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
 (5.1 point absolute improvement).
+
 ## 2019 (7 papers)
 
-
-
-3. [Generating Long Sequences with Sparse Transformers](http://arxiv.org/abs/1904.10509v1), Rewon Child, Scott Gray, Alec Radford, Ilya Sutskever, 23-04-2019
+1. [Generating Long Sequences with Sparse Transformers](http://arxiv.org/abs/1904.10509v1), Rewon Child, Scott Gray, Alec Radford, Ilya Sutskever, 23-04-2019
      ### Categories
      Machine Learning
     ### Abstract
@@ -68,7 +65,7 @@ and show it is possible in principle to use self-attention to model sequences
 of length one million or more.
 
 
-3. [Language Models as Knowledge Bases?](http://arxiv.org/abs/1909.01066v2), Fabio Petroni, Tim Rocktäschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel, 03-09-2019
+2. [Language Models as Knowledge Bases?](http://arxiv.org/abs/1909.01066v2), Fabio Petroni, Tim Rocktäschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel, 03-09-2019
      ### Categories
      Computation and Language
     ### Abstract
@@ -122,7 +119,7 @@ datasets. Our BERT model achieves SOTA results on the RACE dataset (90.9%
 compared to SOTA accuracy of 89.4%).
 
 
-3. [Exploring the Limits of Transfer Learning with a Unified Text-to-Text
+4. [Exploring the Limits of Transfer Learning with a Unified Text-to-Text
   Transformer](http://arxiv.org/abs/1910.10683v4), Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu, 23-10-2019
      ### Categories
      Machine Learning, Computation and Language
@@ -143,7 +140,7 @@ facilitate future work on transfer learning for NLP, we release our data set,
 pre-trained models, and code.
 
 
-3. [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language
+5. [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language
   Generation, Translation, and Comprehension](http://arxiv.org/abs/1910.13461v1), Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov, Luke Zettlemoyer, 29-10-2019
      ### Categories
      Computation and Language, Machine Learning
@@ -168,7 +165,7 @@ ablation experiments that replicate other pretraining schemes within the BART
 framework, to better measure which factors most influence end-task performance.
 
 
-3. [How Can We Know What Language Models Know?](http://arxiv.org/abs/1911.12543v2), Zhengbao Jiang, Frank F. Xu, Jun Araki, Graham Neubig, 28-11-2019
+6. [How Can We Know What Language Models Know?](http://arxiv.org/abs/1911.12543v2), Zhengbao Jiang, Frank F. Xu, Jun Araki, Graham Neubig, 28-11-2019
      ### Categories
      Computation and Language, Machine Learning
     ### Abstract
@@ -191,7 +188,7 @@ LMs know. We have released the code and the resulting LM Prompt And Query
 Archive (LPAQA) at https://github.com/jzbjyb/LPAQA.
 
 
-3. [Zero-shot Text Classification With Generative Language Models](http://arxiv.org/abs/1912.10165v1), Raul Puri, Bryan Catanzaro, 10-12-2019
+7. [Zero-shot Text Classification With Generative Language Models](http://arxiv.org/abs/1912.10165v1), Raul Puri, Bryan Catanzaro, 10-12-2019
      ### Categories
      Computation and Language
     ### Abstract
@@ -209,11 +206,10 @@ to a 45% absolute improvement in classification accuracy over random or
 majority class baselines. These results show that natural language can serve as
 simple and powerful descriptors for task adaptation. We believe this points the
 way to new metalearning strategies for text problems.
+
 ## 2020 (8 papers)
 
-
-
-4. [Longformer: The Long-Document Transformer](http://arxiv.org/abs/2004.05150v2), Iz Beltagy, Matthew E. Peters, Arman Cohan, 10-04-2020
+1. [Longformer: The Long-Document Transformer](http://arxiv.org/abs/2004.05150v2), Iz Beltagy, Matthew E. Peters, Arman Cohan, 10-04-2020
      ### Categories
      Computation and Language
     ### Abstract
@@ -234,7 +230,7 @@ Longformer variant for supporting long document generative sequence-to-sequence
 tasks, and demonstrate its effectiveness on the arXiv summarization dataset.
 
 
-4. [ColBERT: Efficient and Effective Passage Search via Contextualized Late
+2. [ColBERT: Efficient and Effective Passage Search via Contextualized Late
   Interaction over BERT](http://arxiv.org/abs/2004.12832v2), Omar Khattab, Matei Zaharia, 27-04-2020
      ### Categories
      Computation and Language
@@ -263,7 +259,7 @@ executing two orders-of-magnitude faster and requiring four orders-of-magnitude
 fewer FLOPs per query.
 
 
-4. [It's Not Just Size That Matters: Small Language Models Are Also Few-Shot
+3. [It's Not Just Size That Matters: Small Language Models Are Also Few-Shot
   Learners](http://arxiv.org/abs/2009.07118v2), Timo Schick, Hinrich Schütze, 15-09-2020
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -298,7 +294,7 @@ nine popular websites from three domains. Our results show that FLIN was able
 to adapt to new websites in a given domain.
 
 
-4. [Automatically Identifying Words That Can Serve as Labels for Few-Shot
+5. [Automatically Identifying Words That Can Serve as Labels for Few-Shot
   Text Classification](http://arxiv.org/abs/2010.13641v1), Timo Schick, Helmut Schmid, Hinrich Schütze, 26-10-2020
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -313,7 +309,7 @@ small amounts of training data. For a number of tasks, the mapping found by our
 approach performs almost as well as hand-crafted label-to-word mappings.
 
 
-4. [AutoPrompt: Eliciting Knowledge from Language Models with Automatically
+6. [AutoPrompt: Eliciting Knowledge from Language Models with Automatically
   Generated Prompts](http://arxiv.org/abs/2010.15980v2), Taylor Shin, Yasaman Razeghi, Robert L. Logan IV, Eric Wallace, Sameer Singh, 29-10-2020
      ### Categories
      Computation and Language, Machine Learning
@@ -337,7 +333,7 @@ existing probing methods, and as pretrained LMs become more sophisticated and
 capable, potentially a replacement for finetuning.
 
 
-4. [Making Pre-trained Language Models Better Few-shot Learners](http://arxiv.org/abs/2012.15723v2), Tianyu Gao, Adam Fisch, Danqi Chen, 31-12-2020
+7. [Making Pre-trained Language Models Better Few-shot Learners](http://arxiv.org/abs/2012.15723v2), Tianyu Gao, Adam Fisch, Danqi Chen, 31-12-2020
      ### Categories
      Computation and Language, Machine Learning
     ### Abstract
@@ -360,7 +356,7 @@ makes minimal assumptions on task resources and domain expertise, and hence
 constitutes a strong task-agnostic method for few-shot learning.
 
 
-4. [The Pile: An 800GB Dataset of Diverse Text for Language Modeling](http://arxiv.org/abs/2101.00027v1), Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, Shawn Presser, Connor Leahy, 31-12-2020
+8. [The Pile: An 800GB Dataset of Diverse Text for Language Modeling](http://arxiv.org/abs/2101.00027v1), Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, Shawn Presser, Connor Leahy, 31-12-2020
      ### Categories
      Computation and Language
     ### Abstract
@@ -378,11 +374,10 @@ the Pile, while improving performance on downstream evaluations. Through an
 in-depth exploratory analysis, we document potentially concerning aspects of
 the data for prospective users. We make publicly available the code used in its
 construction.
+
 ## 2021 (45 papers)
 
-
-
-5. [Prefix-Tuning: Optimizing Continuous Prompts for Generation](http://arxiv.org/abs/2101.00190v1), Xiang Lisa Li, Percy Liang, 01-01-2021
+1. [Prefix-Tuning: Optimizing Continuous Prompts for Generation](http://arxiv.org/abs/2101.00190v1), Xiang Lisa Li, Percy Liang, 01-01-2021
      ### Categories
      Computation and Language
     ### Abstract
@@ -401,7 +396,7 @@ outperforms fine-tuning in low-data settings, and extrapolates better to
 examples with topics unseen during training.
 
 
-5. [Prompt Programming for Large Language Models: Beyond the Few-Shot
+2. [Prompt Programming for Large Language Models: Beyond the Few-Shot
   Paradigm](http://arxiv.org/abs/2102.07350v1), Laria Reynolds, Kyle McDonell, 15-02-2021
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -424,7 +419,7 @@ these more general methods of interacting with language models can be
 incorporated into existing and future benchmarks and practical applications.
 
 
-5. [Calibrate Before Use: Improving Few-Shot Performance of Language Models](http://arxiv.org/abs/2102.09690v2), Tony Z. Zhao, Eric Wallace, Shi Feng, Dan Klein, Sameer Singh, 19-02-2021
+3. [Calibrate Before Use: Improving Few-Shot Performance of Language Models](http://arxiv.org/abs/2102.09690v2), Tony Z. Zhao, Eric Wallace, Shi Feng, Dan Klein, Sameer Singh, 19-02-2021
      ### Categories
      Computation and Language, Machine Learning
     ### Abstract
@@ -444,7 +439,7 @@ GPT-2's average accuracy (up to 30.0% absolute) and reduces variance across
 different choices of the prompt.
 
 
-5. [PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen
+4. [PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen
   Domains](http://arxiv.org/abs/2102.12206v4), Eyal Ben-David, Nadav Oved, Roi Reichart, 24-02-2021
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -495,7 +490,7 @@ was trained on. We release our code and pre-trained model weights at
 https://github.com/OpenAI/CLIP.
 
 
-5. [How Many Data Points is a Prompt Worth?](http://arxiv.org/abs/2103.08493v2), Teven Le Scao, Alexander M. Rush, 15-03-2021
+6. [How Many Data Points is a Prompt Worth?](http://arxiv.org/abs/2103.08493v2), Teven Le Scao, Alexander M. Rush, 15-03-2021
      ### Categories
      Machine Learning
     ### Abstract
@@ -511,7 +506,7 @@ quantified per task. Results show that prompting is often worth 100s of data
 points on average across classification tasks.
 
 
-5. [GPT Understands, Too](http://arxiv.org/abs/2103.10385v2), Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang, 18-03-2021
+7. [GPT Understands, Too](http://arxiv.org/abs/2103.10385v2), Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang, 18-03-2021
      ### Categories
      Computation and Language, Machine Learning
     ### Abstract
@@ -528,7 +523,7 @@ generally effective for both frozen and tuned language models, under both the
 fully-supervised and few-shot settings.
 
 
-5. [Adapting Language Models for Zero-shot Learning by Meta-tuning on
+8. [Adapting Language Models for Zero-shot Learning by Meta-tuning on
   Dataset and Prompt Collections](http://arxiv.org/abs/2104.04670v5), Ruiqi Zhong, Kristy Lee, Zheng Zhang, Dan Klein, 10-04-2021
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -554,7 +549,7 @@ aggregating datasets and unifying their formats can help build models that
 answer prompts better.
 
 
-5. [Learning How to Ask: Querying LMs with Mixtures of Soft Prompts](http://arxiv.org/abs/2104.06599v1), Guanghui Qin, Jason Eisner, 14-04-2021
+9. [Learning How to Ask: Querying LMs with Mixtures of Soft Prompts](http://arxiv.org/abs/2104.06599v1), Guanghui Qin, Jason Eisner, 14-04-2021
      ### Categories
      Computation and Language, Machine Learning
     ### Abstract
@@ -576,7 +571,7 @@ knowledge is cheap to elicit: random initialization is nearly as good as
 informed initialization.
 
 
-5. [Generating Datasets with Pretrained Language Models](http://arxiv.org/abs/2104.07540v3), Timo Schick, Hinrich Schütze, 15-04-2021
+10. [Generating Datasets with Pretrained Language Models](http://arxiv.org/abs/2104.07540v3), Timo Schick, Hinrich Schütze, 15-04-2021
      ### Categories
      Computation and Language, Machine Learning
     ### Abstract
@@ -594,7 +589,7 @@ approach outperforms strong baselines on several semantic textual similarity
 datasets.
 
 
-5. [Surface Form Competition: Why the Highest Probability Answer Isn't
+11. [Surface Form Competition: Why the Highest Probability Answer Isn't
   Always Right](http://arxiv.org/abs/2104.08315v9), Ari Holtzman, Peter West, Vered Shwartz, Yejin Choi, Luke Zettlemoyer, 16-04-2021
      ### Categories
      Computation and Language
@@ -618,7 +613,7 @@ et al., 2021) and uncalibrated scoring functions on all GPT-2 and GPT-3 models
 over a variety of multiple choice datasets.
 
 
-5. [Fantastically Ordered Prompts and Where to Find Them: Overcoming
+12. [Fantastically Ordered Prompts and Where to Find Them: Overcoming
   Few-Shot Prompt Order Sensitivity](http://arxiv.org/abs/2104.08786v2), Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riedel, Pontus Stenetorp, 18-04-2021
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -641,7 +636,7 @@ prompts. Our method yields a 13% relative improvement for GPT-family models
 across eleven different established text classification tasks.
 
 
-5. [GPT3Mix: Leveraging Large-scale Language Models for Text Augmentation](http://arxiv.org/abs/2104.08826v2), Kang Min Yoo, Dongju Park, Jaewook Kang, Sang-Woo Lee, Woomyeong Park, 18-04-2021
+13. [GPT3Mix: Leveraging Large-scale Language Models for Text Augmentation](http://arxiv.org/abs/2104.08826v2), Kang Min Yoo, Dongju Park, Jaewook Kang, Sang-Woo Lee, Woomyeong Park, 18-04-2021
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -659,7 +654,7 @@ existing text augmentation methods. Ablation studies and a qualitative analysis
 provide more insights into our approach.
 
 
-5. [The Power of Scale for Parameter-Efficient Prompt Tuning](http://arxiv.org/abs/2104.08691v2), Brian Lester, Rami Al-Rfou, Noah Constant, 18-04-2021
+14. [The Power of Scale for Parameter-Efficient Prompt Tuning](http://arxiv.org/abs/2104.08691v2), Brian Lester, Rami Al-Rfou, Noah Constant, 18-04-2021
      ### Categories
      Computation and Language
     ### Abstract
@@ -681,7 +676,7 @@ Finally, we show that conditioning a frozen model with soft prompts confers
 benefits in robustness to domain transfer, as compared to full model tuning.
 
 
-5. [PTR: Prompt Tuning with Rules for Text Classification](http://arxiv.org/abs/2105.11259v3), Xu Han, Weilin Zhao, Ning Ding, Zhiyuan Liu, Maosong Sun, 24-05-2021
+15. [PTR: Prompt Tuning with Rules for Text Classification](http://arxiv.org/abs/2105.11259v3), Xu Han, Weilin Zhao, Ning Ding, Zhiyuan Liu, Maosong Sun, 24-05-2021
      ### Categories
      Computation and Language
     ### Abstract
@@ -705,7 +700,7 @@ approach to take advantage of both human prior knowledge and PLMs for those
 complicated classification tasks.
 
 
-5. [True Few-Shot Learning with Language Models](http://arxiv.org/abs/2105.11447v1), Ethan Perez, Douwe Kiela, Kyunghyun Cho, 24-05-2021
+16. [True Few-Shot Learning with Language Models](http://arxiv.org/abs/2105.11447v1), Ethan Perez, Douwe Kiela, Kyunghyun Cho, 24-05-2021
      ### Categories
      Computation and Language, Machine Learning
     ### Abstract
@@ -727,7 +722,7 @@ overestimated the true few-shot ability of LMs given the difficulty of few-shot
 model selection.
 
 
-5. [LoRA: Low-Rank Adaptation of Large Language Models](http://arxiv.org/abs/2106.09685v2), Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen, 17-06-2021
+17. [LoRA: Low-Rank Adaptation of Large Language Models](http://arxiv.org/abs/2106.09685v2), Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen, 17-06-2021
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -752,7 +747,7 @@ implementations and model checkpoints for RoBERTa, DeBERTa, and GPT-2 at
 https://github.com/microsoft/LoRA.
 
 
-5. [Why Do Pretrained Language Models Help in Downstream Tasks? An Analysis
+18. [Why Do Pretrained Language Models Help in Downstream Tasks? An Analysis
   of Head and Prompt Tuning](http://arxiv.org/abs/2106.09226v2), Colin Wei, Sang Michael Xie, Tengyu Ma, 17-06-2021
      ### Categories
      Machine Learning
@@ -776,7 +771,7 @@ to recover from the long-term memory. Experiments on synthetically generated
 data from HMMs back our theoretical findings.
 
 
-5. [Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with
+19. [Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with
   Language Models](http://arxiv.org/abs/2106.13353v2), Robert L. Logan IV, Ivana Balažević, Eric Wallace, Fabio Petroni, Sameer Singh, Sebastian Riedel, 24-06-2021
      ### Categories
      Computation and Language, Machine Learning
@@ -795,7 +790,7 @@ recommend finetuning LMs for few-shot learning as it is more accurate, robust
 to different prompts, and can be made nearly as efficient as using frozen LMs.
 
 
-5. [Deduplicating Training Data Makes Language Models Better](http://arxiv.org/abs/2107.06499v2), Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck, Chris Callison-Burch, Nicholas Carlini, 14-07-2021
+20. [Deduplicating Training Data Makes Language Models Better](http://arxiv.org/abs/2107.06499v2), Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck, Chris Callison-Burch, Nicholas Carlini, 14-07-2021
      ### Categories
      Computation and Language, Machine Learning
     ### Abstract
@@ -813,7 +808,7 @@ performing dataset deduplication at
 https://github.com/google-research/deduplicate-text-datasets.
 
 
-5. [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods
+21. [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods
   in Natural Language Processing](http://arxiv.org/abs/2107.13586v1), Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig, 28-07-2021
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -841,7 +836,7 @@ other resources, e.g., a website http://pretrain.nlpedia.ai/ including
 constantly-updated survey, and paperlist.
 
 
-5. [Knowledgeable Prompt-tuning: Incorporating Knowledge into Prompt
+22. [Knowledgeable Prompt-tuning: Incorporating Knowledge into Prompt
   Verbalizer for Text Classification](http://arxiv.org/abs/2108.02035v2), Shengding Hu, Ning Ding, Huadong Wang, Zhiyuan Liu, Jingang Wang, Juanzi Li, Wei Wu, Maosong Sun, 04-08-2021
      ### Categories
      Computation and Language
@@ -865,7 +860,7 @@ classification tasks demonstrate the effectiveness of knowledgeable
 prompt-tuning.
 
 
-5. [Noisy Channel Language Model Prompting for Few-Shot Text Classification](http://arxiv.org/abs/2108.04106v3), Sewon Min, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer, 09-08-2021
+23. [Noisy Channel Language Model Prompting for Few-Shot Text Classification](http://arxiv.org/abs/2108.04106v3), Sewon Min, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer, 09-08-2021
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -886,7 +881,7 @@ the training data are imbalanced, or generalization to unseen labels is
 required.
 
 
-5. [FedPara: Low-Rank Hadamard Product for Communication-Efficient Federated
+24. [FedPara: Low-Rank Hadamard Product for Communication-Efficient Federated
   Learning](http://arxiv.org/abs/2108.06098v3), Nam Hyeon-Woo, Moon Ye-Bin, Tae-Hyun Oh, 13-08-2021
      ### Categories
      Machine Learning
@@ -907,7 +902,7 @@ outperforms competing personalized FL methods with more than three times fewer
 parameters.
 
 
-5. [Differentiable Prompt Makes Pre-trained Language Models Better Few-shot
+25. [Differentiable Prompt Makes Pre-trained Language Models Better Few-shot
   Learners](http://arxiv.org/abs/2108.13161v7), Ningyu Zhang, Luoqiu Li, Xiang Chen, Shumin Deng, Zhen Bi, Chuanqi Tan, Fei Huang, Huajun Chen, 30-08-2021
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -929,7 +924,7 @@ approach achieves a better few-shot performance. Code is available in
 https://github.com/zjunlp/DART.
 
 
-5. [Want To Reduce Labeling Cost? GPT-3 Can Help](http://arxiv.org/abs/2108.13487v1), Shuohang Wang, Yang Liu, Yichong Xu, Chenguang Zhu, Michael Zeng, 30-08-2021
+26. [Want To Reduce Labeling Cost? GPT-3 Can Help](http://arxiv.org/abs/2108.13487v1), Shuohang Wang, Yang Liu, Yichong Xu, Chenguang Zhu, Michael Zeng, 30-08-2021
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -948,7 +943,7 @@ present a cost-effective data labeling methodology that is generalizable to
 many practical applications.
 
 
-5. [Do Prompt-Based Models Really Understand the Meaning of their Prompts?](http://arxiv.org/abs/2109.01247v2), Albert Webson, Ellie Pavlick, 02-09-2021
+27. [Do Prompt-Based Models Really Understand the Meaning of their Prompts?](http://arxiv.org/abs/2109.01247v2), Albert Webson, Ellie Pavlick, 02-09-2021
      ### Categories
      Computation and Language
     ### Abstract
@@ -970,7 +965,7 @@ improvement is derived from models understanding task instructions in ways
 analogous to humans' use of task instructions.
 
 
-5. [Finetuned Language Models Are Zero-Shot Learners](http://arxiv.org/abs/2109.01652v5), Jason Wei, Maarten Bosma, Vincent Y. Zhao, Kelvin Guu, Adams Wei Yu, Brian Lester, Nan Du, Andrew M. Dai, Quoc V. Le, 03-09-2021
+28. [Finetuned Language Models Are Zero-Shot Learners](http://arxiv.org/abs/2109.01652v5), Jason Wei, Maarten Bosma, Vincent Y. Zhao, Kelvin Guu, Adams Wei Yu, Brian Lester, Nan Du, Andrew M. Dai, Quoc V. Le, 03-09-2021
      ### Categories
      Computation and Language
     ### Abstract
@@ -989,7 +984,7 @@ of finetuning datasets, model scale, and natural language instructions are key
 to the success of instruction tuning.
 
 
-5. [General-Purpose Question-Answering with Macaw](http://arxiv.org/abs/2109.02593v1), Oyvind Tafjord, Peter Clark, 06-09-2021
+29. [General-Purpose Question-Answering with Macaw](http://arxiv.org/abs/2109.02593v1), Oyvind Tafjord, Peter Clark, 06-09-2021
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -1012,7 +1007,7 @@ Macaw is freely available, and we hope that it proves useful to the community.
 Macaw is available at https://github.com/allenai/macaw
 
 
-5. [Discrete and Soft Prompting for Multilingual Models](http://arxiv.org/abs/2109.03630v1), Mengjie Zhao, Hinrich Schütze, 08-09-2021
+30. [Discrete and Soft Prompting for Multilingual Models](http://arxiv.org/abs/2109.03630v1), Mengjie Zhao, Hinrich Schütze, 08-09-2021
      ### Categories
      Computation and Language
     ### Abstract
@@ -1028,7 +1023,7 @@ demonstrate good performance of prompting with training data in multiple
 languages other than English.
 
 
-5. [Open Aspect Target Sentiment Classification with Natural Language
+31. [Open Aspect Target Sentiment Classification with Natural Language
   Prompts](http://arxiv.org/abs/2109.03685v1), Ronald Seoh, Ian Birle, Mrinal Tak, Haw-Shiuan Chang, Brian Pinette, Alfred Hough, 08-09-2021
      ### Categories
      Computation and Language, Machine Learning
@@ -1052,7 +1047,7 @@ terms (e.g., fajitas) from just 16 reviews - while the accuracy of the
 no-prompt baseline is only around 65%.
 
 
-5. [Avoiding Inference Heuristics in Few-shot Prompt-based Finetuning](http://arxiv.org/abs/2109.04144v1), Prasetya Ajie Utama, Nafise Sadat Moosavi, Victor Sanh, Iryna Gurevych, 09-09-2021
+32. [Avoiding Inference Heuristics in Few-shot Prompt-based Finetuning](http://arxiv.org/abs/2109.04144v1), Prasetya Ajie Utama, Nafise Sadat Moosavi, Victor Sanh, Iryna Gurevych, 09-09-2021
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -1073,7 +1068,7 @@ promising improvements on the three corresponding challenge datasets used to
 diagnose the inference heuristics.
 
 
-5. [PPT: Pre-trained Prompt Tuning for Few-shot Learning](http://arxiv.org/abs/2109.04332v3), Yuxian Gu, Xu Han, Zhiyuan Liu, Minlie Huang, 09-09-2021
+33. [PPT: Pre-trained Prompt Tuning for Few-shot Learning](http://arxiv.org/abs/2109.04332v3), Yuxian Gu, Xu Han, Zhiyuan Liu, Minlie Huang, 09-09-2021
      ### Categories
      Computation and Language
     ### Abstract
@@ -1097,7 +1092,7 @@ full-model fine-tuning under both full-data and few-shot settings. Our approach
 is effective and efficient for using large-scale PLMs in practice.
 
 
-5. [CINS: Comprehensive Instruction for Few-shot Learning in Task-oriented
+34. [CINS: Comprehensive Instruction for Few-shot Learning in Task-oriented
   Dialog Systems](http://arxiv.org/abs/2109.04645v4), Fei Mi, Yitong Li, Yasheng Wang, Xin Jiang, Qun Liu, 10-09-2021
      ### Categories
      Computation and Language, Machine Learning
@@ -1118,7 +1113,7 @@ results demonstrate that the proposed CINS approach consistently improves
 techniques that finetune PLMs with raw input or short prompts.
 
 
-5. [PoKE: A Prompt-based Knowledge Eliciting Approach for Event Argument
+35. [PoKE: A Prompt-based Knowledge Eliciting Approach for Event Argument
   Extraction](http://arxiv.org/abs/2109.05190v3), Jiaju Lin, Qin Chen, 11-09-2021
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -1137,7 +1132,7 @@ approach. In particular, our approach is superior to the recent advanced
 methods in both fully-supervised and low-resource scenarios.
 
 
-5. [Exploring Prompt-based Few-shot Learning for Grounded Dialog Generation](http://arxiv.org/abs/2109.06513v2), Chujie Zheng, Minlie Huang, 14-09-2021
+36. [Exploring Prompt-based Few-shot Learning for Grounded Dialog Generation](http://arxiv.org/abs/2109.06513v2), Chujie Zheng, Minlie Huang, 14-09-2021
      ### Categories
      Computation and Language
     ### Abstract
@@ -1157,7 +1152,7 @@ to the few-shot learning for GDG tasks, and provides valuable findings and
 insights for future research.
 
 
-5. [Can Language Models be Biomedical Knowledge Bases?](http://arxiv.org/abs/2109.07154v1), Mujeen Sung, Jinhyuk Lee, Sean Yi, Minji Jeon, Sungdong Kim, Jaewoo Kang, 15-09-2021
+37. [Can Language Models be Biomedical Knowledge Bases?](http://arxiv.org/abs/2109.07154v1), Mujeen Sung, Jinhyuk Lee, Sean Yi, Minji Jeon, Sungdong Kim, Jaewoo Kang, 15-09-2021
      ### Categories
      Computation and Language
     ### Abstract
@@ -1178,7 +1173,7 @@ hope that BioLAMA can serve as a challenging benchmark for biomedical factual
 probing.
 
 
-5. [Language Models are Few-shot Multilingual Learners](http://arxiv.org/abs/2109.07684v1), Genta Indra Winata, Andrea Madotto, Zhaojiang Lin, Rosanne Liu, Jason Yosinski, Pascale Fung, 16-09-2021
+38. [Language Models are Few-shot Multilingual Learners](http://arxiv.org/abs/2109.07684v1), Genta Indra Winata, Andrea Madotto, Zhaojiang Lin, Rosanne Liu, Jason Yosinski, Pascale Fung, 16-09-2021
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -1195,7 +1190,7 @@ better than random prediction, and they are competitive compared to the
 existing state-of-the-art cross-lingual models.
 
 
-5. [Reframing Instructional Prompts to GPTk's Language](http://arxiv.org/abs/2109.07830v3), Swaroop Mishra, Daniel Khashabi, Chitta Baral, Yejin Choi, Hannaneh Hajishirzi, 16-09-2021
+39. [Reframing Instructional Prompts to GPTk's Language](http://arxiv.org/abs/2109.07830v3), Swaroop Mishra, Daniel Khashabi, Chitta Baral, Yejin Choi, Hannaneh Hajishirzi, 16-09-2021
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -1217,7 +1212,7 @@ empirically-driven techniques will pave the way towards more effective future
 prompting algorithms.
 
 
-5. [SentiPrompt: Sentiment Knowledge Enhanced Prompt-Tuning for Aspect-Based
+40. [SentiPrompt: Sentiment Knowledge Enhanced Prompt-Tuning for Aspect-Based
   Sentiment Analysis](http://arxiv.org/abs/2109.08306v1), Chengxi Li, Feiyu Gao, Jiajun Bu, Lu Xu, Xiang Chen, Yu Gu, Zirui Shao, Qi Zheng, Ningyu Zhang, Yongpan Wang, Zhi Yu, 17-09-2021
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -1239,7 +1234,7 @@ Triplet Extraction, Pair Extraction, and Aspect Term Extraction with Sentiment
 Classification by a notable margin.
 
 
-5. [P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally
+41. [P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally
   Across Scales and Tasks](http://arxiv.org/abs/2110.07602v3), Xiao Liu, Kaixuan Ji, Yicheng Fu, Weng Lam Tam, Zhengxiao Du, Zhilin Yang, Jie Tang, 14-10-2021
      ### Categories
      Computation and Language
@@ -1260,7 +1255,7 @@ strong baseline for future research.Our code and data are released at
 https://github.com/THUDM/P-tuning-v2.
 
 
-5. [Generated Knowledge Prompting for Commonsense Reasoning](http://arxiv.org/abs/2110.08387v3), Jiacheng Liu, Alisa Liu, Ximing Lu, Sean Welleck, Peter West, Ronan Le Bras, Yejin Choi, Hannaneh Hajishirzi, 15-10-2021
+42. [Generated Knowledge Prompting for Commonsense Reasoning](http://arxiv.org/abs/2110.08387v3), Jiacheng Liu, Alisa Liu, Ximing Lu, Sean Welleck, Peter West, Ronan Le Bras, Yejin Choi, Hannaneh Hajishirzi, 15-10-2021
      ### Categories
      Computation and Language
     ### Abstract
@@ -1279,7 +1274,7 @@ flexible sources of external knowledge for improving commonsense reasoning. Our
 code is available at https://github.com/liujch1998/GKP
 
 
-5. [Multitask Prompted Training Enables Zero-Shot Task Generalization](http://arxiv.org/abs/2110.08207v3), Victor Sanh, Albert Webson, Colin Raffel, Stephen H. Bach, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja, Manan Dey, M Saiful Bari, Canwen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang, Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng Xin Yong, Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen, Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason Alan Fries, Ryan Teehan, Tali Bers, Stella Biderman, Leo Gao, Thomas Wolf, Alexander M. Rush, 15-10-2021
+43. [Multitask Prompted Training Enables Zero-Shot Task Generalization](http://arxiv.org/abs/2110.08207v3), Victor Sanh, Albert Webson, Colin Raffel, Stephen H. Bach, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja, Manan Dey, M Saiful Bari, Canwen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang, Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng Xin Yong, Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen, Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason Alan Fries, Ryan Teehan, Tali Bers, Stella Biderman, Leo Gao, Thomas Wolf, Alexander M. Rush, 15-10-2021
      ### Categories
      Machine Learning, Computation and Language
     ### Abstract
@@ -1302,7 +1297,7 @@ are available at https://github.com/bigscience-workshop/t-zero and all prompts
 are available at https://github.com/bigscience-workshop/promptsource.
 
 
-5. [ColBERTv2: Effective and Efficient Retrieval via Lightweight Late
+44. [ColBERTv2: Effective and Efficient Retrieval via Lightweight Late
   Interaction](http://arxiv.org/abs/2112.01488v3), Keshav Santhanam, Omar Khattab, Jon Saad-Falcon, Christopher Potts, Matei Zaharia, 02-12-2021
      ### Categories
      Computation and Language
@@ -1322,7 +1317,7 @@ quality within and outside the training domain while reducing the space
 footprint of late interaction models by 6--10$\times$.
 
 
-5. [WebGPT: Browser-assisted question-answering with human feedback](http://arxiv.org/abs/2112.09332v3), Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders, Xu Jiang, Karl Cobbe, Tyna Eloundou, Gretchen Krueger, Kevin Button, Matthew Knight, Benjamin Chess, John Schulman, 17-12-2021
+45. [WebGPT: Browser-assisted question-answering with human feedback](http://arxiv.org/abs/2112.09332v3), Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders, Xu Jiang, Karl Cobbe, Tyna Eloundou, Gretchen Krueger, Kevin Button, Matthew Knight, Benjamin Chess, John Schulman, 17-12-2021
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -1338,11 +1333,10 @@ cloning, and then performing rejection sampling against a reward model trained
 to predict human preferences. This model's answers are preferred by humans 56%
 of the time to those of our human demonstrators, and 69% of the time to the
 highest-voted answer from Reddit.
+
 ## 2022 (47 papers)
 
-
-
-6. [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge
+1. [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge
   for Embodied Agents](http://arxiv.org/abs/2201.07207v2), Wenlong Huang, Pieter Abbeel, Deepak Pathak, Igor Mordatch, 18-01-2022
      ### Categories
      Machine Learning, Artificial Intelligence, Computation and Language
@@ -1365,7 +1359,7 @@ actionable knowledge from language models. Website at
 https://huangwl18.github.io/language-planner
 
 
-6. [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](http://arxiv.org/abs/2201.11903v6), Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou, 28-01-2022
+2. [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](http://arxiv.org/abs/2201.11903v6), Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou, 28-01-2022
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -1383,7 +1377,7 @@ art accuracy on the GSM8K benchmark of math word problems, surpassing even
 finetuned GPT-3 with a verifier.
 
 
-6. [Training language models to follow instructions with human feedback](http://arxiv.org/abs/2203.02155v1), Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul Christiano, Jan Leike, Ryan Lowe, 04-03-2022
+3. [Training language models to follow instructions with human feedback](http://arxiv.org/abs/2203.02155v1), Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul Christiano, Jan Leike, Ryan Lowe, 04-03-2022
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -1408,7 +1402,7 @@ human feedback is a promising direction for aligning language models with human
 intent.
 
 
-6. [Self-Consistency Improves Chain of Thought Reasoning in Language Models](http://arxiv.org/abs/2203.11171v4), Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, Sharan Narang, Aakanksha Chowdhery, Denny Zhou, 21-03-2022
+4. [Self-Consistency Improves Chain of Thought Reasoning in Language Models](http://arxiv.org/abs/2203.11171v4), Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, Sharan Narang, Aakanksha Chowdhery, Denny Zhou, 21-03-2022
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -1427,7 +1421,7 @@ GSM8K (+17.9%), SVAMP (+11.0%), AQuA (+12.2%), StrategyQA (+6.4%) and
 ARC-challenge (+3.9%).
 
 
-6. [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](http://arxiv.org/abs/2204.00598v2), Andy Zeng, Maria Attarian, Brian Ichter, Krzysztof Choromanski, Adrian Wong, Stefan Welker, Federico Tombari, Aveek Purohit, Michael Ryoo, Vikas Sindhwani, Johnny Lee, Vincent Vanhoucke, Pete Florence, 01-04-2022
+5. [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](http://arxiv.org/abs/2204.00598v2), Andy Zeng, Maria Attarian, Brian Ichter, Krzysztof Choromanski, Adrian Wong, Stefan Welker, Federico Tombari, Aveek Purohit, Michael Ryoo, Vikas Sindhwani, Johnny Lee, Vincent Vanhoucke, Pete Florence, 01-04-2022
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
     ### Abstract
@@ -1478,7 +1472,7 @@ abstract, natural language instructions on a mobile manipulator. The project's
 website and the video can be found at https://say-can.github.io/.
 
 
-6. [Training a Helpful and Harmless Assistant with Reinforcement Learning
+7. [Training a Helpful and Harmless Assistant with Reinforcement Learning
   from Human Feedback](http://arxiv.org/abs/2204.05862v1), Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, Nicholas Joseph, Saurav Kadavath, Jackson Kernion, Tom Conerly, Sheer El-Showk, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Tristan Hume, Scott Johnston, Shauna Kravec, Liane Lovitt, Neel Nanda, Catherine Olsson, Dario Amodei, Tom Brown, Jack Clark, Sam McCandlish, Chris Olah, Ben Mann, Jared Kaplan, 12-04-2022
      ### Categories
      Computation and Language, Machine Learning
@@ -1498,7 +1492,7 @@ and the use of OOD detection, compare our models with human writers, and
 provide samples from our models using prompts appearing in recent related work.
 
 
-6. [Inferring Implicit Relations in Complex Questions with Language Models](http://arxiv.org/abs/2204.13778v2), Uri Katz, Mor Geva, Jonathan Berant, 28-04-2022
+8. [Inferring Implicit Relations in Complex Questions with Language Models](http://arxiv.org/abs/2204.13778v2), Uri Katz, Mor Geva, Jonathan Berant, 28-04-2022
      ### Categories
      Computation and Language
     ### Abstract
@@ -1519,7 +1513,7 @@ strategy alone, but to do it while also retrieving and reasoning over relevant
 information.
 
 
-6. [The Unreliability of Explanations in Few-shot Prompting for Textual
+9. [The Unreliability of Explanations in Few-shot Prompting for Textual
   Reasoning](http://arxiv.org/abs/2205.03401v2), Xi Ye, Greg Durrett, 06-05-2022
      ### Categories
      Computation and Language
@@ -1545,7 +1539,7 @@ explanations, allowing us to improve performance post-hoc across all of our
 datasets.
 
 
-6. [UL2: Unifying Language Learning Paradigms](http://arxiv.org/abs/2205.05131v3), Yi Tay, Mostafa Dehghani, Vinh Q. Tran, Xavier Garcia, Jason Wei, Xuezhi Wang, Hyung Won Chung, Siamak Shakeri, Dara Bahri, Tal Schuster, Huaixiu Steven Zheng, Denny Zhou, Neil Houlsby, Donald Metzler, 10-05-2022
+10. [UL2: Unifying Language Learning Paradigms](http://arxiv.org/abs/2205.05131v3), Yi Tay, Mostafa Dehghani, Vinh Q. Tran, Xavier Garcia, Jason Wei, Xuezhi Wang, Hyung Won Chung, Siamak Shakeri, Dara Bahri, Tal Schuster, Huaixiu Steven Zheng, Denny Zhou, Neil Houlsby, Donald Metzler, 10-05-2022
      ### Categories
      Computation and Language
     ### Abstract
@@ -1576,7 +1570,7 @@ achieving MMLU and Big-Bench scores competitive to FLAN-PaLM 62B. We release
 Flax-based T5X checkpoints for the UL2 20B & Flan-UL2 20B.
 
 
-6. [A Generalist Agent](http://arxiv.org/abs/2205.06175v3), Scott Reed, Konrad Zolna, Emilio Parisotto, Sergio Gomez Colmenarejo, Alexander Novikov, Gabriel Barth-Maron, Mai Gimenez, Yury Sulsky, Jackie Kay, Jost Tobias Springenberg, Tom Eccles, Jake Bruce, Ali Razavi, Ashley Edwards, Nicolas Heess, Yutian Chen, Raia Hadsell, Oriol Vinyals, Mahyar Bordbar, Nando de Freitas, 12-05-2022
+11. [A Generalist Agent](http://arxiv.org/abs/2205.06175v3), Scott Reed, Konrad Zolna, Emilio Parisotto, Sergio Gomez Colmenarejo, Alexander Novikov, Gabriel Barth-Maron, Mai Gimenez, Yury Sulsky, Jackie Kay, Jost Tobias Springenberg, Tom Eccles, Jake Bruce, Ali Razavi, Ashley Edwards, Nicolas Heess, Yutian Chen, Raia Hadsell, Oriol Vinyals, Mahyar Bordbar, Nando de Freitas, 12-05-2022
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
     ### Abstract
@@ -1590,7 +1584,7 @@ torques, button presses, or other tokens. In this report we describe the model
 and the data, and document the current capabilities of Gato.
 
 
-6. [Selection-Inference: Exploiting Large Language Models for Interpretable
+12. [Selection-Inference: Exploiting Large Language Models for Interpretable
   Logical Reasoning](http://arxiv.org/abs/2205.09712v1), Antonia Creswell, Murray Shanahan, Irina Higgins, 19-05-2022
      ### Categories
      Artificial Intelligence, Computation and Language
@@ -1615,7 +1609,7 @@ causal natural-language-based reasoning trace, which has important implications
 for the safety and trustworthiness of the system.
 
 
-6. [Least-to-Most Prompting Enables Complex Reasoning in Large Language
+13. [Least-to-Most Prompting Enables Complex Reasoning in Large Language
   Models](http://arxiv.org/abs/2205.10625v3), Denny Zhou, Nathanael Schärli, Le Hou, Jason Wei, Nathan Scales, Xuezhi Wang, Dale Schuurmans, Claire Cui, Olivier Bousquet, Quoc Le, Ed Chi, 21-05-2022
      ### Categories
      Artificial Intelligence, Computation and Language
@@ -1640,7 +1634,7 @@ solving SCAN are trained on the entire training set containing over 15,000
 examples. We have included prompts for all the tasks in the Appendix.
 
 
-6. [FlashAttention: Fast and Memory-Efficient Exact Attention with
+14. [FlashAttention: Fast and Memory-Efficient Exact Attention with
   IO-Awareness](http://arxiv.org/abs/2205.14135v2), Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, Christopher Ré, 27-05-2022
      ### Categories
      Machine Learning
@@ -1670,7 +1664,7 @@ Transformers to achieve better-than-chance performance on the Path-X challenge
 accuracy).
 
 
-6. [Making Large Language Models Better Reasoners with Step-Aware Verifier](http://arxiv.org/abs/2206.02336v3), Yifei Li, Zeqi Lin, Shizhuo Zhang, Qiang Fu, Bei Chen, Jian-Guang Lou, Weizhu Chen, 06-06-2022
+15. [Making Large Language Models Better Reasoners with Step-Aware Verifier](http://arxiv.org/abs/2206.02336v3), Yifei Li, Zeqi Lin, Shizhuo Zhang, Qiang Fu, Bei Chen, Jian-Guang Lou, Weizhu Chen, 06-06-2022
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -1692,7 +1686,7 @@ code-davinci-002 and show that it achieves new state-of-the-art results on six
 of eight reasoning benchmarks (e.g., GSM8K 74.4% to 83.2%).
 
 
-6. [From Human Days to Machine Seconds: Automatically Answering and
+16. [From Human Days to Machine Seconds: Automatically Answering and
   Generating Machine Learning Final Exams](http://arxiv.org/abs/2206.05442v7), Iddo Drori, Sarah J. Zhang, Reece Shuttleworth, Sarah Zhang, Keith Tyser, Zad Chin, Pedro Lantigua, Saisamrit Surbehera, Gregory Hunter, Derek Austin, Leonard Tang, Yann Hicke, Sage Simhon, Sathwik Karnik, Darnell Granberry, Madeleine Udell, 11-06-2022
      ### Categories
      Machine Learning
@@ -1725,7 +1719,7 @@ and originality of the responses generated, encouraging critical thinking in
 academic studies.
 
 
-6. [Emergent Abilities of Large Language Models](http://arxiv.org/abs/2206.07682v2), Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed H. Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, William Fedus, 15-06-2022
+17. [Emergent Abilities of Large Language Models](http://arxiv.org/abs/2206.07682v2), Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed H. Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, William Fedus, 15-06-2022
      ### Categories
      Computation and Language
     ### Abstract
@@ -1739,7 +1733,7 @@ smaller models. The existence of such emergence implies that additional scaling
 could further expand the range of capabilities of language models.
 
 
-6. [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale
+18. [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale
   Knowledge](http://arxiv.org/abs/2206.08853v2), Linxi Fan, Guanzhi Wang, Yunfan Jiang, Ajay Mandlekar, Yuncong Yang, Haoyi Zhu, Andrew Tang, De-An Huang, Yuke Zhu, Anima Anandkumar, 17-06-2022
      ### Categories
      Machine Learning, Artificial Intelligence, Computation and Language
@@ -1764,7 +1758,7 @@ implementation, and pretrained models (https://minedojo.org) to promote
 research towards the goal of generally capable embodied agents.
 
 
-6. [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online
+19. [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online
   Videos](http://arxiv.org/abs/2206.11795v1), Bowen Baker, Ilge Akkaya, Peter Zhokhov, Joost Huizinga, Jie Tang, Adrien Ecoffet, Brandon Houghton, Raul Sampedro, Jeff Clune, 23-06-2022
      ### Categories
      Machine Learning, Artificial Intelligence
@@ -1790,7 +1784,7 @@ diamond tools, which can take proficient humans upwards of 20 minutes (24,000
 environment actions) of gameplay to accomplish.
 
 
-6. [LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language,
+20. [LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language,
   Vision, and Action](http://arxiv.org/abs/2207.04429v2), Dhruv Shah, Blazej Osinski, Brian Ichter, Sergey Levine, 10-07-2022
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
@@ -1815,7 +1809,7 @@ Colab notebook that runs in your browser, please check out our project page
 https://sites.google.com/view/lmnav
 
 
-6. [Inner Monologue: Embodied Reasoning through Planning with Language
+21. [Inner Monologue: Embodied Reasoning through Planning with Language
   Models](http://arxiv.org/abs/2207.05608v1), Wenlong Huang, Fei Xia, Ted Xiao, Harris Chan, Jacky Liang, Pete Florence, Andy Zeng, Jonathan Tompson, Igor Mordatch, Yevgen Chebotar, Pierre Sermanet, Noah Brown, Tomas Jackson, Linda Luu, Sergey Levine, Karol Hausman, Brian Ichter, 12-07-2022
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
@@ -1840,7 +1834,7 @@ rearrangement tasks and long-horizon mobile manipulation tasks in a kitchen
 environment in the real world.
 
 
-6. [BlenderBot 3: a deployed conversational agent that continually learns to
+22. [BlenderBot 3: a deployed conversational agent that continually learns to
   responsibly engage](http://arxiv.org/abs/2208.03188v3), Kurt Shuster, Jing Xu, Mojtaba Komeili, Da Ju, Eric Michael Smith, Stephen Roller, Megan Ung, Moya Chen, Kushal Arora, Joshua Lane, Morteza Behrooz, William Ngan, Spencer Poff, Naman Goyal, Arthur Szlam, Y-Lan Boureau, Melanie Kambadur, Jason Weston, 05-08-2022
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -1860,7 +1854,7 @@ community to study ever-improving responsible agents that learn through
 interaction.
 
 
-6. [Text and Patterns: For Effective Chain of Thought, It Takes Two to Tango](http://arxiv.org/abs/2209.07686v2), Aman Madaan, Amir Yazdanbakhsh, 16-09-2022
+23. [Text and Patterns: For Effective Chain of Thought, It Takes Two to Tango](http://arxiv.org/abs/2209.07686v2), Aman Madaan, Amir Yazdanbakhsh, 16-09-2022
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -1890,7 +1884,7 @@ prompting: text helps extract commonsense from the question to help patterns,
 and patterns enforce task understanding and direct text generation.
 
 
-6. [Learn to Explain: Multimodal Reasoning via Thought Chains for Science
+24. [Learn to Explain: Multimodal Reasoning via Thought Chains for Science
   Question Answering](http://arxiv.org/abs/2209.09513v2), Pan Lu, Swaroop Mishra, Tony Xia, Liang Qiu, Kai-Wei Chang, Song-Chun Zhu, Oyvind Tafjord, Peter Clark, Ashwin Kalyan, 20-09-2022
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -1918,7 +1912,7 @@ fewer data and achieve the same performance with just 40% of the data. The data
 and code are available at https://scienceqa.github.io.
 
 
-6. [ProgPrompt: Generating Situated Robot Task Plans using Large Language
+25. [ProgPrompt: Generating Situated Robot Task Plans using Large Language
   Models](http://arxiv.org/abs/2209.11302v1), Ishika Singh, Valts Blukis, Arsalan Mousavian, Ankit Goyal, Danfei Xu, Jonathan Tremblay, Dieter Fox, Jesse Thomason, Animesh Garg, 22-09-2022
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
@@ -1941,7 +1935,7 @@ method on a physical robot arm for tabletop tasks. Website at
 progprompt.github.io
 
 
-6. [Promptagator: Few-shot Dense Retrieval From 8 Examples](http://arxiv.org/abs/2209.11755v1), Zhuyun Dai, Vincent Y. Zhao, Ji Ma, Yi Luan, Jianmo Ni, Jing Lu, Anton Bakalov, Kelvin Guu, Keith B. Hall, Ming-Wei Chang, 23-09-2022
+26. [Promptagator: Few-shot Dense Retrieval From 8 Examples](http://arxiv.org/abs/2209.11755v1), Zhuyun Dai, Vincent Y. Zhao, Ji Ma, Yi Luan, Jianmo Ni, Jing Lu, Anton Bakalov, Kelvin Guu, Keith B. Hall, Ming-Wei Chang, 23-09-2022
      ### Categories
      Computation and Language
     ### Abstract
@@ -1968,7 +1962,7 @@ effective than previously observed, especially when a small amount of
 task-specific knowledge is given.
 
 
-6. [Ask Me Anything: A simple strategy for prompting language models](http://arxiv.org/abs/2210.02441v3), Simran Arora, Avanika Narayan, Mayee F. Chen, Laurel Orr, Neel Guha, Kush Bhatia, Ines Chami, Frederic Sala, Christopher Ré, 05-10-2022
+27. [Ask Me Anything: A simple strategy for prompting language models](http://arxiv.org/abs/2210.02441v3), Simran Arora, Avanika Narayan, Mayee F. Chen, Laurel Orr, Neel Guha, Kush Bhatia, Ines Chami, Frederic Sala, Christopher Ré, 05-10-2022
      ### Categories
      Computation and Language
     ### Abstract
@@ -2000,7 +1994,7 @@ few-shot GPT3-175B. We release our code here:
 https://github.com/HazyResearch/ama_prompting
 
 
-6. [Language Models are Multilingual Chain-of-Thought Reasoners](http://arxiv.org/abs/2210.03057v1), Freda Shi, Mirac Suzgun, Markus Freitag, Xuezhi Wang, Suraj Srivats, Soroush Vosoughi, Hyung Won Chung, Yi Tay, Sebastian Ruder, Denny Zhou, Dipanjan Das, Jason Wei, 06-10-2022
+28. [Language Models are Multilingual Chain-of-Thought Reasoners](http://arxiv.org/abs/2210.03057v1), Freda Shi, Mirac Suzgun, Markus Freitag, Xuezhi Wang, Suraj Srivats, Soroush Vosoughi, Hyung Won Chung, Yi Tay, Sebastian Ruder, Denny Zhou, Dipanjan Das, Jason Wei, 06-10-2022
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -2017,7 +2011,7 @@ semantic judgment. The MGSM benchmark is publicly available at
 https://github.com/google-research/url-nlp.
 
 
-6. [ReAct: Synergizing Reasoning and Acting in Language Models](http://arxiv.org/abs/2210.03629v3), Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao, 06-10-2022
+29. [ReAct: Synergizing Reasoning and Acting in Language Models](http://arxiv.org/abs/2210.03629v3), Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao, 06-10-2022
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -2045,7 +2039,7 @@ respectively, while being prompted with only one or two in-context examples.
 Project site with code: https://react-lm.github.io
 
 
-6. [Automatic Chain of Thought Prompting in Large Language Models](http://arxiv.org/abs/2210.03493v1), Zhuosheng Zhang, Aston Zhang, Mu Li, Alex Smola, 07-10-2022
+30. [Automatic Chain of Thought Prompting in Large Language Models](http://arxiv.org/abs/2210.03493v1), Zhuosheng Zhang, Aston Zhang, Mu Li, Alex Smola, 07-10-2022
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -2070,7 +2064,7 @@ the CoT paradigm that requires manual designs of demonstrations. Code is
 available at https://github.com/amazon-research/auto-cot
 
 
-6. [Interactive Language: Talking to Robots in Real Time](http://arxiv.org/abs/2210.06407v1), Corey Lynch, Ayzaan Wahid, Jonathan Tompson, Tianli Ding, James Betker, Robert Baruch, Travis Armstrong, Pete Florence, 12-10-2022
+31. [Interactive Language: Talking to Robots in Real Time](http://arxiv.org/abs/2210.06407v1), Corey Lynch, Ayzaan Wahid, Jonathan Tompson, Tianli Ding, James Betker, Robert Baruch, Travis Armstrong, Pete Florence, 12-10-2022
      ### Categories
      Artificial Intelligence, Machine Learning
     ### Abstract
@@ -2091,7 +2085,7 @@ enable further advancement of helpful, capable, natural-language-interactable
 robots. See videos at https://interactive-language.github.io.
 
 
-6. [Language Models of Code are Few-Shot Commonsense Learners](http://arxiv.org/abs/2210.07128v3), Aman Madaan, Shuyan Zhou, Uri Alon, Yiming Yang, Graham Neubig, 13-10-2022
+32. [Language Models of Code are Few-Shot Commonsense Learners](http://arxiv.org/abs/2210.07128v3), Aman Madaan, Shuyan Zhou, Uri Alon, Yiming Yang, Graham Neubig, 13-10-2022
      ### Categories
      Computation and Language, Machine Learning
     ### Abstract
@@ -2112,7 +2106,7 @@ target task (e.g., T5) and other strong LMs such as GPT-3 in the few-shot
 setting.
 
 
-6. [Crosslingual Generalization through Multitask Finetuning](http://arxiv.org/abs/2211.01786v2), Niklas Muennighoff, Thomas Wang, Lintang Sutawika, Adam Roberts, Stella Biderman, Teven Le Scao, M Saiful Bari, Sheng Shen, Zheng-Xin Yong, Hailey Schoelkopf, Xiangru Tang, Dragomir Radev, Alham Fikri Aji, Khalid Almubarak, Samuel Albanie, Zaid Alyafeai, Albert Webson, Edward Raff, Colin Raffel, 03-11-2022
+33. [Crosslingual Generalization through Multitask Finetuning](http://arxiv.org/abs/2211.01786v2), Niklas Muennighoff, Thomas Wang, Lintang Sutawika, Adam Roberts, Stella Biderman, Teven Le Scao, M Saiful Bari, Sheng Shen, Zheng-Xin Yong, Hailey Schoelkopf, Xiangru Tang, Dragomir Radev, Alham Fikri Aji, Khalid Almubarak, Samuel Albanie, Zaid Alyafeai, Albert Webson, Edward Raff, Colin Raffel, 03-11-2022
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -2137,7 +2131,7 @@ and machine-translated prompts. Our code, datasets and models are freely
 available at https://github.com/bigscience-workshop/xmtf.
 
 
-6. [Large Language Models Are Human-Level Prompt Engineers](http://arxiv.org/abs/2211.01910v2), Yongchao Zhou, Andrei Ioan Muresanu, Ziwen Han, Keiran Paster, Silviu Pitis, Harris Chan, Jimmy Ba, 03-11-2022
+34. [Large Language Models Are Human-Level Prompt Engineers](http://arxiv.org/abs/2211.01910v2), Yongchao Zhou, Andrei Ioan Muresanu, Ziwen Han, Keiran Paster, Silviu Pitis, Harris Chan, Jimmy Ba, 03-11-2022
      ### Categories
      Machine Learning, Artificial Intelligence, Computation and Language
     ### Abstract
@@ -2163,7 +2157,7 @@ Please check out our webpage at
 https://sites.google.com/view/automatic-prompt-engineer.
 
 
-6. [BLOOM: A 176B-Parameter Open-Access Multilingual Language Model](http://arxiv.org/abs/2211.05100v4), BigScience Workshop,  :, Teven Le Scao, Angela Fan, Christopher Akiki, Ellie Pavlick, Suzana Ilić, Daniel Hesslow, Roman Castagné, Alexandra Sasha Luccioni, François Yvon, Matthias Gallé, Jonathan Tow, Alexander M. Rush, Stella Biderman, Albert Webson, Pawan Sasanka Ammanamanchi, Thomas Wang, Benoît Sagot, Niklas Muennighoff, Albert Villanova del Moral, Olatunji Ruwase, Rachel Bawden, Stas Bekman, Angelina McMillan-Major, Iz Beltagy, Huu Nguyen, Lucile Saulnier, Samson Tan, Pedro Ortiz Suarez, Victor Sanh, Hugo Laurençon, Yacine Jernite, Julien Launay, Margaret Mitchell, Colin Raffel, Aaron Gokaslan, Adi Simhi, Aitor Soroa, Alham Fikri Aji, Amit Alfassy, Anna Rogers, Ariel Kreisberg Nitzav, Canwen Xu, Chenghao Mou, Chris Emezue, Christopher Klamm, Colin Leong, Daniel van Strien, David Ifeoluwa Adelani, Dragomir Radev, Eduardo González Ponferrada, Efrat Levkovizh, Ethan Kim, Eyal Bar Natan, Francesco De Toni, Gérard Dupont, Germán Kruszewski, Giada Pistilli, Hady Elsahar, Hamza Benyamina, Hieu Tran, Ian Yu, Idris Abdulmumin, Isaac Johnson, Itziar Gonzalez-Dios, Javier de la Rosa, Jenny Chim, Jesse Dodge, Jian Zhu, Jonathan Chang, Jörg Frohberg, Joseph Tobing, Joydeep Bhattacharjee, Khalid Almubarak, Kimbo Chen, Kyle Lo, Leandro Von Werra, Leon Weber, Long Phan, Loubna Ben allal, Ludovic Tanguy, Manan Dey, Manuel Romero Muñoz, Maraim Masoud, María Grandury, Mario Šaško, Max Huang, Maximin Coavoux, Mayank Singh, Mike Tian-Jian Jiang, Minh Chien Vu, Mohammad A. Jauhar, Mustafa Ghaleb, Nishant Subramani, Nora Kassner, Nurulaqilla Khamis, Olivier Nguyen, Omar Espejel, Ona de Gibert, Paulo Villegas, Peter Henderson, Pierre Colombo, Priscilla Amuok, Quentin Lhoest, Rheza Harliman, Rishi Bommasani, Roberto Luis López, Rui Ribeiro, Salomey Osei, Sampo Pyysalo, Sebastian Nagel, Shamik Bose, Shamsuddeen Hassan Muhammad, Shanya Sharma, Shayne Longpre, Somaieh Nikpoor, Stanislav Silberberg, Suhas Pai, Sydney Zink, Tiago Timponi Torrent, Timo Schick, Tristan Thrush, Valentin Danchev, Vassilina Nikoulina, Veronika Laippala, Violette Lepercq, Vrinda Prabhu, Zaid Alyafeai, Zeerak Talat, Arun Raja, Benjamin Heinzerling, Chenglei Si, Davut Emre Taşar, Elizabeth Salesky, Sabrina J. Mielke, Wilson Y. Lee, Abheesht Sharma, Andrea Santilli, Antoine Chaffin, Arnaud Stiegler, Debajyoti Datta, Eliza Szczechla, Gunjan Chhablani, Han Wang, Harshit Pandey, Hendrik Strobelt, Jason Alan Fries, Jos Rozen, Leo Gao, Lintang Sutawika, M Saiful Bari, Maged S. Al-shaibani, Matteo Manica, Nihal Nayak, Ryan Teehan, Samuel Albanie, Sheng Shen, Srulik Ben-David, Stephen H. Bach, Taewoon Kim, Tali Bers, Thibault Fevry, Trishala Neeraj, Urmish Thakker, Vikas Raunak, Xiangru Tang, Zheng-Xin Yong, Zhiqing Sun, Shaked Brody, Yallow Uri, Hadar Tojarieh, Adam Roberts, Hyung Won Chung, Jaesung Tae, Jason Phang, Ofir Press, Conglong Li, Deepak Narayanan, Hatim Bourfoune, Jared Casper, Jeff Rasley, Max Ryabinin, Mayank Mishra, Minjia Zhang, Mohammad Shoeybi, Myriam Peyrounette, Nicolas Patry, Nouamane Tazi, Omar Sanseviero, Patrick von Platen, Pierre Cornette, Pierre François Lavallée, Rémi Lacroix, Samyam Rajbhandari, Sanchit Gandhi, Shaden Smith, Stéphane Requena, Suraj Patil, Tim Dettmers, Ahmed Baruwa, Amanpreet Singh, Anastasia Cheveleva, Anne-Laure Ligozat, Arjun Subramonian, Aurélie Névéol, Charles Lovering, Dan Garrette, Deepak Tunuguntla, Ehud Reiter, Ekaterina Taktasheva, Ekaterina Voloshina, Eli Bogdanov, Genta Indra Winata, Hailey Schoelkopf, Jan-Christoph Kalo, Jekaterina Novikova, Jessica Zosa Forde, Jordan Clive, Jungo Kasai, Ken Kawamura, Liam Hazan, Marine Carpuat, Miruna Clinciu, Najoung Kim, Newton Cheng, Oleg Serikov, Omer Antverg, Oskar van der Wal, Rui Zhang, Ruochen Zhang, Sebastian Gehrmann, Shachar Mirkin, Shani Pais, Tatiana Shavrina, Thomas Scialom, Tian Yun, Tomasz Limisiewicz, Verena Rieser, Vitaly Protasov, Vladislav Mikhailov, Yada Pruksachatkun, Yonatan Belinkov, Zachary Bamberger, Zdeněk Kasner, Alice Rueda, Amanda Pestana, Amir Feizpour, Ammar Khan, Amy Faranak, Ana Santos, Anthony Hevia, Antigona Unldreaj, Arash Aghagol, Arezoo Abdollahi, Aycha Tammour, Azadeh HajiHosseini, Bahareh Behroozi, Benjamin Ajibade, Bharat Saxena, Carlos Muñoz Ferrandis, Daniel McDuff, Danish Contractor, David Lansky, Davis David, Douwe Kiela, Duong A. Nguyen, Edward Tan, Emi Baylor, Ezinwanne Ozoani, Fatima Mirza, Frankline Ononiwu, Habib Rezanejad, Hessie Jones, Indrani Bhattacharya, Irene Solaiman, Irina Sedenko, Isar Nejadgholi, Jesse Passmore, Josh Seltzer, Julio Bonis Sanz, Livia Dutra, Mairon Samagaio, Maraim Elbadri, Margot Mieskes, Marissa Gerchick, Martha Akinlolu, Michael McKenna, Mike Qiu, Muhammed Ghauri, Mykola Burynok, Nafis Abrar, Nazneen Rajani, Nour Elkott, Nour Fahmy, Olanrewaju Samuel, Ran An, Rasmus Kromann, Ryan Hao, Samira Alizadeh, Sarmad Shubber, Silas Wang, Sourav Roy, Sylvain Viguier, Thanh Le, Tobi Oyebade, Trieu Le, Yoyo Yang, Zach Nguyen, Abhinav Ramesh Kashyap, Alfredo Palasciano, Alison Callahan, Anima Shukla, Antonio Miranda-Escalada, Ayush Singh, Benjamin Beilharz, Bo Wang, Caio Brito, Chenxi Zhou, Chirag Jain, Chuxin Xu, Clémentine Fourrier, Daniel León Periñán, Daniel Molano, Dian Yu, Enrique Manjavacas, Fabio Barth, Florian Fuhrimann, Gabriel Altay, Giyaseddin Bayrak, Gully Burns, Helena U. Vrabec, Imane Bello, Ishani Dash, Jihyun Kang, John Giorgi, Jonas Golde, Jose David Posada, Karthik Rangasai Sivaraman, Lokesh Bulchandani, Lu Liu, Luisa Shinzato, Madeleine Hahn de Bykhovetz, Maiko Takeuchi, Marc Pàmies, Maria A Castillo, Marianna Nezhurina, Mario Sänger, Matthias Samwald, Michael Cullan, Michael Weinberg, Michiel De Wolf, Mina Mihaljcic, Minna Liu, Moritz Freidank, Myungsun Kang, Natasha Seelam, Nathan Dahlberg, Nicholas Michio Broad, Nikolaus Muellner, Pascale Fung, Patrick Haller, Ramya Chandrasekhar, Renata Eisenberg, Robert Martin, Rodrigo Canalli, Rosaline Su, Ruisi Su, Samuel Cahyawijaya, Samuele Garda, Shlok S Deshmukh, Shubhanshu Mishra, Sid Kiblawi, Simon Ott, Sinee Sang-aroonsiri, Srishti Kumar, Stefan Schweter, Sushil Bharati, Tanmay Laud, Théo Gigant, Tomoya Kainuma, Wojciech Kusa, Yanis Labrak, Yash Shailesh Bajaj, Yash Venkatraman, Yifan Xu, Yingxin Xu, Yu Xu, Zhe Tan, Zhongli Xie, Zifan Ye, Mathilde Bras, Younes Belkada, Thomas Wolf, 09-11-2022
+35. [BLOOM: A 176B-Parameter Open-Access Multilingual Language Model](http://arxiv.org/abs/2211.05100v4), BigScience Workshop,  :, Teven Le Scao, Angela Fan, Christopher Akiki, Ellie Pavlick, Suzana Ilić, Daniel Hesslow, Roman Castagné, Alexandra Sasha Luccioni, François Yvon, Matthias Gallé, Jonathan Tow, Alexander M. Rush, Stella Biderman, Albert Webson, Pawan Sasanka Ammanamanchi, Thomas Wang, Benoît Sagot, Niklas Muennighoff, Albert Villanova del Moral, Olatunji Ruwase, Rachel Bawden, Stas Bekman, Angelina McMillan-Major, Iz Beltagy, Huu Nguyen, Lucile Saulnier, Samson Tan, Pedro Ortiz Suarez, Victor Sanh, Hugo Laurençon, Yacine Jernite, Julien Launay, Margaret Mitchell, Colin Raffel, Aaron Gokaslan, Adi Simhi, Aitor Soroa, Alham Fikri Aji, Amit Alfassy, Anna Rogers, Ariel Kreisberg Nitzav, Canwen Xu, Chenghao Mou, Chris Emezue, Christopher Klamm, Colin Leong, Daniel van Strien, David Ifeoluwa Adelani, Dragomir Radev, Eduardo González Ponferrada, Efrat Levkovizh, Ethan Kim, Eyal Bar Natan, Francesco De Toni, Gérard Dupont, Germán Kruszewski, Giada Pistilli, Hady Elsahar, Hamza Benyamina, Hieu Tran, Ian Yu, Idris Abdulmumin, Isaac Johnson, Itziar Gonzalez-Dios, Javier de la Rosa, Jenny Chim, Jesse Dodge, Jian Zhu, Jonathan Chang, Jörg Frohberg, Joseph Tobing, Joydeep Bhattacharjee, Khalid Almubarak, Kimbo Chen, Kyle Lo, Leandro Von Werra, Leon Weber, Long Phan, Loubna Ben allal, Ludovic Tanguy, Manan Dey, Manuel Romero Muñoz, Maraim Masoud, María Grandury, Mario Šaško, Max Huang, Maximin Coavoux, Mayank Singh, Mike Tian-Jian Jiang, Minh Chien Vu, Mohammad A. Jauhar, Mustafa Ghaleb, Nishant Subramani, Nora Kassner, Nurulaqilla Khamis, Olivier Nguyen, Omar Espejel, Ona de Gibert, Paulo Villegas, Peter Henderson, Pierre Colombo, Priscilla Amuok, Quentin Lhoest, Rheza Harliman, Rishi Bommasani, Roberto Luis López, Rui Ribeiro, Salomey Osei, Sampo Pyysalo, Sebastian Nagel, Shamik Bose, Shamsuddeen Hassan Muhammad, Shanya Sharma, Shayne Longpre, Somaieh Nikpoor, Stanislav Silberberg, Suhas Pai, Sydney Zink, Tiago Timponi Torrent, Timo Schick, Tristan Thrush, Valentin Danchev, Vassilina Nikoulina, Veronika Laippala, Violette Lepercq, Vrinda Prabhu, Zaid Alyafeai, Zeerak Talat, Arun Raja, Benjamin Heinzerling, Chenglei Si, Davut Emre Taşar, Elizabeth Salesky, Sabrina J. Mielke, Wilson Y. Lee, Abheesht Sharma, Andrea Santilli, Antoine Chaffin, Arnaud Stiegler, Debajyoti Datta, Eliza Szczechla, Gunjan Chhablani, Han Wang, Harshit Pandey, Hendrik Strobelt, Jason Alan Fries, Jos Rozen, Leo Gao, Lintang Sutawika, M Saiful Bari, Maged S. Al-shaibani, Matteo Manica, Nihal Nayak, Ryan Teehan, Samuel Albanie, Sheng Shen, Srulik Ben-David, Stephen H. Bach, Taewoon Kim, Tali Bers, Thibault Fevry, Trishala Neeraj, Urmish Thakker, Vikas Raunak, Xiangru Tang, Zheng-Xin Yong, Zhiqing Sun, Shaked Brody, Yallow Uri, Hadar Tojarieh, Adam Roberts, Hyung Won Chung, Jaesung Tae, Jason Phang, Ofir Press, Conglong Li, Deepak Narayanan, Hatim Bourfoune, Jared Casper, Jeff Rasley, Max Ryabinin, Mayank Mishra, Minjia Zhang, Mohammad Shoeybi, Myriam Peyrounette, Nicolas Patry, Nouamane Tazi, Omar Sanseviero, Patrick von Platen, Pierre Cornette, Pierre François Lavallée, Rémi Lacroix, Samyam Rajbhandari, Sanchit Gandhi, Shaden Smith, Stéphane Requena, Suraj Patil, Tim Dettmers, Ahmed Baruwa, Amanpreet Singh, Anastasia Cheveleva, Anne-Laure Ligozat, Arjun Subramonian, Aurélie Névéol, Charles Lovering, Dan Garrette, Deepak Tunuguntla, Ehud Reiter, Ekaterina Taktasheva, Ekaterina Voloshina, Eli Bogdanov, Genta Indra Winata, Hailey Schoelkopf, Jan-Christoph Kalo, Jekaterina Novikova, Jessica Zosa Forde, Jordan Clive, Jungo Kasai, Ken Kawamura, Liam Hazan, Marine Carpuat, Miruna Clinciu, Najoung Kim, Newton Cheng, Oleg Serikov, Omer Antverg, Oskar van der Wal, Rui Zhang, Ruochen Zhang, Sebastian Gehrmann, Shachar Mirkin, Shani Pais, Tatiana Shavrina, Thomas Scialom, Tian Yun, Tomasz Limisiewicz, Verena Rieser, Vitaly Protasov, Vladislav Mikhailov, Yada Pruksachatkun, Yonatan Belinkov, Zachary Bamberger, Zdeněk Kasner, Alice Rueda, Amanda Pestana, Amir Feizpour, Ammar Khan, Amy Faranak, Ana Santos, Anthony Hevia, Antigona Unldreaj, Arash Aghagol, Arezoo Abdollahi, Aycha Tammour, Azadeh HajiHosseini, Bahareh Behroozi, Benjamin Ajibade, Bharat Saxena, Carlos Muñoz Ferrandis, Daniel McDuff, Danish Contractor, David Lansky, Davis David, Douwe Kiela, Duong A. Nguyen, Edward Tan, Emi Baylor, Ezinwanne Ozoani, Fatima Mirza, Frankline Ononiwu, Habib Rezanejad, Hessie Jones, Indrani Bhattacharya, Irene Solaiman, Irina Sedenko, Isar Nejadgholi, Jesse Passmore, Josh Seltzer, Julio Bonis Sanz, Livia Dutra, Mairon Samagaio, Maraim Elbadri, Margot Mieskes, Marissa Gerchick, Martha Akinlolu, Michael McKenna, Mike Qiu, Muhammed Ghauri, Mykola Burynok, Nafis Abrar, Nazneen Rajani, Nour Elkott, Nour Fahmy, Olanrewaju Samuel, Ran An, Rasmus Kromann, Ryan Hao, Samira Alizadeh, Sarmad Shubber, Silas Wang, Sourav Roy, Sylvain Viguier, Thanh Le, Tobi Oyebade, Trieu Le, Yoyo Yang, Zach Nguyen, Abhinav Ramesh Kashyap, Alfredo Palasciano, Alison Callahan, Anima Shukla, Antonio Miranda-Escalada, Ayush Singh, Benjamin Beilharz, Bo Wang, Caio Brito, Chenxi Zhou, Chirag Jain, Chuxin Xu, Clémentine Fourrier, Daniel León Periñán, Daniel Molano, Dian Yu, Enrique Manjavacas, Fabio Barth, Florian Fuhrimann, Gabriel Altay, Giyaseddin Bayrak, Gully Burns, Helena U. Vrabec, Imane Bello, Ishani Dash, Jihyun Kang, John Giorgi, Jonas Golde, Jose David Posada, Karthik Rangasai Sivaraman, Lokesh Bulchandani, Lu Liu, Luisa Shinzato, Madeleine Hahn de Bykhovetz, Maiko Takeuchi, Marc Pàmies, Maria A Castillo, Marianna Nezhurina, Mario Sänger, Matthias Samwald, Michael Cullan, Michael Weinberg, Michiel De Wolf, Mina Mihaljcic, Minna Liu, Moritz Freidank, Myungsun Kang, Natasha Seelam, Nathan Dahlberg, Nicholas Michio Broad, Nikolaus Muellner, Pascale Fung, Patrick Haller, Ramya Chandrasekhar, Renata Eisenberg, Robert Martin, Rodrigo Canalli, Rosaline Su, Ruisi Su, Samuel Cahyawijaya, Samuele Garda, Shlok S Deshmukh, Shubhanshu Mishra, Sid Kiblawi, Simon Ott, Sinee Sang-aroonsiri, Srishti Kumar, Stefan Schweter, Sushil Bharati, Tanmay Laud, Théo Gigant, Tomoya Kainuma, Wojciech Kusa, Yanis Labrak, Yash Shailesh Bajaj, Yash Venkatraman, Yifan Xu, Yingxin Xu, Yu Xu, Zhe Tan, Zhongli Xie, Zifan Ye, Mathilde Bras, Younes Belkada, Thomas Wolf, 09-11-2022
      ### Categories
      Computation and Language
     ### Abstract
@@ -2182,7 +2176,7 @@ finetuning. To facilitate future research and applications using LLMs, we
 publicly release our models and code under the Responsible AI License.
 
 
-6. [Ignore Previous Prompt: Attack Techniques For Language Models](http://arxiv.org/abs/2211.09527v1), Fábio Perez, Ian Ribeiro, 17-11-2022
+36. [Ignore Previous Prompt: Attack Techniques For Language Models](http://arxiv.org/abs/2211.09527v1), Fábio Perez, Ian Ribeiro, 17-11-2022
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -2199,7 +2193,7 @@ GPT-3's stochastic nature, creating long-tail risks. The code for PromptInject
 is available at https://github.com/agencyenterprise/PromptInject.
 
 
-6. [PAL: Program-aided Language Models](http://arxiv.org/abs/2211.10435v2), Luyu Gao, Aman Madaan, Shuyan Zhou, Uri Alon, Pengfei Liu, Yiming Yang, Jamie Callan, Graham Neubig, 18-11-2022
+37. [PAL: Program-aided Language Models](http://arxiv.org/abs/2211.10435v2), Luyu Gao, Aman Madaan, Shuyan Zhou, Uri Alon, Pengfei Liu, Yiming Yang, Jamie Callan, Graham Neubig, 18-11-2022
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -2227,7 +2221,7 @@ which uses chain-of-thought by absolute 15% top-1. Our code and data are
 publicly available at http://reasonwithpal.com/ .
 
 
-6. [Program of Thoughts Prompting: Disentangling Computation from Reasoning
+38. [Program of Thoughts Prompting: Disentangling Computation from Reasoning
   for Numerical Reasoning Tasks](http://arxiv.org/abs/2211.12588v4), Wenhu Chen, Xueguang Ma, Xinyi Wang, William W. Cohen, 22-11-2022
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -2250,7 +2244,7 @@ near-SoTA performance on financial datasets. All of our data and code are
 released in Github https://github.com/wenhuchen/Program-of-Thoughts
 
 
-6. [LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large
+39. [LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large
   Language Models](http://arxiv.org/abs/2212.04088v3), Chan Hee Song, Jiaman Wu, Clayton Washington, Brian M. Sadler, Wei-Lun Chao, Yu Su, 08-12-2022
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
@@ -2273,7 +2267,7 @@ developing versatile and sample-efficient embodied agents that can quickly
 learn many tasks. Website: https://dki-lab.github.io/LLM-Planner
 
 
-6. [Constitutional AI: Harmlessness from AI Feedback](http://arxiv.org/abs/2212.08073v1), Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Carol Chen, Catherine Olsson, Christopher Olah, Danny Hernandez, Dawn Drain, Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, Jared Mueller, Jeffrey Ladish, Joshua Landau, Kamal Ndousse, Kamile Lukosuite, Liane Lovitt, Michael Sellitto, Nelson Elhage, Nicholas Schiefer, Noemi Mercado, Nova DasSarma, Robert Lasenby, Robin Larson, Sam Ringer, Scott Johnston, Shauna Kravec, Sheer El Showk, Stanislav Fort, Tamera Lanham, Timothy Telleen-Lawton, Tom Conerly, Tom Henighan, Tristan Hume, Samuel R. Bowman, Zac Hatfield-Dodds, Ben Mann, Dario Amodei, Nicholas Joseph, Sam McCandlish, Tom Brown, Jared Kaplan, 15-12-2022
+40. [Constitutional AI: Harmlessness from AI Feedback](http://arxiv.org/abs/2212.08073v1), Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Carol Chen, Catherine Olsson, Christopher Olah, Danny Hernandez, Dawn Drain, Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, Jared Mueller, Jeffrey Ladish, Joshua Landau, Kamal Ndousse, Kamile Lukosuite, Liane Lovitt, Michael Sellitto, Nelson Elhage, Nicholas Schiefer, Noemi Mercado, Nova DasSarma, Robert Lasenby, Robin Larson, Sam Ringer, Scott Johnston, Shauna Kravec, Sheer El Showk, Stanislav Fort, Tamera Lanham, Timothy Telleen-Lawton, Tom Conerly, Tom Henighan, Tristan Hume, Samuel R. Bowman, Zac Hatfield-Dodds, Ben Mann, Dario Amodei, Nicholas Joseph, Sam McCandlish, Tom Brown, Jared Kaplan, 15-12-2022
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -2297,7 +2291,7 @@ make it possible to control AI behavior more precisely and with far fewer human
 labels.
 
 
-6. [Reasoning with Language Model Prompting: A Survey](http://arxiv.org/abs/2212.09597v8), Shuofei Qiao, Yixin Ou, Ningyu Zhang, Xiang Chen, Yunzhi Yao, Shumin Deng, Chuanqi Tan, Fei Huang, Huajun Chen, 19-12-2022
+41. [Reasoning with Language Model Prompting: A Survey](http://arxiv.org/abs/2212.09597v8), Shuofei Qiao, Yixin Ou, Ningyu Zhang, Xiang Chen, Yunzhi Yao, Shumin Deng, Chuanqi Tan, Fei Huang, Huajun Chen, 19-12-2022
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -2312,7 +2306,7 @@ available at https://github.com/zjunlp/Prompt4ReasoningPapers (updated
 periodically).
 
 
-6. [KronA: Parameter Efficient Tuning with Kronecker Adapter](http://arxiv.org/abs/2212.10650v1), Ali Edalati, Marzieh Tahaei, Ivan Kobyzev, Vahid Partovi Nia, James J. Clark, Mehdi Rezagholizadeh, 20-12-2022
+42. [KronA: Parameter Efficient Tuning with Kronecker Adapter](http://arxiv.org/abs/2212.10650v1), Ali Edalati, Marzieh Tahaei, Ivan Kobyzev, Vahid Partovi Nia, James J. Clark, Mehdi Rezagholizadeh, 20-12-2022
      ### Categories
      Computation and Language
     ### Abstract
@@ -2332,7 +2326,7 @@ methods for fine-tuning T5 on the GLUE benchmark to show that incorporating the
 Kronecker-based modules can outperform state-of-the-art PET methods.
 
 
-6. [Large Language Models Are Reasoning Teachers](http://arxiv.org/abs/2212.10071v2), Namgyu Ho, Laura Schmid, Se-Young Yun, 20-12-2022
+43. [Large Language Models Are Reasoning Teachers](http://arxiv.org/abs/2212.10071v2), Namgyu Ho, Laura Schmid, Se-Young Yun, 20-12-2022
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -2356,7 +2350,7 @@ capabilities of student models. Our code implementation and data are available
 at https://github.com/itsnamgyu/reasoning-teacher.
 
 
-6. [Self-Instruct: Aligning Language Models with Self-Generated Instructions](http://arxiv.org/abs/2212.10560v2), Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi, 20-12-2022
+44. [Self-Instruct: Aligning Language Models with Self-Generated Instructions](http://arxiv.org/abs/2212.10560v2), Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi, 20-12-2022
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -2382,7 +2376,7 @@ large synthetic dataset to facilitate future studies on instruction tuning. Our
 code and data are available at https://github.com/yizhongw/self-instruct.
 
 
-6. [Towards Reasoning in Large Language Models: A Survey](http://arxiv.org/abs/2212.10403v2), Jie Huang, Kevin Chen-Chuan Chang, 20-12-2022
+45. [Towards Reasoning in Large Language Models: A Survey](http://arxiv.org/abs/2212.10403v2), Jie Huang, Kevin Chen-Chuan Chang, 20-12-2022
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -2400,7 +2394,7 @@ on future directions. Our aim is to provide a detailed and up-to-date review of
 this topic and stimulate meaningful discussion and future work.
 
 
-6. [Towards Understanding Chain-of-Thought Prompting: An Empirical Study of
+46. [Towards Understanding Chain-of-Thought Prompting: An Empirical Study of
   What Matters](http://arxiv.org/abs/2212.10001v2), Boshi Wang, Sewon Min, Xiang Deng, Jiaming Shen, You Wu, Luke Zettlemoyer, Huan Sun, 20-12-2022
      ### Categories
      Computation and Language
@@ -2422,7 +2416,7 @@ of CoT prompting, and open up new questions regarding LLMs' capability to learn
 to reason in context.
 
 
-6. [Cramming: Training a Language Model on a Single GPU in One Day](http://arxiv.org/abs/2212.14034v1), Jonas Geiping, Tom Goldstein, 28-12-2022
+47. [Cramming: Training a Language Model on a Single GPU in One Day](http://arxiv.org/abs/2212.14034v1), Jonas Geiping, Tom Goldstein, 28-12-2022
      ### Categories
      Computation and Language, Machine Learning
     ### Abstract
@@ -2442,11 +2436,10 @@ performance closely follows scaling laws observed in large-compute settings.
 Through the lens of scaling laws, we categorize a range of recent improvements
 to training and architecture and discuss their merit and practical
 applicability (or lack thereof) for the limited compute setting.
+
 ## 2023 (195 papers)
 
-
-
-7. [SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](http://arxiv.org/abs/2301.00774v3), Elias Frantar, Dan Alistarh, 02-01-2023
+1. [SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](http://arxiv.org/abs/2301.00774v3), Elias Frantar, Dan Alistarh, 02-01-2023
      ### Categories
      Machine Learning
     ### Abstract
@@ -2463,7 +2456,7 @@ ignored at inference time. SparseGPT generalizes to semi-structured (2:4 and
 is available at: https://github.com/IST-DASLab/sparsegpt.
 
 
-7. [Faithful Chain-of-Thought Reasoning](http://arxiv.org/abs/2301.13379v3), Qing Lyu, Shreya Havaldar, Adam Stein, Li Zhang, Delip Rao, Eric Wong, Marianna Apidianaki, Chris Callison-Burch, 31-01-2023
+2. [Faithful Chain-of-Thought Reasoning](http://arxiv.org/abs/2301.13379v3), Qing Lyu, Shreya Havaldar, Adam Stein, Li Zhang, Delip Rao, Eric Wong, Marianna Apidianaki, Chris Callison-Burch, 31-01-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -2484,7 +2477,7 @@ performance on 7 datasets (with 95.0+ accuracy on 6 of them), showing a strong
 synergy between faithfulness and accuracy.
 
 
-7. [Large Language Models Can Be Easily Distracted by Irrelevant Context](http://arxiv.org/abs/2302.00093v3), Freda Shi, Xinyun Chen, Kanishka Misra, Nathan Scales, David Dohan, Ed Chi, Nathanael Schärli, Denny Zhou, 31-01-2023
+3. [Large Language Models Can Be Easily Distracted by Irrelevant Context](http://arxiv.org/abs/2302.00093v3), Freda Shi, Xinyun Chen, Kanishka Misra, Nathan Scales, David Dohan, Ed Chi, Nathanael Schärli, Denny Zhou, 31-01-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -2504,7 +2497,7 @@ prompt an instruction that tells the language model to ignore the irrelevant
 information.
 
 
-7. [Large Language Models are Versatile Decomposers: Decompose Evidence and
+4. [Large Language Models are Versatile Decomposers: Decompose Evidence and
   Questions for Table-based Reasoning](http://arxiv.org/abs/2301.13808v3), Yunhu Ye, Binyuan Hui, Min Yang, Binhua Li, Fei Huang, Yongbin Li, 31-01-2023
      ### Categories
      Computation and Language
@@ -2532,7 +2525,7 @@ our model outperforms human performance for the first time on the TabFact
 dataset.
 
 
-7. [Collaborating with language models for embodied reasoning](http://arxiv.org/abs/2302.00763v1), Ishita Dasgupta, Christine Kaeser-Chen, Kenneth Marino, Arun Ahuja, Sheila Babayan, Felix Hill, Rob Fergus, 01-02-2023
+5. [Collaborating with language models for embodied reasoning](http://arxiv.org/abs/2302.00763v1), Ishita Dasgupta, Christine Kaeser-Chen, Kenneth Marino, Arun Ahuja, Sheila Babayan, Felix Hill, Rob Fergus, 01-02-2023
      ### Categories
      Machine Learning, Artificial Intelligence, Computation and Language
     ### Abstract
@@ -2553,7 +2546,7 @@ zero-shot and investigate failure cases, and demonstrate how components of this
 system can be trained with reinforcement-learning to improve performance.
 
 
-7. [Describe, Explain, Plan and Select: Interactive Planning with Large
+6. [Describe, Explain, Plan and Select: Interactive Planning with Large
   Language Models Enables Open-World Multi-Task Agents](http://arxiv.org/abs/2302.01560v2), Zihao Wang, Shaofei Cai, Guanzhou Chen, Anji Liu, Xiaojian Ma, Yitao Liang, 03-02-2023
      ### Categories
      Artificial Intelligence
@@ -2606,7 +2599,7 @@ detected. Experimentally, various RL algorithms obtain significant improvement
 in performance and training speed when assisted by our design.
 
 
-7. [Transformer models: an introduction and catalog](http://arxiv.org/abs/2302.07730v3), Xavier Amatriain, Ananth Sankar, Jie Bing, Praveen Kumar Bodigutla, Timothy J. Hazen, Michaeel Kazi, 12-02-2023
+8. [Transformer models: an introduction and catalog](http://arxiv.org/abs/2302.07730v3), Xavier Amatriain, Ananth Sankar, Jie Bing, Praveen Kumar Bodigutla, Timothy J. Hazen, Michaeel Kazi, 12-02-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -2621,7 +2614,7 @@ GPT3) as well as those that are further trained using a human-in-the-loop (e.g.
 the InstructGPT model used by ChatGPT).
 
 
-7. [Guiding Pretraining in Reinforcement Learning with Large Language Models](http://arxiv.org/abs/2302.06692v2), Yuqing Du, Olivia Watkins, Zihan Wang, Cédric Colas, Trevor Darrell, Pieter Abbeel, Abhishek Gupta, Jacob Andreas, 13-02-2023
+9. [Guiding Pretraining in Reinforcement Learning with Large Language Models](http://arxiv.org/abs/2302.06692v2), Yuqing Du, Olivia Watkins, Zihan Wang, Cédric Colas, Trevor Darrell, Pieter Abbeel, Abhishek Gupta, Jacob Andreas, 13-02-2023
      ### Categories
      Machine Learning, Artificial Intelligence, Computation and Language
     ### Abstract
@@ -2642,7 +2635,7 @@ or improve performance on a range of downstream tasks. Code available at
 https://github.com/yuqingd/ellm.
 
 
-7. [GraphPrompt: Unifying Pre-Training and Downstream Tasks for Graph Neural
+10. [GraphPrompt: Unifying Pre-Training and Downstream Tasks for Graph Neural
   Networks](http://arxiv.org/abs/2302.08043v3), Zemin Liu, Xingtong Yu, Yuan Fang, Xinming Zhang, 16-02-2023
      ### Categories
      Machine Learning, Computation and Language
@@ -2666,7 +2659,7 @@ pre-train model in a task-specific manner. Finally, we conduct extensive
 experiments on five public datasets to evaluate and analyze GraphPrompt.
 
 
-7. [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT](http://arxiv.org/abs/2302.11382v1), Jules White, Quchen Fu, Sam Hays, Michael Sandborn, Carlos Olea, Henry Gilbert, Ashraf Elnashar, Jesse Spencer-Smith, Douglas C. Schmidt, 21-02-2023
+11. [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT](http://arxiv.org/abs/2302.11382v1), Jules White, Quchen Fu, Sam Hays, Michael Sandborn, Carlos Olea, Henry Gilbert, Ashraf Elnashar, Jesse Spencer-Smith, Douglas C. Schmidt, 21-02-2023
      ### Categories
      Artificial Intelligence
     ### Abstract
@@ -2690,7 +2683,7 @@ be built from multiple patterns and illustrates prompt patterns that benefit
 from combination with other prompt patterns.
 
 
-7. [Guiding Large Language Models via Directional Stimulus Prompting](http://arxiv.org/abs/2302.11520v4), Zekun Li, Baolin Peng, Pengcheng He, Michel Galley, Jianfeng Gao, Xifeng Yan, 22-02-2023
+12. [Guiding Large Language Models via Directional Stimulus Prompting](http://arxiv.org/abs/2302.11520v4), Zekun Li, Baolin Peng, Pengcheng He, Michel Galley, Jianfeng Gao, Xifeng Yan, 22-02-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -2718,7 +2711,7 @@ prompts. The code and data are publicly available at
 \url{https://github.com/Leezekun/Directional-Stimulus-Prompting}.
 
 
-7. [Active Prompting with Chain-of-Thought for Large Language Models](http://arxiv.org/abs/2302.12246v3), Shizhe Diao, Pengcheng Wang, Yong Lin, Tong Zhang, 23-02-2023
+13. [Active Prompting with Chain-of-Thought for Large Language Models](http://arxiv.org/abs/2302.12246v3), Shizhe Diao, Pengcheng Wang, Yong Lin, Tong Zhang, 23-02-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -2745,7 +2738,7 @@ accuracy-uncertainty relationship demonstrate the effectiveness of our method.
 Our code will be available at https://github.com/shizhediao/active-prompt.
 
 
-7. [LLaMA: Open and Efficient Foundation Language Models](http://arxiv.org/abs/2302.13971v1), Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample, 27-02-2023
+14. [LLaMA: Open and Efficient Foundation Language Models](http://arxiv.org/abs/2302.13971v1), Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample, 27-02-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -2758,7 +2751,7 @@ and LLaMA-65B is competitive with the best models, Chinchilla-70B and
 PaLM-540B. We release all our models to the research community.
 
 
-7. [Language Is Not All You Need: Aligning Perception with Language Models](http://arxiv.org/abs/2302.14045v2), Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, Saksham Singhal, Shuming Ma, Tengchao Lv, Lei Cui, Owais Khan Mohammed, Barun Patra, Qiang Liu, Kriti Aggarwal, Zewen Chi, Johan Bjorck, Vishrav Chaudhary, Subhojit Som, Xia Song, Furu Wei, 27-02-2023
+15. [Language Is Not All You Need: Aligning Perception with Language Models](http://arxiv.org/abs/2302.14045v2), Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, Saksham Singhal, Shuming Ma, Tengchao Lv, Lei Cui, Owais Khan Mohammed, Barun Patra, Qiang Liu, Kriti Aggarwal, Zewen Chi, Johan Bjorck, Vishrav Chaudhary, Subhojit Som, Xia Song, Furu Wei, 27-02-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -2782,7 +2775,7 @@ introduce a dataset of Raven IQ test, which diagnoses the nonverbal reasoning
 capability of MLLMs.
 
 
-7. [Multitask Prompt Tuning Enables Parameter-Efficient Transfer Learning](http://arxiv.org/abs/2303.02861v1), Zhen Wang, Rameswar Panda, Leonid Karlinsky, Rogerio Feris, Huan Sun, Yoon Kim, 06-03-2023
+16. [Multitask Prompt Tuning Enables Parameter-Efficient Transfer Learning](http://arxiv.org/abs/2303.02861v1), Zhen Wang, Rameswar Panda, Leonid Karlinsky, Rogerio Feris, Huan Sun, Yoon Kim, 06-03-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -2801,7 +2794,7 @@ finetuning baseline in some cases, despite only tuning 0.035% as many
 task-specific parameters.
 
 
-7. [Foundation Models for Decision Making: Problems, Methods, and
+17. [Foundation Models for Decision Making: Problems, Methods, and
   Opportunities](http://arxiv.org/abs/2303.04129v1), Sherry Yang, Ofir Nachum, Yilun Du, Jason Wei, Pieter Abbeel, Dale Schuurmans, 07-03-2023
      ### Categories
      Artificial Intelligence, Machine Learning
@@ -2828,7 +2821,7 @@ generative modeling, planning, optimal control, and reinforcement learning, and
 discuss common challenges and open problems in the field.
 
 
-7. [Large Language Models in the Workplace: A Case Study on Prompt
+18. [Large Language Models in the Workplace: A Case Study on Prompt
   Engineering for Job Type Classification](http://arxiv.org/abs/2303.07142v3), Benjamin Clavié, Alexandru Ciceu, Frederick Naylor, Guillaume Soulié, Thomas Brightwell, 13-03-2023
      ### Categories
      Computation and Language
@@ -2854,7 +2847,7 @@ model, and that seemingly minor aspects of the prompt significantly affect the
 model's performance.
 
 
-7. [GPT-4 Technical Report](http://arxiv.org/abs/2303.08774v4),  OpenAI,  :, Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, Red Avila, Igor Babuschkin, Suchir Balaji, Valerie Balcom, Paul Baltescu, Haiming Bao, Mo Bavarian, Jeff Belgum, Irwan Bello, Jake Berdine, Gabriel Bernadett-Shapiro, Christopher Berner, Lenny Bogdonoff, Oleg Boiko, Madelaine Boyd, Anna-Luisa Brakman, Greg Brockman, Tim Brooks, Miles Brundage, Kevin Button, Trevor Cai, Rosie Campbell, Andrew Cann, Brittany Carey, Chelsea Carlson, Rory Carmichael, Brooke Chan, Che Chang, Fotis Chantzis, Derek Chen, Sully Chen, Ruby Chen, Jason Chen, Mark Chen, Ben Chess, Chester Cho, Casey Chu, Hyung Won Chung, Dave Cummings, Jeremiah Currier, Yunxing Dai, Cory Decareaux, Thomas Degry, Noah Deutsch, Damien Deville, Arka Dhar, David Dohan, Steve Dowling, Sheila Dunning, Adrien Ecoffet, Atty Eleti, Tyna Eloundou, David Farhi, Liam Fedus, Niko Felix, Simón Posada Fishman, Juston Forte, Isabella Fulford, Leo Gao, Elie Georges, Christian Gibson, Vik Goel, Tarun Gogineni, Gabriel Goh, Rapha Gontijo-Lopes, Jonathan Gordon, Morgan Grafstein, Scott Gray, Ryan Greene, Joshua Gross, Shixiang Shane Gu, Yufei Guo, Chris Hallacy, Jesse Han, Jeff Harris, Yuchen He, Mike Heaton, Johannes Heidecke, Chris Hesse, Alan Hickey, Wade Hickey, Peter Hoeschele, Brandon Houghton, Kenny Hsu, Shengli Hu, Xin Hu, Joost Huizinga, Shantanu Jain, Shawn Jain, Joanne Jang, Angela Jiang, Roger Jiang, Haozhun Jin, Denny Jin, Shino Jomoto, Billie Jonn, Heewoo Jun, Tomer Kaftan, Łukasz Kaiser, Ali Kamali, Ingmar Kanitscheider, Nitish Shirish Keskar, Tabarak Khan, Logan Kilpatrick, Jong Wook Kim, Christina Kim, Yongjik Kim, Hendrik Kirchner, Jamie Kiros, Matt Knight, Daniel Kokotajlo, Łukasz Kondraciuk, Andrew Kondrich, Aris Konstantinidis, Kyle Kosic, Gretchen Krueger, Vishal Kuo, Michael Lampe, Ikai Lan, Teddy Lee, Jan Leike, Jade Leung, Daniel Levy, Chak Ming Li, Rachel Lim, Molly Lin, Stephanie Lin, Mateusz Litwin, Theresa Lopez, Ryan Lowe, Patricia Lue, Anna Makanju, Kim Malfacini, Sam Manning, Todor Markov, Yaniv Markovski, Bianca Martin, Katie Mayer, Andrew Mayne, Bob McGrew, Scott Mayer McKinney, Christine McLeavey, Paul McMillan, Jake McNeil, David Medina, Aalok Mehta, Jacob Menick, Luke Metz, Andrey Mishchenko, Pamela Mishkin, Vinnie Monaco, Evan Morikawa, Daniel Mossing, Tong Mu, Mira Murati, Oleg Murk, David Mély, Ashvin Nair, Reiichiro Nakano, Rajeev Nayak, Arvind Neelakantan, Richard Ngo, Hyeonwoo Noh, Long Ouyang, Cullen O'Keefe, Jakub Pachocki, Alex Paino, Joe Palermo, Ashley Pantuliano, Giambattista Parascandolo, Joel Parish, Emy Parparita, Alex Passos, Mikhail Pavlov, Andrew Peng, Adam Perelman, Filipe de Avila Belbute Peres, Michael Petrov, Henrique Ponde de Oliveira Pinto,  Michael,  Pokorny, Michelle Pokrass, Vitchyr Pong, Tolly Powell, Alethea Power, Boris Power, Elizabeth Proehl, Raul Puri, Alec Radford, Jack Rae, Aditya Ramesh, Cameron Raymond, Francis Real, Kendra Rimbach, Carl Ross, Bob Rotsted, Henri Roussez, Nick Ryder, Mario Saltarelli, Ted Sanders, Shibani Santurkar, Girish Sastry, Heather Schmidt, David Schnurr, John Schulman, Daniel Selsam, Kyla Sheppard, Toki Sherbakov, Jessica Shieh, Sarah Shoker, Pranav Shyam, Szymon Sidor, Eric Sigler, Maddie Simens, Jordan Sitkin, Katarina Slama, Ian Sohl, Benjamin Sokolowsky, Yang Song, Natalie Staudacher, Felipe Petroski Such, Natalie Summers, Ilya Sutskever, Jie Tang, Nikolas Tezak, Madeleine Thompson, Phil Tillet, Amin Tootoonchian, Elizabeth Tseng, Preston Tuggle, Nick Turley, Jerry Tworek, Juan Felipe Cerón Uribe, Andrea Vallone, Arun Vijayvergiya, Chelsea Voss, Carroll Wainwright, Justin Jay Wang, Alvin Wang, Ben Wang, Jonathan Ward, Jason Wei, CJ Weinmann, Akila Welihinda, Peter Welinder, Jiayi Weng, Lilian Weng, Matt Wiethoff, Dave Willner, Clemens Winter, Samuel Wolrich, Hannah Wong, Lauren Workman, Sherwin Wu, Jeff Wu, Michael Wu, Kai Xiao, Tao Xu, Sarah Yoo, Kevin Yu, Qiming Yuan, Wojciech Zaremba, Rowan Zellers, Chong Zhang, Marvin Zhang, Shengjia Zhao, Tianhao Zheng, Juntang Zhuang, William Zhuk, Barret Zoph, 15-03-2023
+19. [GPT-4 Technical Report](http://arxiv.org/abs/2303.08774v4),  OpenAI,  :, Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, Red Avila, Igor Babuschkin, Suchir Balaji, Valerie Balcom, Paul Baltescu, Haiming Bao, Mo Bavarian, Jeff Belgum, Irwan Bello, Jake Berdine, Gabriel Bernadett-Shapiro, Christopher Berner, Lenny Bogdonoff, Oleg Boiko, Madelaine Boyd, Anna-Luisa Brakman, Greg Brockman, Tim Brooks, Miles Brundage, Kevin Button, Trevor Cai, Rosie Campbell, Andrew Cann, Brittany Carey, Chelsea Carlson, Rory Carmichael, Brooke Chan, Che Chang, Fotis Chantzis, Derek Chen, Sully Chen, Ruby Chen, Jason Chen, Mark Chen, Ben Chess, Chester Cho, Casey Chu, Hyung Won Chung, Dave Cummings, Jeremiah Currier, Yunxing Dai, Cory Decareaux, Thomas Degry, Noah Deutsch, Damien Deville, Arka Dhar, David Dohan, Steve Dowling, Sheila Dunning, Adrien Ecoffet, Atty Eleti, Tyna Eloundou, David Farhi, Liam Fedus, Niko Felix, Simón Posada Fishman, Juston Forte, Isabella Fulford, Leo Gao, Elie Georges, Christian Gibson, Vik Goel, Tarun Gogineni, Gabriel Goh, Rapha Gontijo-Lopes, Jonathan Gordon, Morgan Grafstein, Scott Gray, Ryan Greene, Joshua Gross, Shixiang Shane Gu, Yufei Guo, Chris Hallacy, Jesse Han, Jeff Harris, Yuchen He, Mike Heaton, Johannes Heidecke, Chris Hesse, Alan Hickey, Wade Hickey, Peter Hoeschele, Brandon Houghton, Kenny Hsu, Shengli Hu, Xin Hu, Joost Huizinga, Shantanu Jain, Shawn Jain, Joanne Jang, Angela Jiang, Roger Jiang, Haozhun Jin, Denny Jin, Shino Jomoto, Billie Jonn, Heewoo Jun, Tomer Kaftan, Łukasz Kaiser, Ali Kamali, Ingmar Kanitscheider, Nitish Shirish Keskar, Tabarak Khan, Logan Kilpatrick, Jong Wook Kim, Christina Kim, Yongjik Kim, Hendrik Kirchner, Jamie Kiros, Matt Knight, Daniel Kokotajlo, Łukasz Kondraciuk, Andrew Kondrich, Aris Konstantinidis, Kyle Kosic, Gretchen Krueger, Vishal Kuo, Michael Lampe, Ikai Lan, Teddy Lee, Jan Leike, Jade Leung, Daniel Levy, Chak Ming Li, Rachel Lim, Molly Lin, Stephanie Lin, Mateusz Litwin, Theresa Lopez, Ryan Lowe, Patricia Lue, Anna Makanju, Kim Malfacini, Sam Manning, Todor Markov, Yaniv Markovski, Bianca Martin, Katie Mayer, Andrew Mayne, Bob McGrew, Scott Mayer McKinney, Christine McLeavey, Paul McMillan, Jake McNeil, David Medina, Aalok Mehta, Jacob Menick, Luke Metz, Andrey Mishchenko, Pamela Mishkin, Vinnie Monaco, Evan Morikawa, Daniel Mossing, Tong Mu, Mira Murati, Oleg Murk, David Mély, Ashvin Nair, Reiichiro Nakano, Rajeev Nayak, Arvind Neelakantan, Richard Ngo, Hyeonwoo Noh, Long Ouyang, Cullen O'Keefe, Jakub Pachocki, Alex Paino, Joe Palermo, Ashley Pantuliano, Giambattista Parascandolo, Joel Parish, Emy Parparita, Alex Passos, Mikhail Pavlov, Andrew Peng, Adam Perelman, Filipe de Avila Belbute Peres, Michael Petrov, Henrique Ponde de Oliveira Pinto,  Michael,  Pokorny, Michelle Pokrass, Vitchyr Pong, Tolly Powell, Alethea Power, Boris Power, Elizabeth Proehl, Raul Puri, Alec Radford, Jack Rae, Aditya Ramesh, Cameron Raymond, Francis Real, Kendra Rimbach, Carl Ross, Bob Rotsted, Henri Roussez, Nick Ryder, Mario Saltarelli, Ted Sanders, Shibani Santurkar, Girish Sastry, Heather Schmidt, David Schnurr, John Schulman, Daniel Selsam, Kyla Sheppard, Toki Sherbakov, Jessica Shieh, Sarah Shoker, Pranav Shyam, Szymon Sidor, Eric Sigler, Maddie Simens, Jordan Sitkin, Katarina Slama, Ian Sohl, Benjamin Sokolowsky, Yang Song, Natalie Staudacher, Felipe Petroski Such, Natalie Summers, Ilya Sutskever, Jie Tang, Nikolas Tezak, Madeleine Thompson, Phil Tillet, Amin Tootoonchian, Elizabeth Tseng, Preston Tuggle, Nick Turley, Jerry Tworek, Juan Felipe Cerón Uribe, Andrea Vallone, Arun Vijayvergiya, Chelsea Voss, Carroll Wainwright, Justin Jay Wang, Alvin Wang, Ben Wang, Jonathan Ward, Jason Wei, CJ Weinmann, Akila Welihinda, Peter Welinder, Jiayi Weng, Lilian Weng, Matt Wiethoff, Dave Willner, Clemens Winter, Samuel Wolrich, Hannah Wong, Lauren Workman, Sherwin Wu, Jeff Wu, Michael Wu, Kai Xiao, Tao Xu, Sarah Yoo, Kevin Yu, Qiming Yuan, Wojciech Zaremba, Rowan Zellers, Chong Zhang, Marvin Zhang, Shengjia Zhao, Tianhao Zheng, Juntang Zhuang, William Zhuk, Barret Zoph, 15-03-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -2872,7 +2865,7 @@ predict some aspects of GPT-4's performance based on models trained with no
 more than 1/1,000th the compute of GPT-4.
 
 
-7. [ART: Automatic multi-step reasoning and tool-use for large language
+20. [ART: Automatic multi-step reasoning and tool-use for large language
   models](http://arxiv.org/abs/2303.09014v1), Bhargavi Paranjape, Scott Lundberg, Sameer Singh, Hannaneh Hajishirzi, Luke Zettlemoyer, Marco Tulio Ribeiro, 16-03-2023
      ### Categories
      Computation and Language
@@ -2898,7 +2891,7 @@ drastically improving performance on select tasks with minimal human
 intervention.
 
 
-7. [AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning](http://arxiv.org/abs/2303.10512v2), Qingru Zhang, Minshuo Chen, Alexander Bukharin, Nikos Karampatziakis, Pengcheng He, Yu Cheng, Weizhu Chen, Tuo Zhao, 18-03-2023
+21. [AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning](http://arxiv.org/abs/2303.10512v2), Qingru Zhang, Minshuo Chen, Alexander Bukharin, Nikos Karampatziakis, Pengcheng He, Yu Cheng, Weizhu Chen, Tuo Zhao, 18-03-2023
      ### Categories
      Computation and Language, Machine Learning
     ### Abstract
@@ -2924,7 +2917,7 @@ improvement over baselines, especially in the low budget settings. Our code is
 publicly available at https://github.com/QingruZhang/AdaLoRA .
 
 
-7. [MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action](http://arxiv.org/abs/2303.11381v1), Zhengyuan Yang, Linjie Li, Jianfeng Wang, Kevin Lin, Ehsan Azarnasab, Faisal Ahmed, Zicheng Liu, Ce Liu, Michael Zeng, Lijuan Wang, 20-03-2023
+22. [MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action](http://arxiv.org/abs/2303.11381v1), Zhengyuan Yang, Linjie Li, Jianfeng Wang, Kevin Lin, Ehsan Azarnasab, Faisal Ahmed, Zicheng Liu, Ce Liu, Michael Zeng, Lijuan Wang, 20-03-2023
      ### Categories
      Computation and Language, Machine Learning
     ### Abstract
@@ -2947,7 +2940,7 @@ Code, demo, video, and visualization are available at
 https://multimodal-react.github.io/
 
 
-7. [Sparks of Artificial General Intelligence: Early experiments with GPT-4](http://arxiv.org/abs/2303.12712v5), Sébastien Bubeck, Varun Chandrasekaran, Ronen Eldan, Johannes Gehrke, Eric Horvitz, Ece Kamar, Peter Lee, Yin Tat Lee, Yuanzhi Li, Scott Lundberg, Harsha Nori, Hamid Palangi, Marco Tulio Ribeiro, Yi Zhang, 22-03-2023
+23. [Sparks of Artificial General Intelligence: Early experiments with GPT-4](http://arxiv.org/abs/2303.12712v5), Sébastien Bubeck, Varun Chandrasekaran, Ronen Eldan, Johannes Gehrke, Eric Horvitz, Ece Kamar, Peter Lee, Yin Tat Lee, Yuanzhi Li, Scott Lundberg, Harsha Nori, Hamid Palangi, Marco Tulio Ribeiro, Yi Zhang, 22-03-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -2976,7 +2969,7 @@ with reflections on societal influences of the recent technological leap and
 future research directions.
 
 
-7. [Natural Language Reasoning, A Survey](http://arxiv.org/abs/2303.14725v2), Fei Yu, Hongbo Zhang, Prayag Tiwari, Benyou Wang, 26-03-2023
+24. [Natural Language Reasoning, A Survey](http://arxiv.org/abs/2303.14725v2), Fei Yu, Hongbo Zhang, Prayag Tiwari, Benyou Wang, 26-03-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -2995,7 +2988,7 @@ single-modality unstructured natural language text, excluding neuro-symbolic
 techniques and mathematical reasoning.
 
 
-7. [Ecosystem Graphs: The Social Footprint of Foundation Models](http://arxiv.org/abs/2303.15772v1), Rishi Bommasani, Dilara Soylu, Thomas I. Liao, Kathleen A. Creel, Percy Liang, 28-03-2023
+25. [Ecosystem Graphs: The Social Footprint of Foundation Models](http://arxiv.org/abs/2303.15772v1), Rishi Bommasani, Dilara Soylu, Thomas I. Liao, Kathleen A. Creel, Percy Liang, 28-03-2023
      ### Categories
      Machine Learning, Artificial Intelligence
     ### Abstract
@@ -3020,7 +3013,7 @@ researchers, industry professionals, social scientists, auditors and
 policymakers.
 
 
-7. [LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init
+26. [LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init
   Attention](http://arxiv.org/abs/2303.16199v2), Renrui Zhang, Jiaming Han, Chris Liu, Peng Gao, Aojun Zhou, Xiangfei Hu, Shilin Yan, Pan Lu, Hongsheng Li, Yu Qiao, 28-03-2023
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
@@ -3045,7 +3038,7 @@ generalization capacity of our approach. Code is released at
 https://github.com/OpenGVLab/LLaMA-Adapter.
 
 
-7. [BloombergGPT: A Large Language Model for Finance](http://arxiv.org/abs/2303.17564v3), Shijie Wu, Ozan Irsoy, Steven Lu, Vadim Dabravolski, Mark Dredze, Sebastian Gehrmann, Prabhanjan Kambadur, David Rosenberg, Gideon Mann, 30-03-2023
+27. [BloombergGPT: A Large Language Model for Finance](http://arxiv.org/abs/2303.17564v3), Shijie Wu, Ozan Irsoy, Steven Lu, Vadim Dabravolski, Mark Dredze, Sebastian Gehrmann, Prabhanjan Kambadur, David Rosenberg, Gideon Mann, 30-03-2023
      ### Categories
      Machine Learning, Artificial Intelligence, Computation and Language
     ### Abstract
@@ -3067,7 +3060,7 @@ process, and evaluation methodology. We release Training Chronicles (Appendix
 C) detailing our experience in training BloombergGPT.
 
 
-7. [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging
+28. [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging
   Face](http://arxiv.org/abs/2303.17580v4), Yongliang Shen, Kaitao Song, Xu Tan, Dongsheng Li, Weiming Lu, Yueting Zhuang, 30-03-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -3093,7 +3086,7 @@ speech, and other challenging tasks, which paves a new way towards the
 realization of artificial general intelligence.
 
 
-7. [A Bibliometric Review of Large Language Models Research from 2017 to
+29. [A Bibliometric Review of Large Language Models Research from 2017 to
   2023](http://arxiv.org/abs/2304.02020v1), Lizhou Fan, Lingyao Li, Zihui Ma, Sanggyu Lee, Huizi Yu, Libby Hemphill, 03-04-2023
      ### Categories
      Computation and Language
@@ -3116,7 +3109,7 @@ valuable insights into the current state, impact, and potential of LLMs
 research and its applications.
 
 
-7. [Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on
+30. [Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on
   Self-Chat Data](http://arxiv.org/abs/2304.01196v4), Canwen Xu, Daya Guo, Nan Duan, Julian McAuley, 03-04-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -3137,7 +3130,7 @@ online demo is also available at
 https://huggingface.co/spaces/project-baize/chat-with-baize.
 
 
-7. [Pythia: A Suite for Analyzing Large Language Models Across Training and
+31. [Pythia: A Suite for Analyzing Large Language Models Across Training and
   Scaling](http://arxiv.org/abs/2304.01373v2), Stella Biderman, Hailey Schoelkopf, Quentin Anthony, Herbie Bradley, Kyle O'Brien, Eric Hallahan, Mohammad Aflah Khan, Shivanshu Purohit, USVSN Sai Prashanth, Edward Raff, Aviya Skowron, Lintang Sutawika, Oskar van der Wal, 03-04-2023
      ### Categories
      Computation and Language
@@ -3157,7 +3150,7 @@ analysis code, training code, and training data can be found at
 \url{https://github.com/EleutherAI/pythia}.
 
 
-7. [One Small Step for Generative AI, One Giant Leap for AGI: A Complete
+32. [One Small Step for Generative AI, One Giant Leap for AGI: A Complete
   Survey on ChatGPT in AIGC Era](http://arxiv.org/abs/2304.06488v1), Chaoning Zhang, Chenshuang Zhang, Chenghao Li, Yu Qiao, Sheng Zheng, Sumit Kumar Dam, Mengchun Zhang, Jung Uk Kim, Seong Tae Kim, Jinwoo Choi, Gyeong-Moon Park, Sung-Ho Bae, Lik-Hang Lee, Pan Hui, In So Kweon, Choong Seon Hong, 04-04-2023
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
@@ -3177,7 +3170,7 @@ realize general-purpose AIGC (a.k.a. AI-generated content), which will be a
 significant milestone for the development of AGI.
 
 
-7. [Generative Agents: Interactive Simulacra of Human Behavior](http://arxiv.org/abs/2304.03442v2), Joon Sung Park, Joseph C. O'Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, Michael S. Bernstein, 07-04-2023
+33. [Generative Agents: Interactive Simulacra of Human Behavior](http://arxiv.org/abs/2304.03442v2), Joon Sung Park, Joseph C. O'Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, Michael S. Bernstein, 07-04-2023
      ### Categories
      Artificial Intelligence, Machine Learning
     ### Abstract
@@ -3207,7 +3200,7 @@ computational, interactive agents, this work introduces architectural and
 interaction patterns for enabling believable simulations of human behavior.
 
 
-7. [OpenAssistant Conversations -- Democratizing Large Language Model
+34. [OpenAssistant Conversations -- Democratizing Large Language Model
   Alignment](http://arxiv.org/abs/2304.07327v2), Andreas Köpf, Yannic Kilcher, Dimitri von Rütte, Sotiris Anagnostidis, Zhi-Rui Tam, Keith Stevens, Abdullah Barhoum, Nguyen Minh Duc, Oliver Stanley, Richárd Nagyfi, Shahul ES, Sameer Suri, David Glushkov, Arnav Dantuluri, Andrew Maguire, Christoph Schuhmann, Huu Nguyen, Alexander Mattick, 14-04-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -3231,7 +3224,7 @@ over respective base models. We release our code and data under a fully
 permissive licence.
 
 
-7. [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](http://arxiv.org/abs/2304.13712v2), Jingfeng Yang, Hongye Jin, Ruixiang Tang, Xiaotian Han, Qizhang Feng, Haoming Jiang, Bing Yin, Xia Hu, 26-04-2023
+35. [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](http://arxiv.org/abs/2304.13712v2), Jingfeng Yang, Hongye Jin, Ruixiang Tang, Xiaotian Han, Qizhang Feng, Haoming Jiang, Bing Yin, Xia Hu, 26-04-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -3259,7 +3252,7 @@ practical guide resources of LLMs, regularly updated, can be found at
 \url{https://github.com/Mooler0410/LLMsPracticalGuide}.
 
 
-7. [MLCopilot: Unleashing the Power of Large Language Models in Solving
+36. [MLCopilot: Unleashing the Power of Large Language Models in Solving
   Machine Learning Tasks](http://arxiv.org/abs/2304.14979v1), Lei Zhang, Yuge Zhang, Kan Ren, Dongsheng Li, Yuqing Yang, 28-04-2023
      ### Categories
      Machine Learning, Artificial Intelligence
@@ -3282,7 +3275,7 @@ results for new tasks. The solution generated can be used directly to achieve
 high levels of competitiveness.
 
 
-7. [Plan, Eliminate, and Track -- Language Models are Good Teachers for
+37. [Plan, Eliminate, and Track -- Language Models are Good Teachers for
   Embodied Agents](http://arxiv.org/abs/2305.02412v2), Yue Wu, So Yeon Min, Yonatan Bisk, Ruslan Salakhutdinov, Amos Azaria, Yuanzhi Li, Tom Mitchell, Shrimai Prabhumoye, 03-05-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -3305,7 +3298,7 @@ the PET framework leads to a significant 15% improvement over SOTA for
 generalization to human goal specifications.
 
 
-7. [Automatic Prompt Optimization with "Gradient Descent" and Beam Search](http://arxiv.org/abs/2305.03495v2), Reid Pryzant, Dan Iter, Jerry Li, Yin Tat Lee, Chenguang Zhu, Michael Zeng, 04-05-2023
+38. [Automatic Prompt Optimization with "Gradient Descent" and Beam Search](http://arxiv.org/abs/2305.03495v2), Reid Pryzant, Dan Iter, Jerry Li, Yin Tat Lee, Chenguang Zhu, Michael Zeng, 04-05-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -3327,7 +3320,7 @@ data to rewrite vague task descriptions into more precise annotation
 instructions.
 
 
-7. [Exploring Human-Like Translation Strategy with Large Language Models](http://arxiv.org/abs/2305.04118v3), Zhiwei He, Tian Liang, Wenxiang Jiao, Zhuosheng Zhang, Yujiu Yang, Rui Wang, Zhaopeng Tu, Shuming Shi, Xing Wang, 06-05-2023
+39. [Exploring Human-Like Translation Strategy with Large Language Models](http://arxiv.org/abs/2305.04118v3), Zhiwei He, Tian Liang, Wenxiang Jiao, Zhuosheng Zhang, Yujiu Yang, Rui Wang, Zhaopeng Tu, Shuming Shi, Xing Wang, 06-05-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -3352,7 +3345,7 @@ awkward style, untranslated text, and omission. Source code is available at
 https://github.com/zwhe99/MAPS-mt.
 
 
-7. [Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning
+40. [Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning
   by Large Language Models](http://arxiv.org/abs/2305.04091v3), Lei Wang, Wanyu Xu, Yihuai Lan, Zhiqiang Hu, Yunshi Lan, Roy Ka-Wei Lee, Ee-Peng Lim, 06-05-2023
      ### Categories
      Computation and Language
@@ -3380,7 +3373,7 @@ reasoning problem. The code can be found at
 https://github.com/AGI-Edgerunners/Plan-and-Solve-Prompting.
 
 
-7. [TinyStories: How Small Can Language Models Be and Still Speak Coherent
+41. [TinyStories: How Small Can Language Models Be and Still Speak Coherent
   English?](http://arxiv.org/abs/2305.07759v2), Ronen Eldan, Yuanzhi Li, 12-05-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -3413,7 +3406,7 @@ research of LMs, especially for low-resource or specialized domains, and shed
 light on the emergence of language capabilities in LMs.
 
 
-7. [Compress, Then Prompt: Improving Accuracy-Efficiency Trade-off of LLM
+42. [Compress, Then Prompt: Improving Accuracy-Efficiency Trade-off of LLM
   Inference with Transferable Prompt](http://arxiv.org/abs/2305.11186v2), Zhaozhuo Xu, Zirui Liu, Beidi Chen, Yuxin Tang, Jue Wang, Kaixiong Zhou, Xia Hu, Anshumali Shrivastava, 17-05-2023
      ### Categories
      Computation and Language, Machine Learning
@@ -3442,7 +3435,7 @@ can stitch the soft prompt to a newly compressed model to improve the test-time
 accuracy in an ``in-situ'' way.
 
 
-7. [PaLM 2 Technical Report](http://arxiv.org/abs/2305.10403v3), Rohan Anil, Andrew M. Dai, Orhan Firat, Melvin Johnson, Dmitry Lepikhin, Alexandre Passos, Siamak Shakeri, Emanuel Taropa, Paige Bailey, Zhifeng Chen, Eric Chu, Jonathan H. Clark, Laurent El Shafey, Yanping Huang, Kathy Meier-Hellstern, Gaurav Mishra, Erica Moreira, Mark Omernick, Kevin Robinson, Sebastian Ruder, Yi Tay, Kefan Xiao, Yuanzhong Xu, Yujing Zhang, Gustavo Hernandez Abrego, Junwhan Ahn, Jacob Austin, Paul Barham, Jan Botha, James Bradbury, Siddhartha Brahma, Kevin Brooks, Michele Catasta, Yong Cheng, Colin Cherry, Christopher A. Choquette-Choo, Aakanksha Chowdhery, Clément Crepy, Shachi Dave, Mostafa Dehghani, Sunipa Dev, Jacob Devlin, Mark Díaz, Nan Du, Ethan Dyer, Vlad Feinberg, Fangxiaoyu Feng, Vlad Fienber, Markus Freitag, Xavier Garcia, Sebastian Gehrmann, Lucas Gonzalez, Guy Gur-Ari, Steven Hand, Hadi Hashemi, Le Hou, Joshua Howland, Andrea Hu, Jeffrey Hui, Jeremy Hurwitz, Michael Isard, Abe Ittycheriah, Matthew Jagielski, Wenhao Jia, Kathleen Kenealy, Maxim Krikun, Sneha Kudugunta, Chang Lan, Katherine Lee, Benjamin Lee, Eric Li, Music Li, Wei Li, YaGuang Li, Jian Li, Hyeontaek Lim, Hanzhao Lin, Zhongtao Liu, Frederick Liu, Marcello Maggioni, Aroma Mahendru, Joshua Maynez, Vedant Misra, Maysam Moussalem, Zachary Nado, John Nham, Eric Ni, Andrew Nystrom, Alicia Parrish, Marie Pellat, Martin Polacek, Alex Polozov, Reiner Pope, Siyuan Qiao, Emily Reif, Bryan Richter, Parker Riley, Alex Castro Ros, Aurko Roy, Brennan Saeta, Rajkumar Samuel, Renee Shelby, Ambrose Slone, Daniel Smilkov, David R. So, Daniel Sohn, Simon Tokumine, Dasha Valter, Vijay Vasudevan, Kiran Vodrahalli, Xuezhi Wang, Pidong Wang, Zirui Wang, Tao Wang, John Wieting, Yuhuai Wu, Kelvin Xu, Yunhan Xu, Linting Xue, Pengcheng Yin, Jiahui Yu, Qiao Zhang, Steven Zheng, Ce Zheng, Weikang Zhou, Denny Zhou, Slav Petrov, Yonghui Wu, 17-05-2023
+43. [PaLM 2 Technical Report](http://arxiv.org/abs/2305.10403v3), Rohan Anil, Andrew M. Dai, Orhan Firat, Melvin Johnson, Dmitry Lepikhin, Alexandre Passos, Siamak Shakeri, Emanuel Taropa, Paige Bailey, Zhifeng Chen, Eric Chu, Jonathan H. Clark, Laurent El Shafey, Yanping Huang, Kathy Meier-Hellstern, Gaurav Mishra, Erica Moreira, Mark Omernick, Kevin Robinson, Sebastian Ruder, Yi Tay, Kefan Xiao, Yuanzhong Xu, Yujing Zhang, Gustavo Hernandez Abrego, Junwhan Ahn, Jacob Austin, Paul Barham, Jan Botha, James Bradbury, Siddhartha Brahma, Kevin Brooks, Michele Catasta, Yong Cheng, Colin Cherry, Christopher A. Choquette-Choo, Aakanksha Chowdhery, Clément Crepy, Shachi Dave, Mostafa Dehghani, Sunipa Dev, Jacob Devlin, Mark Díaz, Nan Du, Ethan Dyer, Vlad Feinberg, Fangxiaoyu Feng, Vlad Fienber, Markus Freitag, Xavier Garcia, Sebastian Gehrmann, Lucas Gonzalez, Guy Gur-Ari, Steven Hand, Hadi Hashemi, Le Hou, Joshua Howland, Andrea Hu, Jeffrey Hui, Jeremy Hurwitz, Michael Isard, Abe Ittycheriah, Matthew Jagielski, Wenhao Jia, Kathleen Kenealy, Maxim Krikun, Sneha Kudugunta, Chang Lan, Katherine Lee, Benjamin Lee, Eric Li, Music Li, Wei Li, YaGuang Li, Jian Li, Hyeontaek Lim, Hanzhao Lin, Zhongtao Liu, Frederick Liu, Marcello Maggioni, Aroma Mahendru, Joshua Maynez, Vedant Misra, Maysam Moussalem, Zachary Nado, John Nham, Eric Ni, Andrew Nystrom, Alicia Parrish, Marie Pellat, Martin Polacek, Alex Polozov, Reiner Pope, Siyuan Qiao, Emily Reif, Bryan Richter, Parker Riley, Alex Castro Ros, Aurko Roy, Brennan Saeta, Rajkumar Samuel, Renee Shelby, Ambrose Slone, Daniel Smilkov, David R. So, Daniel Sohn, Simon Tokumine, Dasha Valter, Vijay Vasudevan, Kiran Vodrahalli, Xuezhi Wang, Pidong Wang, Zirui Wang, Tao Wang, John Wieting, Yuhuai Wu, Kelvin Xu, Yunhan Xu, Linting Xue, Pengcheng Yin, Jiahui Yu, Qiao Zhang, Steven Zheng, Ce Zheng, Weikang Zhou, Denny Zhou, Slav Petrov, Yonghui Wu, 17-05-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -3470,7 +3463,7 @@ not expect the performance of user-facing products to exactly match the results
 reported in this report.
 
 
-7. [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](http://arxiv.org/abs/2305.10601v2), Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas L. Griffiths, Yuan Cao, Karthik Narasimhan, 17-05-2023
+44. [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](http://arxiv.org/abs/2305.10601v2), Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas L. Griffiths, Yuan Cao, Karthik Narasimhan, 17-05-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -3494,7 +3487,7 @@ tasks, our method achieved a success rate of 74%. Code repo with all prompts:
 https://github.com/princeton-nlp/tree-of-thought-llm.
 
 
-7. [LIMA: Less Is More for Alignment](http://arxiv.org/abs/2305.11206v1), Chunting Zhou, Pengfei Liu, Puxin Xu, Srini Iyer, Jiao Sun, Yuning Mao, Xuezhe Ma, Avia Efrat, Ping Yu, Lili Yu, Susan Zhang, Gargi Ghosh, Mike Lewis, Luke Zettlemoyer, Omer Levy, 18-05-2023
+45. [LIMA: Less Is More for Alignment](http://arxiv.org/abs/2305.11206v1), Chunting Zhou, Pengfei Liu, Puxin Xu, Srini Iyer, Jiao Sun, Yuning Mao, Xuezhe Ma, Avia Efrat, Ping Yu, Lili Yu, Susan Zhang, Gargi Ghosh, Mike Lewis, Luke Zettlemoyer, Omer Levy, 18-05-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -3518,7 +3511,7 @@ language models is learned during pretraining, and only limited instruction
 tuning data is necessary to teach models to produce high quality output.
 
 
-7. [Reasoning Implicit Sentiment with Chain-of-Thought Prompting](http://arxiv.org/abs/2305.11255v4), Hao Fei, Bobo Li, Qian Liu, Lidong Bing, Fei Li, Tat-Seng Chua, 18-05-2023
+46. [Reasoning Implicit Sentiment with Chain-of-Thought Prompting](http://arxiv.org/abs/2305.11255v4), Hao Fei, Bobo Li, Qian Liu, Lidong Bing, Fei Li, Tat-Seng Chua, 18-05-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -3537,7 +3530,7 @@ F1 on zero-shot setting. Our code is open at
 https://github.com/scofield7419/THOR-ISA.
 
 
-7. [Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study](http://arxiv.org/abs/2305.13860v1), Yi Liu, Gelei Deng, Zhengzi Xu, Yuekang Li, Yaowen Zheng, Ying Zhang, Lida Zhao, Tianwei Zhang, Yang Liu, 23-05-2023
+47. [Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study](http://arxiv.org/abs/2305.13860v1), Yi Liu, Gelei Deng, Zhengzi Xu, Yuekang Li, Yaowen Zheng, Ying Zhang, Lida Zhao, Tianwei Zhang, Yang Liu, 23-05-2023
      ### Categories
      Artificial Intelligence, Computation and Language
     ### Abstract
@@ -3558,7 +3551,7 @@ jailbreaking LLMs and discusses the challenges of robust jailbreak prompt
 generation and prevention.
 
 
-7. [QLoRA: Efficient Finetuning of Quantized LLMs](http://arxiv.org/abs/2305.14314v1), Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, Luke Zettlemoyer, 23-05-2023
+48. [QLoRA: Efficient Finetuning of Quantized LLMs](http://arxiv.org/abs/2305.14314v1), Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, Luke Zettlemoyer, 23-05-2023
      ### Categories
      Machine Learning
     ### Abstract
@@ -3589,7 +3582,7 @@ ChatGPT. We release all of our models and code, including CUDA kernels for
 4-bit training.
 
 
-7. [The CoT Collection: Improving Zero-shot and Few-shot Learning of
+49. [The CoT Collection: Improving Zero-shot and Few-shot Learning of
   Language Models via Chain-of-Thought Fine-Tuning](http://arxiv.org/abs/2305.14045v2), Seungone Kim, Se June Joo, Doyoung Kim, Joel Jang, Seonghyeon Ye, Jamin Shin, Minjoon Seo, 23-05-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -3613,7 +3606,7 @@ the max length by a +13.98% margin. Our code, the CoT Collection data, and
 model checkpoints are publicly available.
 
 
-7. [ExpertPrompting: Instructing Large Language Models to be Distinguished
+50. [ExpertPrompting: Instructing Large Language Models to be Distinguished
   Experts](http://arxiv.org/abs/2305.14688v1), Benfeng Xu, An Yang, Junyang Lin, Quan Wang, Chang Zhou, Yongdong Zhang, Zhendong Mao, 24-05-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -3634,7 +3627,7 @@ ExpertLLaMA model will be made publicly available at
 \url{https://github.com/OFA-Sys/ExpertLLaMA}.
 
 
-7. [Reasoning with Language Model is Planning with World Model](http://arxiv.org/abs/2305.14992v2), Shibo Hao, Yi Gu, Haodi Ma, Joshua Jiahua Hong, Zhen Wang, Daisy Zhe Wang, Zhiting Hu, 24-05-2023
+51. [Reasoning with Language Model is Planning with World Model](http://arxiv.org/abs/2305.14992v2), Shibo Hao, Yi Gu, Haodi Ma, Joshua Jiahua Hong, Zhen Wang, Daisy Zhe Wang, Zhiting Hu, 24-05-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -3665,7 +3658,7 @@ with self-consistency. RAP on LLAMA-33B surpasses CoT on GPT-4 with 33%
 relative improvement in a plan generation setting.
 
 
-7. [SPRING: Studying the Paper and Reasoning to Play Games](http://arxiv.org/abs/2305.15486v3), Yue Wu, Shrimai Prabhumoye, So Yeon Min, Yonatan Bisk, Ruslan Salakhutdinov, Amos Azaria, Tom Mitchell, Yuanzhi Li, 24-05-2023
+52. [SPRING: Studying the Paper and Reasoning to Play Games](http://arxiv.org/abs/2305.15486v3), Yue Wu, Shrimai Prabhumoye, So Yeon Min, Yonatan Bisk, Ruslan Salakhutdinov, Amos Azaria, Tom Mitchell, Yuanzhi Li, 24-05-2023
      ### Categories
      Artificial Intelligence, Machine Learning
     ### Abstract
@@ -3690,7 +3683,7 @@ outperforms all state-of-the-art RL baselines, trained for 1M steps, without
 any training. Finally, we show the potential of games as a test bed for LLMs.
 
 
-7. [MultiTool-CoT: GPT-3 Can Use Multiple External Tools with Chain of
+53. [MultiTool-CoT: GPT-3 Can Use Multiple External Tools with Chain of
   Thought Prompting](http://arxiv.org/abs/2305.16896v1), Tatsuro Inaba, Hirokazu Kiyomaru, Fei Cheng, Sadao Kurohashi, 26-05-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -3705,7 +3698,7 @@ knowledge. The experiments show that our method significantly outperforms
 strong baselines and achieves state-of-the-art performance.
 
 
-7. [Tab-CoT: Zero-shot Tabular Chain of Thought](http://arxiv.org/abs/2305.17812v1), Ziqi Jin, Wei Lu, 28-05-2023
+54. [Tab-CoT: Zero-shot Tabular Chain of Thought](http://arxiv.org/abs/2305.17812v1), Ziqi Jin, Wei Lu, 28-05-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -3723,7 +3716,7 @@ and few-shot capabilities through extensive experiments on a range of reasoning
 tasks.
 
 
-7. [Less Likely Brainstorming: Using Language Models to Generate Alternative
+55. [Less Likely Brainstorming: Using Language Models to Generate Alternative
   Hypotheses](http://arxiv.org/abs/2305.19339v1), Liyan Tang, Yifan Peng, Yanshan Wang, Ying Ding, Greg Durrett, Justin F. Rousseau, 30-05-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -3748,7 +3741,7 @@ generation models via automatic and human evaluations and show that our models'
 capability of generating less likely outputs is improved.
 
 
-7. [Chain-Of-Thought Prompting Under Streaming Batch: A Case Study](http://arxiv.org/abs/2306.00550v1), Yuxin Tang, 01-06-2023
+56. [Chain-Of-Thought Prompting Under Streaming Batch: A Case Study](http://arxiv.org/abs/2306.00550v1), Yuxin Tang, 01-06-2023
      ### Categories
      Machine Learning, Artificial Intelligence, Computation and Language
     ### Abstract
@@ -3763,7 +3756,7 @@ case study on how to construct and optimize chain-of-thought prompting using
 batch data in streaming settings.
 
 
-7. [ReviewerGPT? An Exploratory Study on Using Large Language Models for
+57. [ReviewerGPT? An Exploratory Study on Using Large Language Models for
   Paper Reviewing](http://arxiv.org/abs/2306.00622v1), Ryan Liu, Nihar B. Shah, 01-06-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -3792,7 +3785,7 @@ reviewing assistants for specific reviewing tasks, but not (yet) for complete
 evaluations of papers or proposals.
 
 
-7. [The RefinedWeb Dataset for Falcon LLM: Outperforming Curated Corpora
+58. [The RefinedWeb Dataset for Falcon LLM: Outperforming Curated Corpora
   with Web Data, and Web Data Only](http://arxiv.org/abs/2306.01116v1), Guilherme Penedo, Quentin Malartic, Daniel Hesslow, Ruxandra Cojocaru, Alessandro Cappelli, Hamza Alobeidli, Baptiste Pannier, Ebtesam Almazrouei, Julien Launay, 01-06-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -3812,7 +3805,7 @@ CommonCrawl. We publicly release an extract of 600 billion tokens from our
 RefinedWeb dataset, and 1.3/7.5B parameters language models trained on it.
 
 
-7. [When Large Language Model based Agent Meets User Behavior Analysis: A
+59. [When Large Language Model based Agent Meets User Behavior Analysis: A
   Novel User Simulation Paradigm](http://arxiv.org/abs/2306.02552v2), Lei Wang, Jingsen Zhang, Hao Yang, Zhiyuan Chen, Jiakai Tang, Zeyu Zhang, Xu Chen, Yankai Lin, Ruihua Song, Wayne Xin Zhao, Jun Xu, Zhicheng Dou, Jun Wang, Ji-Rong Wen, 05-06-2023
      ### Categories
      Artificial Intelligence
@@ -3844,7 +3837,7 @@ to advance this direction, we have released our project at
 {https://github.com/RUC-GSAI/YuLan-Rec}.
 
 
-7. [Mind2Web: Towards a Generalist Agent for the Web](http://arxiv.org/abs/2306.06070v3), Xiang Deng, Yu Gu, Boyuan Zheng, Shijie Chen, Samuel Stevens, Boshi Wang, Huan Sun, Yu Su, 09-06-2023
+60. [Mind2Web: Towards a Generalist Agent for the Web](http://arxiv.org/abs/2306.06070v3), Xiang Deng, Yu Gu, Boyuan Zheng, Shijie Chen, Samuel Stevens, Boshi Wang, Huan Sun, Yu Su, 09-06-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -3869,7 +3862,7 @@ trained models (https://osu-nlp-group.github.io/Mind2Web) to facilitate further
 research on building a generalist agent for the web.
 
 
-7. [Recursion of Thought: A Divide-and-Conquer Approach to Multi-Context
+61. [Recursion of Thought: A Divide-and-Conquer Approach to Multi-Context
   Reasoning with Language Models](http://arxiv.org/abs/2306.06891v1), Soochan Lee, Gunhee Kim, 12-06-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -3887,7 +3880,7 @@ show that RoT dramatically improves LMs' inference capability to solve
 problems, whose solution consists of hundreds of thousands of tokens.
 
 
-7. [Textbooks Are All You Need](http://arxiv.org/abs/2306.11644v2), Suriya Gunasekar, Yi Zhang, Jyoti Aneja, Caio César Teodoro Mendes, Allie Del Giorno, Sivakanth Gopi, Mojan Javaheripi, Piero Kauffmann, Gustavo de Rosa, Olli Saarikivi, Adil Salim, Shital Shah, Harkirat Singh Behl, Xin Wang, Sébastien Bubeck, Ronen Eldan, Adam Tauman Kalai, Yin Tat Lee, Yuanzhi Li, 20-06-2023
+62. [Textbooks Are All You Need](http://arxiv.org/abs/2306.11644v2), Suriya Gunasekar, Yi Zhang, Jyoti Aneja, Caio César Teodoro Mendes, Allie Del Giorno, Sivakanth Gopi, Mojan Javaheripi, Piero Kauffmann, Gustavo de Rosa, Olli Saarikivi, Adil Salim, Shital Shah, Harkirat Singh Behl, Xin Wang, Sébastien Bubeck, Ronen Eldan, Adam Tauman Kalai, Yin Tat Lee, Yuanzhi Li, 20-06-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -3903,7 +3896,7 @@ model with 350M parameters trained with the same pipeline as phi-1 that still
 achieves 45% on HumanEval.
 
 
-7. [Large Language Models Understand and Can be Enhanced by Emotional
+63. [Large Language Models Understand and Can be Enhanced by Emotional
   Stimuli](http://arxiv.org/abs/2307.11760v7), Cheng Li, Jindong Wang, Yixuan Zhang, Kaijie Zhu, Wenxin Hou, Jianxun Lian, Fang Luo, Qiang Yang, Xing Xie, 14-07-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -3935,7 +3928,7 @@ heralds a novel avenue for exploring interdisciplinary knowledge for human-LLMs
 interaction.
 
 
-7. [Llama 2: Open Foundation and Fine-Tuned Chat Models](http://arxiv.org/abs/2307.09288v2), Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, Dan Bikel, Lukas Blecher, Cristian Canton Ferrer, Moya Chen, Guillem Cucurull, David Esiobu, Jude Fernandes, Jeremy Fu, Wenyin Fu, Brian Fuller, Cynthia Gao, Vedanuj Goswami, Naman Goyal, Anthony Hartshorn, Saghar Hosseini, Rui Hou, Hakan Inan, Marcin Kardas, Viktor Kerkez, Madian Khabsa, Isabel Kloumann, Artem Korenev, Punit Singh Koura, Marie-Anne Lachaux, Thibaut Lavril, Jenya Lee, Diana Liskovich, Yinghai Lu, Yuning Mao, Xavier Martinet, Todor Mihaylov, Pushkar Mishra, Igor Molybog, Yixin Nie, Andrew Poulton, Jeremy Reizenstein, Rashi Rungta, Kalyan Saladi, Alan Schelten, Ruan Silva, Eric Michael Smith, Ranjan Subramanian, Xiaoqing Ellen Tan, Binh Tang, Ross Taylor, Adina Williams, Jian Xiang Kuan, Puxin Xu, Zheng Yan, Iliyan Zarov, Yuchen Zhang, Angela Fan, Melanie Kambadur, Sharan Narang, Aurelien Rodriguez, Robert Stojnic, Sergey Edunov, Thomas Scialom, 18-07-2023
+64. [Llama 2: Open Foundation and Fine-Tuned Chat Models](http://arxiv.org/abs/2307.09288v2), Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, Dan Bikel, Lukas Blecher, Cristian Canton Ferrer, Moya Chen, Guillem Cucurull, David Esiobu, Jude Fernandes, Jeremy Fu, Wenyin Fu, Brian Fuller, Cynthia Gao, Vedanuj Goswami, Naman Goyal, Anthony Hartshorn, Saghar Hosseini, Rui Hou, Hakan Inan, Marcin Kardas, Viktor Kerkez, Madian Khabsa, Isabel Kloumann, Artem Korenev, Punit Singh Koura, Marie-Anne Lachaux, Thibaut Lavril, Jenya Lee, Diana Liskovich, Yinghai Lu, Yuning Mao, Xavier Martinet, Todor Mihaylov, Pushkar Mishra, Igor Molybog, Yixin Nie, Andrew Poulton, Jeremy Reizenstein, Rashi Rungta, Kalyan Saladi, Alan Schelten, Ruan Silva, Eric Michael Smith, Ranjan Subramanian, Xiaoqing Ellen Tan, Binh Tang, Ross Taylor, Adina Williams, Jian Xiang Kuan, Puxin Xu, Zheng Yan, Iliyan Zarov, Yuchen Zhang, Angela Fan, Melanie Kambadur, Sharan Narang, Aurelien Rodriguez, Robert Stojnic, Sergey Edunov, Thomas Scialom, 18-07-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -3950,7 +3943,7 @@ Llama 2-Chat in order to enable the community to build on our work and
 contribute to the responsible development of LLMs.
 
 
-7. [A Real-World WebAgent with Planning, Long Context Understanding, and
+65. [A Real-World WebAgent with Planning, Long Context Understanding, and
   Program Synthesis](http://arxiv.org/abs/2307.12856v3), Izzeddin Gur, Hiroki Furuta, Austin Huang, Mustafa Safdari, Yutaka Matsuo, Douglas Eck, Aleksandra Faust, 24-07-2023
      ### Categories
      Machine Learning, Artificial Intelligence, Computation and Language
@@ -3974,7 +3967,7 @@ than the prior method on MiniWoB web automation benchmark, and SoTA performance
 on Mind2Web, an offline task planning evaluation.
 
 
-7. [WebArena: A Realistic Web Environment for Building Autonomous Agents](http://arxiv.org/abs/2307.13854v3), Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, Graham Neubig, 25-07-2023
+66. [WebArena: A Realistic Web Environment for Building Autonomous Agents](http://arxiv.org/abs/2307.13854v3), Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, Graham Neubig, 25-07-2023
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
     ### Abstract
@@ -4002,7 +3995,7 @@ perfect performance in these real-life tasks, and that WebArena can be used to
 measure such progress.
 
 
-7. [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](http://arxiv.org/abs/2308.00352v5), Sirui Hong, Mingchen Zhuge, Jonathan Chen, Xiawu Zheng, Yuheng Cheng, Ceyao Zhang, Jinlin Wang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, Chenyu Ran, Lingfeng Xiao, Chenglin Wu, Jürgen Schmidhuber, 01-08-2023
+67. [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](http://arxiv.org/abs/2308.00352v5), Sirui Hong, Mingchen Zhuge, Jonathan Chen, Xiawu Zheng, Yuheng Cheng, Ceyao Zhang, Jinlin Wang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, Chenyu Ran, Lingfeng Xiao, Chenglin Wu, Jürgen Schmidhuber, 01-08-2023
      ### Categories
      Artificial Intelligence
     ### Abstract
@@ -4023,7 +4016,7 @@ solutions than previous chat-based multi-agent systems. Our project can be
 found at https://github.com/geekan/MetaGPT
 
 
-7. [Evaluating ChatGPT text-mining of clinical records for obesity
+68. [Evaluating ChatGPT text-mining of clinical records for obesity
   monitoring](http://arxiv.org/abs/2308.01666v1), Ivo S. Fins, Heather Davies, Sean Farrell, Jose R. Torres, Gina Pinchbeck, Alan D. Radford, Peter-John Noble, 03-08-2023
      ### Categories
      Computation and Language
@@ -4044,7 +4037,7 @@ diverse opportunities and, whilst complex, present an intuitive interface to
 information but require careful implementation to avoid unpredictable errors.
 
 
-7. [Cumulative Reasoning with Large Language Models](http://arxiv.org/abs/2308.04371v5), Yifan Zhang, Jingqin Yang, Yang Yuan, Andrew Chi-Chih Yao, 08-08-2023
+69. [Cumulative Reasoning with Large Language Models](http://arxiv.org/abs/2308.04371v5), Yifan Zhang, Jingqin Yang, Yang Yuan, Andrew Chi-Chih Yao, 08-08-2023
      ### Categories
      Artificial Intelligence
     ### Abstract
@@ -4072,7 +4065,7 @@ outperforming the PAL method with 38.8% relative improvement. Code is available
 at https://github.com/iiis-ai/cumulative-reasoning.
 
 
-7. [You Only Prompt Once: On the Capabilities of Prompt Learning on Large
+70. [You Only Prompt Once: On the Capabilities of Prompt Learning on Large
   Language Models to Tackle Toxic Content](http://arxiv.org/abs/2308.05596v1), Xinlei He, Savvas Zannettou, Yun Shen, Yang Zhang, 10-08-2023
      ### Categories
      Computation and Language
@@ -4100,7 +4093,7 @@ detoxification task, we find that prompt learning can successfully reduce the
 average toxicity score (from 0.775 to 0.213) while preserving semantic meaning.
 
 
-7. [Large Language Models as Optimizers](http://arxiv.org/abs/2309.03409v2), Chengrun Yang, Xuezhi Wang, Yifeng Lu, Hanxiao Liu, Quoc V. Le, Denny Zhou, Xinyun Chen, 07-09-2023
+71. [Large Language Models as Optimizers](http://arxiv.org/abs/2309.03409v2), Chengrun Yang, Xuezhi Wang, Yifeng Lu, Hanxiao Liu, Quoc V. Le, Denny Zhou, Xinyun Chen, 07-09-2023
      ### Categories
      Machine Learning, Artificial Intelligence, Computation and Language
     ### Abstract
@@ -4120,7 +4113,7 @@ prompts by up to 8% on GSM8K, and by up to 50% on Big-Bench Hard tasks. Code at
 https://github.com/google-deepmind/opro.
 
 
-7. [Large Language Models as Optimizers](http://arxiv.org/abs/2309.03409v2), Chengrun Yang, Xuezhi Wang, Yifeng Lu, Hanxiao Liu, Quoc V. Le, Denny Zhou, Xinyun Chen, 07-09-2023
+72. [Large Language Models as Optimizers](http://arxiv.org/abs/2309.03409v2), Chengrun Yang, Xuezhi Wang, Yifeng Lu, Hanxiao Liu, Quoc V. Le, Denny Zhou, Xinyun Chen, 07-09-2023
      ### Categories
      Machine Learning, Artificial Intelligence, Computation and Language
     ### Abstract
@@ -4140,7 +4133,7 @@ prompts by up to 8% on GSM8K, and by up to 50% on Big-Bench Hard tasks. Code at
 https://github.com/google-deepmind/opro.
 
 
-7. [From Sparse to Dense: GPT-4 Summarization with Chain of Density
+73. [From Sparse to Dense: GPT-4 Summarization with Chain of Density
   Prompting](http://arxiv.org/abs/2309.04269v1), Griffin Adams, Alexander Fabbri, Faisal Ladhak, Eric Lehman, Noémie Elhadad, 08-09-2023
      ### Categories
      Computation and Language
@@ -4163,7 +4156,7 @@ available on HuggingFace
 (https://huggingface.co/datasets/griffin/chain_of_density).
 
 
-7. [Textbooks Are All You Need II: phi-1.5 technical report](http://arxiv.org/abs/2309.05463v1), Yuanzhi Li, Sébastien Bubeck, Ronen Eldan, Allie Del Giorno, Suriya Gunasekar, Yin Tat Lee, 11-09-2023
+74. [Textbooks Are All You Need II: phi-1.5 technical report](http://arxiv.org/abs/2309.05463v1), Yuanzhi Li, Sébastien Bubeck, Ronen Eldan, Allie Del Giorno, Suriya Gunasekar, Yin Tat Lee, 11-09-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -4188,7 +4181,7 @@ open-source \textbf{phi-1.5} to promote further research on these urgent
 topics.
 
 
-7. [Query-Dependent Prompt Evaluation and Optimization with Offline Inverse
+75. [Query-Dependent Prompt Evaluation and Optimization with Offline Inverse
   RL](http://arxiv.org/abs/2309.06553v3), Hao Sun, Alihan Hüyük, Mihaela van der Schaar, 13-09-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -4213,7 +4206,7 @@ datasets underscore both the efficacy and economic viability of the proposed
 approach.
 
 
-7. [Agents: An Open-source Framework for Autonomous Language Agents](http://arxiv.org/abs/2309.07870v3), Wangchunshu Zhou, Yuchen Eleanor Jiang, Long Li, Jialong Wu, Tiannan Wang, Shi Qiu, Jintian Zhang, Jing Chen, Ruipu Wu, Shuai Wang, Shiding Zhu, Jiyu Chen, Wentao Zhang, Xiangru Tang, Ningyu Zhang, Huajun Chen, Peng Cui, Mrinmaya Sachan, 14-09-2023
+76. [Agents: An Open-source Framework for Autonomous Language Agents](http://arxiv.org/abs/2309.07870v3), Wangchunshu Zhou, Yuchen Eleanor Jiang, Long Li, Jialong Wu, Tiannan Wang, Shi Qiu, Jintian Zhang, Jing Chen, Ruipu Wu, Shuai Wang, Shiding Zhu, Jiyu Chen, Wentao Zhang, Xiangru Tang, Ningyu Zhang, Huajun Chen, Peng Cui, Mrinmaya Sachan, 14-09-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -4232,7 +4225,7 @@ research-friendly as its modularized design makes it easily extensible for
 researchers. Agents is available at https://github.com/aiwaves-cn/agents.
 
 
-7. [Clinical Text Summarization: Adapting Large Language Models Can
+77. [Clinical Text Summarization: Adapting Large Language Models Can
   Outperform Human Experts](http://arxiv.org/abs/2309.07430v3), Dave Van Veen, Cara Van Uden, Louis Blankemeier, Jean-Benoit Delbrouck, Asad Aali, Christian Bluethgen, Anuj Pareek, Malgorzata Polacin, Eduardo Pontes Reis, Anna Seehofnerova, Nidhi Rohatgi, Poonam Hosamani, William Collins, Neera Ahuja, Curtis P. Langlotz, Jason Hom, Sergios Gatidis, John Pauly, Akshay S. Chaudhari, 14-09-2023
      ### Categories
      Computation and Language
@@ -4260,7 +4253,7 @@ empowering clinicians to focus more on personalized patient care and the
 inherently human aspects of medicine.
 
 
-7. [The Rise and Potential of Large Language Model Based Agents: A Survey](http://arxiv.org/abs/2309.07864v3), Zhiheng Xi, Wenxiang Chen, Xin Guo, Wei He, Yiwen Ding, Boyang Hong, Ming Zhang, Junzhe Wang, Senjie Jin, Enyu Zhou, Rui Zheng, Xiaoran Fan, Xiao Wang, Limao Xiong, Yuhao Zhou, Weiran Wang, Changhao Jiang, Yicheng Zou, Xiangyang Liu, Zhangyue Yin, Shihan Dou, Rongxiang Weng, Wensen Cheng, Qi Zhang, Wenjuan Qin, Yongyan Zheng, Xipeng Qiu, Xuanjing Huang, Tao Gui, 14-09-2023
+78. [The Rise and Potential of Large Language Model Based Agents: A Survey](http://arxiv.org/abs/2309.07864v3), Zhiheng Xi, Wenxiang Chen, Xin Guo, Wei He, Yiwen Ding, Boyang Hong, Ming Zhang, Junzhe Wang, Senjie Jin, Enyu Zhou, Rui Zheng, Xiaoran Fan, Xiao Wang, Limao Xiong, Yuhao Zhou, Weiran Wang, Changhao Jiang, Yicheng Zou, Xiangyang Liu, Zhangyue Yin, Shihan Dou, Rongxiang Weng, Wensen Cheng, Qi Zhang, Wenjuan Qin, Yongyan Zheng, Xipeng Qiu, Xuanjing Huang, Tao Gui, 14-09-2023
      ### Categories
      Artificial Intelligence, Computation and Language
     ### Abstract
@@ -4292,7 +4285,7 @@ the field. A repository for the related papers at
 https://github.com/WooooDyy/LLM-Agent-Paper-List.
 
 
-7. [Connecting Large Language Models with Evolutionary Algorithms Yields
+79. [Connecting Large Language Models with Evolutionary Algorithms Yields
   Powerful Prompt Optimizers](http://arxiv.org/abs/2309.08532v1), Qingyan Guo, Rui Wang, Junliang Guo, Bei Li, Kaitao Song, Xu Tan, Guoqing Liu, Jiang Bian, Yujiu Yang, 15-09-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -4318,7 +4311,7 @@ creates synergies, which could inspire further research on the combination of
 LLMs and conventional algorithms.
 
 
-7. [PDFTriage: Question Answering over Long, Structured Documents](http://arxiv.org/abs/2309.08872v2), Jon Saad-Falcon, Joe Barrow, Alexa Siu, Ani Nenkova, David Seunghyun Yoon, Ryan A. Rossi, Franck Dernoncourt, 16-09-2023
+80. [PDFTriage: Question Answering over Long, Structured Documents](http://arxiv.org/abs/2309.08872v2), Jon Saad-Falcon, Joe Barrow, Alexa Siu, Ani Nenkova, David Seunghyun Yoon, Ryan A. Rossi, Franck Dernoncourt, 16-09-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -4343,7 +4336,7 @@ categories of question types for document QA. Our code and datasets will be
 released soon on Github.
 
 
-7. [OWL: A Large Language Model for IT Operations](http://arxiv.org/abs/2309.09298v1), Hongcheng Guo, Jian Yang, Jiaheng Liu, Liqun Yang, Linzheng Chai, Jiaqi Bai, Junran Peng, Xiaorong Hu, Chao Chen, Dongfeng Zhang, Xu Shi, Tieqiao Zheng, Liangfan Zheng, Bo Zhang, Ke Xu, Zhoujun Li, 17-09-2023
+81. [OWL: A Large Language Model for IT Operations](http://arxiv.org/abs/2309.09298v1), Hongcheng Guo, Jian Yang, Jiaheng Liu, Liqun Yang, Linzheng Chai, Jiaqi Bai, Junran Peng, Xiaorong Hu, Chao Chen, Dongfeng Zhang, Xu Shi, Tieqiao Zheng, Liangfan Zheng, Bo Zhang, Ke Xu, Zhoujun Li, 17-09-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -4365,7 +4358,7 @@ findings of our work will provide more insights to revolutionize the techniques
 of IT operations with specialized LLMs.
 
 
-7. [Investigating Zero- and Few-shot Generalization in Fact Verification](http://arxiv.org/abs/2309.09444v1), Liangming Pan, Yunxiang Zhang, Min-Yen Kan, 18-09-2023
+82. [Investigating Zero- and Few-shot Generalization in Fact Verification](http://arxiv.org/abs/2309.09444v1), Liangming Pan, Yunxiang Zhang, Min-Yen Kan, 18-09-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -4382,7 +4375,7 @@ of claims. Finally, we show that two directions of work improve generalization:
 2) automatically generating training data via claim generation.
 
 
-7. [LLM4Jobs: Unsupervised occupation extraction and standardization
+83. [LLM4Jobs: Unsupervised occupation extraction and standardization
   leveraging Large Language Models](http://arxiv.org/abs/2309.09708v2), Nan Li, Bo Kang, Tijl De Bie, 18-09-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -4404,7 +4397,7 @@ robust and adaptable framework relevant to both research and industrial
 contexts.
 
 
-7. [MindAgent: Emergent Gaming Interaction](http://arxiv.org/abs/2309.09971v2), Ran Gong, Qiuyuan Huang, Xiaojian Ma, Hoi Vo, Zane Durante, Yusuke Noda, Zilong Zheng, Song-Chun Zhu, Demetri Terzopoulos, Li Fei-Fei, Jianfeng Gao, 18-09-2023
+84. [MindAgent: Emergent Gaming Interaction](http://arxiv.org/abs/2309.09971v2), Ran Gong, Qiuyuan Huang, Xiaojian Ma, Hoi Vo, Zane Durante, Yusuke Noda, Zilong Zheng, Song-Chun Zhu, Demetri Terzopoulos, Li Fei-Fei, Jianfeng Gao, 18-09-2023
      ### Categories
      Artificial Intelligence
     ### Abstract
@@ -4431,7 +4424,7 @@ can help shed light on how such skills can be obtained by learning from large
 language corpora.
 
 
-7. [PolicyGPT: Automated Analysis of Privacy Policies with Large Language
+85. [PolicyGPT: Automated Analysis of Privacy Policies with Large Language
   Models](http://arxiv.org/abs/2309.10238v1), Chenhao Tang, Zhengliang Liu, Chong Ma, Zihao Wu, Yiwei Li, Wei Liu, Dajiang Zhu, Quanzheng Li, Xiang Li, Tianming Liu, Lei Fan, 19-09-2023
      ### Categories
      Computation and Language
@@ -4457,7 +4450,7 @@ an 87% accuracy rate, surpassing that of the baseline machine learning and
 neural network models.
 
 
-7. [Prompt, Condition, and Generate: Classification of Unsupported Claims
+86. [Prompt, Condition, and Generate: Classification of Unsupported Claims
   with In-Context Learning](http://arxiv.org/abs/2309.10359v1), Peter Ebert Christensen, Srishti Yadav, Serge Belongie, 19-09-2023
      ### Categories
      Computation and Language
@@ -4477,7 +4470,7 @@ infer the stance and aspect using a few training examples. Such a model can be
 useful in applications which rely on narratives , e.g. fact-checking.
 
 
-7. [Chain-of-Verification Reduces Hallucination in Large Language Models](http://arxiv.org/abs/2309.11495v2), Shehzaad Dhuliawala, Mojtaba Komeili, Jing Xu, Roberta Raileanu, Xian Li, Asli Celikyilmaz, Jason Weston, 20-09-2023
+87. [Chain-of-Verification Reduces Hallucination in Large Language Models](http://arxiv.org/abs/2309.11495v2), Shehzaad Dhuliawala, Mojtaba Komeili, Jing Xu, Roberta Raileanu, Xian Li, Asli Celikyilmaz, Jason Weston, 20-09-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -4493,7 +4486,7 @@ hallucinations across a variety of tasks, from list-based questions from
 Wikidata, closed book MultiSpanQA and longform text generation.
 
 
-7. [OpenChat: Advancing Open-source Language Models with Mixed-Quality Data](http://arxiv.org/abs/2309.11235v1), Guan Wang, Sijie Cheng, Xianyuan Zhan, Xiangang Li, Sen Song, Yang Liu, 20-09-2023
+88. [OpenChat: Advancing Open-source Language Models with Mixed-Quality Data](http://arxiv.org/abs/2309.11235v1), Guan Wang, Sijie Cheng, Xianyuan Zhan, Xiangang Li, Sen Song, Yang Liu, 20-09-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -4520,7 +4513,7 @@ of OpenChat. Our code, data, and models are publicly available at
 https://github.com/imoneoi/openchat.
 
 
-7. [Large Language Model Alignment: A Survey](http://arxiv.org/abs/2309.15025v1), Tianhao Shen, Renren Jin, Yufei Huang, Chuang Liu, Weilong Dong, Zishan Guo, Xinwei Wu, Yan Liu, Deyi Xiong, 26-09-2023
+89. [Large Language Model Alignment: A Survey](http://arxiv.org/abs/2309.15025v1), Tianhao Shen, Renren Jin, Yufei Huang, Chuang Liu, Weilong Dong, Zishan Guo, Xinwei Wu, Yan Liu, Deyi Xiong, 26-09-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -4547,7 +4540,7 @@ alignment research community and the researchers engrossed in the capability
 exploration of LLMs for both capable and safe LLMs.
 
 
-7. [AutoAgents: A Framework for Automatic Agent Generation](http://arxiv.org/abs/2309.17288v2), Guangyao Chen, Siwei Dong, Yu Shu, Ge Zhang, Jaward Sesay, Börje F. Karlsson, Jie Fu, Yemin Shi, 29-09-2023
+90. [AutoAgents: A Framework for Automatic Agent Generation](http://arxiv.org/abs/2309.17288v2), Guangyao Chen, Siwei Dong, Yu Shu, Ge Zhang, Jaward Sesay, Börje F. Karlsson, Jie Fu, Yemin Shi, 29-09-2023
      ### Categories
      Artificial Intelligence
     ### Abstract
@@ -4571,7 +4564,7 @@ new perspectives for tackling complex tasks. The repository of this project is
 available at https://github.com/Link-AGI/AutoAgents.
 
 
-7. [SmartPlay: A Benchmark for LLMs as Intelligent Agents](http://arxiv.org/abs/2310.01557v3), Yue Wu, Xuan Tang, Tom M. Mitchell, Yuanzhi Li, 02-10-2023
+91. [SmartPlay: A Benchmark for LLMs as Intelligent Agents](http://arxiv.org/abs/2310.01557v3), Yue Wu, Xuan Tang, Tom M. Mitchell, Yuanzhi Li, 02-10-2023
      ### Categories
      Machine Learning, Artificial Intelligence
     ### Abstract
@@ -4592,7 +4585,7 @@ agents but also as a road-map for identifying gaps in current methodologies. We
 release our benchmark at github.com/microsoft/SmartPlay
 
 
-7. [Can large language models provide useful feedback on research papers? A
+92. [Can large language models provide useful feedback on research papers? A
   large-scale empirical analysis](http://arxiv.org/abs/2310.01783v1), Weixin Liang, Yuhui Zhang, Hancheng Cao, Binglu Wang, Daisy Ding, Xinyu Yang, Kailas Vodrahalli, Siyu He, Daniel Smith, Yian Yin, Daniel McFarland, James Zou, 03-10-2023
      ### Categories
      Machine Learning, Artificial Intelligence, Computation and Language
@@ -4624,7 +4617,7 @@ from at least some human reviewers. While our findings show that LLM-generated
 feedback can help researchers, we also identify several limitations.
 
 
-7. [Conversational Health Agents: A Personalized LLM-Powered Agent Framework](http://arxiv.org/abs/2310.02374v3), Mahyar Abbasian, Iman Azimi, Amir M. Rahmani, Ramesh Jain, 03-10-2023
+93. [Conversational Health Agents: A Personalized LLM-Powered Agent Framework](http://arxiv.org/abs/2310.02374v3), Mahyar Abbasian, Iman Azimi, Amir M. Rahmani, Ramesh Jain, 03-10-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -4648,7 +4641,7 @@ into heart rate variability, and interprets them as indicators of stress
 levels.
 
 
-7. [EcoAssistant: Using LLM Assistant More Affordably and Accurately](http://arxiv.org/abs/2310.03046v1), Jieyu Zhang, Ranjay Krishna, Ahmed H. Awadallah, Chi Wang, 03-10-2023
+94. [EcoAssistant: Using LLM Assistant More Affordably and Accurately](http://arxiv.org/abs/2310.03046v1), Jieyu Zhang, Ranjay Krishna, Ahmed H. Awadallah, Chi Wang, 03-10-2023
      ### Categories
      Artificial Intelligence
     ### Abstract
@@ -4672,7 +4665,7 @@ accuracy, surpassing GPT-4 by 10 points of success rate with less than 50% of
 GPT-4's cost.
 
 
-7. [Large Language Models Cannot Self-Correct Reasoning Yet](http://arxiv.org/abs/2310.01798v1), Jie Huang, Xinyun Chen, Swaroop Mishra, Huaixiu Steven Zheng, Adams Wei Yu, Xinying Song, Denny Zhou, 03-10-2023
+95. [Large Language Models Cannot Self-Correct Reasoning Yet](http://arxiv.org/abs/2310.01798v1), Jie Huang, Xinyun Chen, Swaroop Mishra, Huaixiu Steven Zheng, Adams Wei Yu, Xinying Song, Denny Zhou, 03-10-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -4692,7 +4685,7 @@ degrade post self-correction. Drawing from these insights, we offer suggestions
 for future research and practical applications in this field.
 
 
-7. [Large Language Models as Analogical Reasoners](http://arxiv.org/abs/2310.01714v2), Michihiro Yasunaga, Xinyun Chen, Yujia Li, Panupong Pasupat, Jure Leskovec, Percy Liang, Ed H. Chi, Denny Zhou, 03-10-2023
+96. [Large Language Models as Analogical Reasoners](http://arxiv.org/abs/2310.01714v2), Michihiro Yasunaga, Xinyun Chen, Yujia Li, Panupong Pasupat, Jure Leskovec, Percy Liang, Ed H. Chi, Denny Zhou, 03-10-2023
      ### Categories
      Machine Learning
     ### Abstract
@@ -4713,7 +4706,7 @@ GSM8K and MATH, code generation in Codeforces, and other reasoning tasks in
 BIG-Bench.
 
 
-7. [How FaR Are Large Language Models From Agents with Theory-of-Mind?](http://arxiv.org/abs/2310.03051v1), Pei Zhou, Aman Madaan, Srividya Pranavi Potharaju, Aditya Gupta, Kevin R. McKee, Ari Holtzman, Jay Pujara, Xiang Ren, Swaroop Mishra, Aida Nematzadeh, Shyam Upadhyay, Manaal Faruqui, 04-10-2023
+97. [How FaR Are Large Language Models From Agents with Theory-of-Mind?](http://arxiv.org/abs/2310.03051v1), Pei Zhou, Aman Madaan, Srividya Pranavi Potharaju, Aditya Gupta, Kevin R. McKee, Ari Holtzman, Jay Pujara, Xiang Ren, Swaroop Mishra, Aida Nematzadeh, Shyam Upadhyay, Manaal Faruqui, 04-10-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -4740,7 +4733,7 @@ ToM inferences to choose an action, consistently outperforming other methods
 including few-shot in-context learning.
 
 
-7. [Agent Instructs Large Language Models to be General Zero-Shot Reasoners](http://arxiv.org/abs/2310.03710v1), Nicholas Crispino, Kyle Montgomery, Fankun Zeng, Dawn Song, Chenguang Wang, 05-10-2023
+98. [Agent Instructs Large Language Models to be General Zero-Shot Reasoners](http://arxiv.org/abs/2310.03710v1), Nicholas Crispino, Kyle Montgomery, Fankun Zeng, Dawn Song, Chenguang Wang, 05-10-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -4759,7 +4752,7 @@ in reasoning is striking, with an average increase of 10.5%. With our method,
 Llama-2-70b-chat outperforms zero-shot GPT-3.5 Turbo by 10.2%.
 
 
-7. [FreshLLMs: Refreshing Large Language Models with Search Engine
+99. [FreshLLMs: Refreshing Large Language Models with Search Engine
   Augmentation](http://arxiv.org/abs/2310.03214v2), Tu Vu, Mohit Iyyer, Xuezhi Wang, Noah Constant, Jerry Wei, Jason Wei, Chris Tar, Yun-Hsuan Sung, Denny Zhou, Quoc Le, Thang Luong, 05-10-2023
      ### Categories
      Computation and Language
@@ -4792,7 +4785,7 @@ release FreshQA at github.com/freshllms/freshqa and commit to updating it at
 regular intervals.
 
 
-7. [Large Language Models for Software Engineering: Survey and Open Problems](http://arxiv.org/abs/2310.03533v4), Angela Fan, Beliz Gokkaya, Mark Harman, Mitya Lyubarskiy, Shubho Sengupta, Shin Yoo, Jie M. Zhang, 05-10-2023
+100. [Large Language Models for Software Engineering: Survey and Open Problems](http://arxiv.org/abs/2310.03533v4), Angela Fan, Beliz Gokkaya, Mark Harman, Mitya Lyubarskiy, Shubho Sengupta, Shin Yoo, Jie M. Zhang, 05-10-2023
     ### Abstract
     This paper provides a survey of the emerging area of Large Language Models
 (LLMs) for Software Engineering (SE). It also sets out open research challenges
@@ -4808,7 +4801,7 @@ the development and deployment of reliable, efficient and effective LLM-based
 SE.
 
 
-7. [Compressing Context to Enhance Inference Efficiency of Large Language
+101. [Compressing Context to Enhance Inference Efficiency of Large Language
   Models](http://arxiv.org/abs/2310.06201v1), Yucheng Li, Bo Dong, Chenghua Lin, Frank Guerin, 09-10-2023
      ### Categories
      Computation and Language
@@ -4832,7 +4825,7 @@ BERTscore and .038 in faithfulness on four downstream applications, indicating
 that our method strikes a good balance between efficiency and performance.
 
 
-7. [Take a Step Back: Evoking Reasoning via Abstraction in Large Language
+102. [Take a Step Back: Evoking Reasoning via Abstraction in Large Language
   Models](http://arxiv.org/abs/2310.06117v1), Huaixiu Steven Zheng, Swaroop Mishra, Xinyun Chen, Heng-Tze Cheng, Ed H. Chi, Quoc V Le, Denny Zhou, 09-10-2023
      ### Categories
      Machine Learning, Artificial Intelligence, Computation and Language
@@ -4849,7 +4842,7 @@ improves PaLM-2L performance on MMLU Physics and Chemistry by 7% and 11%,
 TimeQA by 27%, and MuSiQue by 7%.
 
 
-7. [Beyond Memorization: Violating Privacy Via Inference with Large Language
+103. [Beyond Memorization: Violating Privacy Via Inference with Large Language
   Models](http://arxiv.org/abs/2310.07298v1), Robin Staab, Mark Vero, Mislav Balunović, Martin Vechev, 11-10-2023
      ### Categories
      Artificial Intelligence, Machine Learning
@@ -4876,7 +4869,7 @@ privacy implications beyond memorization, striving for a wider privacy
 protection.
 
 
-7. [Exploring the Landscape of Large Language Models In Medical Question
+104. [Exploring the Landscape of Large Language Models In Medical Question
   Answering: Observations and Open Questions](http://arxiv.org/abs/2310.07225v1), Karolina Korgul, Andrew M. Bean, Felix Krones, Robert McCraith, Adam Mahdi, 11-10-2023
      ### Categories
      Computation and Language
@@ -4893,7 +4886,7 @@ their properties as a group. From this comparison, we provide preliminary
 observations and raise open questions for further research.
 
 
-7. [Large Language Models Are Zero-Shot Time Series Forecasters](http://arxiv.org/abs/2310.07820v1), Nate Gruver, Marc Finzi, Shikai Qiu, Andrew Gordon Wilson, 11-10-2023
+105. [Large Language Models Are Zero-Shot Time Series Forecasters](http://arxiv.org/abs/2310.07820v1), Nate Gruver, Marc Finzi, Shikai Qiu, Andrew Gordon Wilson, 11-10-2023
      ### Categories
      Machine Learning
     ### Abstract
@@ -4917,7 +4910,7 @@ and poor uncertainty calibration, which is likely the result of alignment
 interventions such as RLHF.
 
 
-7. [Can GPT models be Financial Analysts? An Evaluation of ChatGPT and GPT-4
+106. [Can GPT models be Financial Analysts? An Evaluation of ChatGPT and GPT-4
   on mock CFA Exams](http://arxiv.org/abs/2310.08678v1), Ethan Callanan, Amarachi Mbakwe, Antony Papadimitriou, Yulong Pei, Mathieu Sibue, Xiaodan Zhu, Zhiqiang Ma, Xiaomo Liu, Sameena Shah, 12-10-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -4937,7 +4930,7 @@ the way for future studies to continue enhancing LLMs for financial reasoning
 through rigorous evaluation.
 
 
-7. [LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models](http://arxiv.org/abs/2310.08659v4), Yixiao Li, Yifan Yu, Chen Liang, Pengcheng He, Nikos Karampatziakis, Weizhu Chen, Tuo Zhao, 12-10-2023
+107. [LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models](http://arxiv.org/abs/2310.08659v4), Yixiao Li, Yifan Yu, Chen Liang, Pengcheng He, Nikos Karampatziakis, Weizhu Chen, Tuo Zhao, 12-10-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -4958,7 +4951,7 @@ quantization methods, especially in the challenging 2-bit and 2/4-bit mixed
 precision regimes. The code is available on https://github.com/yxli2123/LoftQ.
 
 
-7. [MiniGPT-v2: large language model as a unified interface for
+108. [MiniGPT-v2: large language model as a unified interface for
   vision-language multi-task learning](http://arxiv.org/abs/2310.09478v3), Jun Chen, Deyao Zhu, Xiaoqian Shen, Xiang Li, Zechun Liu, Pengchuan Zhang, Raghuraman Krishnamoorthi, Vikas Chandra, Yunyang Xiong, Mohamed Elhoseiny, 14-10-2023
     ### Abstract
     Large language models have shown their remarkable capabilities as a general
@@ -4978,7 +4971,7 @@ grounding benchmarks compared to other vision-language generalist models. Our
 model and codes are available at https://minigpt-v2.github.io/
 
 
-7. [Self-RAG: Learning to Retrieve, Generate, and Critique through
+109. [Self-RAG: Learning to Retrieve, Generate, and Critique through
   Self-Reflection](http://arxiv.org/abs/2310.11511v1), Akari Asai, Zeqiu Wu, Yizhong Wang, Avirup Sil, Hannaneh Hajishirzi, 17-10-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -5006,7 +4999,7 @@ improving factuality and citation accuracy for long-form generations relative
 to these models.
 
 
-7. [Contrastive Preference Learning: Learning from Human Feedback without RL](http://arxiv.org/abs/2310.13639v2), Joey Hejna, Rafael Rafailov, Harshit Sikchi, Chelsea Finn, Scott Niekum, W. Bradley Knox, Dorsa Sadigh, 20-10-2023
+110. [Contrastive Preference Learning: Learning from Human Feedback without RL](http://arxiv.org/abs/2310.13639v2), Joey Hejna, Rafael Rafailov, Harshit Sikchi, Chelsea Finn, Scott Niekum, W. Bradley Knox, Dorsa Sadigh, 20-10-2023
      ### Categories
      Machine Learning, Artificial Intelligence
     ### Abstract
@@ -5033,7 +5026,7 @@ to elegantly scale to high-dimensional and sequential RLHF problems while being
 simpler than prior methods.
 
 
-7. [The Perils & Promises of Fact-checking with Large Language Models](http://arxiv.org/abs/2310.13549v1), Dorian Quelle, Alexandre Bovet, 20-10-2023
+111. [The Perils & Promises of Fact-checking with Large Language Models](http://arxiv.org/abs/2310.13549v1), Dorian Quelle, Alexandre Bovet, 20-10-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -5053,7 +5046,7 @@ inconsistent accuracy. Our investigation calls for further research, fostering
 a deeper comprehension of when agents succeed and when they fail.
 
 
-7. [ALCUNA: Large Language Models Meet New Knowledge](http://arxiv.org/abs/2310.14820v1), Xunjian Yin, Baizhou Huang, Xiaojun Wan, 23-10-2023
+112. [ALCUNA: Large Language Models Meet New Knowledge](http://arxiv.org/abs/2310.14820v1), Xunjian Yin, Baizhou Huang, Xiaojun Wan, 23-10-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -5076,7 +5069,7 @@ with new knowledge, and hope that our benchmarks can help drive the development
 of LLMs in face of new knowledge.
 
 
-7. [Clinfo.ai: An Open-Source Retrieval-Augmented Large Language Model
+113. [Clinfo.ai: An Open-Source Retrieval-Augmented Large Language Model
   System for Answering Medical Questions using Scientific Literature](http://arxiv.org/abs/2310.16146v1), Alejandro Lozano, Scott L Fleming, Chia-Chun Chiang, Nigam Shah, 24-10-2023
      ### Categories
      Artificial Intelligence, Computation and Language
@@ -5097,7 +5090,7 @@ PubMed Retrieval and Synthesis (PubMedRS-200); and report benchmark results for
 Clinfo.ai and other publicly available OpenQA systems on PubMedRS-200.
 
 
-7. [NoteChat: A Dataset of Synthetic Doctor-Patient Conversations
+114. [NoteChat: A Dataset of Synthetic Doctor-Patient Conversations
   Conditioned on Clinical Notes](http://arxiv.org/abs/2310.15959v2), Junda Wang, Zonghai Yao, Zhichao Yang, Huixue Zhou, Rumeng Li, Xun Wang, Yucheng Xu, Hong Yu, 24-10-2023
      ### Categories
      Computation and Language
@@ -5119,7 +5112,7 @@ patients directly and help clinical documentation, a leading cause of physician
 burnout.
 
 
-7. [Zephyr: Direct Distillation of LM Alignment](http://arxiv.org/abs/2310.16944v1), Lewis Tunstall, Edward Beeching, Nathan Lambert, Nazneen Rajani, Kashif Rasul, Younes Belkada, Shengyi Huang, Leandro von Werra, Clémentine Fourrier, Nathan Habib, Nathan Sarrazin, Omar Sanseviero, Alexander M. Rush, Thomas Wolf, 25-10-2023
+115. [Zephyr: Direct Distillation of LM Alignment](http://arxiv.org/abs/2310.16944v1), Lewis Tunstall, Edward Beeching, Nathan Lambert, Nazneen Rajani, Kashif Rasul, Younes Belkada, Shengyi Huang, Leandro von Werra, Clémentine Fourrier, Nathan Habib, Nathan Sarrazin, Omar Sanseviero, Alexander M. Rush, Thomas Wolf, 25-10-2023
      ### Categories
      Machine Learning, Computation and Language
     ### Abstract
@@ -5139,7 +5132,7 @@ RLHF-based model. Code, models, data, and tutorials for the system are
 available at https://github.com/huggingface/alignment-handbook.
 
 
-7. [JudgeLM: Fine-tuned Large Language Models are Scalable Judges](http://arxiv.org/abs/2310.17631v1), Lianghui Zhu, Xinggang Wang, Xinlong Wang, 26-10-2023
+116. [JudgeLM: Fine-tuned Large Language Models are Scalable Judges](http://arxiv.org/abs/2310.17631v1), Lianghui Zhu, Xinggang Wang, Xinlong Wang, 26-10-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -5165,7 +5158,7 @@ also demonstrates extended capabilities in being judges of the single answer,
 multimodal models, multiple answers, and multi-turn chat.
 
 
-7. [Large Language Models as Evolutionary Optimizers](http://arxiv.org/abs/2310.19046v2), Shengcai Liu, Caishun Chen, Xinghua Qu, Ke Tang, Yew-Soon Ong, 29-10-2023
+117. [Large Language Models as Evolutionary Optimizers](http://arxiv.org/abs/2310.19046v2), Shengcai Liu, Caishun Chen, Xinghua Qu, Ke Tang, Yew-Soon Ong, 29-10-2023
     ### Abstract
     Evolutionary algorithms (EAs) have achieved remarkable success in tackling
 complex combinatorial optimization problems. However, EAs often demand
@@ -5193,7 +5186,7 @@ inspire future explorations on LLM-driven EAs for complex optimization
 challenges.
 
 
-7. [TeacherLM: Teaching to Fish Rather Than Giving the Fish, Language
+118. [TeacherLM: Teaching to Fish Rather Than Giving the Fish, Language
   Modeling Likewise](http://arxiv.org/abs/2310.19019v2), Nan He, Hanyu Lai, Chenyang Zhao, Zirui Cheng, Junting Pan, Ruoyu Qin, Ruofan Lu, Rui Lu, Yunchen Zhang, Gangming Zhao, Zhaohui Hou, Zhiyuan Huang, Shaoqing Lu, Ding Liang, Mingjie Zhan, 29-10-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -5213,7 +5206,7 @@ significant benefits. We will release the TeacherLM series of models and
 augmented datasets as open-source.
 
 
-7. [EHRTutor: Enhancing Patient Understanding of Discharge Instructions](http://arxiv.org/abs/2310.19212v1), Zihao Zhang, Zonghai Yao, Huixue Zhou, Feiyun ouyang, Hong Yu, 30-10-2023
+119. [EHRTutor: Enhancing Patient Understanding of Discharge Instructions](http://arxiv.org/abs/2310.19212v1), Zihao Zhang, Zonghai Yao, Huixue Zhou, Feiyun ouyang, Hong Yu, 30-10-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -5232,7 +5225,7 @@ patient education dialogues that can be used for future in-house system
 training.
 
 
-7. [Evaluating Large Language Models: A Comprehensive Survey](http://arxiv.org/abs/2310.19736v3), Zishan Guo, Renren Jin, Chuang Liu, Yufei Huang, Dan Shi,  Supryadi, Linhao Yu, Yan Liu, Jiaxuan Li, Bojian Xiong, Deyi Xiong, 30-10-2023
+120. [Evaluating Large Language Models: A Comprehensive Survey](http://arxiv.org/abs/2310.19736v3), Zishan Guo, Renren Jin, Chuang Liu, Yufei Huang, Dan Shi,  Supryadi, Linhao Yu, Yan Liu, Jiaxuan Li, Bojian Xiong, Deyi Xiong, 30-10-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -5263,7 +5256,7 @@ related papers has been publicly available at
 https://github.com/tjunlp-lab/Awesome-LLMs-Evaluation-Papers.
 
 
-7. [Learning From Mistakes Makes LLM Better Reasoner](http://arxiv.org/abs/2310.20689v2), Shengnan An, Zexiong Ma, Zeqi Lin, Nanning Zheng, Jian-Guang Lou, Weizhu Chen, 31-10-2023
+121. [Learning From Mistakes Makes LLM Better Reasoner](http://arxiv.org/abs/2310.20689v2), Shengnan An, Zexiong Ma, Zeqi Lin, Nanning Zheng, Jian-Guang Lou, Weizhu Chen, 31-10-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -5286,7 +5279,7 @@ models on these challenging tasks. Our code, data and models will be publicly
 available at https://github.com/microsoft/LEMA.
 
 
-7. [TopicGPT: A Prompt-based Topic Modeling Framework](http://arxiv.org/abs/2311.01449v1), Chau Minh Pham, Alexander Hoyle, Simeng Sun, Mohit Iyyer, 02-11-2023
+122. [TopicGPT: A Prompt-based Topic Modeling Framework](http://arxiv.org/abs/2311.01449v1), Chau Minh Pham, Alexander Hoyle, Simeng Sun, Mohit Iyyer, 02-11-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -5309,7 +5302,7 @@ streamlining access to high-quality and interpretable topics, TopicGPT
 represents a compelling, human-centered approach to topic modeling.
 
 
-7. [Large Language Models Illuminate a Progressive Pathway to Artificial
+123. [Large Language Models Illuminate a Progressive Pathway to Artificial
   Healthcare Assistant: A Review](http://arxiv.org/abs/2311.01918v1), Mingze Yuan, Peng Bao, Jiajia Yuan, Yunhao Shen, Zifan Chen, Yi Xie, Jie Zhao, Yang Chen, Li Zhang, Lin Shen, Bin Dong, 03-11-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -5339,7 +5332,7 @@ https://github.com/mingze-yuan/Awesome-LLM-Healthcare for an accompanying
 GitHub repository containing latest papers.
 
 
-7. [Tell Your Model Where to Attend: Post-hoc Attention Steering for LLMs](http://arxiv.org/abs/2311.02262v1), Qingru Zhang, Chandan Singh, Liyuan Liu, Xiaodong Liu, Bin Yu, Jianfeng Gao, Tuo Zhao, 03-11-2023
+124. [Tell Your Model Where to Attend: Post-hoc Attention Steering for LLMs](http://arxiv.org/abs/2311.02262v1), Qingru Zhang, Chandan Singh, Liyuan Liu, Xiaodong Liu, Bin Yu, Jianfeng Gao, Tuo Zhao, 03-11-2023
      ### Categories
      Computation and Language, Machine Learning
     ### Abstract
@@ -5362,7 +5355,7 @@ an average accuracy improvement of 22% for LLAMA-7B. Our code is publicly
 available at https://github.com/QingruZhang/PASTA .
 
 
-7. [Can LLMs Follow Simple Rules?](http://arxiv.org/abs/2311.04235v1), Norman Mu, Sarah Chen, Zifan Wang, Sizhe Chen, David Karamardian, Lulwa Aljeraisy, Dan Hendrycks, David Wagner, 06-11-2023
+125. [Can LLMs Follow Simple Rules?](http://arxiv.org/abs/2311.04235v1), Norman Mu, Sarah Chen, Zifan Wang, Sizhe Chen, David Karamardian, Lulwa Aljeraisy, Dan Hendrycks, David Wagner, 06-11-2023
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
     ### Abstract
@@ -5391,7 +5384,7 @@ as a challenging new setting for research into exploring and defending against
 both manual and automatic attacks on LLMs.
 
 
-7. [Language Models are Super Mario: Absorbing Abilities from Homologous
+126. [Language Models are Super Mario: Absorbing Abilities from Homologous
   Models as a Free Lunch](http://arxiv.org/abs/2311.03099v1), Le Yu, Bowen Yu, Haiyang Yu, Fei Huang, Yongbin Li, 06-11-2023
      ### Categories
      Computation and Language, Machine Learning
@@ -5423,7 +5416,7 @@ its instruction-following ability while surpassing WizardMath's original 64.2
 performance. Codes are available at https://github.com/yule-BUAA/MergeLM.
 
 
-7. [S-LoRA: Serving Thousands of Concurrent LoRA Adapters](http://arxiv.org/abs/2311.03285v2), Ying Sheng, Shiyi Cao, Dacheng Li, Coleman Hooper, Nicholas Lee, Shuo Yang, Christopher Chou, Banghua Zhu, Lianmin Zheng, Kurt Keutzer, Joseph E. Gonzalez, Ion Stoica, 06-11-2023
+127. [S-LoRA: Serving Thousands of Concurrent LoRA Adapters](http://arxiv.org/abs/2311.03285v2), Ying Sheng, Shiyi Cao, Dacheng Li, Coleman Hooper, Nicholas Lee, Shuo Yang, Christopher Chou, Banghua Zhu, Lianmin Zheng, Kurt Keutzer, Joseph E. Gonzalez, Ion Stoica, 06-11-2023
      ### Categories
      Machine Learning, Artificial Intelligence
     ### Abstract
@@ -5451,7 +5444,7 @@ fine-tuned models and offers the potential for large-scale customized
 fine-tuning services. The code is available at https://github.com/S-LoRA/S-LoRA
 
 
-7. [Rephrase and Respond: Let Large Language Models Ask Better Questions for
+128. [Rephrase and Respond: Let Large Language Models Ask Better Questions for
   Themselves](http://arxiv.org/abs/2311.04205v1), Yihe Deng, Weitong Zhang, Zixiang Chen, Quanquan Gu, 07-11-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -5481,7 +5474,7 @@ capabilities. Data and codes are available at
 https://github.com/uclaml/Rephrase-and-Respond.
 
 
-7. [ADaPT: As-Needed Decomposition and Planning with Language Models](http://arxiv.org/abs/2311.05772v1), Archiki Prasad, Alexander Koller, Mareike Hartmann, Peter Clark, Ashish Sabharwal, Mohit Bansal, Tushar Khot, 08-11-2023
+129. [ADaPT: As-Needed Decomposition and Planning with Language Models](http://arxiv.org/abs/2311.05772v1), Archiki Prasad, Alexander Koller, Mareike Hartmann, Peter Clark, Ashish Sabharwal, Mohit Bansal, Tushar Khot, 08-11-2023
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
     ### Abstract
@@ -5504,7 +5497,7 @@ dynamically adjusts to the capabilities of the executor LLM as well as to task
 complexity.
 
 
-7. [A Survey of Large Language Models in Medicine: Principles, Applications,
+130. [A Survey of Large Language Models in Medicine: Principles, Applications,
   and Challenges](http://arxiv.org/abs/2311.05112v2), Hongjian Zhou, Fenglin Liu, Boyang Gu, Xinyu Zou, Jinfa Huang, Jinge Wu, Yiru Li, Sam S. Chen, Peilin Zhou, Junling Liu, Yining Hua, Chengfeng Mao, Xian Wu, Yefeng Zheng, Lei Clifton, Zheng Li, Jiebo Luo, David A. Clifton, 09-11-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -5527,7 +5520,7 @@ medical LLMs can be found at
 https://github.com/AI-in-Health/MedLLMsPracticalGuide.
 
 
-7. [A Survey on Hallucination in Large Language Models: Principles,
+131. [A Survey on Hallucination in Large Language Models: Principles,
   Taxonomy, Challenges, and Open Questions](http://arxiv.org/abs/2311.05232v1), Lei Huang, Weijiang Yu, Weitao Ma, Weihong Zhong, Zhangyin Feng, Haotian Wang, Qianglong Chen, Weihua Peng, Xiaocheng Feng, Bing Qin, Ting Liu, 09-11-2023
      ### Categories
      Computation and Language
@@ -5551,7 +5544,7 @@ formulate open questions, aiming to delineate pathways for future research on
 hallucinations in LLMs.
 
 
-7. [LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](http://arxiv.org/abs/2311.05437v1), Shilong Liu, Hao Cheng, Haotian Liu, Hao Zhang, Feng Li, Tianhe Ren, Xueyan Zou, Jianwei Yang, Hang Su, Jun Zhu, Lei Zhang, Jianfeng Gao, Chunyuan Li, 09-11-2023
+132. [LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](http://arxiv.org/abs/2311.05437v1), Shilong Liu, Hao Cheng, Haotian Liu, Hao Zhang, Feng Li, Tianhe Ren, Xueyan Zou, Jianwei Yang, Hang Su, Jun Zhu, Lei Zhang, Jianfeng Gao, Chunyuan Li, 09-11-2023
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
     ### Abstract
@@ -5568,7 +5561,7 @@ interaction sessions, significantly improving tool use performance and enabling
 new scenarios.
 
 
-7. [Technical Report: Large Language Models can Strategically Deceive their
+133. [Technical Report: Large Language Models can Strategically Deceive their
   Users when Put Under Pressure](http://arxiv.org/abs/2311.07590v2), Jérémy Scheurer, Mikita Balesni, Marius Hobbhahn, 09-11-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -5592,7 +5585,7 @@ and honest, strategically deceiving their users in a realistic situation
 without direct instructions or training for deception.
 
 
-7. [Zero-Shot Goal-Directed Dialogue via RL on Imagined Conversations](http://arxiv.org/abs/2311.05584v1), Joey Hong, Sergey Levine, Anca Dragan, 09-11-2023
+134. [Zero-Shot Goal-Directed Dialogue via RL on Imagined Conversations](http://arxiv.org/abs/2311.05584v1), Joey Hong, Sergey Levine, Anca Dragan, 09-11-2023
      ### Categories
      Machine Learning, Artificial Intelligence, Computation and Language
     ### Abstract
@@ -5622,7 +5615,7 @@ state-of-the-art performance in various goal-directed dialogue tasks that
 include teaching and preference elicitation.
 
 
-7. [MEGAVERSE: Benchmarking Large Language Models Across Languages,
+135. [MEGAVERSE: Benchmarking Large Language Models Across Languages,
   Modalities, Models and Tasks](http://arxiv.org/abs/2311.07463v1), Sanchit Ahuja, Divyanshu Aggarwal, Varun Gumma, Ishaan Watts, Ashutosh Sathe, Millicent Ochieng, Rishav Hada, Prachi Jain, Maxamed Axmed, Kalika Bali, Sunayana Sitaram, 13-11-2023
      ### Categories
      Computation and Language
@@ -5647,7 +5640,7 @@ data contamination must be addressed to obtain an accurate assessment of LLM
 performance on non-English languages.
 
 
-7. [The Impact of Large Language Models on Scientific Discovery: a
+136. [The Impact of Large Language Models on Scientific Discovery: a
   Preliminary Study using GPT-4](http://arxiv.org/abs/2311.07361v2), Microsoft Research AI4Science, Microsoft Azure Quantum, 13-11-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -5678,7 +5671,7 @@ scientific understanding, scientific numerical calculation abilities, and
 various scientific prediction capabilities.
 
 
-7. [Fast Chain-of-Thought: A Glance of Future from Parallel Decoding Leads
+137. [Fast Chain-of-Thought: A Glance of Future from Parallel Decoding Leads
   to Answers Faster](http://arxiv.org/abs/2311.08263v1), Hongxuan Zhang, Zhining Liu, Jiaqi Zheng, Chenyi Zhuang, Jinjie Gu, Guihai Chen, 14-11-2023
      ### Categories
      Computation and Language
@@ -5699,7 +5692,7 @@ Additionally, we show that the context window size exhibits considerable
 robustness for different tasks.
 
 
-7. [The ART of LLM Refinement: Ask, Refine, and Trust](http://arxiv.org/abs/2311.07961v1), Kumar Shridhar, Koustuv Sinha, Andrew Cohen, Tianlu Wang, Ping Yu, Ram Pasunuru, Mrinmaya Sachan, Jason Weston, Asli Celikyilmaz, 14-11-2023
+138. [The ART of LLM Refinement: Ask, Refine, and Trust](http://arxiv.org/abs/2311.07961v1), Kumar Shridhar, Koustuv Sinha, Andrew Cohen, Tianlu Wang, Ping Yu, Ram Pasunuru, Mrinmaya Sachan, Jason Weston, Asli Celikyilmaz, 14-11-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -5721,7 +5714,7 @@ refinement decisions as a cost-effective alternative to fine-tuning a larger
 model.
 
 
-7. [Unifying the Perspectives of NLP and Software Engineering: A Survey on
+139. [Unifying the Perspectives of NLP and Software Engineering: A Survey on
   Language Models for Code](http://arxiv.org/abs/2311.07989v3), Ziyin Zhang, Chaoyu Chen, Bingchang Liu, Cong Liao, Zi Gong, Hang Yu, Jianguo Li, Rui Wang, 14-11-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -5741,7 +5734,7 @@ the survey open and updated on GitHub at
 https://github.com/codefuse-ai/Awesome-Code-LLM.
 
 
-7. [Contrastive Chain-of-Thought Prompting](http://arxiv.org/abs/2311.09277v1), Yew Ken Chia, Guizhen Chen, Luu Anh Tuan, Soujanya Poria, Lidong Bing, 15-11-2023
+140. [Contrastive Chain-of-Thought Prompting](http://arxiv.org/abs/2311.09277v1), Yew Ken Chia, Guizhen Chen, Luu Anh Tuan, Soujanya Poria, Lidong Bing, 15-11-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -5762,7 +5755,7 @@ contrastive chain of thought can serve as a general enhancement of
 chain-of-thought prompting.
 
 
-7. [Towards Verifiable Text Generation with Symbolic References](http://arxiv.org/abs/2311.09188v1), Lucas Torroba Hennigen, Shannon Shen, Aniruddha Nrusimha, Bernhard Gapp, David Sontag, Yoon Kim, 15-11-2023
+141. [Towards Verifiable Text Generation with Symbolic References](http://arxiv.org/abs/2311.09188v1), Lucas Torroba Hennigen, Shannon Shen, Aniruddha Nrusimha, Bernhard Gapp, David Sontag, Yoon Kim, 15-11-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -5781,7 +5774,7 @@ that LLMs are able to directly output text that makes use of symbolic
 references while maintaining fluency and accuracy.
 
 
-7. [MedAgents: Large Language Models as Collaborators for Zero-shot Medical
+142. [MedAgents: Large Language Models as Collaborators for Zero-shot Medical
   Reasoning](http://arxiv.org/abs/2311.10537v1), Xiangru Tang, Anni Zou, Zhuosheng Zhang, Yilun Zhao, Xingyao Zhang, Arman Cohan, Mark Gerstein, 16-11-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -5807,7 +5800,7 @@ at understanding the impact of various factors on overall performance. Our code
 can be found at \url{https://github.com/gersteinlab/MedAgents}.
 
 
-7. [R-Tuning: Teaching Large Language Models to Refuse Unknown Questions](http://arxiv.org/abs/2311.09677v1), Hanning Zhang, Shizhe Diao, Yong Lin, Yi R. Fung, Qing Lian, Xingyao Wang, Yangyi Chen, Heng Ji, Tong Zhang, 16-11-2023
+143. [R-Tuning: Teaching Large Language Models to Refuse Unknown Questions](http://arxiv.org/abs/2311.09677v1), Hanning Zhang, Shizhe Diao, Yong Lin, Yi R. Fung, Qing Lian, Xingyao Wang, Yangyi Chen, Heng Ji, Tong Zhang, 16-11-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -5833,7 +5826,7 @@ better ability to estimate uncertainty than uncertainty-based testing. Our code
 will be released at https://github.com/shizhediao/R-Tuning.
 
 
-7. [Generalized products and Lorentzian length spaces](http://arxiv.org/abs/2311.10691v1), Elefterios Soultanis, 17-11-2023
+144. [Generalized products and Lorentzian length spaces](http://arxiv.org/abs/2311.10691v1), Elefterios Soultanis, 17-11-2023
     ### Abstract
     We construct a Lorentzian length space with an orthogonal splitting on a
 product $I\times X$ of an interval and a metric space, and use this framework
@@ -5847,7 +5840,7 @@ Ricci curvature bounds without push-up and regularity assumptions, and obtain a
 partial rigidity of the splitting under a strong energy condition.
 
 
-7. [Testing Language Model Agents Safely in the Wild](http://arxiv.org/abs/2311.10538v3), Silen Naihin, David Atkinson, Marc Green, Merwane Hamadi, Craig Swift, Douglas Schonholtz, Adam Tauman Kalai, David Bau, 17-11-2023
+145. [Testing Language Model Agents Safely in the Wild](http://arxiv.org/abs/2311.10538v3), Silen Naihin, David Atkinson, Marc Green, Merwane Hamadi, Craig Swift, Douglas Schonholtz, Adam Tauman Kalai, David Bau, 17-11-2023
      ### Categories
      Artificial Intelligence
     ### Abstract
@@ -5867,7 +5860,7 @@ several limitations and challenges that will face the creation of safe
 in-the-wild tests as autonomous agents grow more capable.
 
 
-7. [Orca 2: Teaching Small Language Models How to Reason](http://arxiv.org/abs/2311.11045v2), Arindam Mitra, Luciano Del Corro, Shweti Mahajan, Andres Codas, Clarisse Simoes, Sahaj Agarwal, Xuxi Chen, Anastasia Razdaibiedina, Erik Jones, Kriti Aggarwal, Hamid Palangi, Guoqing Zheng, Corby Rosset, Hamed Khanpour, Ahmed Awadallah, 18-11-2023
+146. [Orca 2: Teaching Small Language Models How to Reason](http://arxiv.org/abs/2311.11045v2), Arindam Mitra, Luciano Del Corro, Shweti Mahajan, Andres Codas, Clarisse Simoes, Sahaj Agarwal, Xuxi Chen, Anastasia Razdaibiedina, Erik Jones, Kriti Aggarwal, Hamid Palangi, Guoqing Zheng, Corby Rosset, Hamed Khanpour, Ahmed Awadallah, 18-11-2023
      ### Categories
      Artificial Intelligence
     ### Abstract
@@ -5894,7 +5887,7 @@ aka.ms/orca-lm to support research on the development, evaluation, and
 alignment of smaller LMs
 
 
-7. [Igniting Language Intelligence: The Hitchhiker's Guide From
+147. [Igniting Language Intelligence: The Hitchhiker's Guide From
   Chain-of-Thought Reasoning to Language Agents](http://arxiv.org/abs/2311.11797v1), Zhuosheng Zhang, Yao Yao, Aston Zhang, Xiangru Tang, Xinbei Ma, Zhiwei He, Yiming Wang, Mark Gerstein, Rui Wang, Gongshen Liu, Hai Zhao, 20-11-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -5926,7 +5919,7 @@ topics. A repository for the related papers is available at
 https://github.com/Zoeyyao27/CoT-Igniting-Agent.
 
 
-7. [From Classification to Clinical Insights: Towards Analyzing and
+148. [From Classification to Clinical Insights: Towards Analyzing and
   Reasoning About Mobile and Behavioral Health Data With Large Language Models](http://arxiv.org/abs/2311.13063v2), Zachary Englhardt, Chengqian Ma, Margaret E. Morris, Xuhai "Orson" Xu, Chun-Cheng Chang, Lianhui Qin, Daniel McDuff, Xin Liu, Shwetak Patel, Vikram Iyer, 21-11-2023
      ### Categories
      Artificial Intelligence
@@ -5952,7 +5945,7 @@ decision-making. We find models like GPT-4 correctly reference numerical data
 this approach to interpret self-tracking data.
 
 
-7. [Algorithm Evolution Using Large Language Model](http://arxiv.org/abs/2311.15249v1), Fei Liu, Xialiang Tong, Mingxuan Yuan, Qingfu Zhang, 26-11-2023
+149. [Algorithm Evolution Using Large Language Model](http://arxiv.org/abs/2311.15249v1), Fei Liu, Xialiang Tong, Mingxuan Yuan, Qingfu Zhang, 26-11-2023
      ### Categories
      Artificial Intelligence, Machine Learning
     ### Abstract
@@ -5972,7 +5965,7 @@ across different problem sizes. AEL is also very different from previous
 attempts that utilize LLMs as search operators in algorithms.
 
 
-7. [ChatGPT's One-year Anniversary: Are Open-Source Large Language Models
+150. [ChatGPT's One-year Anniversary: Are Open-Source Large Language Models
   Catching up?](http://arxiv.org/abs/2311.16989v4), Hailin Chen, Fangkai Jiao, Xingxuan Li, Chengwei Qin, Mathieu Ravaut, Ruochen Zhao, Caiming Xiong, Shafiq Joty, 28-11-2023
      ### Categories
      Computation and Language
@@ -5993,7 +5986,7 @@ exhaustive overview of this success, surveying all tasks where an open-source
 LLM has claimed to be on par or better than ChatGPT.
 
 
-7. [ChatGPT's One-year Anniversary: Are Open-Source Large Language Models
+151. [ChatGPT's One-year Anniversary: Are Open-Source Large Language Models
   Catching up?](http://arxiv.org/abs/2311.16989v4), Hailin Chen, Fangkai Jiao, Xingxuan Li, Chengwei Qin, Mathieu Ravaut, Ruochen Zhao, Caiming Xiong, Shafiq Joty, 28-11-2023
      ### Categories
      Computation and Language
@@ -6014,7 +6007,7 @@ exhaustive overview of this success, surveying all tasks where an open-source
 LLM has claimed to be on par or better than ChatGPT.
 
 
-7. [A collection of principles for guiding and evaluating large language
+152. [A collection of principles for guiding and evaluating large language
   models](http://arxiv.org/abs/2312.10059v1), Konstantin Hebenstreit, Robert Praas, Matthias Samwald, 04-12-2023
     ### Abstract
     Large language models (LLMs) demonstrate outstanding capabilities, but
@@ -6036,7 +6029,7 @@ steering models at inference time, improving model behavior during training,
 and guiding human evaluation of model reasoning.
 
 
-7. [Data Management For Large Language Models: A Survey](http://arxiv.org/abs/2312.01700v2), Zige Wang, Wanjun Zhong, Yufei Wang, Qi Zhu, Fei Mi, Baojun Wang, Lifeng Shang, Xin Jiang, Qun Liu, 04-12-2023
+153. [Data Management For Large Language Models: A Survey](http://arxiv.org/abs/2312.01700v2), Zige Wang, Wanjun Zhong, Yufei Wang, Qi Zhu, Fei Mi, Baojun Wang, Lifeng Shang, Xin Jiang, Qun Liu, 04-12-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -6061,7 +6054,7 @@ management practices. The collection of the latest papers is available at
 https://github.com/ZigeW/data_management_LLM.
 
 
-7. [Creative Agents: Empowering Agents with Imagination for Creative Tasks](http://arxiv.org/abs/2312.02519v1), Chi Zhang, Penglin Cai, Yuhui Fu, Haoqi Yuan, Zongqing Lu, 05-12-2023
+154. [Creative Agents: Empowering Agents with Imagination for Creative Tasks](http://arxiv.org/abs/2312.02519v1), Chi Zhang, Penglin Cai, Yuhui Fu, Haoqi Yuan, Zongqing Lu, 05-12-2023
      ### Categories
      Artificial Intelligence, Machine Learning
     ### Abstract
@@ -6091,7 +6084,7 @@ are open-source for future research on creative agents
 (https://github.com/PKU-RL/Creative-Agents).
 
 
-7. [Foundation Models for Weather and Climate Data Understanding: A
+155. [Foundation Models for Weather and Climate Data Understanding: A
   Comprehensive Survey](http://arxiv.org/abs/2312.03014v1), Shengchao Chen, Guodong Long, Jing Jiang, Dikai Liu, Chengqi Zhang, 05-12-2023
      ### Categories
      Machine Learning, Artificial Intelligence
@@ -6123,7 +6116,7 @@ foundations, current advancements, practical applications, crucial resources,
 and prospective research opportunities.
 
 
-7. [An LLM Compiler for Parallel Function Calling](http://arxiv.org/abs/2312.04511v1), Sehoon Kim, Suhong Moon, Ryan Tabrizi, Nicholas Lee, Michael W. Mahoney, Kurt Keutzer, Amir Gholami, 07-12-2023
+156. [An LLM Compiler for Parallel Function Calling](http://arxiv.org/abs/2312.04511v1), Sehoon Kim, Suhong Moon, Ryan Tabrizi, Nicholas Lee, Michael W. Mahoney, Kurt Keutzer, Amir Gholami, 07-12-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -6155,7 +6148,7 @@ latency gain over OpenAI's recent parallel function calling, while achieving
 similar accuracy.
 
 
-7. [Are We Testing or Being Tested? Exploring the Practical Applications of
+157. [Are We Testing or Being Tested? Exploring the Practical Applications of
   Large Language Models in Software Testing](http://arxiv.org/abs/2312.04860v1), Robson Santos, Italo Santos, Cleyton Magalhaes, Ronnie de Souza Santos, 08-12-2023
     ### Abstract
     A Large Language Model (LLM) represents a cutting-edge artificial
@@ -6180,7 +6173,7 @@ while well-defined methods and guidelines are being built for the secure
 adoption of these tools.
 
 
-7. [KwaiAgents: Generalized Information-seeking Agent System with Large
+158. [KwaiAgents: Generalized Information-seeking Agent System with Large
   Language Models](http://arxiv.org/abs/2312.04889v3), Haojie Pan, Zepeng Zhai, Hao Yuan, Yaojia Lv, Ruiji Fu, Ming Liu, Zhongyuan Wang, Bing Qin, 08-12-2023
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
@@ -6209,7 +6202,7 @@ superiority of our agent system compared to other autonomous agents and
 highlight the enhanced generalized agent-abilities of our fine-tuned LLMs.
 
 
-7. [Large-scale Training of Foundation Models for Wearable Biosignals](http://arxiv.org/abs/2312.05409v1), Salar Abbaspourazad, Oussama Elachqar, Andrew C. Miller, Saba Emrani, Udhyakumar Nallasamy, Ian Shapiro, 08-12-2023
+159. [Large-scale Training of Foundation Models for Wearable Biosignals](http://arxiv.org/abs/2312.05409v1), Salar Abbaspourazad, Oussama Elachqar, Andrew C. Miller, Saba Emrani, Udhyakumar Nallasamy, Ian Shapiro, 08-12-2023
      ### Categories
      Machine Learning, Artificial Intelligence
     ### Abstract
@@ -6241,7 +6234,7 @@ reducing the reliance on labeled data and hold the potential to help the users
 improve their health.
 
 
-7. [LLM360: Towards Fully Transparent Open-Source LLMs](http://arxiv.org/abs/2312.06550v1), Zhengzhong Liu, Aurick Qiao, Willie Neiswanger, Hongyi Wang, Bowen Tan, Tianhua Tao, Junbo Li, Yuqi Wang, Suqi Sun, Omkar Pangarkar, Richard Fan, Yi Gu, Victor Miller, Yonghao Zhuang, Guowei He, Haonan Li, Fajri Koto, Liping Tang, Nikhil Ranjan, Zhiqiang Shen, Xuguang Ren, Roberto Iriondo, Cun Mu, Zhiting Hu, Mark Schulze, Preslav Nakov, Tim Baldwin, Eric P. Xing, 11-12-2023
+160. [LLM360: Towards Fully Transparent Open-Source LLMs](http://arxiv.org/abs/2312.06550v1), Zhengzhong Liu, Aurick Qiao, Willie Neiswanger, Hongyi Wang, Bowen Tan, Tianhua Tao, Junbo Li, Yuqi Wang, Suqi Sun, Omkar Pangarkar, Richard Fan, Yi Gu, Victor Miller, Yonghao Zhuang, Guowei He, Haonan Li, Fajri Koto, Liping Tang, Nikhil Ranjan, Zhiqiang Shen, Xuguang Ren, Roberto Iriondo, Cun Mu, Zhiting Hu, Mark Schulze, Preslav Nakov, Tim Baldwin, Eric P. Xing, 11-12-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -6264,7 +6257,7 @@ of LLMs through this open-source effort. More large-scale and stronger models
 are underway and will be released in the future.
 
 
-7. ["I Want It That Way": Enabling Interactive Decision Support Using Large
+161. ["I Want It That Way": Enabling Interactive Decision Support Using Large
   Language Models and Constraint Programming](http://arxiv.org/abs/2312.06908v1), Connor Lawless, Jakob Schoeffer, Lindy Le, Kael Rowan, Shilad Sen, Cristina St. Hill, Jina Suh, Bahar Sarrafzadeh, 12-12-2023
     ### Abstract
     A critical factor in the success of decision support systems is the accurate
@@ -6284,7 +6277,7 @@ considerations for building systems that support human-system collaborative
 decision-making processes.
 
 
-7. [Alignment for Honesty](http://arxiv.org/abs/2312.07000v1), Yuqing Yang, Ethan Chern, Xipeng Qiu, Graham Neubig, Pengfei Liu, 12-12-2023
+162. [Alignment for Honesty](http://arxiv.org/abs/2312.07000v1), Yuqing Yang, Ethan Chern, Xipeng Qiu, Graham Neubig, Pengfei Liu, 12-12-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -6311,7 +6304,7 @@ models, training and evaluation datasets for honesty alignment, concept
 glossary, as well as all relevant source code.
 
 
-7. [Efficient Few-Shot Clinical Task Adaptation with Large Language Models](http://arxiv.org/abs/2312.07125v1), Kaipeng Zheng, Weiran Huang, Lichao Sun, 12-12-2023
+163. [Efficient Few-Shot Clinical Task Adaptation with Large Language Models](http://arxiv.org/abs/2312.07125v1), Kaipeng Zheng, Weiran Huang, Lichao Sun, 12-12-2023
     ### Abstract
     Few-shot learning has been studied to adapt models to tasks with very few
 samples. It holds profound significance, particularly in clinical tasks, due to
@@ -6335,7 +6328,7 @@ commonly employed one-hot labels and other semantic supervision methods. Our
 solution secures the 1st place in the MedFMC challenge.
 
 
-7. [LLM in a flash: Efficient Large Language Model Inference with Limited
+164. [LLM in a flash: Efficient Large Language Model Inference with Limited
   Memory](http://arxiv.org/abs/2312.11514v2), Keivan Alizadeh, Iman Mirzadeh, Dmitry Belenko, Karen Khatamifard, Minsik Cho, Carlo C Del Mundo, Mohammad Rastegari, Mehrdad Farajtabar, 12-12-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
@@ -6362,7 +6355,7 @@ hardware-oriented design paves the way for effective inference of LLMs on
 devices with limited memory.
 
 
-7. [LLMEval: A Preliminary Study on How to Evaluate Large Language Models](http://arxiv.org/abs/2312.07398v2), Yue Zhang, Ming Zhang, Haipeng Yuan, Shichun Liu, Yongyao Shi, Tao Gui, Qi Zhang, Xuanjing Huang, 12-12-2023
+165. [LLMEval: A Preliminary Study on How to Evaluate Large Language Models](http://arxiv.org/abs/2312.07398v2), Yue Zhang, Ming Zhang, Haipeng Yuan, Shichun Liu, Yongyao Shi, Tao Gui, Qi Zhang, Xuanjing Huang, 12-12-2023
      ### Categories
      Artificial Intelligence, Computation and Language
     ### Abstract
@@ -6384,7 +6377,7 @@ insights for evaluating LLM in the future. The dataset and the results are
 publicly available at https://github.com/llmeval .
 
 
-7. [SM70: A Large Language Model for Medical Devices](http://arxiv.org/abs/2312.06974v1), Anubhav Bhatti, Surajsinh Parmar, San Lee, 12-12-2023
+166. [SM70: A Large Language Model for Medical Devices](http://arxiv.org/abs/2312.06974v1), Anubhav Bhatti, Surajsinh Parmar, San Lee, 12-12-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -6412,7 +6405,7 @@ development, especially in tasks demanding extensive medical knowledge and
 intricate reasoning.
 
 
-7. [Distributed Inference and Fine-tuning of Large Language Models Over The
+167. [Distributed Inference and Fine-tuning of Large Language Models Over The
   Internet](http://arxiv.org/abs/2312.08361v1), Alexander Borzunov, Max Ryabinin, Artem Chumachenko, Dmitry Baranchuk, Tim Dettmers, Younes Belkada, Pavel Samygin, Colin Raffel, 13-12-2023
      ### Categories
      Machine Learning
@@ -6437,7 +6430,7 @@ interactive generation. We evaluate the performance of our system in simulated
 conditions and a real-world setup spanning two continents.
 
 
-7. [PromptBench: A Unified Library for Evaluation of Large Language Models](http://arxiv.org/abs/2312.07910v2), Kaijie Zhu, Qinlin Zhao, Hao Chen, Jindong Wang, Xing Xie, 13-12-2023
+168. [PromptBench: A Unified Library for Evaluation of Large Language Models](http://arxiv.org/abs/2312.07910v2), Kaijie Zhu, Qinlin Zhao, Hao Chen, Jindong Wang, Xing Xie, 13-12-2023
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
     ### Abstract
@@ -6454,7 +6447,7 @@ available at: https://github.com/microsoft/promptbench and will be continuously
 supported.
 
 
-7. [CogAgent: A Visual Language Model for GUI Agents](http://arxiv.org/abs/2312.08914v2), Wenyi Hong, Weihan Wang, Qingsong Lv, Jiazheng Xu, Wenmeng Yu, Junhui Ji, Yan Wang, Zihan Wang, Yuxuan Zhang, Juanzi Li, Bin Xu, Yuxiao Dong, Ming Ding, Jie Tang, 14-12-2023
+169. [CogAgent: A Visual Language Model for GUI Agents](http://arxiv.org/abs/2312.08914v2), Wenyi Hong, Weihan Wang, Qingsong Lv, Jiazheng Xu, Wenmeng Yu, Junhui Ji, Yan Wang, Zihan Wang, Yuxuan Zhang, Juanzi Li, Bin Xu, Yuxiao Dong, Ming Ding, Jie Tang, 14-12-2023
     ### Abstract
     People are spending an enormous amount of time on digital devices through
 graphical user interfaces (GUIs), e.g., computer or smartphone screens. Large
@@ -6474,7 +6467,7 @@ advancing the state of the art. The model and codes are available at
 https://github.com/THUDM/CogVLM .
 
 
-7. [TigerBot: An Open Multilingual Multitask LLM](http://arxiv.org/abs/2312.08688v2), Ye Chen, Wei Cai, Liangmin Wu, Xiaowei Li, Zhanxuan Xin, Cong Fu, 14-12-2023
+170. [TigerBot: An Open Multilingual Multitask LLM](http://arxiv.org/abs/2312.08688v2), Ye Chen, Wei Cai, Liangmin Wu, Xiaowei Li, Zhanxuan Xin, Cong Fu, 14-12-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -6493,7 +6486,7 @@ SOTA LLMs in a democratized way and making LLMs of use in real-world
 applications.
 
 
-7. [Catwalk: A Unified Language Model Evaluation Framework for Many Datasets](http://arxiv.org/abs/2312.10253v1), Dirk Groeneveld, Anas Awadalla, Iz Beltagy, Akshita Bhagia, Ian Magnusson, Hao Peng, Oyvind Tafjord, Pete Walsh, Kyle Richardson, Jesse Dodge, 15-12-2023
+171. [Catwalk: A Unified Language Model Evaluation Framework for Many Datasets](http://arxiv.org/abs/2312.10253v1), Dirk Groeneveld, Anas Awadalla, Iz Beltagy, Akshita Bhagia, Ian Magnusson, Hao Peng, Oyvind Tafjord, Pete Walsh, Kyle Richardson, Jesse Dodge, 15-12-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -6515,7 +6508,7 @@ the AllenNLP team at the Allen Institute for Artificial Intelligence (AI2),
 Catwalk is an ongoing open-source effort: https://github.com/allenai/catwalk.
 
 
-7. [Extending Context Window of Large Language Models via Semantic
+172. [Extending Context Window of Large Language Models via Semantic
   Compression](http://arxiv.org/abs/2312.09571v1), Weizhi Fei, Xueyan Niu, Pingyi Zhou, Lu Hou, Bo Bai, Lei Deng, Wei Han, 15-12-2023
      ### Categories
      Computation and Language
@@ -6536,7 +6529,7 @@ compression method exhibits consistent fluency in text generation while
 reducing the associated computational overhead.
 
 
-7. [Faithful Persona-based Conversational Dataset Generation with Large
+173. [Faithful Persona-based Conversational Dataset Generation with Large
   Language Models](http://arxiv.org/abs/2312.10007v1), Pegah Jandaghi, XiangHai Sheng, Xinyi Bai, Jay Pujara, Hakim Sidahmed, 15-12-2023
      ### Categories
      Computation and Language, Machine Learning
@@ -6562,7 +6555,7 @@ observe that the losing rate of Synthetic-Persona-Chat against Persona-Chat
 during Turing test decreases from 17.2% to 8.8% over three iterations.
 
 
-7. [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU](http://arxiv.org/abs/2312.12456v1), Yixin Song, Zeyu Mi, Haotong Xie, Haibo Chen, 16-12-2023
+174. [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU](http://arxiv.org/abs/2312.12456v1), Yixin Song, Zeyu Mi, Haotong Xie, Haibo Chen, 16-12-2023
      ### Categories
      Machine Learning
     ### Abstract
@@ -6586,7 +6579,7 @@ server-grade A100 GPU. This significantly outperforms llama.cpp by up to 11.69x
 while retaining model accuracy.
 
 
-7. [A Survey of Reasoning with Foundation Models](http://arxiv.org/abs/2312.11562v4), Jiankai Sun, Chuanyang Zheng, Enze Xie, Zhengying Liu, Ruihang Chu, Jianing Qiu, Jiaqi Xu, Mingyu Ding, Hongyang Li, Mengzhe Geng, Yue Wu, Wenhai Wang, Junsong Chen, Zhangyue Yin, Xiaozhe Ren, Jie Fu, Junxian He, Wu Yuan, Qi Liu, Xihui Liu, Yu Li, Hao Dong, Yu Cheng, Ming Zhang, Pheng Ann Heng, Jifeng Dai, Ping Luo, Jingdong Wang, Ji-Rong Wen, Xipeng Qiu, Yike Guo, Hui Xiong, Qun Liu, Zhenguo Li, 17-12-2023
+175. [A Survey of Reasoning with Foundation Models](http://arxiv.org/abs/2312.11562v4), Jiankai Sun, Chuanyang Zheng, Enze Xie, Zhengying Liu, Ruihang Chu, Jianing Qiu, Jiaqi Xu, Mingyu Ding, Hongyang Li, Mengzhe Geng, Yue Wu, Wenhai Wang, Junsong Chen, Zhangyue Yin, Xiaozhe Ren, Jie Fu, Junxian He, Wu Yuan, Qi Liu, Xihui Liu, Yu Li, Hao Dong, Yu Cheng, Ming Zhang, Pheng Ann Heng, Jifeng Dai, Ping Luo, Jingdong Wang, Ji-Rong Wen, Xipeng Qiu, Yike Guo, Hui Xiong, Qun Liu, Zhenguo Li, 17-12-2023
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
     ### Abstract
@@ -6606,7 +6599,7 @@ of this field, stimulate further advancements in reasoning with foundation
 models, and contribute to the development of AGI.
 
 
-7. [A Comprehensive Survey of Attack Techniques, Implementation, and
+176. [A Comprehensive Survey of Attack Techniques, Implementation, and
   Mitigation Strategies in Large Language Models](http://arxiv.org/abs/2312.10982v1), Aysan Esmradi, Daniel Wankit Yip, Chun Fai Chan, 18-12-2023
     ### Abstract
     Ensuring the security of large language models (LLMs) is an ongoing challenge
@@ -6628,7 +6621,7 @@ addressing security concerns and aims to enhance the understanding of LLM
 attacks, contributing to robust defense development in this evolving domain.
 
 
-7. [An In-depth Look at Gemini's Language Abilities](http://arxiv.org/abs/2312.11444v2), Syeda Nahida Akter, Zichun Yu, Aashiq Muhamed, Tianyue Ou, Alex Bäuerle, Ángel Alexander Cabrera, Krish Dholakia, Chenyan Xiong, Graham Neubig, 18-12-2023
+177. [An In-depth Look at Gemini's Language Abilities](http://arxiv.org/abs/2312.11444v2), Syeda Nahida Akter, Zichun Yu, Aashiq Muhamed, Tianyue Ou, Alex Bäuerle, Ángel Alexander Cabrera, Krish Dholakia, Chenyan Xiong, Graham Neubig, 18-12-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -6653,7 +6646,7 @@ languages, and handling longer and more complex reasoning chains. Code and data
 for reproduction can be found at https://github.com/neulab/gemini-benchmark
 
 
-7. [Gemini: A Family of Highly Capable Multimodal Models](http://arxiv.org/abs/2312.11805v1),  Gemini Team, Rohan Anil, Sebastian Borgeaud, Yonghui Wu, Jean-Baptiste Alayrac, Jiahui Yu, Radu Soricut, Johan Schalkwyk, Andrew M. Dai, Anja Hauth, Katie Millican, David Silver, Slav Petrov, Melvin Johnson, Ioannis Antonoglou, Julian Schrittwieser, Amelia Glaese, Jilin Chen, Emily Pitler, Timothy Lillicrap, Angeliki Lazaridou, Orhan Firat, James Molloy, Michael Isard, Paul R. Barham, Tom Hennigan, Benjamin Lee, Fabio Viola, Malcolm Reynolds, Yuanzhong Xu, Ryan Doherty, Eli Collins, Clemens Meyer, Eliza Rutherford, Erica Moreira, Kareem Ayoub, Megha Goel, George Tucker, Enrique Piqueras, Maxim Krikun, Iain Barr, Nikolay Savinov, Ivo Danihelka, Becca Roelofs, Anaïs White, Anders Andreassen, Tamara von Glehn, Lakshman Yagati, Mehran Kazemi, Lucas Gonzalez, Misha Khalman, Jakub Sygnowski, Alexandre Frechette, Charlotte Smith, Laura Culp, Lev Proleev, Yi Luan, Xi Chen, James Lottes, Nathan Schucher, Federico Lebron, Alban Rrustemi, Natalie Clay, Phil Crone, Tomas Kocisky, Jeffrey Zhao, Bartek Perz, Dian Yu, Heidi Howard, Adam Bloniarz, Jack W. Rae, Han Lu, Laurent Sifre, Marcello Maggioni, Fred Alcober, Dan Garrette, Megan Barnes, Shantanu Thakoor, Jacob Austin, Gabriel Barth-Maron, William Wong, Rishabh Joshi, Rahma Chaabouni, Deeni Fatiha, Arun Ahuja, Ruibo Liu, Yunxuan Li, Sarah Cogan, Jeremy Chen, Chao Jia, Chenjie Gu, Qiao Zhang, Jordan Grimstad, Ale Jakse Hartman, Martin Chadwick, Gaurav Singh Tomar, Xavier Garcia, Evan Senter, Emanuel Taropa, Thanumalayan Sankaranarayana Pillai, Jacob Devlin, Michael Laskin, Diego de Las Casas, Dasha Valter, Connie Tao, Lorenzo Blanco, Adrià Puigdomènech Badia, David Reitter, Mianna Chen, Jenny Brennan, Clara Rivera, Sergey Brin, Shariq Iqbal, Gabriela Surita, Jane Labanowski, Abhi Rao, Stephanie Winkler, Emilio Parisotto, Yiming Gu, Kate Olszewska, Yujing Zhang, Ravi Addanki, Antoine Miech, Annie Louis, Laurent El Shafey, Denis Teplyashin, Geoff Brown, Elliot Catt, Nithya Attaluri, Jan Balaguer, Jackie Xiang, Pidong Wang, Zoe Ashwood, Anton Briukhov, Albert Webson, Sanjay Ganapathy, Smit Sanghavi, Ajay Kannan, Ming-Wei Chang, Axel Stjerngren, Josip Djolonga, Yuting Sun, Ankur Bapna, Matthew Aitchison, Pedram Pejman, Henryk Michalewski, Tianhe Yu, Cindy Wang, Juliette Love, Junwhan Ahn, Dawn Bloxwich, Kehang Han, Peter Humphreys, Thibault Sellam, James Bradbury, Varun Godbole, Sina Samangooei, Bogdan Damoc, Alex Kaskasoli, Sébastien M. R. Arnold, Vijay Vasudevan, Shubham Agrawal, Jason Riesa, Dmitry Lepikhin, Richard Tanburn, Srivatsan Srinivasan, Hyeontaek Lim, Sarah Hodkinson, Pranav Shyam, Johan Ferret, Steven Hand, Ankush Garg, Tom Le Paine, Jian Li, Yujia Li, Minh Giang, Alexander Neitz, Zaheer Abbas, Sarah York, Machel Reid, Elizabeth Cole, Aakanksha Chowdhery, Dipanjan Das, Dominika Rogozińska, Vitaly Nikolaev, Pablo Sprechmann, Zachary Nado, Lukas Zilka, Flavien Prost, Luheng He, Marianne Monteiro, Gaurav Mishra, Chris Welty, Josh Newlan, Dawei Jia, Miltiadis Allamanis, Clara Huiyi Hu, Raoul de Liedekerke, Justin Gilmer, Carl Saroufim, Shruti Rijhwani, Shaobo Hou, Disha Shrivastava, Anirudh Baddepudi, Alex Goldin, Adnan Ozturel, Albin Cassirer, Yunhan Xu, Daniel Sohn, Devendra Sachan, Reinald Kim Amplayo, Craig Swanson, Dessie Petrova, Shashi Narayan, Arthur Guez, Siddhartha Brahma, Jessica Landon, Miteyan Patel, Ruizhe Zhao, Kevin Villela, Luyu Wang, Wenhao Jia, Matthew Rahtz, Mai Giménez, Legg Yeung, Hanzhao Lin, James Keeling, Petko Georgiev, Diana Mincu, Boxi Wu, Salem Haykal, Rachel Saputro, Kiran Vodrahalli, James Qin, Zeynep Cankara, Abhanshu Sharma, Nick Fernando, Will Hawkins, Behnam Neyshabur, Solomon Kim, Adrian Hutter, Priyanka Agrawal, Alex Castro-Ros, George van den Driessche, Tao Wang, Fan Yang, Shuo-yiin Chang, Paul Komarek, Ross McIlroy, Mario Lučić, Guodong Zhang, Wael Farhan, Michael Sharman, Paul Natsev, Paul Michel, Yong Cheng, Yamini Bansal, Siyuan Qiao, Kris Cao, Siamak Shakeri, Christina Butterfield, Justin Chung, Paul Kishan Rubenstein, Shivani Agrawal, Arthur Mensch, Kedar Soparkar, Karel Lenc, Timothy Chung, Aedan Pope, Loren Maggiore, Jackie Kay, Priya Jhakra, Shibo Wang, Joshua Maynez, Mary Phuong, Taylor Tobin, Andrea Tacchetti, Maja Trebacz, Kevin Robinson, Yash Katariya, Sebastian Riedel, Paige Bailey, Kefan Xiao, Nimesh Ghelani, Lora Aroyo, Ambrose Slone, Neil Houlsby, Xuehan Xiong, Zhen Yang, Elena Gribovskaya, Jonas Adler, Mateo Wirth, Lisa Lee, Music Li, Thais Kagohara, Jay Pavagadhi, Sophie Bridgers, Anna Bortsova, Sanjay Ghemawat, Zafarali Ahmed, Tianqi Liu, Richard Powell, Vijay Bolina, Mariko Iinuma, Polina Zablotskaia, James Besley, Da-Woon Chung, Timothy Dozat, Ramona Comanescu, Xiance Si, Jeremy Greer, Guolong Su, Martin Polacek, Raphaël Lopez Kaufman, Simon Tokumine, Hexiang Hu, Elena Buchatskaya, Yingjie Miao, Mohamed Elhawaty, Aditya Siddhant, Nenad Tomasev, Jinwei Xing, Christina Greer, Helen Miller, Shereen Ashraf, Aurko Roy, Zizhao Zhang, Ada Ma, Angelos Filos, Milos Besta, Rory Blevins, Ted Klimenko, Chih-Kuan Yeh, Soravit Changpinyo, Jiaqi Mu, Oscar Chang, Mantas Pajarskas, Carrie Muir, Vered Cohen, Charline Le Lan, Krishna Haridasan, Amit Marathe, Steven Hansen, Sholto Douglas, Rajkumar Samuel, Mingqiu Wang, Sophia Austin, Chang Lan, Jiepu Jiang, Justin Chiu, Jaime Alonso Lorenzo, Lars Lowe Sjösund, Sébastien Cevey, Zach Gleicher, Thi Avrahami, Anudhyan Boral, Hansa Srinivasan, Vittorio Selo, Rhys May, Konstantinos Aisopos, Léonard Hussenot, Livio Baldini Soares, Kate Baumli, Michael B. Chang, Adrià Recasens, Ben Caine, Alexander Pritzel, Filip Pavetic, Fabio Pardo, Anita Gergely, Justin Frye, Vinay Ramasesh, Dan Horgan, Kartikeya Badola, Nora Kassner, Subhrajit Roy, Ethan Dyer, Víctor Campos, Alex Tomala, Yunhao Tang, Dalia El Badawy, Elspeth White, Basil Mustafa, Oran Lang, Abhishek Jindal, Sharad Vikram, Zhitao Gong, Sergi Caelles, Ross Hemsley, Gregory Thornton, Fangxiaoyu Feng, Wojciech Stokowiec, Ce Zheng, Phoebe Thacker, Çağlar Ünlü, Zhishuai Zhang, Mohammad Saleh, James Svensson, Max Bileschi, Piyush Patil, Ankesh Anand, Roman Ring, Katerina Tsihlas, Arpi Vezer, Marco Selvi, Toby Shevlane, Mikel Rodriguez, Tom Kwiatkowski, Samira Daruki, Keran Rong, Allan Dafoe, Nicholas FitzGerald, Keren Gu-Lemberg, Mina Khan, Lisa Anne Hendricks, Marie Pellat, Vladimir Feinberg, James Cobon-Kerr, Tara Sainath, Maribeth Rauh, Sayed Hadi Hashemi, Richard Ives, Yana Hasson, YaGuang Li, Eric Noland, Yuan Cao, Nathan Byrd, Le Hou, Qingze Wang, Thibault Sottiaux, Michela Paganini, Jean-Baptiste Lespiau, Alexandre Moufarek, Samer Hassan, Kaushik Shivakumar, Joost van Amersfoort, Amol Mandhane, Pratik Joshi, Anirudh Goyal, Matthew Tung, Andrew Brock, Hannah Sheahan, Vedant Misra, Cheng Li, Nemanja Rakićević, Mostafa Dehghani, Fangyu Liu, Sid Mittal, Junhyuk Oh, Seb Noury, Eren Sezener, Fantine Huot, Matthew Lamm, Nicola De Cao, Charlie Chen, Gamaleldin Elsayed, Ed Chi, Mahdis Mahdieh, Ian Tenney, Nan Hua, Ivan Petrychenko, Patrick Kane, Dylan Scandinaro, Rishub Jain, Jonathan Uesato, Romina Datta, Adam Sadovsky, Oskar Bunyan, Dominik Rabiej, Shimu Wu, John Zhang, Gautam Vasudevan, Edouard Leurent, Mahmoud Alnahlawi, Ionut Georgescu, Nan Wei, Ivy Zheng, Betty Chan, Pam G Rabinovitch, Piotr Stanczyk, Ye Zhang, David Steiner, Subhajit Naskar, Michael Azzam, Matthew Johnson, Adam Paszke, Chung-Cheng Chiu, Jaume Sanchez Elias, Afroz Mohiuddin, Faizan Muhammad, Jin Miao, Andrew Lee, Nino Vieillard, Sahitya Potluri, Jane Park, Elnaz Davoodi, Jiageng Zhang, Jeff Stanway, Drew Garmon, Abhijit Karmarkar, Zhe Dong, Jong Lee, Aviral Kumar, Luowei Zhou, Jonathan Evens, William Isaac, Zhe Chen, Johnson Jia, Anselm Levskaya, Zhenkai Zhu, Chris Gorgolewski, Peter Grabowski, Yu Mao, Alberto Magni, Kaisheng Yao, Javier Snaider, Norman Casagrande, Paul Suganthan, Evan Palmer, Geoffrey Irving, Edward Loper, Manaal Faruqui, Isha Arkatkar, Nanxin Chen, Izhak Shafran, Michael Fink, Alfonso Castaño, Irene Giannoumis, Wooyeol Kim, Mikołaj Rybiński, Ashwin Sreevatsa, Jennifer Prendki, David Soergel, Adrian Goedeckemeyer, Willi Gierke, Mohsen Jafari, Meenu Gaba, Jeremy Wiesner, Diana Gage Wright, Yawen Wei, Harsha Vashisht, Yana Kulizhskaya, Jay Hoover, Maigo Le, Lu Li, Chimezie Iwuanyanwu, Lu Liu, Kevin Ramirez, Andrey Khorlin, Albert Cui, Tian LIN, Marin Georgiev, Marcus Wu, Ricardo Aguilar, Keith Pallo, Abhishek Chakladar, Alena Repina, Xihui Wu, Tom van der Weide, Priya Ponnapalli, Caroline Kaplan, Jiri Simsa, Shuangfeng Li, Olivier Dousse, Fan Yang, Jeff Piper, Nathan Ie, Minnie Lui, Rama Pasumarthi, Nathan Lintz, Anitha Vijayakumar, Lam Nguyen Thiet, Daniel Andor, Pedro Valenzuela, Cosmin Paduraru, Daiyi Peng, Katherine Lee, Shuyuan Zhang, Somer Greene, Duc Dung Nguyen, Paula Kurylowicz, Sarmishta Velury, Sebastian Krause, Cassidy Hardin, Lucas Dixon, Lili Janzer, Kiam Choo, Ziqiang Feng, Biao Zhang, Achintya Singhal, Tejasi Latkar, Mingyang Zhang, Quoc Le, Elena Allica Abellan, Dayou Du, Dan McKinnon, Natasha Antropova, Tolga Bolukbasi, Orgad Keller, David Reid, Daniel Finchelstein, Maria Abi Raad, Remi Crocker, Peter Hawkins, Robert Dadashi, Colin Gaffney, Sid Lall, Ken Franko, Egor Filonov, Anna Bulanova, Rémi Leblond, Vikas Yadav, Shirley Chung, Harry Askham, Luis C. Cobo, Kelvin Xu, Felix Fischer, Jun Xu, Christina Sorokin, Chris Alberti, Chu-Cheng Lin, Colin Evans, Hao Zhou, Alek Dimitriev, Hannah Forbes, Dylan Banarse, Zora Tung, Jeremiah Liu, Mark Omernick, Colton Bishop, Chintu Kumar, Rachel Sterneck, Ryan Foley, Rohan Jain, Swaroop Mishra, Jiawei Xia, Taylor Bos, Geoffrey Cideron, Ehsan Amid, Francesco Piccinno, Xingyu Wang, Praseem Banzal, Petru Gurita, Hila Noga, Premal Shah, Daniel J. Mankowitz, Alex Polozov, Nate Kushman, Victoria Krakovna, Sasha Brown, MohammadHossein Bateni, Dennis Duan, Vlad Firoiu, Meghana Thotakuri, Tom Natan, Anhad Mohananey, Matthieu Geist, Sidharth Mudgal, Sertan Girgin, Hui Li, Jiayu Ye, Ofir Roval, Reiko Tojo, Michael Kwong, James Lee-Thorp, Christopher Yew, Quan Yuan, Sumit Bagri, Danila Sinopalnikov, Sabela Ramos, John Mellor, Abhishek Sharma, Aliaksei Severyn, Jonathan Lai, Kathy Wu, Heng-Tze Cheng, David Miller, Nicolas Sonnerat, Denis Vnukov, Rory Greig, Jennifer Beattie, Emily Caveness, Libin Bai, Julian Eisenschlos, Alex Korchemniy, Tomy Tsai, Mimi Jasarevic, Weize Kong, Phuong Dao, Zeyu Zheng, Frederick Liu, Fan Yang, Rui Zhu, Mark Geller, Tian Huey Teh, Jason Sanmiya, Evgeny Gladchenko, Nejc Trdin, Andrei Sozanschi, Daniel Toyama, Evan Rosen, Sasan Tavakkol, Linting Xue, Chen Elkind, Oliver Woodman, John Carpenter, George Papamakarios, Rupert Kemp, Sushant Kafle, Tanya Grunina, Rishika Sinha, Alice Talbert, Abhimanyu Goyal, Diane Wu, Denese Owusu-Afriyie, Cosmo Du, Chloe Thornton, Jordi Pont-Tuset, Pradyumna Narayana, Jing Li, Sabaer Fatehi, John Wieting, Omar Ajmeri, Benigno Uria, Tao Zhu, Yeongil Ko, Laura Knight, Amélie Héliou, Ning Niu, Shane Gu, Chenxi Pang, Dustin Tran, Yeqing Li, Nir Levine, Ariel Stolovich, Norbert Kalb, Rebeca Santamaria-Fernandez, Sonam Goenka, Wenny Yustalim, Robin Strudel, Ali Elqursh, Balaji Lakshminarayanan, Charlie Deck, Shyam Upadhyay, Hyo Lee, Mike Dusenberry, Zonglin Li, Xuezhi Wang, Kyle Levin, Raphael Hoffmann, Dan Holtmann-Rice, Olivier Bachem, Summer Yue, Sho Arora, Eric Malmi, Daniil Mirylenka, Qijun Tan, Christy Koh, Soheil Hassas Yeganeh, Siim Põder, Steven Zheng, Francesco Pongetti, Mukarram Tariq, Yanhua Sun, Lucian Ionita, Mojtaba Seyedhosseini, Pouya Tafti, Ragha Kotikalapudi, Zhiyu Liu, Anmol Gulati, Jasmine Liu, Xinyu Ye, Bart Chrzaszcz, Lily Wang, Nikhil Sethi, Tianrun Li, Ben Brown, Shreya Singh, Wei Fan, Aaron Parisi, Joe Stanton, Chenkai Kuang, Vinod Koverkathu, Christopher A. Choquette-Choo, Yunjie Li, TJ Lu, Abe Ittycheriah, Prakash Shroff, Pei Sun, Mani Varadarajan, Sanaz Bahargam, Rob Willoughby, David Gaddy, Ishita Dasgupta, Guillaume Desjardins, Marco Cornero, Brona Robenek, Bhavishya Mittal, Ben Albrecht, Ashish Shenoy, Fedor Moiseev, Henrik Jacobsson, Alireza Ghaffarkhah, Morgane Rivière, Alanna Walton, Clément Crepy, Alicia Parrish, Yuan Liu, Zongwei Zhou, Clement Farabet, Carey Radebaugh, Praveen Srinivasan, Claudia van der Salm, Andreas Fidjeland, Salvatore Scellato, Eri Latorre-Chimoto, Hanna Klimczak-Plucińska, David Bridson, Dario de Cesare, Tom Hudson, Piermaria Mendolicchio, Lexi Walker, Alex Morris, Ivo Penchev, Matthew Mauger, Alexey Guseynov, Alison Reid, Seth Odoom, Lucia Loher, Victor Cotruta, Madhavi Yenugula, Dominik Grewe, Anastasia Petrushkina, Tom Duerig, Antonio Sanchez, Steve Yadlowsky, Amy Shen, Amir Globerson, Adam Kurzrok, Lynette Webb, Sahil Dua, Dong Li, Preethi Lahoti, Surya Bhupatiraju, Dan Hurt, Haroon Qureshi, Ananth Agarwal, Tomer Shani, Matan Eyal, Anuj Khare, Shreyas Rammohan Belle, Lei Wang, Chetan Tekur, Mihir Sanjay Kale, Jinliang Wei, Ruoxin Sang, Brennan Saeta, Tyler Liechty, Yi Sun, Yao Zhao, Stephan Lee, Pandu Nayak, Doug Fritz, Manish Reddy Vuyyuru, John Aslanides, Nidhi Vyas, Martin Wicke, Xiao Ma, Taylan Bilal, Evgenii Eltyshev, Daniel Balle, Nina Martin, Hardie Cate, James Manyika, Keyvan Amiri, Yelin Kim, Xi Xiong, Kai Kang, Florian Luisier, Nilesh Tripuraneni, David Madras, Mandy Guo, Austin Waters, Oliver Wang, Joshua Ainslie, Jason Baldridge, Han Zhang, Garima Pruthi, Jakob Bauer, Feng Yang, Riham Mansour, Jason Gelman, Yang Xu, George Polovets, Ji Liu, Honglong Cai, Warren Chen, XiangHai Sheng, Emily Xue, Sherjil Ozair, Adams Yu, Christof Angermueller, Xiaowei Li, Weiren Wang, Julia Wiesinger, Emmanouil Koukoumidis, Yuan Tian, Anand Iyer, Madhu Gurumurthy, Mark Goldenson, Parashar Shah, MK Blake, Hongkun Yu, Anthony Urbanowicz, Jennimaria Palomaki, Chrisantha Fernando, Kevin Brooks, Ken Durden, Harsh Mehta, Nikola Momchev, Elahe Rahimtoroghi, Maria Georgaki, Amit Raul, Sebastian Ruder, Morgan Redshaw, Jinhyuk Lee, Komal Jalan, Dinghua Li, Ginger Perng, Blake Hechtman, Parker Schuh, Milad Nasr, Mia Chen, Kieran Milan, Vladimir Mikulik, Trevor Strohman, Juliana Franco, Tim Green, Demis Hassabis, Koray Kavukcuoglu, Jeffrey Dean, Oriol Vinyals, 19-12-2023
+178. [Gemini: A Family of Highly Capable Multimodal Models](http://arxiv.org/abs/2312.11805v1),  Gemini Team, Rohan Anil, Sebastian Borgeaud, Yonghui Wu, Jean-Baptiste Alayrac, Jiahui Yu, Radu Soricut, Johan Schalkwyk, Andrew M. Dai, Anja Hauth, Katie Millican, David Silver, Slav Petrov, Melvin Johnson, Ioannis Antonoglou, Julian Schrittwieser, Amelia Glaese, Jilin Chen, Emily Pitler, Timothy Lillicrap, Angeliki Lazaridou, Orhan Firat, James Molloy, Michael Isard, Paul R. Barham, Tom Hennigan, Benjamin Lee, Fabio Viola, Malcolm Reynolds, Yuanzhong Xu, Ryan Doherty, Eli Collins, Clemens Meyer, Eliza Rutherford, Erica Moreira, Kareem Ayoub, Megha Goel, George Tucker, Enrique Piqueras, Maxim Krikun, Iain Barr, Nikolay Savinov, Ivo Danihelka, Becca Roelofs, Anaïs White, Anders Andreassen, Tamara von Glehn, Lakshman Yagati, Mehran Kazemi, Lucas Gonzalez, Misha Khalman, Jakub Sygnowski, Alexandre Frechette, Charlotte Smith, Laura Culp, Lev Proleev, Yi Luan, Xi Chen, James Lottes, Nathan Schucher, Federico Lebron, Alban Rrustemi, Natalie Clay, Phil Crone, Tomas Kocisky, Jeffrey Zhao, Bartek Perz, Dian Yu, Heidi Howard, Adam Bloniarz, Jack W. Rae, Han Lu, Laurent Sifre, Marcello Maggioni, Fred Alcober, Dan Garrette, Megan Barnes, Shantanu Thakoor, Jacob Austin, Gabriel Barth-Maron, William Wong, Rishabh Joshi, Rahma Chaabouni, Deeni Fatiha, Arun Ahuja, Ruibo Liu, Yunxuan Li, Sarah Cogan, Jeremy Chen, Chao Jia, Chenjie Gu, Qiao Zhang, Jordan Grimstad, Ale Jakse Hartman, Martin Chadwick, Gaurav Singh Tomar, Xavier Garcia, Evan Senter, Emanuel Taropa, Thanumalayan Sankaranarayana Pillai, Jacob Devlin, Michael Laskin, Diego de Las Casas, Dasha Valter, Connie Tao, Lorenzo Blanco, Adrià Puigdomènech Badia, David Reitter, Mianna Chen, Jenny Brennan, Clara Rivera, Sergey Brin, Shariq Iqbal, Gabriela Surita, Jane Labanowski, Abhi Rao, Stephanie Winkler, Emilio Parisotto, Yiming Gu, Kate Olszewska, Yujing Zhang, Ravi Addanki, Antoine Miech, Annie Louis, Laurent El Shafey, Denis Teplyashin, Geoff Brown, Elliot Catt, Nithya Attaluri, Jan Balaguer, Jackie Xiang, Pidong Wang, Zoe Ashwood, Anton Briukhov, Albert Webson, Sanjay Ganapathy, Smit Sanghavi, Ajay Kannan, Ming-Wei Chang, Axel Stjerngren, Josip Djolonga, Yuting Sun, Ankur Bapna, Matthew Aitchison, Pedram Pejman, Henryk Michalewski, Tianhe Yu, Cindy Wang, Juliette Love, Junwhan Ahn, Dawn Bloxwich, Kehang Han, Peter Humphreys, Thibault Sellam, James Bradbury, Varun Godbole, Sina Samangooei, Bogdan Damoc, Alex Kaskasoli, Sébastien M. R. Arnold, Vijay Vasudevan, Shubham Agrawal, Jason Riesa, Dmitry Lepikhin, Richard Tanburn, Srivatsan Srinivasan, Hyeontaek Lim, Sarah Hodkinson, Pranav Shyam, Johan Ferret, Steven Hand, Ankush Garg, Tom Le Paine, Jian Li, Yujia Li, Minh Giang, Alexander Neitz, Zaheer Abbas, Sarah York, Machel Reid, Elizabeth Cole, Aakanksha Chowdhery, Dipanjan Das, Dominika Rogozińska, Vitaly Nikolaev, Pablo Sprechmann, Zachary Nado, Lukas Zilka, Flavien Prost, Luheng He, Marianne Monteiro, Gaurav Mishra, Chris Welty, Josh Newlan, Dawei Jia, Miltiadis Allamanis, Clara Huiyi Hu, Raoul de Liedekerke, Justin Gilmer, Carl Saroufim, Shruti Rijhwani, Shaobo Hou, Disha Shrivastava, Anirudh Baddepudi, Alex Goldin, Adnan Ozturel, Albin Cassirer, Yunhan Xu, Daniel Sohn, Devendra Sachan, Reinald Kim Amplayo, Craig Swanson, Dessie Petrova, Shashi Narayan, Arthur Guez, Siddhartha Brahma, Jessica Landon, Miteyan Patel, Ruizhe Zhao, Kevin Villela, Luyu Wang, Wenhao Jia, Matthew Rahtz, Mai Giménez, Legg Yeung, Hanzhao Lin, James Keeling, Petko Georgiev, Diana Mincu, Boxi Wu, Salem Haykal, Rachel Saputro, Kiran Vodrahalli, James Qin, Zeynep Cankara, Abhanshu Sharma, Nick Fernando, Will Hawkins, Behnam Neyshabur, Solomon Kim, Adrian Hutter, Priyanka Agrawal, Alex Castro-Ros, George van den Driessche, Tao Wang, Fan Yang, Shuo-yiin Chang, Paul Komarek, Ross McIlroy, Mario Lučić, Guodong Zhang, Wael Farhan, Michael Sharman, Paul Natsev, Paul Michel, Yong Cheng, Yamini Bansal, Siyuan Qiao, Kris Cao, Siamak Shakeri, Christina Butterfield, Justin Chung, Paul Kishan Rubenstein, Shivani Agrawal, Arthur Mensch, Kedar Soparkar, Karel Lenc, Timothy Chung, Aedan Pope, Loren Maggiore, Jackie Kay, Priya Jhakra, Shibo Wang, Joshua Maynez, Mary Phuong, Taylor Tobin, Andrea Tacchetti, Maja Trebacz, Kevin Robinson, Yash Katariya, Sebastian Riedel, Paige Bailey, Kefan Xiao, Nimesh Ghelani, Lora Aroyo, Ambrose Slone, Neil Houlsby, Xuehan Xiong, Zhen Yang, Elena Gribovskaya, Jonas Adler, Mateo Wirth, Lisa Lee, Music Li, Thais Kagohara, Jay Pavagadhi, Sophie Bridgers, Anna Bortsova, Sanjay Ghemawat, Zafarali Ahmed, Tianqi Liu, Richard Powell, Vijay Bolina, Mariko Iinuma, Polina Zablotskaia, James Besley, Da-Woon Chung, Timothy Dozat, Ramona Comanescu, Xiance Si, Jeremy Greer, Guolong Su, Martin Polacek, Raphaël Lopez Kaufman, Simon Tokumine, Hexiang Hu, Elena Buchatskaya, Yingjie Miao, Mohamed Elhawaty, Aditya Siddhant, Nenad Tomasev, Jinwei Xing, Christina Greer, Helen Miller, Shereen Ashraf, Aurko Roy, Zizhao Zhang, Ada Ma, Angelos Filos, Milos Besta, Rory Blevins, Ted Klimenko, Chih-Kuan Yeh, Soravit Changpinyo, Jiaqi Mu, Oscar Chang, Mantas Pajarskas, Carrie Muir, Vered Cohen, Charline Le Lan, Krishna Haridasan, Amit Marathe, Steven Hansen, Sholto Douglas, Rajkumar Samuel, Mingqiu Wang, Sophia Austin, Chang Lan, Jiepu Jiang, Justin Chiu, Jaime Alonso Lorenzo, Lars Lowe Sjösund, Sébastien Cevey, Zach Gleicher, Thi Avrahami, Anudhyan Boral, Hansa Srinivasan, Vittorio Selo, Rhys May, Konstantinos Aisopos, Léonard Hussenot, Livio Baldini Soares, Kate Baumli, Michael B. Chang, Adrià Recasens, Ben Caine, Alexander Pritzel, Filip Pavetic, Fabio Pardo, Anita Gergely, Justin Frye, Vinay Ramasesh, Dan Horgan, Kartikeya Badola, Nora Kassner, Subhrajit Roy, Ethan Dyer, Víctor Campos, Alex Tomala, Yunhao Tang, Dalia El Badawy, Elspeth White, Basil Mustafa, Oran Lang, Abhishek Jindal, Sharad Vikram, Zhitao Gong, Sergi Caelles, Ross Hemsley, Gregory Thornton, Fangxiaoyu Feng, Wojciech Stokowiec, Ce Zheng, Phoebe Thacker, Çağlar Ünlü, Zhishuai Zhang, Mohammad Saleh, James Svensson, Max Bileschi, Piyush Patil, Ankesh Anand, Roman Ring, Katerina Tsihlas, Arpi Vezer, Marco Selvi, Toby Shevlane, Mikel Rodriguez, Tom Kwiatkowski, Samira Daruki, Keran Rong, Allan Dafoe, Nicholas FitzGerald, Keren Gu-Lemberg, Mina Khan, Lisa Anne Hendricks, Marie Pellat, Vladimir Feinberg, James Cobon-Kerr, Tara Sainath, Maribeth Rauh, Sayed Hadi Hashemi, Richard Ives, Yana Hasson, YaGuang Li, Eric Noland, Yuan Cao, Nathan Byrd, Le Hou, Qingze Wang, Thibault Sottiaux, Michela Paganini, Jean-Baptiste Lespiau, Alexandre Moufarek, Samer Hassan, Kaushik Shivakumar, Joost van Amersfoort, Amol Mandhane, Pratik Joshi, Anirudh Goyal, Matthew Tung, Andrew Brock, Hannah Sheahan, Vedant Misra, Cheng Li, Nemanja Rakićević, Mostafa Dehghani, Fangyu Liu, Sid Mittal, Junhyuk Oh, Seb Noury, Eren Sezener, Fantine Huot, Matthew Lamm, Nicola De Cao, Charlie Chen, Gamaleldin Elsayed, Ed Chi, Mahdis Mahdieh, Ian Tenney, Nan Hua, Ivan Petrychenko, Patrick Kane, Dylan Scandinaro, Rishub Jain, Jonathan Uesato, Romina Datta, Adam Sadovsky, Oskar Bunyan, Dominik Rabiej, Shimu Wu, John Zhang, Gautam Vasudevan, Edouard Leurent, Mahmoud Alnahlawi, Ionut Georgescu, Nan Wei, Ivy Zheng, Betty Chan, Pam G Rabinovitch, Piotr Stanczyk, Ye Zhang, David Steiner, Subhajit Naskar, Michael Azzam, Matthew Johnson, Adam Paszke, Chung-Cheng Chiu, Jaume Sanchez Elias, Afroz Mohiuddin, Faizan Muhammad, Jin Miao, Andrew Lee, Nino Vieillard, Sahitya Potluri, Jane Park, Elnaz Davoodi, Jiageng Zhang, Jeff Stanway, Drew Garmon, Abhijit Karmarkar, Zhe Dong, Jong Lee, Aviral Kumar, Luowei Zhou, Jonathan Evens, William Isaac, Zhe Chen, Johnson Jia, Anselm Levskaya, Zhenkai Zhu, Chris Gorgolewski, Peter Grabowski, Yu Mao, Alberto Magni, Kaisheng Yao, Javier Snaider, Norman Casagrande, Paul Suganthan, Evan Palmer, Geoffrey Irving, Edward Loper, Manaal Faruqui, Isha Arkatkar, Nanxin Chen, Izhak Shafran, Michael Fink, Alfonso Castaño, Irene Giannoumis, Wooyeol Kim, Mikołaj Rybiński, Ashwin Sreevatsa, Jennifer Prendki, David Soergel, Adrian Goedeckemeyer, Willi Gierke, Mohsen Jafari, Meenu Gaba, Jeremy Wiesner, Diana Gage Wright, Yawen Wei, Harsha Vashisht, Yana Kulizhskaya, Jay Hoover, Maigo Le, Lu Li, Chimezie Iwuanyanwu, Lu Liu, Kevin Ramirez, Andrey Khorlin, Albert Cui, Tian LIN, Marin Georgiev, Marcus Wu, Ricardo Aguilar, Keith Pallo, Abhishek Chakladar, Alena Repina, Xihui Wu, Tom van der Weide, Priya Ponnapalli, Caroline Kaplan, Jiri Simsa, Shuangfeng Li, Olivier Dousse, Fan Yang, Jeff Piper, Nathan Ie, Minnie Lui, Rama Pasumarthi, Nathan Lintz, Anitha Vijayakumar, Lam Nguyen Thiet, Daniel Andor, Pedro Valenzuela, Cosmin Paduraru, Daiyi Peng, Katherine Lee, Shuyuan Zhang, Somer Greene, Duc Dung Nguyen, Paula Kurylowicz, Sarmishta Velury, Sebastian Krause, Cassidy Hardin, Lucas Dixon, Lili Janzer, Kiam Choo, Ziqiang Feng, Biao Zhang, Achintya Singhal, Tejasi Latkar, Mingyang Zhang, Quoc Le, Elena Allica Abellan, Dayou Du, Dan McKinnon, Natasha Antropova, Tolga Bolukbasi, Orgad Keller, David Reid, Daniel Finchelstein, Maria Abi Raad, Remi Crocker, Peter Hawkins, Robert Dadashi, Colin Gaffney, Sid Lall, Ken Franko, Egor Filonov, Anna Bulanova, Rémi Leblond, Vikas Yadav, Shirley Chung, Harry Askham, Luis C. Cobo, Kelvin Xu, Felix Fischer, Jun Xu, Christina Sorokin, Chris Alberti, Chu-Cheng Lin, Colin Evans, Hao Zhou, Alek Dimitriev, Hannah Forbes, Dylan Banarse, Zora Tung, Jeremiah Liu, Mark Omernick, Colton Bishop, Chintu Kumar, Rachel Sterneck, Ryan Foley, Rohan Jain, Swaroop Mishra, Jiawei Xia, Taylor Bos, Geoffrey Cideron, Ehsan Amid, Francesco Piccinno, Xingyu Wang, Praseem Banzal, Petru Gurita, Hila Noga, Premal Shah, Daniel J. Mankowitz, Alex Polozov, Nate Kushman, Victoria Krakovna, Sasha Brown, MohammadHossein Bateni, Dennis Duan, Vlad Firoiu, Meghana Thotakuri, Tom Natan, Anhad Mohananey, Matthieu Geist, Sidharth Mudgal, Sertan Girgin, Hui Li, Jiayu Ye, Ofir Roval, Reiko Tojo, Michael Kwong, James Lee-Thorp, Christopher Yew, Quan Yuan, Sumit Bagri, Danila Sinopalnikov, Sabela Ramos, John Mellor, Abhishek Sharma, Aliaksei Severyn, Jonathan Lai, Kathy Wu, Heng-Tze Cheng, David Miller, Nicolas Sonnerat, Denis Vnukov, Rory Greig, Jennifer Beattie, Emily Caveness, Libin Bai, Julian Eisenschlos, Alex Korchemniy, Tomy Tsai, Mimi Jasarevic, Weize Kong, Phuong Dao, Zeyu Zheng, Frederick Liu, Fan Yang, Rui Zhu, Mark Geller, Tian Huey Teh, Jason Sanmiya, Evgeny Gladchenko, Nejc Trdin, Andrei Sozanschi, Daniel Toyama, Evan Rosen, Sasan Tavakkol, Linting Xue, Chen Elkind, Oliver Woodman, John Carpenter, George Papamakarios, Rupert Kemp, Sushant Kafle, Tanya Grunina, Rishika Sinha, Alice Talbert, Abhimanyu Goyal, Diane Wu, Denese Owusu-Afriyie, Cosmo Du, Chloe Thornton, Jordi Pont-Tuset, Pradyumna Narayana, Jing Li, Sabaer Fatehi, John Wieting, Omar Ajmeri, Benigno Uria, Tao Zhu, Yeongil Ko, Laura Knight, Amélie Héliou, Ning Niu, Shane Gu, Chenxi Pang, Dustin Tran, Yeqing Li, Nir Levine, Ariel Stolovich, Norbert Kalb, Rebeca Santamaria-Fernandez, Sonam Goenka, Wenny Yustalim, Robin Strudel, Ali Elqursh, Balaji Lakshminarayanan, Charlie Deck, Shyam Upadhyay, Hyo Lee, Mike Dusenberry, Zonglin Li, Xuezhi Wang, Kyle Levin, Raphael Hoffmann, Dan Holtmann-Rice, Olivier Bachem, Summer Yue, Sho Arora, Eric Malmi, Daniil Mirylenka, Qijun Tan, Christy Koh, Soheil Hassas Yeganeh, Siim Põder, Steven Zheng, Francesco Pongetti, Mukarram Tariq, Yanhua Sun, Lucian Ionita, Mojtaba Seyedhosseini, Pouya Tafti, Ragha Kotikalapudi, Zhiyu Liu, Anmol Gulati, Jasmine Liu, Xinyu Ye, Bart Chrzaszcz, Lily Wang, Nikhil Sethi, Tianrun Li, Ben Brown, Shreya Singh, Wei Fan, Aaron Parisi, Joe Stanton, Chenkai Kuang, Vinod Koverkathu, Christopher A. Choquette-Choo, Yunjie Li, TJ Lu, Abe Ittycheriah, Prakash Shroff, Pei Sun, Mani Varadarajan, Sanaz Bahargam, Rob Willoughby, David Gaddy, Ishita Dasgupta, Guillaume Desjardins, Marco Cornero, Brona Robenek, Bhavishya Mittal, Ben Albrecht, Ashish Shenoy, Fedor Moiseev, Henrik Jacobsson, Alireza Ghaffarkhah, Morgane Rivière, Alanna Walton, Clément Crepy, Alicia Parrish, Yuan Liu, Zongwei Zhou, Clement Farabet, Carey Radebaugh, Praveen Srinivasan, Claudia van der Salm, Andreas Fidjeland, Salvatore Scellato, Eri Latorre-Chimoto, Hanna Klimczak-Plucińska, David Bridson, Dario de Cesare, Tom Hudson, Piermaria Mendolicchio, Lexi Walker, Alex Morris, Ivo Penchev, Matthew Mauger, Alexey Guseynov, Alison Reid, Seth Odoom, Lucia Loher, Victor Cotruta, Madhavi Yenugula, Dominik Grewe, Anastasia Petrushkina, Tom Duerig, Antonio Sanchez, Steve Yadlowsky, Amy Shen, Amir Globerson, Adam Kurzrok, Lynette Webb, Sahil Dua, Dong Li, Preethi Lahoti, Surya Bhupatiraju, Dan Hurt, Haroon Qureshi, Ananth Agarwal, Tomer Shani, Matan Eyal, Anuj Khare, Shreyas Rammohan Belle, Lei Wang, Chetan Tekur, Mihir Sanjay Kale, Jinliang Wei, Ruoxin Sang, Brennan Saeta, Tyler Liechty, Yi Sun, Yao Zhao, Stephan Lee, Pandu Nayak, Doug Fritz, Manish Reddy Vuyyuru, John Aslanides, Nidhi Vyas, Martin Wicke, Xiao Ma, Taylan Bilal, Evgenii Eltyshev, Daniel Balle, Nina Martin, Hardie Cate, James Manyika, Keyvan Amiri, Yelin Kim, Xi Xiong, Kai Kang, Florian Luisier, Nilesh Tripuraneni, David Madras, Mandy Guo, Austin Waters, Oliver Wang, Joshua Ainslie, Jason Baldridge, Han Zhang, Garima Pruthi, Jakob Bauer, Feng Yang, Riham Mansour, Jason Gelman, Yang Xu, George Polovets, Ji Liu, Honglong Cai, Warren Chen, XiangHai Sheng, Emily Xue, Sherjil Ozair, Adams Yu, Christof Angermueller, Xiaowei Li, Weiren Wang, Julia Wiesinger, Emmanouil Koukoumidis, Yuan Tian, Anand Iyer, Madhu Gurumurthy, Mark Goldenson, Parashar Shah, MK Blake, Hongkun Yu, Anthony Urbanowicz, Jennimaria Palomaki, Chrisantha Fernando, Kevin Brooks, Ken Durden, Harsh Mehta, Nikola Momchev, Elahe Rahimtoroghi, Maria Georgaki, Amit Raul, Sebastian Ruder, Morgan Redshaw, Jinhyuk Lee, Komal Jalan, Dinghua Li, Ginger Perng, Blake Hechtman, Parker Schuh, Milad Nasr, Mia Chen, Kieran Milan, Vladimir Mikulik, Trevor Strohman, Juliana Franco, Tim Green, Demis Hassabis, Koray Kavukcuoglu, Jeffrey Dean, Oriol Vinyals, 19-12-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -6671,7 +6664,7 @@ language understanding will enable a wide variety of use cases and we discuss
 our approach toward deploying them responsibly to users.
 
 
-7. [Parameter-Efficient Fine-Tuning Methods for Pretrained Language Models:
+179. [Parameter-Efficient Fine-Tuning Methods for Pretrained Language Models:
   A Critical Review and Assessment](http://arxiv.org/abs/2312.12148v1), Lingling Xu, Haoran Xie, Si-Zhao Joe Qin, Xiaohui Tao, Fu Lee Wang, 19-12-2023
      ### Categories
      Computation and Language
@@ -6697,7 +6690,7 @@ practitioners seeking to navigate the challenges and opportunities presented by
 PEFT in the context of PLMs.
 
 
-7. [Generative Multimodal Models are In-Context Learners](http://arxiv.org/abs/2312.13286v1), Quan Sun, Yufeng Cui, Xiaosong Zhang, Fan Zhang, Qiying Yu, Zhengxiong Luo, Yueze Wang, Yongming Rao, Jingjing Liu, Tiejun Huang, Xinlong Wang, 20-12-2023
+180. [Generative Multimodal Models are In-Context Learners](http://arxiv.org/abs/2312.13286v1), Quan Sun, Yufeng Cui, Xiaosong Zhang, Fan Zhang, Qiying Yu, Zhengxiong Luo, Yueze Wang, Yongming Rao, Jingjing Liu, Tiejun Huang, Xinlong Wang, 20-12-2023
     ### Abstract
     The human ability to easily solve multimodal tasks in context (i.e., with
 only a few demonstrations or simple instructions), is what current multimodal
@@ -6718,7 +6711,7 @@ multimodal tasks. Code and models are publicly available to facilitate future
 research.
 
 
-7. [Mini-GPTs: Efficient Large Language Models through Contextual Pruning](http://arxiv.org/abs/2312.12682v1), Tim Valicenti, Justice Vidal, Ritik Patnaik, 20-12-2023
+181. [Mini-GPTs: Efficient Large Language Models through Contextual Pruning](http://arxiv.org/abs/2312.12682v1), Tim Valicenti, Justice Vidal, Ritik Patnaik, 20-12-2023
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -6738,7 +6731,7 @@ domain-specific LLMs, and this research is a building block towards future
 development with more hardware compute, refined fine-tuning, and quantization.
 
 
-7. [Time is Encoded in the Weights of Finetuned Language Models](http://arxiv.org/abs/2312.13401v2), Kai Nylund, Suchin Gururangan, Noah A. Smith, 20-12-2023
+182. [Time is Encoded in the Weights of Finetuned Language Models](http://arxiv.org/abs/2312.13401v2), Kai Nylund, Suchin Gururangan, Noah A. Smith, 20-12-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -6756,7 +6749,7 @@ time scales. Our results suggest that time is encoded in the weight space of
 finetuned models.
 
 
-7. [AppAgent: Multimodal Agents as Smartphone Users](http://arxiv.org/abs/2312.13771v2), Chi Zhang, Zhao Yang, Jiaxuan Liu, Yucheng Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu, 21-12-2023
+183. [AppAgent: Multimodal Agents as Smartphone Users](http://arxiv.org/abs/2312.13771v2), Chi Zhang, Zhao Yang, Jiaxuan Liu, Yucheng Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu, 21-12-2023
     ### Abstract
     Recent advancements in large language models (LLMs) have led to the creation
 of intelligent agents capable of performing complex tasks. This paper
@@ -6776,7 +6769,7 @@ tools. The results affirm our agent's proficiency in handling a diverse array
 of high-level tasks.
 
 
-7. [Exploring the intersection of Generative AI and Software Development](http://arxiv.org/abs/2312.14262v1), Filipe Calegario, Vanilson Burégio, Francisco Erivaldo, Daniel Moraes Costa Andrade, Kailane Felix, Nathalia Barbosa, Pedro Lucas da Silva Lucena, César França, 21-12-2023
+184. [Exploring the intersection of Generative AI and Software Development](http://arxiv.org/abs/2312.14262v1), Filipe Calegario, Vanilson Burégio, Francisco Erivaldo, Daniel Moraes Costa Andrade, Kailane Felix, Nathalia Barbosa, Pedro Lucas da Silva Lucena, César França, 21-12-2023
      ### Categories
      Artificial Intelligence
     ### Abstract
@@ -6799,7 +6792,7 @@ collaboration for a qualitative leap in the efficiency and effectiveness of
 software development.
 
 
-7. [LARP: Language-Agent Role Play for Open-World Games](http://arxiv.org/abs/2312.17653v1), Ming Yan, Ruihao Li, Hao Zhang, Hao Wang, Zhilan Yang, Ji Yan, 24-12-2023
+185. [LARP: Language-Agent Role Play for Open-World Games](http://arxiv.org/abs/2312.17653v1), Ming Yan, Ruihao Li, Hao Zhang, Hao Wang, Zhilan Yang, Ji Yan, 24-12-2023
      ### Categories
      Artificial Intelligence
     ### Abstract
@@ -6820,7 +6813,7 @@ range of areas such as entertainment, education, and various simulation
 scenarios. The project page is released at https://miao-ai-lab.github.io/LARP/.
 
 
-7. [Principled Instructions Are All You Need for Questioning LLaMA-1/2,
+186. [Principled Instructions Are All You Need for Questioning LLaMA-1/2,
   GPT-3.5/4](http://arxiv.org/abs/2312.16171v1), Sondos Mahmoud Bsharat, Aidar Myrzakhan, Zhiqiang Shen, 26-12-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -6838,7 +6831,7 @@ language models. Project page is available at
 https://github.com/VILA-Lab/ATLAS.
 
 
-7. [Supervised Knowledge Makes Large Language Models Better In-context
+187. [Supervised Knowledge Makes Large Language Models Better In-context
   Learners](http://arxiv.org/abs/2312.15918v1), Linyi Yang, Shuibai Zhang, Zhuohao Yu, Guangsheng Bao, Yidong Wang, Jindong Wang, Ruochen Xu, Wei Ye, Xing Xie, Weizhu Chen, Yue Zhang, 26-12-2023
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -6865,7 +6858,7 @@ discriminative models into LLMs and highlights the potential of our methodology
 in fostering more reliable LLMs.
 
 
-7. [Challenge LLMs to Reason About Reasoning: A Benchmark to Unveil
+188. [Challenge LLMs to Reason About Reasoning: A Benchmark to Unveil
   Cognitive Depth in LLMs](http://arxiv.org/abs/2312.17080v1), Zhongshen Zeng, Pengguang Chen, Haiyun Jiang, Jiaya Jia, 28-12-2023
      ### Categories
      Computation and Language
@@ -6892,7 +6885,7 @@ aim to facilitate a more accurate assessment of the true cognitive abilities of
 LLMs.
 
 
-7. [Experiential Co-Learning of Software-Developing Agents](http://arxiv.org/abs/2312.17025v2), Chen Qian, Yufan Dang, Jiahao Li, Wei Liu, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun, 28-12-2023
+189. [Experiential Co-Learning of Software-Developing Agents](http://arxiv.org/abs/2312.17025v2), Chen Qian, Yufan Dang, Jiahao Li, Wei Liu, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun, 28-12-2023
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -6910,7 +6903,7 @@ with previous experiences, equips agents to more effectively address unseen
 tasks.
 
 
-7. [MobileVLM : A Fast, Strong and Open Vision Language Assistant for Mobile
+190. [MobileVLM : A Fast, Strong and Open Vision Language Assistant for Mobile
   Devices](http://arxiv.org/abs/2312.16886v2), Xiangxiang Chu, Limeng Qiao, Xinyang Lin, Shuang Xu, Yang Yang, Yiming Hu, Fei Wei, Xinyu Zhang, Bo Zhang, Xiaolin Wei, Chunhua Shen, 28-12-2023
     ### Abstract
     We present MobileVLM, a competent multimodal vision language model (MMVLM)
@@ -6927,7 +6920,7 @@ per second, respectively. Our code will be made available at:
 https://github.com/Meituan-AutoML/MobileVLM.
 
 
-7. [Large Language Models for Generative Information Extraction: A Survey](http://arxiv.org/abs/2312.17617v1), Derong Xu, Wei Chen, Wenjun Peng, Chao Zhang, Tong Xu, Xiangyu Zhao, Xian Wu, Yefeng Zheng, Enhong Chen, 29-12-2023
+191. [Large Language Models for Generative Information Extraction: A Survey](http://arxiv.org/abs/2312.17617v1), Derong Xu, Wei Chen, Wenjun Peng, Chao Zhang, Tong Xu, Xiangyu Zhao, Xian Wu, Yefeng Zheng, Enhong Chen, 29-12-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -6949,7 +6942,7 @@ repository and consistently update related resources at:
 \url{https://github.com/quqxui/Awesome-LLM4IE-Papers}.
 
 
-7. [Pushing Boundaries: Exploring Zero Shot Object Classification with Large
+192. [Pushing Boundaries: Exploring Zero Shot Object Classification with Large
   Multimodal Models](http://arxiv.org/abs/2401.00127v1), Ashhadul Islam, Md. Rafiul Biswas, Wajdi Zaghouani, Samir Brahim Belhaouari, Zubair Shah, 30-12-2023
     ### Abstract
     $ $The synergy of language and vision models has given rise to Large Language
@@ -6976,7 +6969,7 @@ results, coupled with our prior findings, underscore the transformative
 potential of LLVAs and their versatile applications in real-world scenarios.
 
 
-7. [DocLLM: A layout-aware generative language model for multimodal document
+193. [DocLLM: A layout-aware generative language model for multimodal document
   understanding](http://arxiv.org/abs/2401.00908v1), Dongsheng Wang, Natraj Raman, Mathieu Sibue, Zhiqiang Ma, Petr Babkin, Simerjot Kaur, Yulong Pei, Armineh Nourbakhsh, Xiaomo Liu, 31-12-2023
      ### Categories
      Computation and Language
@@ -7001,7 +6994,7 @@ our solution outperforms SotA LLMs on 14 out of 16 datasets across all tasks,
 and generalizes well to 4 out of 5 previously unseen datasets.
 
 
-7. [Improving Text Embeddings with Large Language Models](http://arxiv.org/abs/2401.00368v1), Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu Wei, 31-12-2023
+194. [Improving Text Embeddings with Large Language Models](http://arxiv.org/abs/2401.00368v1), Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu Wei, 31-12-2023
      ### Categories
      Computation and Language
     ### Abstract
@@ -7022,7 +7015,7 @@ labeled data, our model sets new state-of-the-art results on the BEIR and MTEB
 benchmarks.
 
 
-7. [Opening A Pandora's Box: Things You Should Know in the Era of Custom
+195. [Opening A Pandora's Box: Things You Should Know in the Era of Custom
   GPTs](http://arxiv.org/abs/2401.00905v1), Guanhong Tao, Siyuan Cheng, Zhuo Zhang, Junmin Zhu, Guangyu Shen, Xiangyu Zhang, 31-12-2023
     ### Abstract
     The emergence of large language models (LLMs) has significantly accelerated
@@ -7040,11 +7033,10 @@ STRIDE threat modeling framework, we identify 26 potential attack vectors, with
 emphasize the urgent need for robust security and privacy measures in the
 custom GPT ecosystem, especially in light of the forthcoming launch of the
 official GPT store by OpenAI.
+
 ## 2024 (33 papers)
 
-
-
-8. [A Computational Framework for Behavioral Assessment of LLM Therapists](http://arxiv.org/abs/2401.00820v1), Yu Ying Chiu, Ashish Sharma, Inna Wanyin Lin, Tim Althoff, 01-01-2024
+1. [A Computational Framework for Behavioral Assessment of LLM Therapists](http://arxiv.org/abs/2401.00820v1), Yu Ying Chiu, Ashish Sharma, Inna Wanyin Lin, Tim Althoff, 01-01-2024
      ### Categories
      Computation and Language
     ### Abstract
@@ -7075,7 +7067,7 @@ not fully consistent with high-quality care, and thus require additional
 research to ensure quality care.
 
 
-8. [Beyond Efficiency: A Systematic Survey of Resource-Efficient Large
+2. [Beyond Efficiency: A Systematic Survey of Resource-Efficient Large
   Language Models](http://arxiv.org/abs/2401.00625v2), Guangji Bai, Zheng Chai, Chen Ling, Shiyu Wang, Jiaying Lu, Nan Zhang, Tingwei Shi, Ziyang Yu, Mengdan Zhu, Yifei Zhang, Carl Yang, Yue Cheng, Liang Zhao, 01-01-2024
      ### Categories
      Machine Learning
@@ -7102,7 +7094,7 @@ foundational reference for researchers and practitioners, aiding them in
 developing more sustainable and efficient LLMs in a rapidly evolving landscape.
 
 
-8. [General-purpose foundation models for increased autonomy in
+3. [General-purpose foundation models for increased autonomy in
   robot-assisted surgery](http://arxiv.org/abs/2401.00678v1), Samuel Schmidgall, Ji Woong Kim, Alan Kuntz, Ahmed Ezzat Ghazi, Axel Krieger, 01-01-2024
      ### Categories
      Machine Learning
@@ -7129,7 +7121,7 @@ and provide three guiding actions toward increased autonomy in robot-assisted
 surgery.
 
 
-8. [If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code
+4. [If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code
   Empowers Large Language Models to Serve as Intelligent Agents](http://arxiv.org/abs/2401.00812v2), Ke Yang, Jiateng Liu, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, Chengxiang Zhai, 01-01-2024
      ### Categories
      Computation and Language
@@ -7155,7 +7147,7 @@ downstream tasks. Finally, we present several key challenges and future
 directions of empowering LLMs with code.
 
 
-8. [The Earth is Flat? Unveiling Factual Errors in Large Language Models](http://arxiv.org/abs/2401.00761v1), Wenxuan Wang, Juluan Shi, Zhaopeng Tu, Youliang Yuan, Jen-tse Huang, Wenxiang Jiao, Michael R. Lyu, 01-01-2024
+5. [The Earth is Flat? Unveiling Factual Errors in Large Language Models](http://arxiv.org/abs/2401.00761v1), Wenxuan Wang, Juluan Shi, Zhaopeng Tu, Youliang Yuan, Jen-tse Huang, Wenxiang Jiao, Michael R. Lyu, 01-01-2024
      ### Categories
      Artificial Intelligence, Computation and Language
     ### Abstract
@@ -7183,7 +7175,7 @@ llama-2-13b-chat's accuracy increase from 35.3\% to 68.5\%). We are making all
 code, data, and results available for future research endeavors.
 
 
-8. [A Comprehensive Study of Knowledge Editing for Large Language Models](http://arxiv.org/abs/2401.01286v3), Ningyu Zhang, Yunzhi Yao, Bozhong Tian, Peng Wang, Shumin Deng, Mengru Wang, Zekun Xi, Shengyu Mao, Jintian Zhang, Yuansheng Ni, Siyuan Cheng, Ziwen Xu, Xin Xu, Jia-Chen Gu, Yong Jiang, Pengjun Xie, Fei Huang, Lei Liang, Zhiqiang Zhang, Xiaowei Zhu, Jun Zhou, Huajun Chen, 02-01-2024
+6. [A Comprehensive Study of Knowledge Editing for Large Language Models](http://arxiv.org/abs/2401.01286v3), Ningyu Zhang, Yunzhi Yao, Bozhong Tian, Peng Wang, Shumin Deng, Mengru Wang, Zekun Xi, Shengyu Mao, Jintian Zhang, Yuansheng Ni, Siyuan Cheng, Ziwen Xu, Xin Xu, Jia-Chen Gu, Yong Jiang, Pengjun Xie, Fei Huang, Lei Liang, Zhiqiang Zhang, Xiaowei Zhu, Jun Zhou, Huajun Chen, 02-01-2024
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -7213,7 +7205,7 @@ Finally, we discuss several potential applications of knowledge editing,
 outlining its broad and impactful implications.
 
 
-8. [A Comprehensive Survey of Hallucination Mitigation Techniques in Large
+7. [A Comprehensive Survey of Hallucination Mitigation Techniques in Large
   Language Models](http://arxiv.org/abs/2401.01313v3), S. M Towhidul Islam Tonmoy, S M Mehedi Zaman, Vinija Jain, Anku Rani, Vipula Rawte, Aman Chadha, Amitava Das, 02-01-2024
      ### Categories
      Computation and Language
@@ -7266,7 +7258,7 @@ the proposed method can effectively extend existing LLMs' context window's
 length.
 
 
-8. [LLaMA Beyond English: An Empirical Study on Language Capability Transfer](http://arxiv.org/abs/2401.01055v2), Jun Zhao, Zhihao Zhang, Luhui Gao, Qi Zhang, Tao Gui, Xuanjing Huang, 02-01-2024
+9. [LLaMA Beyond English: An Empirical Study on Language Capability Transfer](http://arxiv.org/abs/2401.01055v2), Jun Zhao, Zhihao Zhang, Luhui Gao, Qi Zhang, Tao Gui, Xuanjing Huang, 02-01-2024
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -7294,7 +7286,7 @@ trends. We anticipate that the conclusions revealed by the experiments will aid
 the community in developing non-English LLMs.
 
 
-8. [Enhancing the medical foundation model with multi-scale and
+10. [Enhancing the medical foundation model with multi-scale and
   cross-modality feature learning](http://arxiv.org/abs/2401.01583v1), Weijian Huang, Cheng Li, Hong-Yu Zhou, Jiarun Liu, Hao Yang, Yong Liang, Shanshan Wang, 03-01-2024
     ### Abstract
     The development of multi-modal medical foundation models has attracted
@@ -7314,7 +7306,7 @@ across different clinical tasks, demonstrating its ability to enhance the
 performance of medical foundation models.
 
 
-8. [Exploring the Frontiers of LLMs in Psychological Applications: A
+11. [Exploring the Frontiers of LLMs in Psychological Applications: A
   Comprehensive Review](http://arxiv.org/abs/2401.01519v2), Luoma Ke, Song Tong, Peng Cheng, Kaiping Peng, 03-01-2024
      ### Categories
      Machine Learning, Artificial Intelligence
@@ -7344,7 +7336,7 @@ challenges. It serves as a call to action for researchers to leverage LLMs'
 advantages responsibly while addressing associated risks.
 
 
-8. [Few-shot Adaptation of Multi-modal Foundation Models: A Survey](http://arxiv.org/abs/2401.01736v2), Fan Liu, Tianshu Zhang, Wenwen Dai, Wenwen Cai, Xiaocong Zhou, Delong Chen, 03-01-2024
+12. [Few-shot Adaptation of Multi-modal Foundation Models: A Survey](http://arxiv.org/abs/2401.01736v2), Fan Liu, Tianshu Zhang, Wenwen Dai, Wenwen Cai, Xiaocong Zhou, Delong Chen, 03-01-2024
     ### Abstract
     Multi-modal (vision-language) models, such as CLIP, are replacing traditional
 supervised pre-training models (e.g., ImageNet-based pre-training) as the new
@@ -7371,7 +7363,7 @@ Based on this, we propose three possible solutions from the following aspects:
 knowledge utilization.
 
 
-8. [Large Language Models Relearn Removed Concepts](http://arxiv.org/abs/2401.01814v1), Michelle Lo, Shay B. Cohen, Fazl Barez, 03-01-2024
+13. [Large Language Models Relearn Removed Concepts](http://arxiv.org/abs/2401.01814v1), Michelle Lo, Shay B. Cohen, Fazl Barez, 03-01-2024
      ### Categories
      Artificial Intelligence
     ### Abstract
@@ -7392,7 +7384,7 @@ robust model editing. Overall, our work strongly demonstrates the resilience
 and fluidity of concept representations in LLMs post concept removal.
 
 
-8. [Correctness Comparison of ChatGPT-4, Bard, Claude-2, and Copilot for
+14. [Correctness Comparison of ChatGPT-4, Bard, Claude-2, and Copilot for
   Spatial Tasks](http://arxiv.org/abs/2401.02404v2), Hartwig H. Hochmair, Levente Juhasz, Takoda Kemp, 04-01-2024
     ### Abstract
     Generative AI including large language models (LLMs) have recently gained
@@ -7410,7 +7402,7 @@ in mapping, code generation, and code translation. ChatGPT-4 outperformed other
 chatbots across most task categories.
 
 
-8. [LLM Augmented LLMs: Expanding Capabilities through Composition](http://arxiv.org/abs/2401.02412v1), Rachit Bansal, Bidisha Samanta, Siddharth Dalmia, Nitish Gupta, Shikhar Vashishth, Sriram Ganapathy, Abhishek Bapna, Prateek Jain, Partha Talukdar, 04-01-2024
+15. [LLM Augmented LLMs: Expanding Capabilities through Composition](http://arxiv.org/abs/2401.02412v1), Rachit Bansal, Bidisha Samanta, Siddharth Dalmia, Nitish Gupta, Shikhar Vashishth, Sriram Ganapathy, Abhishek Bapna, Prateek Jain, Partha Talukdar, 04-01-2024
      ### Categories
      Machine Learning, Artificial Intelligence, Computation and Language
     ### Abstract
@@ -7436,7 +7428,7 @@ over the base model for code generation and explanation tasks -- on-par with
 fully fine-tuned counterparts.
 
 
-8. [LLaMA Pro: Progressive LLaMA with Block Expansion](http://arxiv.org/abs/2401.02415v1), Chengyue Wu, Yukang Gan, Yixiao Ge, Zeyu Lu, Jiahao Wang, Ye Feng, Ping Luo, Ying Shan, 04-01-2024
+16. [LLaMA Pro: Progressive LLaMA with Block Expansion](http://arxiv.org/abs/2401.02415v1), Chengyue Wu, Yukang Gan, Yixiao Ge, Zeyu Lu, Jiahao Wang, Ye Feng, Ping Luo, Ying Shan, 04-01-2024
      ### Categories
      Computation and Language
     ### Abstract
@@ -7457,7 +7449,7 @@ foundation for developing advanced language agents that operate effectively in
 various environments.
 
 
-8. [LLaVA-Phi: Efficient Multi-Modal Assistant with Small Language Model](http://arxiv.org/abs/2401.02330v2), Yichen Zhu, Minjie Zhu, Ning Liu, Zhicai Ou, Xiaofeng Mou, Jian Tang, 04-01-2024
+17. [LLaVA-Phi: Efficient Multi-Modal Assistant with Small Language Model](http://arxiv.org/abs/2401.02330v2), Yichen Zhu, Minjie Zhu, Ning Liu, Zhicai Ou, Xiaofeng Mou, Jian Tang, 04-01-2024
      ### Categories
      Computation and Language
     ### Abstract
@@ -7478,7 +7470,7 @@ understanding and interaction, while maintaining greater resource
 efficiency.The project is available at {https://github.com/zhuyiche/llava-phi}.
 
 
-8. [TinyLlama: An Open-Source Small Language Model](http://arxiv.org/abs/2401.02385v1), Peiyuan Zhang, Guangtao Zeng, Tianduo Wang, Wei Lu, 04-01-2024
+18. [TinyLlama: An Open-Source Small Language Model](http://arxiv.org/abs/2401.02385v1), Peiyuan Zhang, Guangtao Zeng, Tianduo Wang, Wei Lu, 04-01-2024
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -7493,7 +7485,7 @@ model checkpoints and code are publicly available on GitHub at
 https://github.com/jzhang38/TinyLlama.
 
 
-8. [Understanding LLMs: A Comprehensive Overview from Training to Inference](http://arxiv.org/abs/2401.02038v2), Yiheng Liu, Hao He, Tianle Han, Xu Zhang, Mengyuan Liu, Jiaming Tian, Yutong Zhang, Jiaqi Wang, Xiaohui Gao, Tianyang Zhong, Yi Pan, Shaochen Xu, Zihao Wu, Zhengliang Liu, Xin Zhang, Shu Zhang, Xintao Hu, Tuo Zhang, Ning Qiang, Tianming Liu, Bao Ge, 04-01-2024
+19. [Understanding LLMs: A Comprehensive Overview from Training to Inference](http://arxiv.org/abs/2401.02038v2), Yiheng Liu, Hao He, Tianle Han, Xu Zhang, Mengyuan Liu, Jiaming Tian, Yutong Zhang, Jiaqi Wang, Xiaohui Gao, Tianyang Zhong, Yi Pan, Shaochen Xu, Zihao Wu, Zhengliang Liu, Xin Zhang, Shu Zhang, Xintao Hu, Tuo Zhang, Ning Qiang, Tianming Liu, Bao Ge, 04-01-2024
      ### Categories
      Computation and Language
     ### Abstract
@@ -7511,7 +7503,7 @@ memory scheduling, and structural optimization. It also explores LLMs'
 utilization and provides insights into their future development.
 
 
-8. [DeepSeek LLM: Scaling Open-Source Language Models with Longtermism](http://arxiv.org/abs/2401.02954v1),  DeepSeek-AI,  :, Xiao Bi, Deli Chen, Guanting Chen, Shanhuang Chen, Damai Dai, Chengqi Deng, Honghui Ding, Kai Dong, Qiushi Du, Zhe Fu, Huazuo Gao, Kaige Gao, Wenjun Gao, Ruiqi Ge, Kang Guan, Daya Guo, Jianzhong Guo, Guangbo Hao, Zhewen Hao, Ying He, Wenjie Hu, Panpan Huang, Erhang Li, Guowei Li, Jiashi Li, Yao Li, Y. K. Li, Wenfeng Liang, Fangyun Lin, A. X. Liu, Bo Liu, Wen Liu, Xiaodong Liu, Xin Liu, Yiyuan Liu, Haoyu Lu, Shanghao Lu, Fuli Luo, Shirong Ma, Xiaotao Nie, Tian Pei, Yishi Piao, Junjie Qiu, Hui Qu, Tongzheng Ren, Zehui Ren, Chong Ruan, Zhangli Sha, Zhihong Shao, Junxiao Song, Xuecheng Su, Jingxiang Sun, Yaofeng Sun, Minghui Tang, Bingxuan Wang, Peiyi Wang, Shiyu Wang, Yaohui Wang, Yongji Wang, Tong Wu, Y. Wu, Xin Xie, Zhenda Xie, Ziwei Xie, Yiliang Xiong, Hanwei Xu, R. X. Xu, Yanhong Xu, Dejian Yang, Yuxiang You, Shuiping Yu, Xingkai Yu, B. Zhang, Haowei Zhang, Lecong Zhang, Liyue Zhang, Mingchuan Zhang, Minghua Zhang, Wentao Zhang, Yichao Zhang, Chenggang Zhao, Yao Zhao, Shangyan Zhou, Shunfeng Zhou, Qihao Zhu, Yuheng Zou, 05-01-2024
+20. [DeepSeek LLM: Scaling Open-Source Language Models with Longtermism](http://arxiv.org/abs/2401.02954v1),  DeepSeek-AI,  :, Xiao Bi, Deli Chen, Guanting Chen, Shanhuang Chen, Damai Dai, Chengqi Deng, Honghui Ding, Kai Dong, Qiushi Du, Zhe Fu, Huazuo Gao, Kaige Gao, Wenjun Gao, Ruiqi Ge, Kang Guan, Daya Guo, Jianzhong Guo, Guangbo Hao, Zhewen Hao, Ying He, Wenjie Hu, Panpan Huang, Erhang Li, Guowei Li, Jiashi Li, Yao Li, Y. K. Li, Wenfeng Liang, Fangyun Lin, A. X. Liu, Bo Liu, Wen Liu, Xiaodong Liu, Xin Liu, Yiyuan Liu, Haoyu Lu, Shanghao Lu, Fuli Luo, Shirong Ma, Xiaotao Nie, Tian Pei, Yishi Piao, Junjie Qiu, Hui Qu, Tongzheng Ren, Zehui Ren, Chong Ruan, Zhangli Sha, Zhihong Shao, Junxiao Song, Xuecheng Su, Jingxiang Sun, Yaofeng Sun, Minghui Tang, Bingxuan Wang, Peiyi Wang, Shiyu Wang, Yaohui Wang, Yongji Wang, Tong Wu, Y. Wu, Xin Xie, Zhenda Xie, Ziwei Xie, Yiliang Xiong, Hanwei Xu, R. X. Xu, Yanhong Xu, Dejian Yang, Yuxiang You, Shuiping Yu, Xingkai Yu, B. Zhang, Haowei Zhang, Lecong Zhang, Liyue Zhang, Mingchuan Zhang, Minghua Zhang, Wentao Zhang, Yichao Zhang, Chenggang Zhao, Yao Zhao, Shangyan Zhou, Shunfeng Zhou, Qihao Zhu, Yuheng Zou, 05-01-2024
      ### Categories
      Computation and Language, Artificial Intelligence, Machine Learning
     ### Abstract
@@ -7533,7 +7525,7 @@ evaluations reveal that DeepSeek LLM 67B Chat exhibits superior performance
 compared to GPT-3.5.
 
 
-8. [From LLM to Conversational Agent: A Memory Enhanced Architecture with
+21. [From LLM to Conversational Agent: A Memory Enhanced Architecture with
   Fine-Tuning of Large Language Models](http://arxiv.org/abs/2401.02777v1), Na Liu, Liangyu Chen, Xiaoyu Tian, Wei Zou, Kaijiang Chen, Ming Cui, 05-01-2024
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -7554,7 +7546,7 @@ AI field by providing a robust framework for developing more context-aware and
 versatile conversational agents.
 
 
-8. [Thousands of AI Authors on the Future of AI](http://arxiv.org/abs/2401.02843v1), Katja Grace, Harlan Stewart, Julia Fabienne Sandkühler, Stephen Thomas, Ben Weinstein-Raun, Jan Brauner, 05-01-2024
+22. [Thousands of AI Authors on the Future of AI](http://arxiv.org/abs/2401.02843v1), Katja Grace, Harlan Stewart, Julia Fabienne Sandkühler, Stephen Thomas, Ben Weinstein-Raun, Jan Brauner, 05-01-2024
      ### Categories
      Artificial Intelligence, Machine Learning
     ### Abstract
@@ -7585,7 +7577,7 @@ However, there was broad agreement that research aimed at minimizing potential
 risks from AI systems ought to be prioritized more.
 
 
-8. [Soaring from 4K to 400K: Extending LLM's Context with Activation Beacon](http://arxiv.org/abs/2401.03462v1), Peitian Zhang, Zheng Liu, Shitao Xiao, Ninglu Shao, Qiwei Ye, Zhicheng Dou, 07-01-2024
+23. [Soaring from 4K to 400K: Extending LLM's Context with Activation Beacon](http://arxiv.org/abs/2401.03462v1), Peitian Zhang, Zheng Liu, Shitao Xiao, Ninglu Shao, Qiwei Ye, Zhicheng Dou, 07-01-2024
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -7611,7 +7603,7 @@ long-context generation and understanding tasks. Our model and code will be
 available at the BGE repository.
 
 
-8. [Mixtral of Experts](http://arxiv.org/abs/2401.04088v1), Albert Q. Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch, Blanche Savary, Chris Bamford, Devendra Singh Chaplot, Diego de las Casas, Emma Bou Hanna, Florian Bressand, Gianna Lengyel, Guillaume Bour, Guillaume Lample, Lélio Renard Lavaud, Lucile Saulnier, Marie-Anne Lachaux, Pierre Stock, Sandeep Subramanian, Sophia Yang, Szymon Antoniak, Teven Le Scao, Théophile Gervet, Thibaut Lavril, Thomas Wang, Timothée Lacroix, William El Sayed, 08-01-2024
+24. [Mixtral of Experts](http://arxiv.org/abs/2401.04088v1), Albert Q. Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch, Blanche Savary, Chris Bamford, Devendra Singh Chaplot, Diego de las Casas, Emma Bou Hanna, Florian Bressand, Gianna Lengyel, Guillaume Bour, Guillaume Lample, Lélio Renard Lavaud, Lucile Saulnier, Marie-Anne Lachaux, Pierre Stock, Sandeep Subramanian, Sophia Yang, Szymon Antoniak, Teven Le Scao, Théophile Gervet, Thibaut Lavril, Thomas Wang, Timothée Lacroix, William El Sayed, 08-01-2024
      ### Categories
      Machine Learning, Computation and Language
     ### Abstract
@@ -7631,7 +7623,7 @@ Claude-2.1, Gemini Pro, and Llama 2 70B - chat model on human benchmarks. Both
 the base and instruct models are released under the Apache 2.0 license.
 
 
-8. [Chain-of-Table: Evolving Tables in the Reasoning Chain for Table
+25. [Chain-of-Table: Evolving Tables in the Reasoning Chain for Table
   Understanding](http://arxiv.org/abs/2401.04398v1), Zilong Wang, Hao Zhang, Chun-Liang Li, Julian Martin Eisenschlos, Vincent Perot, Zifeng Wang, Lesly Miculicich, Yasuhisa Fujii, Jingbo Shang, Chen-Yu Lee, Tomas Pfister, 09-01-2024
      ### Categories
      Computation and Language
@@ -7656,7 +7648,7 @@ performance on WikiTQ, FeTaQA, and TabFact benchmarks across multiple LLM
 choices.
 
 
-8. [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety
+26. [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety
   Training](http://arxiv.org/abs/2401.05566v2), Evan Hubinger, Carson Denison, Jesse Mu, Mike Lambert, Meg Tong, Monte MacDiarmid, Tamera Lanham, Daniel M. Ziegler, Tim Maxwell, Newton Cheng, Adam Jermyn, Amanda Askell, Ansh Radhakrishnan, Cem Anil, David Duvenaud, Deep Ganguli, Fazl Barez, Jack Clark, Kamal Ndousse, Kshitij Sachan, Michael Sellitto, Mrinank Sharma, Nova DasSarma, Roger Grosse, Shauna Kravec, Yuntao Bai, Zachary Witten, Marina Favaro, Jan Brauner, Holden Karnofsky, Paul Christiano, Samuel R. Bowman, Logan Graham, Jared Kaplan, Sören Mindermann, Ryan Greenblatt, Buck Shlegeris, Nicholas Schiefer, Ethan Perez, 10-01-2024
      ### Categories
      Artificial Intelligence, Computation and Language, Machine Learning
@@ -7683,7 +7675,7 @@ once a model exhibits deceptive behavior, standard techniques could fail to
 remove such deception and create a false impression of safety.
 
 
-8. [The Impact of Reasoning Step Length on Large Language Models](http://arxiv.org/abs/2401.04925v2), Mingyu Jin, Qinkai Yu, Dong shu, Haiyan Zhao, Wenyue Hua, Yanda Meng, Yongfeng Zhang, Mengnan Du, 10-01-2024
+27. [The Impact of Reasoning Step Length on Large Language Models](http://arxiv.org/abs/2401.04925v2), Mingyu Jin, Qinkai Yu, Dong shu, Haiyan Zhao, Wenyue Hua, Yanda Meng, Yongfeng Zhang, Mengnan Du, 10-01-2024
      ### Categories
      Computation and Language, Artificial Intelligence
     ### Abstract
@@ -7710,7 +7702,7 @@ require fewer steps, whereas complex tasks gain significantly from longer
 inference sequences.
 
 
-8. [TrustLLM: Trustworthiness in Large Language Models](http://arxiv.org/abs/2401.05561v2), Lichao Sun, Yue Huang, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bhavya Kailkhura, Caiming Xiong, Chaowei Xiao, Chunyuan Li, Eric Xing, Furong Huang, Hao Liu, Heng Ji, Hongyi Wang, Huan Zhang, Huaxiu Yao, Manolis Kellis, Marinka Zitnik, Meng Jiang, Mohit Bansal, James Zou, Jian Pei, Jian Liu, Jianfeng Gao, Jiawei Han, Jieyu Zhao, Jiliang Tang, Jindong Wang, John Mitchell, Kai Shu, Kaidi Xu, Kai-Wei Chang, Lifang He, Lifu Huang, Michael Backes, Neil Zhenqiang Gong, Philip S. Yu, Pin-Yu Chen, Quanquan Gu, Ran Xu, Rex Ying, Shuiwang Ji, Suman Jana, Tianlong Chen, Tianming Liu, Tianyi Zhou, Willian Wang, Xiang Li, Xiangliang Zhang, Xiao Wang, Xing Xie, Xun Chen, Xuyu Wang, Yan Liu, Yanfang Ye, Yinzhi Cao, Yong Chen, Yue Zhao, 10-01-2024
+28. [TrustLLM: Trustworthiness in Large Language Models](http://arxiv.org/abs/2401.05561v2), Lichao Sun, Yue Huang, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bhavya Kailkhura, Caiming Xiong, Chaowei Xiao, Chunyuan Li, Eric Xing, Furong Huang, Hao Liu, Heng Ji, Hongyi Wang, Huan Zhang, Huaxiu Yao, Manolis Kellis, Marinka Zitnik, Meng Jiang, Mohit Bansal, James Zou, Jian Pei, Jian Liu, Jianfeng Gao, Jiawei Han, Jieyu Zhao, Jiliang Tang, Jindong Wang, John Mitchell, Kai Shu, Kaidi Xu, Kai-Wei Chang, Lifang He, Lifu Huang, Michael Backes, Neil Zhenqiang Gong, Philip S. Yu, Pin-Yu Chen, Quanquan Gu, Ran Xu, Rex Ying, Shuiwang Ji, Suman Jana, Tianlong Chen, Tianming Liu, Tianyi Zhou, Willian Wang, Xiang Li, Xiangliang Zhang, Xiao Wang, Xing Xie, Xun Chen, Xuyu Wang, Yan Liu, Yanfang Ye, Yinzhi Cao, Yong Chen, Yue Zhao, 10-01-2024
      ### Categories
      Computation and Language
     ### Abstract
@@ -7742,7 +7734,7 @@ technologies that have been employed is crucial for analyzing their
 effectiveness.
 
 
-8. [Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language
+29. [Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language
   Model Systems](http://arxiv.org/abs/2401.05778v1), Tianyu Cui, Yanling Wang, Chuanpu Fu, Yong Xiao, Sijia Li, Xinhao Deng, Yunpeng Liu, Qinglin Zhang, Ziyi Qiu, Peiyang Li, Zhixing Tan, Junwu Xiong, Xinyu Kong, Zujie Wen, Ke Xu, Qi Li, 11-01-2024
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -7767,7 +7759,7 @@ LLM participants embrace a systematic perspective to build their responsible
 LLM systems.
 
 
-8. [Seven Failure Points When Engineering a Retrieval Augmented Generation
+30. [Seven Failure Points When Engineering a Retrieval Augmented Generation
   System](http://arxiv.org/abs/2401.05856v1), Scott Barnett, Stefanus Kurniawan, Srikanth Thudumu, Zach Brannelly, Mohamed Abdelrazek, 11-01-2024
     ### Abstract
     Software engineers are increasingly adding semantic search capabilities to
@@ -7789,7 +7781,7 @@ potential research directions on RAG systems for the software engineering
 community.
 
 
-8. [The Benefits of a Concise Chain of Thought on Problem-Solving in Large
+31. [The Benefits of a Concise Chain of Thought on Problem-Solving in Large
   Language Models](http://arxiv.org/abs/2401.05618v1), Matthew Renze, Erhan Guven, 11-01-2024
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -7808,7 +7800,7 @@ general insight for AI researchers studying the emergent behavior of
 step-by-step reasoning in LLMs.
 
 
-8. [How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to
+32. [How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to
   Challenge AI Safety by Humanizing LLMs](http://arxiv.org/abs/2401.06373v1), Yi Zeng, Hongpeng Lin, Jingwen Zhang, Diyi Yang, Ruoxi Jia, Weiyan Shi, 12-01-2024
      ### Categories
      Computation and Language, Artificial Intelligence
@@ -7831,7 +7823,7 @@ found a significant gap in existing defenses, and advocate for more fundamental
 mitigation for highly interactive LLMs
 
 
-8. [Intention Analysis Prompting Makes Large Language Models A Good
+33. [Intention Analysis Prompting Makes Large Language Models A Good
   Jailbreak Defender](http://arxiv.org/abs/2401.06561v1), Yuqi Zhang, Liang Ding, Lefei Zhang, Dacheng Tao, 12-01-2024
      ### Categories
      Computation and Language
