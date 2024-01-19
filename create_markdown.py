@@ -13,6 +13,7 @@ for paper in papers:
 
 # Open the Markdown file
 with open('Readme.md', 'w') as f:
+    f.write(f"A curated list of papers on Large Language Models by year. I'll try to update the list if new papers are published. Let me know if I am missing important papers.\n")
     # Loop over the years
     sorted_papers = {}
     for year, papers in sorted(papers_by_year.items(), reverse=False):
@@ -29,9 +30,10 @@ with open('Readme.md', 'w') as f:
                 # Write arxiv category
 
                 if(len(paper["categories"])>=1):
-                    f.write(f"     ### Categories\n")
-                    f.write(f"     {', '.join(paper['categories'])}\n")
+                    f.write(f"      ### Categories\n")
+                    f.write(f"      {', '.join(paper['categories'])}\n")
                 # Write the abstract
                 abstract=paper['abstract'].strip()
-                f.write(f"    ### Abstract\n    {abstract}\n")
+                f.write(f"     ### Abstract\n")
+                f.write(f"     {abstract}\n")
                 i+=1
