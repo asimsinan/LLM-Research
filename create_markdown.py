@@ -25,8 +25,13 @@ with open('Readme.md', 'w') as f:
         # Loop over the papers
         for i, paper in enumerate(sorted(papers, key=lambda x: x['published'], reverse=False), start=1):
             # Write the paper title, authors, and published date
-            f.write(f"{i}. [{paper['title']}]({paper['url']}), {paper['authors']}, {paper['published']}\n\n")
+
+            f.write(f"\n\n{i}. [{paper['title']}]({paper['url']}), {paper['authors']}, {paper['published']}\n")
             # Write arxiv category
-            f.write(f"   ### Categories\n\n   {', '.join(paper['categories'])}\n\n")
+
+            if(len(paper["categories"])>=1):
+                f.write(f"     ### Categories\n")
+                f.write(f"     {', '.join(paper['categories'])}\n")
             # Write the abstract
-            f.write(f"   ### Abstract\n\n   {paper['abstract']}\n\n")
+            abstract=paper['abstract'].strip()
+            f.write(f"    ### Abstract\n    {abstract}\n")

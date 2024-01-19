@@ -1,16 +1,12 @@
-A curated list of papers on Large Language Models by year. I'll try to update the list if new papers are published. Let me know if I am missing important papers or there are errors.
-
 ## 2017 (1 paper)
 
+
+
 1. [Attention Is All You Need](http://arxiv.org/abs/1706.03762v7), Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, 12-06-2017
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     The dominant sequence transduction models are based on complex recurrent or
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    The dominant sequence transduction models are based on complex recurrent or
 convolutional neural networks in an encoder-decoder configuration. The best
 performing models also connect the encoder and decoder through an attention
 mechanism. We propose a new simple network architecture, the Transformer, based
@@ -25,20 +21,16 @@ BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction
 of the training costs of the best models from the literature. We show that the
 Transformer generalizes well to other tasks by applying it successfully to
 English constituency parsing both with large and limited training data.
-
-
 ## 2018 (1 paper)
+
+
 
 1. [BERT: Pre-training of Deep Bidirectional Transformers for Language
   Understanding](http://arxiv.org/abs/1810.04805v2), Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova, 11-10-2018
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     We introduce a new language representation model called BERT, which stands
+     ### Categories
+     Computation and Language
+    ### Abstract
+    We introduce a new language representation model called BERT, which stands
 for Bidirectional Encoder Representations from Transformers. Unlike recent
 language representation models, BERT is designed to pre-train deep
 bidirectional representations from unlabeled text by jointly conditioning on
@@ -53,19 +45,15 @@ pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
 accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
 Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
 (5.1 point absolute improvement).
-
-
 ## 2019 (7 papers)
 
+
+
 1. [Language Models as Knowledge Bases?](http://arxiv.org/abs/1909.01066v2), Fabio Petroni, Tim Rocktäschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel, 03-09-2019
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Recent progress in pretraining language models on large textual corpora led
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Recent progress in pretraining language models on large textual corpora led
 to a surge of improvements for downstream NLP tasks. Whilst learning linguistic
 knowledge, these models may also be storing relational knowledge present in the
 training data, and may be able to answer queries structured as
@@ -87,14 +75,10 @@ https://github.com/facebookresearch/LAMA.
 
 
 2. [Zero-shot Text Classification With Generative Language Models](http://arxiv.org/abs/1912.10165v1), Raul Puri, Bryan Catanzaro, 10-12-2019
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     This work investigates the use of natural language to enable zero-shot model
+     ### Categories
+     Computation and Language
+    ### Abstract
+    This work investigates the use of natural language to enable zero-shot model
 adaptation to new tasks. We use text and metadata from social commenting
 platforms as a source for a simple pretraining task. We then provide the
 language model with natural language descriptions of classification tasks as
@@ -112,14 +96,10 @@ way to new metalearning strategies for text problems.
 
 3. [Megatron-LM: Training Multi-Billion Parameter Language Models Using
   Model Parallelism](http://arxiv.org/abs/1909.08053v4), Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, Bryan Catanzaro, 17-09-2019
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Recent work in language modeling demonstrates that training large transformer
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Recent work in language modeling demonstrates that training large transformer
 models advances the state of the art in Natural Language Processing
 applications. However, very large models can be quite difficult to train due to
 memory constraints. In this work, we present our techniques for training very
@@ -144,14 +124,10 @@ compared to SOTA accuracy of 89.4%).
 
 
 4. [Generating Long Sequences with Sparse Transformers](http://arxiv.org/abs/1904.10509v1), Rewon Child, Scott Gray, Alec Radford, Ilya Sutskever, 23-04-2019
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     Transformers are powerful sequence models, but require time and memory that
+     ### Categories
+     Machine Learning
+    ### Abstract
+    Transformers are powerful sequence models, but require time and memory that
 grows quadratically with the sequence length. In this paper we introduce sparse
 factorizations of the attention matrix which reduce this to $O(n \sqrt{n})$. We
 also introduce a) a variation on architecture and initialization to train
@@ -168,14 +144,10 @@ of length one million or more.
 
 5. [Exploring the Limits of Transfer Learning with a Unified Text-to-Text
   Transformer](http://arxiv.org/abs/1910.10683v4), Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu, 23-10-2019
-
-   ### Categories
-
-   Machine Learning, Computation and Language
-
-   ### Abstract
-
-     Transfer learning, where a model is first pre-trained on a data-rich task
+     ### Categories
+     Machine Learning, Computation and Language
+    ### Abstract
+    Transfer learning, where a model is first pre-trained on a data-rich task
 before being fine-tuned on a downstream task, has emerged as a powerful
 technique in natural language processing (NLP). The effectiveness of transfer
 learning has given rise to a diversity of approaches, methodology, and
@@ -192,14 +164,10 @@ pre-trained models, and code.
 
 
 6. [How Can We Know What Language Models Know?](http://arxiv.org/abs/1911.12543v2), Zhengbao Jiang, Frank F. Xu, Jun Araki, Graham Neubig, 28-11-2019
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Recent work has presented intriguing results examining the knowledge
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    Recent work has presented intriguing results examining the knowledge
 contained in language models (LM) by having the LM fill in the blanks of
 prompts such as "Obama is a _ by profession". These prompts are usually
 manually created, and quite possibly sub-optimal; another prompt such as "Obama
@@ -220,14 +188,10 @@ Archive (LPAQA) at https://github.com/jzbjyb/LPAQA.
 
 7. [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language
   Generation, Translation, and Comprehension](http://arxiv.org/abs/1910.13461v1), Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov, Luke Zettlemoyer, 29-10-2019
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     We present BART, a denoising autoencoder for pretraining sequence-to-sequence
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    We present BART, a denoising autoencoder for pretraining sequence-to-sequence
 models. BART is trained by (1) corrupting text with an arbitrary noising
 function, and (2) learning a model to reconstruct the original text. It uses a
 standard Tranformer-based neural machine translation architecture which,
@@ -245,19 +209,15 @@ ROUGE. BART also provides a 1.1 BLEU increase over a back-translation system
 for machine translation, with only target language pretraining. We also report
 ablation experiments that replicate other pretraining schemes within the BART
 framework, to better measure which factors most influence end-task performance.
-
-
 ## 2020 (8 papers)
 
+
+
 1. [Longformer: The Long-Document Transformer](http://arxiv.org/abs/2004.05150v2), Iz Beltagy, Matthew E. Peters, Arman Cohan, 10-04-2020
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Transformer-based models are unable to process long sequences due to their
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Transformer-based models are unable to process long sequences due to their
 self-attention operation, which scales quadratically with the sequence length.
 To address this limitation, we introduce the Longformer with an attention
 mechanism that scales linearly with sequence length, making it easy to process
@@ -276,14 +236,10 @@ tasks, and demonstrate its effectiveness on the arXiv summarization dataset.
 
 2. [It's Not Just Size That Matters: Small Language Models Are Also Few-Shot
   Learners](http://arxiv.org/abs/2009.07118v2), Timo Schick, Hinrich Schütze, 15-09-2020
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     When scaled to hundreds of billions of parameters, pretrained language models
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    When scaled to hundreds of billions of parameters, pretrained language models
 such as GPT-3 (Brown et al., 2020) achieve remarkable few-shot performance.
 However, enormous amounts of compute are required for training and applying
 such big models, resulting in a large carbon footprint and making it difficult
@@ -297,14 +253,10 @@ successful natural language understanding with small language models.
 
 
 3. [FLIN: A Flexible Natural Language Interface for Web Navigation](http://arxiv.org/abs/2010.12844v2), Sahisnu Mazumder, Oriana Riva, 24-10-2020
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     AI assistants can now carry out tasks for users by directly interacting with
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    AI assistants can now carry out tasks for users by directly interacting with
 website UIs. Current semantic parsing and slot-filling techniques cannot
 flexibly adapt to many different websites without being constantly re-trained.
 We propose FLIN, a natural language interface for web navigation that maps user
@@ -319,14 +271,10 @@ to adapt to new websites in a given domain.
 
 4. [Automatically Identifying Words That Can Serve as Labels for Few-Shot
   Text Classification](http://arxiv.org/abs/2010.13641v1), Timo Schick, Helmut Schmid, Hinrich Schütze, 26-10-2020
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     A recent approach for few-shot text classification is to convert textual
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    A recent approach for few-shot text classification is to convert textual
 inputs to cloze questions that contain some form of task description, process
 them with a pretrained language model and map the predicted words to labels.
 Manually defining this mapping between words and labels requires both domain
@@ -338,14 +286,10 @@ approach performs almost as well as hand-crafted label-to-word mappings.
 
 5. [ColBERT: Efficient and Effective Passage Search via Contextualized Late
   Interaction over BERT](http://arxiv.org/abs/2004.12832v2), Omar Khattab, Matei Zaharia, 27-04-2020
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Recent progress in Natural Language Understanding (NLU) is driving fast-paced
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Recent progress in Natural Language Understanding (NLU) is driving fast-paced
 advances in Information Retrieval (IR), largely owed to fine-tuning deep
 language models (LMs) for document ranking. While remarkably effective, the
 ranking models based on these LMs increase computational cost by orders of
@@ -371,14 +315,10 @@ fewer FLOPs per query.
 
 6. [AutoPrompt: Eliciting Knowledge from Language Models with Automatically
   Generated Prompts](http://arxiv.org/abs/2010.15980v2), Taylor Shin, Yasaman Razeghi, Robert L. Logan IV, Eric Wallace, Sameer Singh, 29-10-2020
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     The remarkable success of pretrained language models has motivated the study
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    The remarkable success of pretrained language models has motivated the study
 of what kinds of knowledge these models learn during pretraining. Reformulating
 tasks as fill-in-the-blanks problems (e.g., cloze tests) is a natural approach
 for gauging such knowledge, however, its usage is limited by the manual effort
@@ -398,14 +338,10 @@ capable, potentially a replacement for finetuning.
 
 
 7. [Making Pre-trained Language Models Better Few-shot Learners](http://arxiv.org/abs/2012.15723v2), Tianyu Gao, Adam Fisch, Danqi Chen, 31-12-2020
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     The recent GPT-3 model (Brown et al., 2020) achieves remarkable few-shot
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    The recent GPT-3 model (Brown et al., 2020) achieves remarkable few-shot
 performance solely by leveraging a natural-language prompt and a few task
 demonstrations as input context. Inspired by their findings, we study few-shot
 learning in a more practical scenario, where we use smaller language models for
@@ -425,14 +361,10 @@ constitutes a strong task-agnostic method for few-shot learning.
 
 
 8. [The Pile: An 800GB Dataset of Diverse Text for Language Modeling](http://arxiv.org/abs/2101.00027v1), Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, Shawn Presser, Connor Leahy, 31-12-2020
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Recent work has demonstrated that increased training dataset diversity
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Recent work has demonstrated that increased training dataset diversity
 improves general cross-domain knowledge and downstream generalization
 capability for large-scale language models. With this in mind, we present
 \textit{the Pile}: an 825 GiB English text corpus targeted at training
@@ -446,19 +378,15 @@ the Pile, while improving performance on downstream evaluations. Through an
 in-depth exploratory analysis, we document potentially concerning aspects of
 the data for prospective users. We make publicly available the code used in its
 construction.
-
-
 ## 2021 (45 papers)
 
+
+
 1. [Prefix-Tuning: Optimizing Continuous Prompts for Generation](http://arxiv.org/abs/2101.00190v1), Xiang Lisa Li, Percy Liang, 01-01-2021
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Fine-tuning is the de facto way to leverage large pretrained language models
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Fine-tuning is the de facto way to leverage large pretrained language models
 to perform downstream tasks. However, it modifies all the language model
 parameters and therefore necessitates storing a full copy for each task. In
 this paper, we propose prefix-tuning, a lightweight alternative to fine-tuning
@@ -474,14 +402,10 @@ examples with topics unseen during training.
 
 
 2. [Do Prompt-Based Models Really Understand the Meaning of their Prompts?](http://arxiv.org/abs/2109.01247v2), Albert Webson, Ellie Pavlick, 02-09-2021
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Recently, a boom of papers has shown extraordinary progress in zero-shot and
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Recently, a boom of papers has shown extraordinary progress in zero-shot and
 few-shot learning with various prompt-based models. It is commonly argued that
 prompts help models to learn faster in the same way that humans learn faster
 when provided with task instructions expressed in natural language. In this
@@ -501,14 +425,10 @@ analogous to humans' use of task instructions.
 
 3. [ColBERTv2: Effective and Efficient Retrieval via Lightweight Late
   Interaction](http://arxiv.org/abs/2112.01488v3), Keshav Santhanam, Omar Khattab, Jon Saad-Falcon, Christopher Potts, Matei Zaharia, 02-12-2021
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Neural information retrieval (IR) has greatly advanced search and other
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Neural information retrieval (IR) has greatly advanced search and other
 knowledge-intensive language tasks. While many neural IR methods encode queries
 and documents into single-vector representations, late interaction models
 produce multi-vector representations at the granularity of each token and
@@ -524,14 +444,10 @@ footprint of late interaction models by 6--10$\times$.
 
 
 4. [Finetuned Language Models Are Zero-Shot Learners](http://arxiv.org/abs/2109.01652v5), Jason Wei, Maarten Bosma, Vincent Y. Zhao, Kelvin Guu, Adams Wei Yu, Brian Lester, Nan Du, Andrew M. Dai, Quoc V. Le, 03-09-2021
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     This paper explores a simple method for improving the zero-shot learning
+     ### Categories
+     Computation and Language
+    ### Abstract
+    This paper explores a simple method for improving the zero-shot learning
 abilities of language models. We show that instruction tuning -- finetuning
 language models on a collection of tasks described via instructions --
 substantially improves zero-shot performance on unseen tasks.
@@ -548,14 +464,10 @@ to the success of instruction tuning.
 
 5. [Knowledgeable Prompt-tuning: Incorporating Knowledge into Prompt
   Verbalizer for Text Classification](http://arxiv.org/abs/2108.02035v2), Shengding Hu, Ning Ding, Huadong Wang, Zhiyuan Liu, Jingang Wang, Juanzi Li, Wei Wu, Maosong Sun, 04-08-2021
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Tuning pre-trained language models (PLMs) with task-specific prompts has been
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Tuning pre-trained language models (PLMs) with task-specific prompts has been
 a promising approach for text classification. Particularly, previous studies
 suggest that prompt-tuning has remarkable superiority in the low-data scenario
 over the generic fine-tuning methods with extra classifiers. The core idea of
@@ -575,14 +487,10 @@ prompt-tuning.
 
 
 6. [General-Purpose Question-Answering with Macaw](http://arxiv.org/abs/2109.02593v1), Oyvind Tafjord, Peter Clark, 06-09-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Despite the successes of pretrained language models, there are still few
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Despite the successes of pretrained language models, there are still few
 high-quality, general-purpose QA systems that are freely available. In
 response, we present Macaw, a versatile, generative question-answering (QA)
 system that we are making available to the community. Macaw is built on
@@ -602,14 +510,10 @@ Macaw is available at https://github.com/allenai/macaw
 
 
 7. [Discrete and Soft Prompting for Multilingual Models](http://arxiv.org/abs/2109.03630v1), Mengjie Zhao, Hinrich Schütze, 08-09-2021
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     It has been shown for English that discrete and soft prompting perform
+     ### Categories
+     Computation and Language
+    ### Abstract
+    It has been shown for English that discrete and soft prompting perform
 strongly in few-shot learning with pretrained language models (PLMs). In this
 paper, we show that discrete and soft prompting perform better than finetuning
 in multilingual cases: Crosslingual transfer and in-language training of
@@ -623,14 +527,10 @@ languages other than English.
 
 8. [Open Aspect Target Sentiment Classification with Natural Language
   Prompts](http://arxiv.org/abs/2109.03685v1), Ronald Seoh, Ian Birle, Mrinal Tak, Haw-Shiuan Chang, Brian Pinette, Alfred Hough, 08-09-2021
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     For many business applications, we often seek to analyze sentiments
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    For many business applications, we often seek to analyze sentiments
 associated with any arbitrary aspects of commercial products, despite having a
 very limited amount of labels or even without any labels at all. However,
 existing aspect target sentiment classification (ATSC) models are not trainable
@@ -650,14 +550,10 @@ no-prompt baseline is only around 65%.
 
 
 9. [Noisy Channel Language Model Prompting for Few-Shot Text Classification](http://arxiv.org/abs/2108.04106v3), Sewon Min, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer, 09-08-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     We introduce a noisy channel approach for language model prompting in
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    We introduce a noisy channel approach for language model prompting in
 few-shot text classification. Instead of computing the likelihood of the label
 given the input (referred as direct models), channel models compute the
 conditional probability of the input given the label, and are thereby required
@@ -675,14 +571,10 @@ required.
 
 
 10. [Avoiding Inference Heuristics in Few-shot Prompt-based Finetuning](http://arxiv.org/abs/2109.04144v1), Prasetya Ajie Utama, Nafise Sadat Moosavi, Victor Sanh, Iryna Gurevych, 09-09-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Recent prompt-based approaches allow pretrained language models to achieve
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Recent prompt-based approaches allow pretrained language models to achieve
 strong performances on few-shot finetuning by reformulating downstream tasks as
 a language modeling problem. In this work, we demonstrate that, despite its
 advantages on low data regimes, finetuned prompt-based models for sentence pair
@@ -700,14 +592,10 @@ diagnose the inference heuristics.
 
 
 11. [PPT: Pre-trained Prompt Tuning for Few-shot Learning](http://arxiv.org/abs/2109.04332v3), Yuxian Gu, Xu Han, Zhiyuan Liu, Minlie Huang, 09-09-2021
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Prompts for pre-trained language models (PLMs) have shown remarkable
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Prompts for pre-trained language models (PLMs) have shown remarkable
 performance by bridging the gap between pre-training tasks and various
 downstream tasks. Among these methods, prompt tuning, which freezes PLMs and
 only tunes soft prompts, provides an efficient and effective solution for
@@ -729,14 +617,10 @@ is effective and efficient for using large-scale PLMs in practice.
 
 12. [Adapting Language Models for Zero-shot Learning by Meta-tuning on
   Dataset and Prompt Collections](http://arxiv.org/abs/2104.04670v5), Ruiqi Zhong, Kristy Lee, Zheng Zhang, Dan Klein, 10-04-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large pre-trained language models (LMs) such as GPT-3 have acquired a
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large pre-trained language models (LMs) such as GPT-3 have acquired a
 surprising ability to perform zero-shot learning. For example, to classify
 sentiment without any training examples, we can "prompt" the LM with the review
 and the label description "Does the user like this movie?", and ask whether the
@@ -759,14 +643,10 @@ answer prompts better.
 
 13. [CINS: Comprehensive Instruction for Few-shot Learning in Task-oriented
   Dialog Systems](http://arxiv.org/abs/2109.04645v4), Fei Mi, Yitong Li, Yasheng Wang, Xin Jiang, Qun Liu, 10-09-2021
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     As labeling cost for different modules in task-oriented dialog (ToD) systems
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    As labeling cost for different modules in task-oriented dialog (ToD) systems
 is high, a major challenge in practice is to learn different tasks with the
 least amount of labeled data. Recently, prompting methods over pre-trained
 language models (PLMs) have shown promising results for few-shot learning in
@@ -784,14 +664,10 @@ techniques that finetune PLMs with raw input or short prompts.
 
 14. [PoKE: A Prompt-based Knowledge Eliciting Approach for Event Argument
   Extraction](http://arxiv.org/abs/2109.05190v3), Jiaju Lin, Qin Chen, 11-09-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Eliciting knowledge from pre-trained language models via prompt-based
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Eliciting knowledge from pre-trained language models via prompt-based
 learning has shown great potential in many natural language processing tasks.
 Whereas, the applications for more complex tasks such as event extraction are
 less studied since the design of prompt is not straightforward for the
@@ -807,14 +683,10 @@ methods in both fully-supervised and low-resource scenarios.
 
 15. [FedPara: Low-Rank Hadamard Product for Communication-Efficient Federated
   Learning](http://arxiv.org/abs/2108.06098v3), Nam Hyeon-Woo, Moon Ye-Bin, Tae-Hyun Oh, 13-08-2021
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     In this work, we propose a communication-efficient parameterization, FedPara,
+     ### Categories
+     Machine Learning
+    ### Abstract
+    In this work, we propose a communication-efficient parameterization, FedPara,
 for federated learning (FL) to overcome the burdens on frequent model uploads
 and downloads. Our method re-parameterizes weight parameters of layers using
 low-rank weights followed by the Hadamard product. Compared to the conventional
@@ -831,14 +703,10 @@ parameters.
 
 
 16. [Learning How to Ask: Querying LMs with Mixtures of Soft Prompts](http://arxiv.org/abs/2104.06599v1), Guanghui Qin, Jason Eisner, 14-04-2021
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Natural-language prompts have recently been used to coax pretrained language
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    Natural-language prompts have recently been used to coax pretrained language
 models into performing other AI tasks, using a fill-in-the-blank paradigm
 (Petroni et al., 2019) or a few-shot extrapolation paradigm (Brown et al.,
 2020). For example, language models retain factual knowledge from their
@@ -857,14 +725,10 @@ informed initialization.
 
 
 17. [Deduplicating Training Data Makes Language Models Better](http://arxiv.org/abs/2107.06499v2), Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck, Chris Callison-Burch, Nicholas Carlini, 14-07-2021
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     We find that existing language modeling datasets contain many near-duplicate
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    We find that existing language modeling datasets contain many near-duplicate
 examples and long repetitive substrings. As a result, over 1% of the unprompted
 output of language models trained on these datasets is copied verbatim from the
 training data. We develop two tools that allow us to deduplicate training
@@ -879,14 +743,10 @@ https://github.com/google-research/deduplicate-text-datasets.
 
 
 18. [Exploring Prompt-based Few-shot Learning for Grounded Dialog Generation](http://arxiv.org/abs/2109.06513v2), Chujie Zheng, Minlie Huang, 14-09-2021
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Dialog models can be greatly strengthened through grounding on various
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Dialog models can be greatly strengthened through grounding on various
 external information, but grounded dialog corpora are usually not naturally
 accessible. In this work, we focus on the few-shot learning for grounded dialog
 generation (GDG). We first propose a simple prompting method for GDG tasks,
@@ -904,14 +764,10 @@ insights for future research.
 
 19. [P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally
   Across Scales and Tasks](http://arxiv.org/abs/2110.07602v3), Xiao Liu, Kaixuan Ji, Yicheng Fu, Weng Lam Tam, Zhengxiao Du, Zhilin Yang, Jie Tang, 14-10-2021
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Prompt tuning, which only tunes continuous prompts with a frozen language
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Prompt tuning, which only tunes continuous prompts with a frozen language
 model, substantially reduces per-task storage and memory usage at training.
 However, in the context of NLU, prior work reveals that prompt tuning does not
 perform well for normal-sized pretrained models. We also find that existing
@@ -929,14 +785,10 @@ https://github.com/THUDM/P-tuning-v2.
 
 20. [Prompt Programming for Large Language Models: Beyond the Few-Shot
   Paradigm](http://arxiv.org/abs/2102.07350v1), Laria Reynolds, Kyle McDonell, 15-02-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Prevailing methods for mapping large generative language models to supervised
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Prevailing methods for mapping large generative language models to supervised
 tasks may fail to sufficiently probe models' novel capabilities. Using GPT-3 as
 a case study, we show that 0-shot prompts can significantly outperform few-shot
 prompts. We suggest that the function of few-shot examples in these cases is
@@ -955,14 +807,10 @@ incorporated into existing and future benchmarks and practical applications.
 
 
 21. [How Many Data Points is a Prompt Worth?](http://arxiv.org/abs/2103.08493v2), Teven Le Scao, Alexander M. Rush, 15-03-2021
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     When fine-tuning pretrained models for classification, researchers either use
+     ### Categories
+     Machine Learning
+    ### Abstract
+    When fine-tuning pretrained models for classification, researchers either use
 a generic model head or a task-specific prompt for prediction. Proponents of
 prompting have argued that prompts provide a method for injecting task-specific
 guidance, which is beneficial in low-data regimes. We aim to quantify this
@@ -975,14 +823,10 @@ points on average across classification tasks.
 
 
 22. [Generating Datasets with Pretrained Language Models](http://arxiv.org/abs/2104.07540v3), Timo Schick, Hinrich Schütze, 15-04-2021
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     To obtain high-quality sentence embeddings from pretrained language models
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    To obtain high-quality sentence embeddings from pretrained language models
 (PLMs), they must either be augmented with additional pretraining objectives or
 finetuned on a large set of labeled text pairs. While the latter approach
 typically outperforms the former, it requires great human effort to generate
@@ -997,14 +841,10 @@ datasets.
 
 
 23. [Can Language Models be Biomedical Knowledge Bases?](http://arxiv.org/abs/2109.07154v1), Mujeen Sung, Jinhyuk Lee, Sean Yi, Minji Jeon, Sungdong Kim, Jaewoo Kang, 15-09-2021
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Pre-trained language models (LMs) have become ubiquitous in solving various
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Pre-trained language models (LMs) have become ubiquitous in solving various
 natural language processing (NLP) tasks. There has been increasing interest in
 what knowledge these LMs contain and how we can extract that knowledge,
 treating LMs as knowledge bases (KBs). While there has been much work on
@@ -1022,14 +862,10 @@ probing.
 
 
 24. [Generated Knowledge Prompting for Commonsense Reasoning](http://arxiv.org/abs/2110.08387v3), Jiacheng Liu, Alisa Liu, Ximing Lu, Sean Welleck, Peter West, Ronan Le Bras, Yejin Choi, Hannaneh Hajishirzi, 15-10-2021
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     It remains an open question whether incorporating external knowledge benefits
+     ### Categories
+     Computation and Language
+    ### Abstract
+    It remains an open question whether incorporating external knowledge benefits
 commonsense reasoning while maintaining the flexibility of pretrained sequence
 models. To investigate this question, we develop generated knowledge prompting,
 which consists of generating knowledge from a language model, then providing
@@ -1045,14 +881,10 @@ code is available at https://github.com/liujch1998/GKP
 
 
 25. [Multitask Prompted Training Enables Zero-Shot Task Generalization](http://arxiv.org/abs/2110.08207v3), Victor Sanh, Albert Webson, Colin Raffel, Stephen H. Bach, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja, Manan Dey, M Saiful Bari, Canwen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang, Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng Xin Yong, Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen, Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason Alan Fries, Ryan Teehan, Tali Bers, Stella Biderman, Leo Gao, Thomas Wolf, Alexander M. Rush, 15-10-2021
-
-   ### Categories
-
-   Machine Learning, Computation and Language
-
-   ### Abstract
-
-     Large language models have recently been shown to attain reasonable zero-shot
+     ### Categories
+     Machine Learning, Computation and Language
+    ### Abstract
+    Large language models have recently been shown to attain reasonable zero-shot
 generalization on a diverse set of tasks (Brown et al., 2020). It has been
 hypothesized that this is a consequence of implicit multitask learning in
 language models' pretraining (Radford et al., 2019). Can zero-shot
@@ -1073,14 +905,10 @@ are available at https://github.com/bigscience-workshop/promptsource.
 
 26. [Surface Form Competition: Why the Highest Probability Answer Isn't
   Always Right](http://arxiv.org/abs/2104.08315v9), Ari Holtzman, Peter West, Vered Shwartz, Yejin Choi, Luke Zettlemoyer, 16-04-2021
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Large language models have shown promising results in zero-shot settings
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Large language models have shown promising results in zero-shot settings
 (Brown et al.,2020; Radford et al., 2019). For example, they can perform
 multiple choice tasks simply by conditioning on a question and selecting the
 answer with the highest probability.
@@ -1100,14 +928,10 @@ over a variety of multiple choice datasets.
 
 
 27. [Language Models are Few-shot Multilingual Learners](http://arxiv.org/abs/2109.07684v1), Genta Indra Winata, Andrea Madotto, Zhaojiang Lin, Rosanne Liu, Jason Yosinski, Pascale Fung, 16-09-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     General-purpose language models have demonstrated impressive capabilities,
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    General-purpose language models have demonstrated impressive capabilities,
 performing on par with state-of-the-art approaches on a range of downstream
 natural language processing (NLP) tasks and benchmarks when inferring
 instructions from very few examples. Here, we evaluate the multilingual skills
@@ -1121,14 +945,10 @@ existing state-of-the-art cross-lingual models.
 
 
 28. [Reframing Instructional Prompts to GPTk's Language](http://arxiv.org/abs/2109.07830v3), Swaroop Mishra, Daniel Khashabi, Chitta Baral, Yejin Choi, Hannaneh Hajishirzi, 16-09-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     What kinds of instructional prompts are easier to follow for Language Models
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    What kinds of instructional prompts are easier to follow for Language Models
 (LMs)? We study this question by conducting extensive empirical analysis that
 shed light on important features of successful instructional prompts.
 Specifically, we study several classes of reframing techniques for manual
@@ -1147,14 +967,10 @@ prompting algorithms.
 
 
 29. [LoRA: Low-Rank Adaptation of Large Language Models](http://arxiv.org/abs/2106.09685v2), Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen, 17-06-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     An important paradigm of natural language processing consists of large-scale
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    An important paradigm of natural language processing consists of large-scale
 pre-training on general domain data and adaptation to particular tasks or
 domains. As we pre-train larger models, full fine-tuning, which retrains all
 model parameters, becomes less feasible. Using GPT-3 175B as an example --
@@ -1177,14 +993,10 @@ https://github.com/microsoft/LoRA.
 
 30. [Why Do Pretrained Language Models Help in Downstream Tasks? An Analysis
   of Head and Prompt Tuning](http://arxiv.org/abs/2106.09226v2), Colin Wei, Sang Michael Xie, Tengyu Ma, 17-06-2021
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     Pretrained language models have achieved state-of-the-art performance when
+     ### Categories
+     Machine Learning
+    ### Abstract
+    Pretrained language models have achieved state-of-the-art performance when
 adapted to a downstream NLP task. However, theoretical analysis of these models
 is scarce and challenging since the pretraining and downstream tasks can be
 very different. We propose an analysis framework that links the pretraining and
@@ -1205,14 +1017,10 @@ data from HMMs back our theoretical findings.
 
 31. [SentiPrompt: Sentiment Knowledge Enhanced Prompt-Tuning for Aspect-Based
   Sentiment Analysis](http://arxiv.org/abs/2109.08306v1), Chengxi Li, Feiyu Gao, Jiajun Bu, Lu Xu, Xiang Chen, Yu Gu, Zirui Shao, Qi Zheng, Ningyu Zhang, Yongpan Wang, Zhi Yu, 17-09-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Aspect-based sentiment analysis (ABSA) is an emerging fine-grained sentiment
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Aspect-based sentiment analysis (ABSA) is an emerging fine-grained sentiment
 analysis task that aims to extract aspects, classify corresponding sentiment
 polarities and find opinions as the causes of sentiment. The latest research
 tends to solve the ABSA task in a unified way with end-to-end frameworks. Yet,
@@ -1230,14 +1038,10 @@ Classification by a notable margin.
 
 
 32. [WebGPT: Browser-assisted question-answering with human feedback](http://arxiv.org/abs/2112.09332v3), Reiichiro Nakano, Jacob Hilton, Suchir Balaji, Jeff Wu, Long Ouyang, Christina Kim, Christopher Hesse, Shantanu Jain, Vineet Kosaraju, William Saunders, Xu Jiang, Karl Cobbe, Tyna Eloundou, Gretchen Krueger, Kevin Button, Matthew Knight, Benjamin Chess, John Schulman, 17-12-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     We fine-tune GPT-3 to answer long-form questions using a text-based
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    We fine-tune GPT-3 to answer long-form questions using a text-based
 web-browsing environment, which allows the model to search and navigate the
 web. By setting up the task so that it can be performed by humans, we are able
 to train models on the task using imitation learning, and then optimize answer
@@ -1252,14 +1056,10 @@ highest-voted answer from Reddit.
 
 
 33. [GPT Understands, Too](http://arxiv.org/abs/2103.10385v2), Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang, 18-03-2021
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Prompting a pretrained language model with natural language patterns has been
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    Prompting a pretrained language model with natural language patterns has been
 proved effective for natural language understanding (NLU). However, our
 preliminary study reveals that manual discrete prompts often lead to unstable
 performance -- e.g., changing a single word in the prompt might result in
@@ -1274,14 +1074,10 @@ fully-supervised and few-shot settings.
 
 34. [Fantastically Ordered Prompts and Where to Find Them: Overcoming
   Few-Shot Prompt Order Sensitivity](http://arxiv.org/abs/2104.08786v2), Yao Lu, Max Bartolo, Alastair Moore, Sebastian Riedel, Pontus Stenetorp, 18-04-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     When primed with only a handful of training samples, very large, pretrained
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    When primed with only a handful of training samples, very large, pretrained
 language models such as GPT-3 have shown competitive results when compared to
 fully-supervised, fine-tuned, large, pretrained language models. We demonstrate
 that the order in which the samples are provided can make the difference
@@ -1300,14 +1096,10 @@ across eleven different established text classification tasks.
 
 
 35. [GPT3Mix: Leveraging Large-scale Language Models for Text Augmentation](http://arxiv.org/abs/2104.08826v2), Kang Min Yoo, Dongju Park, Jaewook Kang, Sang-Woo Lee, Woomyeong Park, 18-04-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large-scale language models such as GPT-3 are excellent few-shot learners,
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large-scale language models such as GPT-3 are excellent few-shot learners,
 allowing them to be controlled via natural text prompts. Recent studies report
 that prompt-based direct classification eliminates the need for fine-tuning but
 lacks data and inference scalability. This paper proposes a novel data
@@ -1322,14 +1114,10 @@ provide more insights into our approach.
 
 
 36. [The Power of Scale for Parameter-Efficient Prompt Tuning](http://arxiv.org/abs/2104.08691v2), Brian Lester, Rami Al-Rfou, Noah Constant, 18-04-2021
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     In this work, we explore "prompt tuning", a simple yet effective mechanism
+     ### Categories
+     Computation and Language
+    ### Abstract
+    In this work, we explore "prompt tuning", a simple yet effective mechanism
 for learning "soft prompts" to condition frozen language models to perform
 specific downstream tasks. Unlike the discrete text prompts used by GPT-3, soft
 prompts are learned through backpropagation and can be tuned to incorporate
@@ -1348,14 +1136,10 @@ benefits in robustness to domain transfer, as compared to full model tuning.
 
 
 37. [Calibrate Before Use: Improving Few-Shot Performance of Language Models](http://arxiv.org/abs/2102.09690v2), Tony Z. Zhao, Eric Wallace, Shi Feng, Dan Klein, Sameer Singh, 19-02-2021
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     GPT-3 can perform numerous tasks when provided a natural language prompt that
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    GPT-3 can perform numerous tasks when provided a natural language prompt that
 contains a few training examples. We show that this type of few-shot learning
 can be unstable: the choice of prompt format, training examples, and even the
 order of the training examples can cause accuracy to vary from near chance to
@@ -1373,14 +1157,10 @@ different choices of the prompt.
 
 38. [PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen
   Domains](http://arxiv.org/abs/2102.12206v4), Eyal Ben-David, Nadav Oved, Roi Reichart, 24-02-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Natural Language Processing algorithms have made incredible progress, but
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Natural Language Processing algorithms have made incredible progress, but
 they still struggle when applied to out-of-distribution examples. We address a
 challenging and underexplored version of this domain adaptation problem, where
 an algorithm is trained on several source domains, and then applied to examples
@@ -1401,14 +1181,10 @@ strong baselines.
 
 
 39. [PTR: Prompt Tuning with Rules for Text Classification](http://arxiv.org/abs/2105.11259v3), Xu Han, Weilin Zhao, Ning Ding, Zhiyuan Liu, Maosong Sun, 24-05-2021
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Fine-tuned pre-trained language models (PLMs) have achieved awesome
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Fine-tuned pre-trained language models (PLMs) have achieved awesome
 performance on almost all NLP tasks. By using additional prompts to fine-tune
 PLMs, we can further stimulate the rich knowledge distributed in PLMs to better
 serve downstream tasks. Prompt tuning has achieved promising results on some
@@ -1429,14 +1205,10 @@ complicated classification tasks.
 
 
 40. [True Few-Shot Learning with Language Models](http://arxiv.org/abs/2105.11447v1), Ethan Perez, Douwe Kiela, Kyunghyun Cho, 24-05-2021
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Pretrained language models (LMs) perform well on many tasks even when
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    Pretrained language models (LMs) perform well on many tasks even when
 learning from a few examples, but prior work uses many held-out examples to
 tune various aspects of learning, such as hyperparameters, training objectives,
 and natural language templates ("prompts"). Here, we evaluate the few-shot
@@ -1456,14 +1228,10 @@ model selection.
 
 41. [Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with
   Language Models](http://arxiv.org/abs/2106.13353v2), Robert L. Logan IV, Ivana Balažević, Eric Wallace, Fabio Petroni, Sameer Singh, Sebastian Riedel, 24-06-2021
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Prompting language models (LMs) with training examples and task descriptions
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    Prompting language models (LMs) with training examples and task descriptions
 has been seen as critical to recent successes in few-shot learning. In this
 work, we show that finetuning LMs in the few-shot setting can considerably
 reduce the need for prompt engineering. In fact, one can use null prompts,
@@ -1478,14 +1246,10 @@ to different prompts, and can be made nearly as efficient as using frozen LMs.
 
 
 42. [Learning Transferable Visual Models From Natural Language Supervision](http://arxiv.org/abs/2103.00020v1), Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever, 26-02-2021
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     State-of-the-art computer vision systems are trained to predict a fixed set
+     ### Categories
+     Machine Learning
+    ### Abstract
+    State-of-the-art computer vision systems are trained to predict a fixed set
 of predetermined object categories. This restricted form of supervision limits
 their generality and usability since additional labeled data is needed to
 specify any other visual concept. Learning directly from raw text about images
@@ -1509,14 +1273,10 @@ https://github.com/OpenAI/CLIP.
 
 43. [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods
   in Natural Language Processing](http://arxiv.org/abs/2107.13586v1), Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig, 28-07-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     This paper surveys and organizes research works in a new paradigm in natural
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    This paper surveys and organizes research works in a new paradigm in natural
 language processing, which we dub "prompt-based learning". Unlike traditional
 supervised learning, which trains a model to take in an input x and predict an
 output y as P(y|x), prompt-based learning is based on language models that
@@ -1541,14 +1301,10 @@ constantly-updated survey, and paperlist.
 
 44. [Differentiable Prompt Makes Pre-trained Language Models Better Few-shot
   Learners](http://arxiv.org/abs/2108.13161v7), Ningyu Zhang, Luoqiu Li, Xiang Chen, Shumin Deng, Zhen Bi, Chuanqi Tan, Fei Huang, Huajun Chen, 30-08-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Large-scale pre-trained language models have contributed significantly to
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Large-scale pre-trained language models have contributed significantly to
 natural language processing by demonstrating remarkable abilities as few-shot
 learners. However, their effectiveness depends mainly on scaling the model
 parameters and prompt design, hindering their implementation in most real-world
@@ -1566,14 +1322,10 @@ https://github.com/zjunlp/DART.
 
 
 45. [Want To Reduce Labeling Cost? GPT-3 Can Help](http://arxiv.org/abs/2108.13487v1), Shuohang Wang, Yang Liu, Yichong Xu, Chenguang Zhu, Michael Zeng, 30-08-2021
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Data annotation is a time-consuming and labor-intensive process for many NLP
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Data annotation is a time-consuming and labor-intensive process for many NLP
 tasks. Although there exist various methods to produce pseudo data labels, they
 are often task-specific and require a decent amount of labeled data to start
 with. Recently, the immense language model GPT-3 with 175 billion parameters
@@ -1586,19 +1338,15 @@ novel framework of combining pseudo labels from GPT-3 with human labels, which
 leads to even better performance with limited labeling budget. These results
 present a cost-effective data labeling methodology that is generalizable to
 many practical applications.
-
-
 ## 2022 (47 papers)
 
+
+
 1. [Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language](http://arxiv.org/abs/2204.00598v2), Andy Zeng, Maria Attarian, Brian Ichter, Krzysztof Choromanski, Adrian Wong, Stefan Welker, Federico Tombari, Aveek Purohit, Michael Ryoo, Vikas Sindhwani, Johnny Lee, Vincent Vanhoucke, Pete Florence, 01-04-2022
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Large pretrained (e.g., "foundation") models exhibit distinct capabilities
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    Large pretrained (e.g., "foundation") models exhibit distinct capabilities
 depending on the domain of data they are trained on. While these domains are
 generic, they may only barely overlap. For example, visual-language models
 (VLMs) are trained on Internet-scale image captions, but large language models
@@ -1618,14 +1366,10 @@ egocentric video, (ii) engaging in multimodal assistive dialogue with people
 
 
 2. [Crosslingual Generalization through Multitask Finetuning](http://arxiv.org/abs/2211.01786v2), Niklas Muennighoff, Thomas Wang, Lintang Sutawika, Adam Roberts, Stella Biderman, Teven Le Scao, M Saiful Bari, Sheng Shen, Zheng-Xin Yong, Hailey Schoelkopf, Xiangru Tang, Dragomir Radev, Alham Fikri Aji, Khalid Almubarak, Samuel Albanie, Zaid Alyafeai, Albert Webson, Edward Raff, Colin Raffel, 03-11-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Multitask prompted finetuning (MTF) has been shown to help large language
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Multitask prompted finetuning (MTF) has been shown to help large language
 models generalize to new tasks in a zero-shot setting, but so far explorations
 of MTF have focused on English data and models. We apply MTF to the pretrained
 multilingual BLOOM and mT5 model families to produce finetuned variants called
@@ -1647,14 +1391,10 @@ available at https://github.com/bigscience-workshop/xmtf.
 
 
 3. [Large Language Models Are Human-Level Prompt Engineers](http://arxiv.org/abs/2211.01910v2), Yongchao Zhou, Andrei Ioan Muresanu, Ziwen Han, Keiran Paster, Silviu Pitis, Harris Chan, Jimmy Ba, 03-11-2022
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     By conditioning on natural language instructions, large language models
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    By conditioning on natural language instructions, large language models
 (LLMs) have displayed impressive capabilities as general-purpose computers.
 However, task performance depends significantly on the quality of the prompt
 used to steer the model, and most effective prompts have been handcrafted by
@@ -1677,14 +1417,10 @@ https://sites.google.com/view/automatic-prompt-engineer.
 
 
 4. [Training language models to follow instructions with human feedback](http://arxiv.org/abs/2203.02155v1), Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul Christiano, Jan Leike, Ryan Lowe, 04-03-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Making language models bigger does not inherently make them better at
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Making language models bigger does not inherently make them better at
 following a user's intent. For example, large language models can generate
 outputs that are untruthful, toxic, or simply not helpful to the user. In other
 words, these models are not aligned with their users. In this paper, we show an
@@ -1706,14 +1442,10 @@ intent.
 
 
 5. [Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](http://arxiv.org/abs/2204.01691v2), Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea Finn, Chuyuan Fu, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog, Daniel Ho, Jasmine Hsu, Julian Ibarz, Brian Ichter, Alex Irpan, Eric Jang, Rosario Jauregui Ruano, Kyle Jeffrey, Sally Jesmonth, Nikhil J Joshi, Ryan Julian, Dmitry Kalashnikov, Yuheng Kuang, Kuang-Huei Lee, Sergey Levine, Yao Lu, Linda Luu, Carolina Parada, Peter Pastor, Jornell Quiambao, Kanishka Rao, Jarek Rettinghouse, Diego Reyes, Pierre Sermanet, Nicolas Sievers, Clayton Tan, Alexander Toshev, Vincent Vanhoucke, Fei Xia, Ted Xiao, Peng Xu, Sichun Xu, Mengyuan Yan, Andy Zeng, 04-04-2022
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Large language models can encode a wealth of semantic knowledge about the
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    Large language models can encode a wealth of semantic knowledge about the
 world. Such knowledge could be extremely useful to robots aiming to act upon
 high-level, temporally extended instructions expressed in natural language.
 However, a significant weakness of language models is that they lack real-world
@@ -1739,14 +1471,10 @@ website and the video can be found at https://say-can.github.io/.
 
 6. [BlenderBot 3: a deployed conversational agent that continually learns to
   responsibly engage](http://arxiv.org/abs/2208.03188v3), Kurt Shuster, Jing Xu, Mojtaba Komeili, Da Ju, Eric Michael Smith, Stephen Roller, Megan Ung, Moya Chen, Kushal Arora, Joshua Lane, Morteza Behrooz, William Ngan, Spencer Poff, Naman Goyal, Arthur Szlam, Y-Lan Boureau, Melanie Kambadur, Jason Weston, 05-08-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     We present BlenderBot 3, a 175B parameter dialogue model capable of
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    We present BlenderBot 3, a 175B parameter dialogue model capable of
 open-domain conversation with access to the internet and a long-term memory,
 and having been trained on a large number of user defined tasks. We release
 both the model weights and code, and have also deployed the model on a public
@@ -1762,14 +1490,10 @@ interaction.
 
 
 7. [Ask Me Anything: A simple strategy for prompting language models](http://arxiv.org/abs/2210.02441v3), Simran Arora, Avanika Narayan, Mayee F. Chen, Laurel Orr, Neel Guha, Kush Bhatia, Ines Chami, Frederic Sala, Christopher Ré, 05-10-2022
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Large language models (LLMs) transfer well to new tasks out-of-the-box simply
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Large language models (LLMs) transfer well to new tasks out-of-the-box simply
 given a natural language prompt that demonstrates how to perform the task and
 no additional training. Prompting is a brittle process wherein small
 modifications to the prompt can cause large variations in the model
@@ -1799,14 +1523,10 @@ https://github.com/HazyResearch/ama_prompting
 
 8. [The Unreliability of Explanations in Few-shot Prompting for Textual
   Reasoning](http://arxiv.org/abs/2205.03401v2), Xi Ye, Greg Durrett, 06-05-2022
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Does prompting a large language model (LLM) like GPT-3 with explanations
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Does prompting a large language model (LLM) like GPT-3 with explanations
 improve in-context learning? We study this question on two NLP tasks that
 involve reasoning over text, namely question answering and natural language
 inference. We test the performance of four LLMs on three textual reasoning
@@ -1828,14 +1548,10 @@ datasets.
 
 
 9. [Making Large Language Models Better Reasoners with Step-Aware Verifier](http://arxiv.org/abs/2206.02336v3), Yifei Li, Zeqi Lin, Shizhuo Zhang, Qiang Fu, Bei Chen, Jian-Guang Lou, Weizhu Chen, 06-06-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Few-shot learning is a challenging task that requires language models to
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Few-shot learning is a challenging task that requires language models to
 generalize from limited examples. Large language models like GPT-3 and PaLM
 have made impressive progress in this area, but they still face difficulties in
 reasoning tasks such as GSM8K, a benchmark for arithmetic problems. To improve
@@ -1854,14 +1570,10 @@ of eight reasoning benchmarks (e.g., GSM8K 74.4% to 83.2%).
 
 
 10. [Language Models are Multilingual Chain-of-Thought Reasoners](http://arxiv.org/abs/2210.03057v1), Freda Shi, Mirac Suzgun, Markus Freitag, Xuezhi Wang, Suraj Srivats, Soroush Vosoughi, Hyung Won Chung, Yi Tay, Sebastian Ruder, Denny Zhou, Dipanjan Das, Jason Wei, 06-10-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     We evaluate the reasoning abilities of large language models in multilingual
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    We evaluate the reasoning abilities of large language models in multilingual
 settings. We introduce the Multilingual Grade School Math (MGSM) benchmark, by
 manually translating 250 grade-school math problems from the GSM8K dataset
 (Cobbe et al., 2021) into ten typologically diverse languages. We find that the
@@ -1875,14 +1587,10 @@ https://github.com/google-research/url-nlp.
 
 
 11. [ReAct: Synergizing Reasoning and Acting in Language Models](http://arxiv.org/abs/2210.03629v3), Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao, 06-10-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     While large language models (LLMs) have demonstrated impressive capabilities
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    While large language models (LLMs) have demonstrated impressive capabilities
 across tasks in language understanding and interactive decision making, their
 abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g.
 action plan generation) have primarily been studied as separate topics. In this
@@ -1907,14 +1615,10 @@ Project site with code: https://react-lm.github.io
 
 
 12. [Automatic Chain of Thought Prompting in Large Language Models](http://arxiv.org/abs/2210.03493v1), Zhuosheng Zhang, Aston Zhang, Mu Li, Alex Smola, 07-10-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large language models (LLMs) can perform complex reasoning by generating
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large language models (LLMs) can perform complex reasoning by generating
 intermediate reasoning steps. Providing these steps for prompting
 demonstrations is called chain-of-thought (CoT) prompting. CoT prompting has
 two major paradigms. One leverages a simple prompt like "Let's think step by
@@ -1937,14 +1641,10 @@ available at https://github.com/amazon-research/auto-cot
 
 13. [LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large
   Language Models](http://arxiv.org/abs/2212.04088v3), Chan Hee Song, Jiaman Wu, Clayton Washington, Brian M. Sadler, Wei-Lun Chao, Yu Su, 08-12-2022
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     This study focuses on using large language models (LLMs) as a planner for
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    This study focuses on using large language models (LLMs) as a planner for
 embodied agents that can follow natural language instructions to complete
 complex tasks in a visually-perceived environment. The high data cost and poor
 sample efficiency of existing methods hinders the development of versatile
@@ -1963,14 +1663,10 @@ learn many tasks. Website: https://dki-lab.github.io/LLM-Planner
 
 
 14. [BLOOM: A 176B-Parameter Open-Access Multilingual Language Model](http://arxiv.org/abs/2211.05100v4), BigScience Workshop,  :, Teven Le Scao, Angela Fan, Christopher Akiki, Ellie Pavlick, Suzana Ilić, Daniel Hesslow, Roman Castagné, Alexandra Sasha Luccioni, François Yvon, Matthias Gallé, Jonathan Tow, Alexander M. Rush, Stella Biderman, Albert Webson, Pawan Sasanka Ammanamanchi, Thomas Wang, Benoît Sagot, Niklas Muennighoff, Albert Villanova del Moral, Olatunji Ruwase, Rachel Bawden, Stas Bekman, Angelina McMillan-Major, Iz Beltagy, Huu Nguyen, Lucile Saulnier, Samson Tan, Pedro Ortiz Suarez, Victor Sanh, Hugo Laurençon, Yacine Jernite, Julien Launay, Margaret Mitchell, Colin Raffel, Aaron Gokaslan, Adi Simhi, Aitor Soroa, Alham Fikri Aji, Amit Alfassy, Anna Rogers, Ariel Kreisberg Nitzav, Canwen Xu, Chenghao Mou, Chris Emezue, Christopher Klamm, Colin Leong, Daniel van Strien, David Ifeoluwa Adelani, Dragomir Radev, Eduardo González Ponferrada, Efrat Levkovizh, Ethan Kim, Eyal Bar Natan, Francesco De Toni, Gérard Dupont, Germán Kruszewski, Giada Pistilli, Hady Elsahar, Hamza Benyamina, Hieu Tran, Ian Yu, Idris Abdulmumin, Isaac Johnson, Itziar Gonzalez-Dios, Javier de la Rosa, Jenny Chim, Jesse Dodge, Jian Zhu, Jonathan Chang, Jörg Frohberg, Joseph Tobing, Joydeep Bhattacharjee, Khalid Almubarak, Kimbo Chen, Kyle Lo, Leandro Von Werra, Leon Weber, Long Phan, Loubna Ben allal, Ludovic Tanguy, Manan Dey, Manuel Romero Muñoz, Maraim Masoud, María Grandury, Mario Šaško, Max Huang, Maximin Coavoux, Mayank Singh, Mike Tian-Jian Jiang, Minh Chien Vu, Mohammad A. Jauhar, Mustafa Ghaleb, Nishant Subramani, Nora Kassner, Nurulaqilla Khamis, Olivier Nguyen, Omar Espejel, Ona de Gibert, Paulo Villegas, Peter Henderson, Pierre Colombo, Priscilla Amuok, Quentin Lhoest, Rheza Harliman, Rishi Bommasani, Roberto Luis López, Rui Ribeiro, Salomey Osei, Sampo Pyysalo, Sebastian Nagel, Shamik Bose, Shamsuddeen Hassan Muhammad, Shanya Sharma, Shayne Longpre, Somaieh Nikpoor, Stanislav Silberberg, Suhas Pai, Sydney Zink, Tiago Timponi Torrent, Timo Schick, Tristan Thrush, Valentin Danchev, Vassilina Nikoulina, Veronika Laippala, Violette Lepercq, Vrinda Prabhu, Zaid Alyafeai, Zeerak Talat, Arun Raja, Benjamin Heinzerling, Chenglei Si, Davut Emre Taşar, Elizabeth Salesky, Sabrina J. Mielke, Wilson Y. Lee, Abheesht Sharma, Andrea Santilli, Antoine Chaffin, Arnaud Stiegler, Debajyoti Datta, Eliza Szczechla, Gunjan Chhablani, Han Wang, Harshit Pandey, Hendrik Strobelt, Jason Alan Fries, Jos Rozen, Leo Gao, Lintang Sutawika, M Saiful Bari, Maged S. Al-shaibani, Matteo Manica, Nihal Nayak, Ryan Teehan, Samuel Albanie, Sheng Shen, Srulik Ben-David, Stephen H. Bach, Taewoon Kim, Tali Bers, Thibault Fevry, Trishala Neeraj, Urmish Thakker, Vikas Raunak, Xiangru Tang, Zheng-Xin Yong, Zhiqing Sun, Shaked Brody, Yallow Uri, Hadar Tojarieh, Adam Roberts, Hyung Won Chung, Jaesung Tae, Jason Phang, Ofir Press, Conglong Li, Deepak Narayanan, Hatim Bourfoune, Jared Casper, Jeff Rasley, Max Ryabinin, Mayank Mishra, Minjia Zhang, Mohammad Shoeybi, Myriam Peyrounette, Nicolas Patry, Nouamane Tazi, Omar Sanseviero, Patrick von Platen, Pierre Cornette, Pierre François Lavallée, Rémi Lacroix, Samyam Rajbhandari, Sanchit Gandhi, Shaden Smith, Stéphane Requena, Suraj Patil, Tim Dettmers, Ahmed Baruwa, Amanpreet Singh, Anastasia Cheveleva, Anne-Laure Ligozat, Arjun Subramonian, Aurélie Névéol, Charles Lovering, Dan Garrette, Deepak Tunuguntla, Ehud Reiter, Ekaterina Taktasheva, Ekaterina Voloshina, Eli Bogdanov, Genta Indra Winata, Hailey Schoelkopf, Jan-Christoph Kalo, Jekaterina Novikova, Jessica Zosa Forde, Jordan Clive, Jungo Kasai, Ken Kawamura, Liam Hazan, Marine Carpuat, Miruna Clinciu, Najoung Kim, Newton Cheng, Oleg Serikov, Omer Antverg, Oskar van der Wal, Rui Zhang, Ruochen Zhang, Sebastian Gehrmann, Shachar Mirkin, Shani Pais, Tatiana Shavrina, Thomas Scialom, Tian Yun, Tomasz Limisiewicz, Verena Rieser, Vitaly Protasov, Vladislav Mikhailov, Yada Pruksachatkun, Yonatan Belinkov, Zachary Bamberger, Zdeněk Kasner, Alice Rueda, Amanda Pestana, Amir Feizpour, Ammar Khan, Amy Faranak, Ana Santos, Anthony Hevia, Antigona Unldreaj, Arash Aghagol, Arezoo Abdollahi, Aycha Tammour, Azadeh HajiHosseini, Bahareh Behroozi, Benjamin Ajibade, Bharat Saxena, Carlos Muñoz Ferrandis, Daniel McDuff, Danish Contractor, David Lansky, Davis David, Douwe Kiela, Duong A. Nguyen, Edward Tan, Emi Baylor, Ezinwanne Ozoani, Fatima Mirza, Frankline Ononiwu, Habib Rezanejad, Hessie Jones, Indrani Bhattacharya, Irene Solaiman, Irina Sedenko, Isar Nejadgholi, Jesse Passmore, Josh Seltzer, Julio Bonis Sanz, Livia Dutra, Mairon Samagaio, Maraim Elbadri, Margot Mieskes, Marissa Gerchick, Martha Akinlolu, Michael McKenna, Mike Qiu, Muhammed Ghauri, Mykola Burynok, Nafis Abrar, Nazneen Rajani, Nour Elkott, Nour Fahmy, Olanrewaju Samuel, Ran An, Rasmus Kromann, Ryan Hao, Samira Alizadeh, Sarmad Shubber, Silas Wang, Sourav Roy, Sylvain Viguier, Thanh Le, Tobi Oyebade, Trieu Le, Yoyo Yang, Zach Nguyen, Abhinav Ramesh Kashyap, Alfredo Palasciano, Alison Callahan, Anima Shukla, Antonio Miranda-Escalada, Ayush Singh, Benjamin Beilharz, Bo Wang, Caio Brito, Chenxi Zhou, Chirag Jain, Chuxin Xu, Clémentine Fourrier, Daniel León Periñán, Daniel Molano, Dian Yu, Enrique Manjavacas, Fabio Barth, Florian Fuhrimann, Gabriel Altay, Giyaseddin Bayrak, Gully Burns, Helena U. Vrabec, Imane Bello, Ishani Dash, Jihyun Kang, John Giorgi, Jonas Golde, Jose David Posada, Karthik Rangasai Sivaraman, Lokesh Bulchandani, Lu Liu, Luisa Shinzato, Madeleine Hahn de Bykhovetz, Maiko Takeuchi, Marc Pàmies, Maria A Castillo, Marianna Nezhurina, Mario Sänger, Matthias Samwald, Michael Cullan, Michael Weinberg, Michiel De Wolf, Mina Mihaljcic, Minna Liu, Moritz Freidank, Myungsun Kang, Natasha Seelam, Nathan Dahlberg, Nicholas Michio Broad, Nikolaus Muellner, Pascale Fung, Patrick Haller, Ramya Chandrasekhar, Renata Eisenberg, Robert Martin, Rodrigo Canalli, Rosaline Su, Ruisi Su, Samuel Cahyawijaya, Samuele Garda, Shlok S Deshmukh, Shubhanshu Mishra, Sid Kiblawi, Simon Ott, Sinee Sang-aroonsiri, Srishti Kumar, Stefan Schweter, Sushil Bharati, Tanmay Laud, Théo Gigant, Tomoya Kainuma, Wojciech Kusa, Yanis Labrak, Yash Shailesh Bajaj, Yash Venkatraman, Yifan Xu, Yingxin Xu, Yu Xu, Zhe Tan, Zhongli Xie, Zifan Ye, Mathilde Bras, Younes Belkada, Thomas Wolf, 09-11-2022
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Large language models (LLMs) have been shown to be able to perform new tasks
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Large language models (LLMs) have been shown to be able to perform new tasks
 based on a few demonstrations or natural language instructions. While these
 capabilities have led to widespread adoption, most LLMs are developed by
 resource-rich organizations and are frequently kept from the public. As a step
@@ -1986,14 +1682,10 @@ publicly release our models and code under the Responsible AI License.
 
 
 15. [UL2: Unifying Language Learning Paradigms](http://arxiv.org/abs/2205.05131v3), Yi Tay, Mostafa Dehghani, Vinh Q. Tran, Xavier Garcia, Jason Wei, Xuezhi Wang, Hyung Won Chung, Siamak Shakeri, Dara Bahri, Tal Schuster, Huaixiu Steven Zheng, Denny Zhou, Neil Houlsby, Donald Metzler, 10-05-2022
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Existing pre-trained models are generally geared towards a particular class
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Existing pre-trained models are generally geared towards a particular class
 of problems. To date, there seems to be still no consensus on what the right
 architecture and pre-training setup should be. This paper presents a unified
 framework for pre-training models that are universally effective across
@@ -2022,14 +1714,10 @@ Flax-based T5X checkpoints for the UL2 20B & Flan-UL2 20B.
 
 16. [LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language,
   Vision, and Action](http://arxiv.org/abs/2207.04429v2), Dhruv Shah, Blazej Osinski, Brian Ichter, Sergey Levine, 10-07-2022
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Goal-conditioned policies for robotic navigation can be trained on large,
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    Goal-conditioned policies for robotic navigation can be trained on large,
 unannotated datasets, providing for good generalization to real-world settings.
 However, particularly in vision-based settings where specifying goals requires
 an image, this makes for an unnatural interface. Language provides a more
@@ -2051,14 +1739,10 @@ https://sites.google.com/view/lmnav
 
 17. [From Human Days to Machine Seconds: Automatically Answering and
   Generating Machine Learning Final Exams](http://arxiv.org/abs/2206.05442v7), Iddo Drori, Sarah J. Zhang, Reece Shuttleworth, Sarah Zhang, Keith Tyser, Zad Chin, Pedro Lantigua, Saisamrit Surbehera, Gregory Hunter, Derek Austin, Leonard Tang, Yann Hicke, Sage Simhon, Sathwik Karnik, Darnell Granberry, Madeleine Udell, 11-06-2022
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     A final exam in machine learning at a top institution such as MIT, Harvard,
+     ### Categories
+     Machine Learning
+    ### Abstract
+    A final exam in machine learning at a top institution such as MIT, Harvard,
 or Cornell typically takes faculty days to write, and students hours to solve.
 We demonstrate that large language models pass machine learning finals at a
 human level, on finals available online after the models were trained, and
@@ -2088,14 +1772,10 @@ academic studies.
 
 18. [Training a Helpful and Harmless Assistant with Reinforcement Learning
   from Human Feedback](http://arxiv.org/abs/2204.05862v1), Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, Nicholas Joseph, Saurav Kadavath, Jackson Kernion, Tom Conerly, Sheer El-Showk, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Tristan Hume, Scott Johnston, Shauna Kravec, Liane Lovitt, Neel Nanda, Catherine Olsson, Dario Amodei, Tom Brown, Jack Clark, Sam McCandlish, Chris Olah, Ben Mann, Jared Kaplan, 12-04-2022
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     We apply preference modeling and reinforcement learning from human feedback
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    We apply preference modeling and reinforcement learning from human feedback
 (RLHF) to finetune language models to act as helpful and harmless assistants.
 We find this alignment training improves performance on almost all NLP
 evaluations, and is fully compatible with training for specialized skills such
@@ -2111,14 +1791,10 @@ provide samples from our models using prompts appearing in recent related work.
 
 
 19. [A Generalist Agent](http://arxiv.org/abs/2205.06175v3), Scott Reed, Konrad Zolna, Emilio Parisotto, Sergio Gomez Colmenarejo, Alexander Novikov, Gabriel Barth-Maron, Mai Gimenez, Yury Sulsky, Jackie Kay, Jost Tobias Springenberg, Tom Eccles, Jake Bruce, Ali Razavi, Ashley Edwards, Nicolas Heess, Yutian Chen, Raia Hadsell, Oriol Vinyals, Mahyar Bordbar, Nando de Freitas, 12-05-2022
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Inspired by progress in large-scale language modeling, we apply a similar
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    Inspired by progress in large-scale language modeling, we apply a similar
 approach towards building a single generalist agent beyond the realm of text
 outputs. The agent, which we refer to as Gato, works as a multi-modal,
 multi-task, multi-embodiment generalist policy. The same network with the same
@@ -2130,14 +1806,10 @@ and the data, and document the current capabilities of Gato.
 
 20. [Inner Monologue: Embodied Reasoning through Planning with Language
   Models](http://arxiv.org/abs/2207.05608v1), Wenlong Huang, Fei Xia, Ted Xiao, Harris Chan, Jacky Liang, Pete Florence, Andy Zeng, Jonathan Tompson, Igor Mordatch, Yevgen Chebotar, Pierre Sermanet, Noah Brown, Tomas Jackson, Linda Luu, Sergey Levine, Karol Hausman, Brian Ichter, 12-07-2022
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Recent works have shown how the reasoning capabilities of Large Language
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    Recent works have shown how the reasoning capabilities of Large Language
 Models (LLMs) can be applied to domains beyond natural language processing,
 such as planning and interaction for robots. These embodied problems require an
 agent to understand many semantic aspects of the world: the repertoire of
@@ -2158,14 +1830,10 @@ environment in the real world.
 
 
 21. [Interactive Language: Talking to Robots in Real Time](http://arxiv.org/abs/2210.06407v1), Corey Lynch, Ayzaan Wahid, Jonathan Tompson, Tianli Ding, James Betker, Robert Baruch, Travis Armstrong, Pete Florence, 12-10-2022
-
-   ### Categories
-
-   Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     We present a framework for building interactive, real-time, natural
+     ### Categories
+     Artificial Intelligence, Machine Learning
+    ### Abstract
+    We present a framework for building interactive, real-time, natural
 language-instructable robots in the real world, and we open source related
 assets (dataset, environment, benchmark, and policies). Trained with behavioral
 cloning on a dataset of hundreds of thousands of language-annotated
@@ -2183,14 +1851,10 @@ robots. See videos at https://interactive-language.github.io.
 
 
 22. [Language Models of Code are Few-Shot Commonsense Learners](http://arxiv.org/abs/2210.07128v3), Aman Madaan, Shuyan Zhou, Uri Alon, Yiming Yang, Graham Neubig, 13-10-2022
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     We address the general task of structured commonsense reasoning: given a
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    We address the general task of structured commonsense reasoning: given a
 natural language input, the goal is to generate a graph such as an event -- or
 a reasoning-graph. To employ large language models (LMs) for this task,
 existing approaches ``serialize'' the output graph as a flat list of nodes and
@@ -2208,14 +1872,10 @@ setting.
 
 
 23. [Emergent Abilities of Large Language Models](http://arxiv.org/abs/2206.07682v2), Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed H. Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, William Fedus, 15-06-2022
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Scaling up language models has been shown to predictably improve performance
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Scaling up language models has been shown to predictably improve performance
 and sample efficiency on a wide range of downstream tasks. This paper instead
 discusses an unpredictable phenomenon that we refer to as emergent abilities of
 large language models. We consider an ability to be emergent if it is not
@@ -2226,14 +1886,10 @@ could further expand the range of capabilities of language models.
 
 
 24. [Constitutional AI: Harmlessness from AI Feedback](http://arxiv.org/abs/2212.08073v1), Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Carol Chen, Catherine Olsson, Christopher Olah, Danny Hernandez, Dawn Drain, Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, Jared Mueller, Jeffrey Ladish, Joshua Landau, Kamal Ndousse, Kamile Lukosuite, Liane Lovitt, Michael Sellitto, Nelson Elhage, Nicholas Schiefer, Noemi Mercado, Nova DasSarma, Robert Lasenby, Robin Larson, Sam Ringer, Scott Johnston, Shauna Kravec, Sheer El Showk, Stanislav Fort, Tamera Lanham, Timothy Telleen-Lawton, Tom Conerly, Tom Henighan, Tristan Hume, Samuel R. Bowman, Zac Hatfield-Dodds, Ben Mann, Dario Amodei, Nicholas Joseph, Sam McCandlish, Tom Brown, Jared Kaplan, 15-12-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     As AI systems become more capable, we would like to enlist their help to
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    As AI systems become more capable, we would like to enlist their help to
 supervise other AIs. We experiment with methods for training a harmless AI
 assistant through self-improvement, without any human labels identifying
 harmful outputs. The only human oversight is provided through a list of rules
@@ -2254,14 +1910,10 @@ labels.
 
 
 25. [Text and Patterns: For Effective Chain of Thought, It Takes Two to Tango](http://arxiv.org/abs/2209.07686v2), Aman Madaan, Amir Yazdanbakhsh, 16-09-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     The past decade has witnessed dramatic gains in natural language processing
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    The past decade has witnessed dramatic gains in natural language processing
 and an unprecedented scaling of large language models. These developments have
 been accelerated by the advent of few-shot techniques such as chain of thought
 (CoT) prompting. Specifically, CoT pushes the performance of large language
@@ -2289,14 +1941,10 @@ and patterns enforce task understanding and direct text generation.
 
 26. [MineDojo: Building Open-Ended Embodied Agents with Internet-Scale
   Knowledge](http://arxiv.org/abs/2206.08853v2), Linxi Fan, Guanzhi Wang, Yunfan Jiang, Ajay Mandlekar, Yuncong Yang, Haoyi Zhu, Andrew Tang, De-An Huang, Yuke Zhu, Anima Anandkumar, 17-06-2022
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Autonomous agents have made great strides in specialist domains like Atari
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    Autonomous agents have made great strides in specialist domains like Atari
 games and Go. However, they typically learn tabula rasa in isolated
 environments with limited and manually conceived objectives, thus failing to
 generalize across a wide spectrum of tasks and capabilities. Inspired by how
@@ -2317,14 +1965,10 @@ research towards the goal of generally capable embodied agents.
 
 
 27. [Ignore Previous Prompt: Attack Techniques For Language Models](http://arxiv.org/abs/2211.09527v1), Fábio Perez, Ian Ribeiro, 17-11-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Transformer-based large language models (LLMs) provide a powerful foundation
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Transformer-based large language models (LLMs) provide a powerful foundation
 for natural language tasks in large-scale customer-facing applications.
 However, studies that explore their vulnerabilities emerging from malicious
 user interaction are scarce. By proposing PromptInject, a prosaic alignment
@@ -2339,14 +1983,10 @@ is available at https://github.com/agencyenterprise/PromptInject.
 
 28. [Language Models as Zero-Shot Planners: Extracting Actionable Knowledge
   for Embodied Agents](http://arxiv.org/abs/2201.07207v2), Wenlong Huang, Pieter Abbeel, Deepak Pathak, Igor Mordatch, 18-01-2022
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Can world knowledge learned by large language models (LLMs) be used to act in
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    Can world knowledge learned by large language models (LLMs) be used to act in
 interactive environments? In this paper, we investigate the possibility of
 grounding high-level tasks, expressed in natural language (e.g. "make
 breakfast"), to a chosen set of actionable steps (e.g. "open fridge"). While
@@ -2365,14 +2005,10 @@ https://huangwl18.github.io/language-planner
 
 
 29. [PAL: Program-aided Language Models](http://arxiv.org/abs/2211.10435v2), Luyu Gao, Aman Madaan, Shuyan Zhou, Uri Alon, Pengfei Liu, Yiming Yang, Jamie Callan, Graham Neubig, 18-11-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large language models (LLMs) have recently demonstrated an impressive ability
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large language models (LLMs) have recently demonstrated an impressive ability
 to perform arithmetic and symbolic reasoning tasks, when provided with a few
 examples at test time ("few-shot prompting"). Much of this success can be
 attributed to prompting methods such as "chain-of-thought'', which employ LLMs
@@ -2398,14 +2034,10 @@ publicly available at http://reasonwithpal.com/ .
 
 30. [Selection-Inference: Exploiting Large Language Models for Interpretable
   Logical Reasoning](http://arxiv.org/abs/2205.09712v1), Antonia Creswell, Murray Shanahan, Irina Higgins, 19-05-2022
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Large language models (LLMs) have been shown to be capable of impressive
+     ### Categories
+     Artificial Intelligence, Computation and Language
+    ### Abstract
+    Large language models (LLMs) have been shown to be capable of impressive
 few-shot generalisation to new tasks. However, they still tend to perform
 poorly on multi-step logical reasoning problems. Here we carry out a
 comprehensive evaluation of LLMs on 50 tasks that probe different aspects of
@@ -2426,14 +2058,10 @@ for the safety and trustworthiness of the system.
 
 
 31. [Reasoning with Language Model Prompting: A Survey](http://arxiv.org/abs/2212.09597v8), Shuofei Qiao, Yixin Ou, Ningyu Zhang, Xiang Chen, Yunzhi Yao, Shumin Deng, Chuanqi Tan, Fei Huang, Huajun Chen, 19-12-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Reasoning, as an essential ability for complex problem-solving, can provide
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Reasoning, as an essential ability for complex problem-solving, can provide
 back-end support for various real-world applications, such as medical
 diagnosis, negotiation, etc. This paper provides a comprehensive survey of
 cutting-edge research on reasoning with language model prompting. We introduce
@@ -2446,14 +2074,10 @@ periodically).
 
 32. [Learn to Explain: Multimodal Reasoning via Thought Chains for Science
   Question Answering](http://arxiv.org/abs/2209.09513v2), Pan Lu, Swaroop Mishra, Tony Xia, Liang Qiu, Kai-Wei Chang, Song-Chun Zhu, Oyvind Tafjord, Peter Clark, Ashwin Kalyan, 20-09-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     When answering a question, humans utilize the information available across
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    When answering a question, humans utilize the information available across
 different modalities to synthesize a consistent and complete chain of thought
 (CoT). This process is normally a black box in the case of deep learning models
 like large-scale language models. Recently, science question benchmarks have
@@ -2477,14 +2101,10 @@ and code are available at https://scienceqa.github.io.
 
 
 33. [KronA: Parameter Efficient Tuning with Kronecker Adapter](http://arxiv.org/abs/2212.10650v1), Ali Edalati, Marzieh Tahaei, Ivan Kobyzev, Vahid Partovi Nia, James J. Clark, Mehdi Rezagholizadeh, 20-12-2022
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Fine-tuning a Pre-trained Language Model (PLM) on a specific downstream task
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Fine-tuning a Pre-trained Language Model (PLM) on a specific downstream task
 has been a well-known paradigm in Natural Language Processing. However, with
 the ever-growing size of PLMs, training the entire model on several downstream
 tasks becomes very expensive and resource-hungry. Recently, different Parameter
@@ -2501,14 +2121,10 @@ Kronecker-based modules can outperform state-of-the-art PET methods.
 
 
 34. [Large Language Models Are Reasoning Teachers](http://arxiv.org/abs/2212.10071v2), Namgyu Ho, Laura Schmid, Se-Young Yun, 20-12-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Recent works have shown that chain-of-thought (CoT) prompting can elicit
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Recent works have shown that chain-of-thought (CoT) prompting can elicit
 language models to solve complex reasoning tasks, step-by-step. However,
 prompt-based CoT methods are dependent on very large models such as GPT-3 175B
 which are prohibitive to deploy at scale. In this paper, we use these large
@@ -2529,14 +2145,10 @@ at https://github.com/itsnamgyu/reasoning-teacher.
 
 
 35. [Self-Instruct: Aligning Language Models with Self-Generated Instructions](http://arxiv.org/abs/2212.10560v2), Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi, 20-12-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large "instruction-tuned" language models (i.e., finetuned to respond to
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large "instruction-tuned" language models (i.e., finetuned to respond to
 instructions) have demonstrated a remarkable ability to generalize zero-shot to
 new tasks. Nevertheless, they depend heavily on human-written instruction data
 that is often limited in quantity, diversity, and creativity, therefore
@@ -2559,14 +2171,10 @@ code and data are available at https://github.com/yizhongw/self-instruct.
 
 
 36. [Towards Reasoning in Large Language Models: A Survey](http://arxiv.org/abs/2212.10403v2), Jie Huang, Kevin Chen-Chuan Chang, 20-12-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Reasoning is a fundamental aspect of human intelligence that plays a crucial
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Reasoning is a fundamental aspect of human intelligence that plays a crucial
 role in activities such as problem solving, decision making, and critical
 thinking. In recent years, large language models (LLMs) have made significant
 progress in natural language processing, and there is observation that these
@@ -2582,14 +2190,10 @@ this topic and stimulate meaningful discussion and future work.
 
 37. [Towards Understanding Chain-of-Thought Prompting: An Empirical Study of
   What Matters](http://arxiv.org/abs/2212.10001v2), Boshi Wang, Sewon Min, Xiang Deng, Jiaming Shen, You Wu, Luke Zettlemoyer, Huan Sun, 20-12-2022
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Chain-of-Thought (CoT) prompting can dramatically improve the multi-step
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Chain-of-Thought (CoT) prompting can dramatically improve the multi-step
 reasoning abilities of large language models (LLMs). CoT explicitly encourages
 the LLM to generate intermediate rationales for solving a problem, by providing
 a series of reasoning steps in the demonstrations. Despite its success, there
@@ -2607,14 +2211,10 @@ to reason in context.
 
 
 38. [Self-Consistency Improves Chain of Thought Reasoning in Language Models](http://arxiv.org/abs/2203.11171v4), Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, Sharan Narang, Aakanksha Chowdhery, Denny Zhou, 21-03-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Chain-of-thought prompting combined with pre-trained large language models
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Chain-of-thought prompting combined with pre-trained large language models
 has achieved encouraging results on complex reasoning tasks. In this paper, we
 propose a new decoding strategy, self-consistency, to replace the naive greedy
 decoding used in chain-of-thought prompting. It first samples a diverse set of
@@ -2631,14 +2231,10 @@ ARC-challenge (+3.9%).
 
 39. [Least-to-Most Prompting Enables Complex Reasoning in Large Language
   Models](http://arxiv.org/abs/2205.10625v3), Denny Zhou, Nathanael Schärli, Le Hou, Jason Wei, Nathan Scales, Xuezhi Wang, Dale Schuurmans, Claire Cui, Olivier Bousquet, Quoc Le, Ed Chi, 21-05-2022
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Chain-of-thought prompting has demonstrated remarkable performance on various
+     ### Categories
+     Artificial Intelligence, Computation and Language
+    ### Abstract
+    Chain-of-thought prompting has demonstrated remarkable performance on various
 natural language reasoning tasks. However, it tends to perform poorly on tasks
 which requires solving problems harder than the exemplars shown in the prompts.
 To overcome this challenge of easy-to-hard generalization, we propose a novel
@@ -2660,14 +2256,10 @@ examples. We have included prompts for all the tasks in the Appendix.
 
 40. [ProgPrompt: Generating Situated Robot Task Plans using Large Language
   Models](http://arxiv.org/abs/2209.11302v1), Ishika Singh, Valts Blukis, Arsalan Mousavian, Ankit Goyal, Danfei Xu, Jonathan Tremblay, Dieter Fox, Jesse Thomason, Animesh Garg, 22-09-2022
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Task planning can require defining myriad domain knowledge about the world in
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    Task planning can require defining myriad domain knowledge about the world in
 which a robot needs to act. To ameliorate that effort, large language models
 (LLMs) can be used to score potential next actions during task planning, and
 even generate action sequences directly, given an instruction in natural
@@ -2687,14 +2279,10 @@ progprompt.github.io
 
 41. [Program of Thoughts Prompting: Disentangling Computation from Reasoning
   for Numerical Reasoning Tasks](http://arxiv.org/abs/2211.12588v4), Wenhu Chen, Xueguang Ma, Xinyi Wang, William W. Cohen, 22-11-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Recently, there has been significant progress in teaching language models to
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Recently, there has been significant progress in teaching language models to
 perform step-by-step reasoning to solve complex numerical reasoning tasks.
 Chain-of-thoughts prompting (CoT) is by far the state-of-art method for these
 tasks. CoT uses language models to perform both reasoning and computation in
@@ -2714,14 +2302,10 @@ released in Github https://github.com/wenhuchen/Program-of-Thoughts
 
 42. [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online
   Videos](http://arxiv.org/abs/2206.11795v1), Bowen Baker, Ilge Akkaya, Peter Zhokhov, Joost Huizinga, Jie Tang, Adrien Ecoffet, Brandon Houghton, Raul Sampedro, Jeff Clune, 23-06-2022
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence
-
-   ### Abstract
-
-     Pretraining on noisy, internet-scale datasets has been heavily studied as a
+     ### Categories
+     Machine Learning, Artificial Intelligence
+    ### Abstract
+    Pretraining on noisy, internet-scale datasets has been heavily studied as a
 technique for training models with broad, general capabilities for text,
 images, and other modalities. However, for many sequential decision domains
 such as robotics, video games, and computer use, publicly available data does
@@ -2743,14 +2327,10 @@ environment actions) of gameplay to accomplish.
 
 
 43. [Promptagator: Few-shot Dense Retrieval From 8 Examples](http://arxiv.org/abs/2209.11755v1), Zhuyun Dai, Vincent Y. Zhao, Ji Ma, Yi Luan, Jianmo Ni, Jing Lu, Anton Bakalov, Kelvin Guu, Keith B. Hall, Ming-Wei Chang, 23-09-2022
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Much recent research on information retrieval has focused on how to transfer
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Much recent research on information retrieval has focused on how to transfer
 from one task (typically with abundant supervised data) to various other tasks
 where supervision is limited, with the implicit assumption that it is possible
 to generalize from one task to all the rest. However, this overlooks the fact
@@ -2775,14 +2355,10 @@ task-specific knowledge is given.
 
 44. [FlashAttention: Fast and Memory-Efficient Exact Attention with
   IO-Awareness](http://arxiv.org/abs/2205.14135v2), Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, Christopher Ré, 27-05-2022
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     Transformers are slow and memory-hungry on long sequences, since the time and
+     ### Categories
+     Machine Learning
+    ### Abstract
+    Transformers are slow and memory-hungry on long sequences, since the time and
 memory complexity of self-attention are quadratic in sequence length.
 Approximate attention methods have attempted to address this problem by trading
 off model quality to reduce the compute complexity, but often do not achieve
@@ -2808,14 +2384,10 @@ accuracy).
 
 
 45. [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](http://arxiv.org/abs/2201.11903v6), Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou, 28-01-2022
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     We explore how generating a chain of thought -- a series of intermediate
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    We explore how generating a chain of thought -- a series of intermediate
 reasoning steps -- significantly improves the ability of large language models
 to perform complex reasoning. In particular, we show how such reasoning
 abilities emerge naturally in sufficiently large language models via a simple
@@ -2830,14 +2402,10 @@ finetuned GPT-3 with a verifier.
 
 
 46. [Inferring Implicit Relations in Complex Questions with Language Models](http://arxiv.org/abs/2204.13778v2), Uri Katz, Mor Geva, Jonathan Berant, 28-04-2022
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     A prominent challenge for modern language understanding systems is the
+     ### Categories
+     Computation and Language
+    ### Abstract
+    A prominent challenge for modern language understanding systems is the
 ability to answer implicit reasoning questions, where the required reasoning
 steps for answering the question are not mentioned in the text explicitly. In
 this work, we investigate why current models struggle with implicit reasoning
@@ -2855,14 +2423,10 @@ information.
 
 
 47. [Cramming: Training a Language Model on a Single GPU in One Day](http://arxiv.org/abs/2212.14034v1), Jonas Geiping, Tom Goldstein, 28-12-2022
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Recent trends in language modeling have focused on increasing performance
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    Recent trends in language modeling have focused on increasing performance
 through scaling, and have resulted in an environment where training language
 models is out of reach for most researchers and practitioners. While most in
 the community are asking how to push the limits of extreme computation, we ask
@@ -2878,19 +2442,15 @@ performance closely follows scaling laws observed in large-compute settings.
 Through the lens of scaling laws, we categorize a range of recent improvements
 to training and architecture and discuss their merit and practical
 applicability (or lack thereof) for the limited compute setting.
-
-
 ## 2023 (195 papers)
 
+
+
 1. [Collaborating with language models for embodied reasoning](http://arxiv.org/abs/2302.00763v1), Ishita Dasgupta, Christine Kaeser-Chen, Kenneth Marino, Arun Ahuja, Sheila Babayan, Felix Hill, Rob Fergus, 01-02-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Reasoning in a complex and ambiguous environment is a key goal for
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    Reasoning in a complex and ambiguous environment is a key goal for
 Reinforcement Learning (RL) agents. While some sophisticated RL agents can
 successfully solve difficult tasks, they require a large amount of training
 data and often struggle to generalize to new unseen environments and new tasks.
@@ -2908,14 +2468,10 @@ system can be trained with reinforcement-learning to improve performance.
 
 
 2. [Chain-Of-Thought Prompting Under Streaming Batch: A Case Study](http://arxiv.org/abs/2306.00550v1), Yuxin Tang, 01-06-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Recently, Large Language Models (LLMs) have demonstrated remarkable
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    Recently, Large Language Models (LLMs) have demonstrated remarkable
 capabilities. Chain-of-Thought (CoT) has been proposed as a way of assisting
 LLMs in performing complex reasoning. However, developing effective prompts can
 be a challenging and labor-intensive task. Many studies come out of some way to
@@ -2928,14 +2484,10 @@ batch data in streaming settings.
 
 3. [ReviewerGPT? An Exploratory Study on Using Large Language Models for
   Paper Reviewing](http://arxiv.org/abs/2306.00622v1), Ryan Liu, Nihar B. Shah, 01-06-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Given the rapid ascent of large language models (LLMs), we study the
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Given the rapid ascent of large language models (LLMs), we study the
 question: (How) can large language models help in reviewing of scientific
 papers or proposals? We first conduct some pilot studies where we find that (i)
 GPT-4 outperforms other LLMs (Bard, Vicuna, Koala, Alpaca, LLaMa, Dolly,
@@ -2961,14 +2513,10 @@ evaluations of papers or proposals.
 
 4. [The RefinedWeb Dataset for Falcon LLM: Outperforming Curated Corpora
   with Web Data, and Web Data Only](http://arxiv.org/abs/2306.01116v1), Guilherme Penedo, Quentin Malartic, Daniel Hesslow, Ruxandra Cojocaru, Alessandro Cappelli, Hamza Alobeidli, Baptiste Pannier, Ebtesam Almazrouei, Julien Launay, 01-06-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large language models are commonly trained on a mixture of filtered web data
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large language models are commonly trained on a mixture of filtered web data
 and curated high-quality corpora, such as social media conversations, books, or
 technical papers. This curation process is believed to be necessary to produce
 performant models with broad zero-shot generalization abilities. However, as
@@ -2984,14 +2532,10 @@ RefinedWeb dataset, and 1.3/7.5B parameters language models trained on it.
 
 
 5. [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](http://arxiv.org/abs/2308.00352v5), Sirui Hong, Mingchen Zhuge, Jonathan Chen, Xiawu Zheng, Yuheng Cheng, Ceyao Zhang, Jinlin Wang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, Chenyu Ran, Lingfeng Xiao, Chenglin Wu, Jürgen Schmidhuber, 01-08-2023
-
-   ### Categories
-
-   Artificial Intelligence
-
-   ### Abstract
-
-     Remarkable progress has been made on automated problem solving through
+     ### Categories
+     Artificial Intelligence
+    ### Abstract
+    Remarkable progress has been made on automated problem solving through
 societies of agents based on large language models (LLMs). Existing LLM-based
 multi-agent systems can already solve simple dialogue tasks. Solutions to more
 complex tasks, however, are complicated through logic inconsistencies due to
@@ -3009,14 +2553,10 @@ found at https://github.com/geekan/MetaGPT
 
 
 6. [SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot](http://arxiv.org/abs/2301.00774v3), Elias Frantar, Dan Alistarh, 02-01-2023
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     We show for the first time that large-scale generative pretrained transformer
+     ### Categories
+     Machine Learning
+    ### Abstract
+    We show for the first time that large-scale generative pretrained transformer
 (GPT) family models can be pruned to at least 50% sparsity in one-shot, without
 any retraining, at minimal loss of accuracy. This is achieved via a new pruning
 method called SparseGPT, specifically designed to work efficiently and
@@ -3030,14 +2570,10 @@ is available at: https://github.com/IST-DASLab/sparsegpt.
 
 
 7. [SmartPlay: A Benchmark for LLMs as Intelligent Agents](http://arxiv.org/abs/2310.01557v3), Yue Wu, Xuan Tang, Tom M. Mitchell, Yuanzhi Li, 02-10-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence
-
-   ### Abstract
-
-     Recent large language models (LLMs) have demonstrated great potential toward
+     ### Categories
+     Machine Learning, Artificial Intelligence
+    ### Abstract
+    Recent large language models (LLMs) have demonstrated great potential toward
 intelligent agents and next-gen automation, but there currently lacks a
 systematic benchmark for evaluating LLMs' abilities as agents. We introduce
 SmartPlay: both a challenging benchmark and a methodology for evaluating LLMs
@@ -3055,14 +2591,10 @@ release our benchmark at github.com/microsoft/SmartPlay
 
 
 8. [TopicGPT: A Prompt-based Topic Modeling Framework](http://arxiv.org/abs/2311.01449v1), Chau Minh Pham, Alexander Hoyle, Simeng Sun, Mohit Iyyer, 02-11-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Topic modeling is a well-established technique for exploring text corpora.
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Topic modeling is a well-established technique for exploring text corpora.
 Conventional topic models (e.g., LDA) represent topics as bags of words that
 often require "reading the tea leaves" to interpret; additionally, they offer
 users minimal semantic control over topics. To tackle these issues, we
@@ -3083,14 +2615,10 @@ represents a compelling, human-centered approach to topic modeling.
 
 9. [Describe, Explain, Plan and Select: Interactive Planning with Large
   Language Models Enables Open-World Multi-Task Agents](http://arxiv.org/abs/2302.01560v2), Zihao Wang, Shaofei Cai, Guanzhou Chen, Anji Liu, Xiaojian Ma, Yitao Liang, 03-02-2023
-
-   ### Categories
-
-   Artificial Intelligence
-
-   ### Abstract
-
-     We investigate the challenge of task planning for multi-task embodied agents
+     ### Categories
+     Artificial Intelligence
+    ### Abstract
+    We investigate the challenge of task planning for multi-task embodied agents
 in open-world environments. Two main difficulties are identified: 1) executing
 plans in an open-world environment (e.g., Minecraft) necessitates accurate and
 multi-step reasoning due to the long-term nature of tasks, and 2) as vanilla
@@ -3117,14 +2645,10 @@ approach. The code is released at https://github.com/CraftJarvis/MC-Planner.
 
 10. [A Bibliometric Review of Large Language Models Research from 2017 to
   2023](http://arxiv.org/abs/2304.02020v1), Lizhou Fan, Lingyao Li, Zihui Ma, Sanggyu Lee, Huizi Yu, Libby Hemphill, 03-04-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Large language models (LLMs) are a class of language models that have
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Large language models (LLMs) are a class of language models that have
 demonstrated outstanding performance across a range of natural language
 processing (NLP) tasks and have become a highly sought-after research area,
 because of their ability to generate human-like language and their potential to
@@ -3144,14 +2668,10 @@ research and its applications.
 
 11. [Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on
   Self-Chat Data](http://arxiv.org/abs/2304.01196v4), Canwen Xu, Daya Guo, Nan Duan, Julian McAuley, 03-04-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Chat models, such as ChatGPT, have shown impressive capabilities and have
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Chat models, such as ChatGPT, have shown impressive capabilities and have
 been rapidly adopted across numerous domains. However, these models are only
 accessible through a restricted API, creating barriers for new research and
 progress in the field. We propose a pipeline that can automatically generate a
@@ -3169,14 +2689,10 @@ https://huggingface.co/spaces/project-baize/chat-with-baize.
 
 12. [Pythia: A Suite for Analyzing Large Language Models Across Training and
   Scaling](http://arxiv.org/abs/2304.01373v2), Stella Biderman, Hailey Schoelkopf, Quentin Anthony, Herbie Bradley, Kyle O'Brien, Eric Hallahan, Mohammad Aflah Khan, Shivanshu Purohit, USVSN Sai Prashanth, Edward Raff, Aviya Skowron, Lintang Sutawika, Oskar van der Wal, 03-04-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     How do large language models (LLMs) develop and evolve over the course of
+     ### Categories
+     Computation and Language
+    ### Abstract
+    How do large language models (LLMs) develop and evolve over the course of
 training? How do these patterns change as models scale? To answer these
 questions, we introduce \textit{Pythia}, a suite of 16 LLMs all trained on
 public data seen in the exact same order and ranging in size from 70M to 12B
@@ -3193,14 +2709,10 @@ analysis code, training code, and training data can be found at
 
 13. [Plan, Eliminate, and Track -- Language Models are Good Teachers for
   Embodied Agents](http://arxiv.org/abs/2305.02412v2), Yue Wu, So Yeon Min, Yonatan Bisk, Ruslan Salakhutdinov, Amos Azaria, Yuanzhi Li, Tom Mitchell, Shrimai Prabhumoye, 03-05-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Pre-trained large language models (LLMs) capture procedural knowledge about
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Pre-trained large language models (LLMs) capture procedural knowledge about
 the world. Recent work has leveraged LLM's ability to generate abstract plans
 to simplify challenging control tasks, either by action scoring, or action
 modeling (fine-tuning). However, the transformer architecture inherits several
@@ -3220,14 +2732,10 @@ generalization to human goal specifications.
 
 14. [Evaluating ChatGPT text-mining of clinical records for obesity
   monitoring](http://arxiv.org/abs/2308.01666v1), Ivo S. Fins, Heather Davies, Sean Farrell, Jose R. Torres, Gina Pinchbeck, Alan D. Radford, Peter-John Noble, 03-08-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Background: Veterinary clinical narratives remain a largely untapped resource
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Background: Veterinary clinical narratives remain a largely untapped resource
 for addressing complex diseases. Here we compare the ability of a large
 language model (ChatGPT) and a previously developed regular expression (RegexT)
 to identify overweight body condition scores (BCS) in veterinary narratives.
@@ -3245,14 +2753,10 @@ information but require careful implementation to avoid unpredictable errors.
 
 15. [Can large language models provide useful feedback on research papers? A
   large-scale empirical analysis](http://arxiv.org/abs/2310.01783v1), Weixin Liang, Yuhui Zhang, Hancheng Cao, Binglu Wang, Daisy Ding, Xinyu Yang, Kailas Vodrahalli, Siyu He, Daniel Smith, Yian Yin, Daniel McFarland, James Zou, 03-10-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Expert feedback lays the foundation of rigorous research. However, the rapid
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    Expert feedback lays the foundation of rigorous research. However, the rapid
 growth of scholarly production and intricate knowledge specialization challenge
 the conventional scientific feedback mechanisms. High-quality peer reviews are
 increasingly difficult to obtain. Researchers who are more junior or from
@@ -3280,14 +2784,10 @@ feedback can help researchers, we also identify several limitations.
 
 
 16. [Conversational Health Agents: A Personalized LLM-Powered Agent Framework](http://arxiv.org/abs/2310.02374v3), Mahyar Abbasian, Iman Azimi, Amir M. Rahmani, Ramesh Jain, 03-10-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Conversational Health Agents (CHAs) are interactive systems that provide
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Conversational Health Agents (CHAs) are interactive systems that provide
 healthcare services, such as assistance, self-awareness, and diagnosis. Current
 CHAs, especially those utilizing Large Language Models (LLMs), primarily focus
 on conversation aspects. However, they offer limited agent capabilities
@@ -3308,14 +2808,10 @@ levels.
 
 
 17. [EcoAssistant: Using LLM Assistant More Affordably and Accurately](http://arxiv.org/abs/2310.03046v1), Jieyu Zhang, Ranjay Krishna, Ahmed H. Awadallah, Chi Wang, 03-10-2023
-
-   ### Categories
-
-   Artificial Intelligence
-
-   ### Abstract
-
-     Today, users ask Large language models (LLMs) as assistants to answer queries
+     ### Categories
+     Artificial Intelligence
+    ### Abstract
+    Today, users ask Large language models (LLMs) as assistants to answer queries
 that require external knowledge; they ask about the weather in a specific city,
 about stock prices, and even about where specific locations are within their
 neighborhood. These queries require the LLM to produce code that invokes
@@ -3336,14 +2832,10 @@ GPT-4's cost.
 
 
 18. [Large Language Models Cannot Self-Correct Reasoning Yet](http://arxiv.org/abs/2310.01798v1), Jie Huang, Xinyun Chen, Swaroop Mishra, Huaixiu Steven Zheng, Adams Wei Yu, Xinying Song, Denny Zhou, 03-10-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large Language Models (LLMs) have emerged as a groundbreaking technology with
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large Language Models (LLMs) have emerged as a groundbreaking technology with
 their unparalleled text generation capabilities across various applications.
 Nevertheless, concerns persist regarding the accuracy and appropriateness of
 their generated content. A contemporary methodology, self-correction, has been
@@ -3360,14 +2852,10 @@ for future research and practical applications in this field.
 
 
 19. [Large Language Models as Analogical Reasoners](http://arxiv.org/abs/2310.01714v2), Michihiro Yasunaga, Xinyun Chen, Yujia Li, Panupong Pasupat, Jure Leskovec, Percy Liang, Ed H. Chi, Denny Zhou, 03-10-2023
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     Chain-of-thought (CoT) prompting for language models demonstrates impressive
+     ### Categories
+     Machine Learning
+    ### Abstract
+    Chain-of-thought (CoT) prompting for language models demonstrates impressive
 performance across reasoning tasks, but typically needs labeled exemplars of
 the reasoning process. In this work, we introduce a new prompting approach,
 Analogical Prompting, designed to automatically guide the reasoning process of
@@ -3386,14 +2874,10 @@ BIG-Bench.
 
 20. [Large Language Models Illuminate a Progressive Pathway to Artificial
   Healthcare Assistant: A Review](http://arxiv.org/abs/2311.01918v1), Mingze Yuan, Peng Bao, Jiajia Yuan, Yunhao Shen, Zifan Chen, Yi Xie, Jie Zhao, Yang Chen, Li Zhang, Lin Shen, Bin Dong, 03-11-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     With the rapid development of artificial intelligence, large language models
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    With the rapid development of artificial intelligence, large language models
 (LLMs) have shown promising capabilities in mimicking human-level language
 comprehension and reasoning. This has sparked significant interest in applying
 LLMs to enhance various aspects of healthcare, ranging from medical education
@@ -3419,14 +2903,10 @@ GitHub repository containing latest papers.
 
 
 21. [Tell Your Model Where to Attend: Post-hoc Attention Steering for LLMs](http://arxiv.org/abs/2311.02262v1), Qingru Zhang, Chandan Singh, Liyuan Liu, Xiaodong Liu, Bin Yu, Jianfeng Gao, Tuo Zhao, 03-11-2023
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     In human-written articles, we often leverage the subtleties of text style,
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    In human-written articles, we often leverage the subtleties of text style,
 such as bold and italics, to guide the attention of readers. These textual
 emphases are vital for the readers to grasp the conveyed information. When
 interacting with large language models (LLMs), we have a similar need -
@@ -3447,14 +2927,10 @@ available at https://github.com/QingruZhang/PASTA .
 
 22. [One Small Step for Generative AI, One Giant Leap for AGI: A Complete
   Survey on ChatGPT in AIGC Era](http://arxiv.org/abs/2304.06488v1), Chaoning Zhang, Chenshuang Zhang, Chenghao Li, Yu Qiao, Sheng Zheng, Sumit Kumar Dam, Mengchun Zhang, Jung Uk Kim, Seong Tae Kim, Jinwoo Choi, Gyeong-Moon Park, Sung-Ho Bae, Lik-Hang Lee, Pan Hui, In So Kweon, Choong Seon Hong, 04-04-2023
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     OpenAI has recently released GPT-4 (a.k.a. ChatGPT plus), which is
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    OpenAI has recently released GPT-4 (a.k.a. ChatGPT plus), which is
 demonstrated to be one small step for generative AI (GAI), but one giant leap
 for artificial general intelligence (AGI). Since its official release in
 November 2022, ChatGPT has quickly attracted numerous users with extensive
@@ -3470,14 +2946,10 @@ significant milestone for the development of AGI.
 
 
 23. [Automatic Prompt Optimization with "Gradient Descent" and Beam Search](http://arxiv.org/abs/2305.03495v2), Reid Pryzant, Dan Iter, Jerry Li, Yin Tat Lee, Chenguang Zhu, Michael Zeng, 04-05-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Large Language Models (LLMs) have shown impressive performance as general
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Large Language Models (LLMs) have shown impressive performance as general
 purpose agents, but their abilities remain highly dependent on prompts which
 are hand written with onerous trial-and-error effort. We propose a simple and
 nonparametric solution to this problem, Automatic Prompt Optimization (APO),
@@ -3496,14 +2968,10 @@ instructions.
 
 
 24. [How FaR Are Large Language Models From Agents with Theory-of-Mind?](http://arxiv.org/abs/2310.03051v1), Pei Zhou, Aman Madaan, Srividya Pranavi Potharaju, Aditya Gupta, Kevin R. McKee, Ari Holtzman, Jay Pujara, Xiang Ren, Swaroop Mishra, Aida Nematzadeh, Shyam Upadhyay, Manaal Faruqui, 04-10-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     "Thinking is for Doing." Humans can infer other people's mental states from
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    "Thinking is for Doing." Humans can infer other people's mental states from
 observations--an ability called Theory-of-Mind (ToM)--and subsequently act
 pragmatically on those inferences. Existing question answering benchmarks such
 as ToMi ask models questions to make inferences about beliefs of characters in
@@ -3528,14 +2996,8 @@ including few-shot in-context learning.
 
 25. [A collection of principles for guiding and evaluating large language
   models](http://arxiv.org/abs/2312.10059v1), Konstantin Hebenstreit, Robert Praas, Matthias Samwald, 04-12-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     Large language models (LLMs) demonstrate outstanding capabilities, but
+    ### Abstract
+    Large language models (LLMs) demonstrate outstanding capabilities, but
 challenges remain regarding their ability to solve complex reasoning tasks, as
 well as their transparency, robustness, truthfulness, and ethical alignment. In
 this preliminary study, we compile a set of core principles for steering and
@@ -3555,14 +3017,10 @@ and guiding human evaluation of model reasoning.
 
 
 26. [Data Management For Large Language Models: A Survey](http://arxiv.org/abs/2312.01700v2), Zige Wang, Wanjun Zhong, Yufei Wang, Qi Zhu, Fei Mi, Baojun Wang, Lifeng Shang, Xin Jiang, Qun Liu, 04-12-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Data plays a fundamental role in the training of Large Language Models
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Data plays a fundamental role in the training of Large Language Models
 (LLMs). Effective data management, particularly in the formulation of a
 well-suited training dataset, holds significance for enhancing model
 performance and improving training efficiency during pretraining and supervised
@@ -3585,14 +3043,10 @@ https://github.com/ZigeW/data_management_LLM.
 
 27. [When Large Language Model based Agent Meets User Behavior Analysis: A
   Novel User Simulation Paradigm](http://arxiv.org/abs/2306.02552v2), Lei Wang, Jingsen Zhang, Hao Yang, Zhiyuan Chen, Jiakai Tang, Zeyu Zhang, Xu Chen, Yankai Lin, Ruihua Song, Wayne Xin Zhao, Jun Xu, Zhicheng Dou, Jun Wang, Ji-Rong Wen, 05-06-2023
-
-   ### Categories
-
-   Artificial Intelligence
-
-   ### Abstract
-
-     User behavior analysis is crucial in human-centered AI applications. In this
+     ### Categories
+     Artificial Intelligence
+    ### Abstract
+    User behavior analysis is crucial in human-centered AI applications. In this
 field, the collection of sufficient and high-quality user behavior data has
 always been a fundamental yet challenging problem. An intuitive idea to address
 this problem is automatically simulating the user behaviors. However, due to
@@ -3620,14 +3074,10 @@ to advance this direction, we have released our project at
 
 
 28. [Agent Instructs Large Language Models to be General Zero-Shot Reasoners](http://arxiv.org/abs/2310.03710v1), Nicholas Crispino, Kyle Montgomery, Fankun Zeng, Dawn Song, Chenguang Wang, 05-10-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     We introduce a method to improve the zero-shot reasoning abilities of large
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    We introduce a method to improve the zero-shot reasoning abilities of large
 language models on general language understanding tasks. Specifically, we build
 an autonomous agent to instruct the reasoning process of large language models.
 We show this approach further unleashes the zero-shot reasoning abilities of
@@ -3644,14 +3094,10 @@ Llama-2-70b-chat outperforms zero-shot GPT-3.5 Turbo by 10.2%.
 
 29. [FreshLLMs: Refreshing Large Language Models with Search Engine
   Augmentation](http://arxiv.org/abs/2310.03214v2), Tu Vu, Mohit Iyyer, Xuezhi Wang, Noah Constant, Jerry Wei, Jason Wei, Chris Tar, Yun-Hsuan Sung, Denny Zhou, Quoc Le, Thang Luong, 05-10-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Most large language models (LLMs) are trained once and never updated; thus,
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Most large language models (LLMs) are trained once and never updated; thus,
 they lack the ability to dynamically adapt to our ever-changing world. In this
 work, we perform a detailed study of the factuality of LLM-generated text in
 the context of answering questions that test current world knowledge.
@@ -3680,14 +3126,8 @@ regular intervals.
 
 
 30. [Large Language Models for Software Engineering: Survey and Open Problems](http://arxiv.org/abs/2310.03533v4), Angela Fan, Beliz Gokkaya, Mark Harman, Mitya Lyubarskiy, Shubho Sengupta, Shin Yoo, Jie M. Zhang, 05-10-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     This paper provides a survey of the emerging area of Large Language Models
+    ### Abstract
+    This paper provides a survey of the emerging area of Large Language Models
 (LLMs) for Software Engineering (SE). It also sets out open research challenges
 for the application of LLMs to technical problems faced by software engineers.
 LLMs' emergent properties bring novelty and creativity with applications right
@@ -3702,14 +3142,10 @@ SE.
 
 
 31. [Creative Agents: Empowering Agents with Imagination for Creative Tasks](http://arxiv.org/abs/2312.02519v1), Chi Zhang, Penglin Cai, Yuhui Fu, Haoqi Yuan, Zongqing Lu, 05-12-2023
-
-   ### Categories
-
-   Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     We study building embodied agents for open-ended creative tasks. While
+     ### Categories
+     Artificial Intelligence, Machine Learning
+    ### Abstract
+    We study building embodied agents for open-ended creative tasks. While
 existing methods build instruction-following agents that can perform diverse
 open-ended tasks, none of them demonstrates creativity -- the ability to give
 novel and diverse task solutions implicit in the language instructions. This
@@ -3737,14 +3173,10 @@ are open-source for future research on creative agents
 
 32. [Foundation Models for Weather and Climate Data Understanding: A
   Comprehensive Survey](http://arxiv.org/abs/2312.03014v1), Shengchao Chen, Guodong Long, Jing Jiang, Dikai Liu, Chengqi Zhang, 05-12-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence
-
-   ### Abstract
-
-     As artificial intelligence (AI) continues to rapidly evolve, the realm of
+     ### Categories
+     Machine Learning, Artificial Intelligence
+    ### Abstract
+    As artificial intelligence (AI) continues to rapidly evolve, the realm of
 Earth and atmospheric sciences is increasingly adopting data-driven models,
 powered by progressive developments in deep learning (DL). Specifically, DL
 techniques are extensively utilized to decode the chaotic and nonlinear aspects
@@ -3772,14 +3204,10 @@ and prospective research opportunities.
 
 
 33. [Multitask Prompt Tuning Enables Parameter-Efficient Transfer Learning](http://arxiv.org/abs/2303.02861v1), Zhen Wang, Rameswar Panda, Leonid Karlinsky, Rogerio Feris, Huan Sun, Yoon Kim, 06-03-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Prompt tuning, in which a base pretrained model is adapted to each task via
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Prompt tuning, in which a base pretrained model is adapted to each task via
 conditioning on learned prompt vectors, has emerged as a promising approach for
 efficiently adapting large language models to multiple downstream tasks.
 However, existing methods typically learn soft prompt vectors from scratch, and
@@ -3795,14 +3223,10 @@ task-specific parameters.
 
 
 34. [Exploring Human-Like Translation Strategy with Large Language Models](http://arxiv.org/abs/2305.04118v3), Zhiwei He, Tian Liang, Wenxiang Jiao, Zhuosheng Zhang, Yujiu Yang, Rui Wang, Zhaopeng Tu, Shuming Shi, Xing Wang, 06-05-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Large language models (LLMs) have demonstrated impressive capabilities in
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Large language models (LLMs) have demonstrated impressive capabilities in
 general scenarios, exhibiting a level of aptitude that approaches, in some
 aspects even surpasses, human-level intelligence. Among their numerous skills,
 the translation abilities of LLMs have received considerable attention.
@@ -3825,14 +3249,10 @@ https://github.com/zwhe99/MAPS-mt.
 
 35. [Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning
   by Large Language Models](http://arxiv.org/abs/2305.04091v3), Lei Wang, Wanyu Xu, Yihuai Lan, Zhiqiang Hu, Yunshi Lan, Roy Ka-Wei Lee, Ee-Peng Lim, 06-05-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Large language models (LLMs) have recently been shown to deliver impressive
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Large language models (LLMs) have recently been shown to deliver impressive
 performance in various NLP tasks. To tackle multi-step reasoning tasks,
 few-shot chain-of-thought (CoT) prompting includes a few manually crafted
 step-by-step reasoning demonstrations which enable LLMs to explicitly generate
@@ -3856,14 +3276,10 @@ https://github.com/AGI-Edgerunners/Plan-and-Solve-Prompting.
 
 
 36. [Can LLMs Follow Simple Rules?](http://arxiv.org/abs/2311.04235v1), Norman Mu, Sarah Chen, Zifan Wang, Sizhe Chen, David Karamardian, Lulwa Aljeraisy, Dan Hendrycks, David Wagner, 06-11-2023
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     As Large Language Models (LLMs) are deployed with increasing real-world
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    As Large Language Models (LLMs) are deployed with increasing real-world
 responsibilities, it is important to be able to specify and constrain the
 behavior of these systems in a reliable manner. Model developers may wish to
 set explicit rules for the model, such as "do not generate abusive content",
@@ -3890,14 +3306,10 @@ both manual and automatic attacks on LLMs.
 
 37. [Language Models are Super Mario: Absorbing Abilities from Homologous
   Models as a Free Lunch](http://arxiv.org/abs/2311.03099v1), Le Yu, Bowen Yu, Haiyang Yu, Fei Huang, Yongbin Li, 06-11-2023
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     In this paper, we uncover that Language Models (LMs), either encoder- or
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    In this paper, we uncover that Language Models (LMs), either encoder- or
 decoder-based, can obtain new capabilities by assimilating the parameters of
 homologous models without retraining or GPUs. Typically, new abilities of LMs
 can be imparted by Supervised Fine-Tuning (SFT), reflected in the disparity
@@ -3925,14 +3337,10 @@ performance. Codes are available at https://github.com/yule-BUAA/MergeLM.
 
 
 38. [S-LoRA: Serving Thousands of Concurrent LoRA Adapters](http://arxiv.org/abs/2311.03285v2), Ying Sheng, Shiyi Cao, Dacheng Li, Coleman Hooper, Nicholas Lee, Shuo Yang, Christopher Chou, Banghua Zhu, Lianmin Zheng, Kurt Keutzer, Joseph E. Gonzalez, Ion Stoica, 06-11-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence
-
-   ### Abstract
-
-     The "pretrain-then-finetune" paradigm is commonly adopted in the deployment
+     ### Categories
+     Machine Learning, Artificial Intelligence
+    ### Abstract
+    The "pretrain-then-finetune" paradigm is commonly adopted in the deployment
 of large language models. Low-Rank Adaptation (LoRA), a parameter-efficient
 fine-tuning method, is often employed to adapt a base model to a multitude of
 tasks, resulting in a substantial collection of LoRA adapters derived from one
@@ -3958,14 +3366,10 @@ fine-tuning services. The code is available at https://github.com/S-LoRA/S-LoRA
 
 39. [Foundation Models for Decision Making: Problems, Methods, and
   Opportunities](http://arxiv.org/abs/2303.04129v1), Sherry Yang, Ofir Nachum, Yilun Du, Jason Wei, Pieter Abbeel, Dale Schuurmans, 07-03-2023
-
-   ### Categories
-
-   Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Foundation models pretrained on diverse data at scale have demonstrated
+     ### Categories
+     Artificial Intelligence, Machine Learning
+    ### Abstract
+    Foundation models pretrained on diverse data at scale have demonstrated
 extraordinary capabilities in a wide range of vision and language tasks. When
 such models are deployed in real world environments, they inevitably interface
 with other entities and agents. For example, language models are often used to
@@ -3988,14 +3392,10 @@ discuss common challenges and open problems in the field.
 
 
 40. [Generative Agents: Interactive Simulacra of Human Behavior](http://arxiv.org/abs/2304.03442v2), Joon Sung Park, Joseph C. O'Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, Michael S. Bernstein, 07-04-2023
-
-   ### Categories
-
-   Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Believable proxies of human behavior can empower interactive applications
+     ### Categories
+     Artificial Intelligence, Machine Learning
+    ### Abstract
+    Believable proxies of human behavior can empower interactive applications
 ranging from immersive environments to rehearsal spaces for interpersonal
 communication to prototyping tools. In this paper, we introduce generative
 agents--computational software agents that simulate believable human behavior.
@@ -4022,14 +3422,10 @@ interaction patterns for enabling believable simulations of human behavior.
 
 
 41. [Large Language Models as Optimizers](http://arxiv.org/abs/2309.03409v2), Chengrun Yang, Xuezhi Wang, Yifeng Lu, Hanxiao Liu, Quoc V. Le, Denny Zhou, Xinyun Chen, 07-09-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Optimization is ubiquitous. While derivative-based algorithms have been
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    Optimization is ubiquitous. While derivative-based algorithms have been
 powerful tools for various problems, the absence of gradient imposes challenges
 on many real-world applications. In this work, we propose Optimization by
 PROmpting (OPRO), a simple and effective approach to leverage large language
@@ -4046,14 +3442,10 @@ https://github.com/google-deepmind/opro.
 
 
 42. [Large Language Models as Optimizers](http://arxiv.org/abs/2309.03409v2), Chengrun Yang, Xuezhi Wang, Yifeng Lu, Hanxiao Liu, Quoc V. Le, Denny Zhou, Xinyun Chen, 07-09-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Optimization is ubiquitous. While derivative-based algorithms have been
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    Optimization is ubiquitous. While derivative-based algorithms have been
 powerful tools for various problems, the absence of gradient imposes challenges
 on many real-world applications. In this work, we propose Optimization by
 PROmpting (OPRO), a simple and effective approach to leverage large language
@@ -4071,14 +3463,10 @@ https://github.com/google-deepmind/opro.
 
 43. [Rephrase and Respond: Let Large Language Models Ask Better Questions for
   Themselves](http://arxiv.org/abs/2311.04205v1), Yihe Deng, Weitong Zhang, Zixiang Chen, Quanquan Gu, 07-11-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Misunderstandings arise not only in interpersonal communication but also
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Misunderstandings arise not only in interpersonal communication but also
 between humans and Large Language Models (LLMs). Such discrepancies can make
 LLMs interpret seemingly unambiguous questions in unexpected ways, yielding
 incorrect responses. While it is widely acknowledged that the quality of a
@@ -4104,14 +3492,10 @@ https://github.com/uclaml/Rephrase-and-Respond.
 
 
 44. [An LLM Compiler for Parallel Function Calling](http://arxiv.org/abs/2312.04511v1), Sehoon Kim, Suhong Moon, Ryan Tabrizi, Nicholas Lee, Michael W. Mahoney, Kurt Keutzer, Amir Gholami, 07-12-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Large Language Models (LLMs) have shown remarkable results on various complex
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Large Language Models (LLMs) have shown remarkable results on various complex
 reasoning benchmarks. The reasoning capabilities of LLMs enable them to execute
 function calls, using user-provided functions to overcome their inherent
 limitations, such as knowledge cutoffs, poor arithmetic skills, or lack of
@@ -4140,14 +3524,10 @@ similar accuracy.
 
 
 45. [Cumulative Reasoning with Large Language Models](http://arxiv.org/abs/2308.04371v5), Yifan Zhang, Jingqin Yang, Yang Yuan, Andrew Chi-Chih Yao, 08-08-2023
-
-   ### Categories
-
-   Artificial Intelligence
-
-   ### Abstract
-
-     While language models are powerful and versatile, they often fail to address
+     ### Categories
+     Artificial Intelligence
+    ### Abstract
+    While language models are powerful and versatile, they often fail to address
 highly complex problems. This is because solving complex problems requires
 deliberate thinking, which has been only minimally guided during training. In
 this paper, we propose a new method called Cumulative Reasoning (CR), which
@@ -4173,14 +3553,10 @@ at https://github.com/iiis-ai/cumulative-reasoning.
 
 46. [From Sparse to Dense: GPT-4 Summarization with Chain of Density
   Prompting](http://arxiv.org/abs/2309.04269v1), Griffin Adams, Alexander Fabbri, Faisal Ladhak, Eric Lehman, Noémie Elhadad, 08-09-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Selecting the ``right'' amount of information to include in a summary is a
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Selecting the ``right'' amount of information to include in a summary is a
 difficult task. A good summary should be detailed and entity-centric without
 being overly dense and hard to follow. To better understand this tradeoff, we
 solicit increasingly dense GPT-4 summaries with what we refer to as a ``Chain
@@ -4199,14 +3575,10 @@ available on HuggingFace
 
 
 47. [ADaPT: As-Needed Decomposition and Planning with Language Models](http://arxiv.org/abs/2311.05772v1), Archiki Prasad, Alexander Koller, Mareike Hartmann, Peter Clark, Ashish Sabharwal, Mohit Bansal, Tushar Khot, 08-11-2023
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Large Language Models (LLMs) are increasingly being used for interactive
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    Large Language Models (LLMs) are increasingly being used for interactive
 decision-making tasks requiring planning and adapting to the environment.
 Recent works employ LLMs-as-agents in broadly two ways: iteratively determining
 the next action (iterative executors) or generating plans and executing
@@ -4227,14 +3599,8 @@ complexity.
 
 48. [Are We Testing or Being Tested? Exploring the Practical Applications of
   Large Language Models in Software Testing](http://arxiv.org/abs/2312.04860v1), Robson Santos, Italo Santos, Cleyton Magalhaes, Ronnie de Souza Santos, 08-12-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     A Large Language Model (LLM) represents a cutting-edge artificial
+    ### Abstract
+    A Large Language Model (LLM) represents a cutting-edge artificial
 intelligence model that generates coherent content, including grammatically
 precise sentences, human-like paragraphs, and syntactically accurate code
 snippets. LLMs can play a pivotal role in software development, including
@@ -4258,14 +3624,10 @@ adoption of these tools.
 
 49. [KwaiAgents: Generalized Information-seeking Agent System with Large
   Language Models](http://arxiv.org/abs/2312.04889v3), Haojie Pan, Zepeng Zhai, Hao Yuan, Yaojia Lv, Ruiji Fu, Ming Liu, Zhongyuan Wang, Bing Qin, 08-12-2023
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Driven by curiosity, humans have continually sought to explore and understand
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    Driven by curiosity, humans have continually sought to explore and understand
 the world around them, leading to the invention of various tools to satiate
 this inquisitiveness. Despite not having the capacity to process and memorize
 vast amounts of information in their brains, humans excel in critical thinking,
@@ -4290,14 +3652,10 @@ highlight the enhanced generalized agent-abilities of our fine-tuned LLMs.
 
 
 50. [Large-scale Training of Foundation Models for Wearable Biosignals](http://arxiv.org/abs/2312.05409v1), Salar Abbaspourazad, Oussama Elachqar, Andrew C. Miller, Saba Emrani, Udhyakumar Nallasamy, Ian Shapiro, 08-12-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence
-
-   ### Abstract
-
-     Tracking biosignals is crucial for monitoring wellness and preempting the
+     ### Categories
+     Machine Learning, Artificial Intelligence
+    ### Abstract
+    Tracking biosignals is crucial for monitoring wellness and preempting the
 development of severe medical conditions. Today, wearable devices can
 conveniently record various biosignals, creating the opportunity to monitor
 health status without disruption to one's daily routine. Despite widespread use
@@ -4327,14 +3685,10 @@ improve their health.
 
 51. [Read and Reap the Rewards: Learning to Play Atari with the Help of
   Instruction Manuals](http://arxiv.org/abs/2302.04449v3), Yue Wu, Yewen Fan, Paul Pu Liang, Amos Azaria, Yuanzhi Li, Tom M. Mitchell, 09-02-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     High sample complexity has long been a challenge for RL. On the other hand,
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    High sample complexity has long been a challenge for RL. On the other hand,
 humans learn to perform tasks not only from interaction or demonstrations, but
 also by reading unstructured text documents, e.g., instruction manuals.
 Instruction manuals and wiki pages are among the most abundant data that could
@@ -4353,14 +3707,10 @@ in performance and training speed when assisted by our design.
 
 
 52. [Mind2Web: Towards a Generalist Agent for the Web](http://arxiv.org/abs/2306.06070v3), Xiang Deng, Yu Gu, Boyuan Zheng, Shijie Chen, Samuel Stevens, Boshi Wang, Huan Sun, Yu Su, 09-06-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     We introduce Mind2Web, the first dataset for developing and evaluating
+     ### Categories
+     Computation and Language
+    ### Abstract
+    We introduce Mind2Web, the first dataset for developing and evaluating
 generalist agents for the web that can follow language instructions to complete
 complex tasks on any website. Existing datasets for web agents either use
 simulated websites or only cover a limited set of websites and tasks, thus not
@@ -4383,14 +3733,10 @@ research on building a generalist agent for the web.
 
 53. [Compressing Context to Enhance Inference Efficiency of Large Language
   Models](http://arxiv.org/abs/2310.06201v1), Yucheng Li, Bo Dong, Chenghua Lin, Frank Guerin, 09-10-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Large language models (LLMs) achieved remarkable performance across various
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Large language models (LLMs) achieved remarkable performance across various
 tasks. However, they face challenges in managing long documents and extended
 conversations, due to significantly increased computational requirements, both
 in memory and inference time, and potential context truncation when the input
@@ -4411,14 +3757,10 @@ that our method strikes a good balance between efficiency and performance.
 
 54. [Take a Step Back: Evoking Reasoning via Abstraction in Large Language
   Models](http://arxiv.org/abs/2310.06117v1), Huaixiu Steven Zheng, Swaroop Mishra, Xinyun Chen, Heng-Tze Cheng, Ed H. Chi, Quoc V Le, Denny Zhou, 09-10-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     We present Step-Back Prompting, a simple prompting technique that enables
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    We present Step-Back Prompting, a simple prompting technique that enables
 LLMs to do abstractions to derive high-level concepts and first principles from
 instances containing specific details. Using the concepts and principles to
 guide the reasoning steps, LLMs significantly improve their abilities in
@@ -4432,14 +3774,10 @@ TimeQA by 27%, and MuSiQue by 7%.
 
 55. [A Survey of Large Language Models in Medicine: Principles, Applications,
   and Challenges](http://arxiv.org/abs/2311.05112v2), Hongjian Zhou, Fenglin Liu, Boyang Gu, Xinyu Zou, Jinfa Huang, Jinge Wu, Yiru Li, Sam S. Chen, Peilin Zhou, Junling Liu, Yining Hua, Chengfeng Mao, Xian Wu, Yefeng Zheng, Lei Clifton, Zheng Li, Jiebo Luo, David A. Clifton, 09-11-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large language models (LLMs), such as ChatGPT, have received substantial
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large language models (LLMs), such as ChatGPT, have received substantial
 attention due to their impressive human language understanding and generation
 capabilities. Therefore, the application of LLMs in medicine to assist
 physicians and patient care emerges as a promising research direction in both
@@ -4459,14 +3797,10 @@ https://github.com/AI-in-Health/MedLLMsPracticalGuide.
 
 56. [A Survey on Hallucination in Large Language Models: Principles,
   Taxonomy, Challenges, and Open Questions](http://arxiv.org/abs/2311.05232v1), Lei Huang, Weijiang Yu, Weitao Ma, Weihong Zhong, Zhangyin Feng, Haotian Wang, Qianglong Chen, Weihua Peng, Xiaocheng Feng, Bing Qin, Ting Liu, 09-11-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     The emergence of large language models (LLMs) has marked a significant
+     ### Categories
+     Computation and Language
+    ### Abstract
+    The emergence of large language models (LLMs) has marked a significant
 breakthrough in natural language processing (NLP), leading to remarkable
 advancements in text understanding and generation. Nevertheless, alongside
 these strides, LLMs exhibit a critical tendency to produce hallucinations,
@@ -4486,14 +3820,10 @@ hallucinations in LLMs.
 
 
 57. [LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](http://arxiv.org/abs/2311.05437v1), Shilong Liu, Hao Cheng, Haotian Liu, Hao Zhang, Feng Li, Tianhe Ren, Xueyan Zou, Jianwei Yang, Hang Su, Jun Zhu, Lei Zhang, Jianfeng Gao, Chunyuan Li, 09-11-2023
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     LLaVA-Plus is a general-purpose multimodal assistant that expands the
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    LLaVA-Plus is a general-purpose multimodal assistant that expands the
 capabilities of large multimodal models. It maintains a skill repository of
 pre-trained vision and vision-language models and can activate relevant tools
 based on users' inputs to fulfill real-world tasks. LLaVA-Plus is trained on
@@ -4508,14 +3838,10 @@ new scenarios.
 
 58. [Technical Report: Large Language Models can Strategically Deceive their
   Users when Put Under Pressure](http://arxiv.org/abs/2311.07590v2), Jérémy Scheurer, Mikita Balesni, Marius Hobbhahn, 09-11-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     We demonstrate a situation in which Large Language Models, trained to be
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    We demonstrate a situation in which Large Language Models, trained to be
 helpful, harmless, and honest, can display misaligned behavior and
 strategically deceive their users about this behavior without being instructed
 to do so. Concretely, we deploy GPT-4 as an agent in a realistic, simulated
@@ -4535,14 +3861,10 @@ without direct instructions or training for deception.
 
 
 59. [Zero-Shot Goal-Directed Dialogue via RL on Imagined Conversations](http://arxiv.org/abs/2311.05584v1), Joey Hong, Sergey Levine, Anca Dragan, 09-11-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Large language models (LLMs) have emerged as powerful and general solutions
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    Large language models (LLMs) have emerged as powerful and general solutions
 to many natural language tasks. However, many of the most important
 applications of language generation are interactive, where an agent has to talk
 to a person to reach a desired outcome. For example, a teacher might try to
@@ -4570,14 +3892,10 @@ include teaching and preference elicitation.
 
 60. [You Only Prompt Once: On the Capabilities of Prompt Learning on Large
   Language Models to Tackle Toxic Content](http://arxiv.org/abs/2308.05596v1), Xinlei He, Savvas Zannettou, Yun Shen, Yang Zhang, 10-08-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     The spread of toxic content online is an important problem that has adverse
+     ### Categories
+     Computation and Language
+    ### Abstract
+    The spread of toxic content online is an important problem that has adverse
 effects on user experience online and in our society at large. Motivated by the
 importance and impact of the problem, research focuses on developing solutions
 to detect toxic content, usually leveraging machine learning (ML) models
@@ -4601,14 +3919,10 @@ average toxicity score (from 0.775 to 0.213) while preserving semantic meaning.
 
 
 61. [Textbooks Are All You Need II: phi-1.5 technical report](http://arxiv.org/abs/2309.05463v1), Yuanzhi Li, Sébastien Bubeck, Ronen Eldan, Allie Del Giorno, Suriya Gunasekar, Yin Tat Lee, 11-09-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     We continue the investigation into the power of smaller Transformer-based
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    We continue the investigation into the power of smaller Transformer-based
 language models as initiated by \textbf{TinyStories} -- a 10 million parameter
 model that can produce coherent English -- and the follow-up work on
 \textbf{phi-1}, a 1.3 billion parameter model with Python coding performance
@@ -4631,14 +3945,10 @@ topics.
 
 62. [Beyond Memorization: Violating Privacy Via Inference with Large Language
   Models](http://arxiv.org/abs/2310.07298v1), Robin Staab, Mark Vero, Mislav Balunović, Martin Vechev, 11-10-2023
-
-   ### Categories
-
-   Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Current privacy research on large language models (LLMs) primarily focuses on
+     ### Categories
+     Artificial Intelligence, Machine Learning
+    ### Abstract
+    Current privacy research on large language models (LLMs) primarily focuses on
 the issue of extracting memorized training data. At the same time, models'
 inference capabilities have increased drastically. This raises the key question
 of whether current LLMs could violate individuals' privacy by inferring
@@ -4662,14 +3972,10 @@ protection.
 
 63. [Exploring the Landscape of Large Language Models In Medical Question
   Answering: Observations and Open Questions](http://arxiv.org/abs/2310.07225v1), Karolina Korgul, Andrew M. Bean, Felix Krones, Robert McCraith, Adam Mahdi, 11-10-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Large Language Models (LLMs) have shown promise in medical question answering
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Large Language Models (LLMs) have shown promise in medical question answering
 by achieving passing scores in standardised exams and have been suggested as
 tools for supporting healthcare workers. Deploying LLMs into such a high-risk
 context requires a clear understanding of the limitations of these models. With
@@ -4682,14 +3988,10 @@ observations and raise open questions for further research.
 
 
 64. [Large Language Models Are Zero-Shot Time Series Forecasters](http://arxiv.org/abs/2310.07820v1), Nate Gruver, Marc Finzi, Shikai Qiu, Andrew Gordon Wilson, 11-10-2023
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     By encoding time series as a string of numerical digits, we can frame time
+     ### Categories
+     Machine Learning
+    ### Abstract
+    By encoding time series as a string of numerical digits, we can frame time
 series forecasting as next-token prediction in text. Developing this approach,
 we find that large language models (LLMs) such as GPT-3 and LLaMA-2 can
 surprisingly zero-shot extrapolate time series at a level comparable to or
@@ -4710,14 +4012,10 @@ interventions such as RLHF.
 
 
 65. [LLM360: Towards Fully Transparent Open-Source LLMs](http://arxiv.org/abs/2312.06550v1), Zhengzhong Liu, Aurick Qiao, Willie Neiswanger, Hongyi Wang, Bowen Tan, Tianhua Tao, Junbo Li, Yuqi Wang, Suqi Sun, Omkar Pangarkar, Richard Fan, Yi Gu, Victor Miller, Yonghao Zhuang, Guowei He, Haonan Li, Fajri Koto, Liping Tang, Nikhil Ranjan, Zhiqiang Shen, Xuguang Ren, Roberto Iriondo, Cun Mu, Zhiting Hu, Mark Schulze, Preslav Nakov, Tim Baldwin, Eric P. Xing, 11-12-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     The recent surge in open-source Large Language Models (LLMs), such as LLaMA,
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    The recent surge in open-source Large Language Models (LLMs), such as LLaMA,
 Falcon, and Mistral, provides diverse options for AI practitioners and
 researchers. However, most LLMs have only released partial artifacts, such as
 the final model weights or inference code, and technical reports increasingly
@@ -4737,14 +4035,10 @@ are underway and will be released in the future.
 
 
 66. [Transformer models: an introduction and catalog](http://arxiv.org/abs/2302.07730v3), Xavier Amatriain, Ananth Sankar, Jie Bing, Praveen Kumar Bodigutla, Timothy J. Hazen, Michaeel Kazi, 12-02-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     In the past few years we have seen the meteoric appearance of dozens of
+     ### Categories
+     Computation and Language
+    ### Abstract
+    In the past few years we have seen the meteoric appearance of dozens of
 foundation models of the Transformer family, all of which have memorable and
 sometimes funny, but not self-explanatory, names. The goal of this paper is to
 offer a somewhat comprehensive but simple catalog and classification of the
@@ -4757,14 +4051,10 @@ the InstructGPT model used by ChatGPT).
 
 67. [TinyStories: How Small Can Language Models Be and Still Speak Coherent
   English?](http://arxiv.org/abs/2305.07759v2), Ronen Eldan, Yuanzhi Li, 12-05-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Language models (LMs) are powerful tools for natural language processing, but
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Language models (LMs) are powerful tools for natural language processing, but
 they often struggle to produce coherent and fluent text when they are small.
 Models with around 125M parameters such as GPT-Neo (small) or GPT-2 (small) can
 rarely generate coherent and consistent English text beyond a few words even
@@ -4794,14 +4084,10 @@ light on the emergence of language capabilities in LMs.
 
 68. [Recursion of Thought: A Divide-and-Conquer Approach to Multi-Context
   Reasoning with Language Models](http://arxiv.org/abs/2306.06891v1), Soochan Lee, Gunhee Kim, 12-06-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Generating intermediate steps, or Chain of Thought (CoT), is an effective way
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Generating intermediate steps, or Chain of Thought (CoT), is an effective way
 to significantly improve language models' (LM) multi-step reasoning capability.
 However, the CoT lengths can grow rapidly with the problem complexity, easily
 exceeding the maximum context size. Instead of increasing the context limit,
@@ -4816,14 +4102,10 @@ problems, whose solution consists of hundreds of thousands of tokens.
 
 69. [Can GPT models be Financial Analysts? An Evaluation of ChatGPT and GPT-4
   on mock CFA Exams](http://arxiv.org/abs/2310.08678v1), Ethan Callanan, Amarachi Mbakwe, Antony Papadimitriou, Yulong Pei, Mathieu Sibue, Xiaodan Zhu, Zhiqiang Ma, Xiaomo Liu, Sameena Shah, 12-10-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large Language Models (LLMs) have demonstrated remarkable performance on a
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large Language Models (LLMs) have demonstrated remarkable performance on a
 wide range of Natural Language Processing (NLP) tasks, often matching or even
 beating state-of-the-art task-specific models. This study aims at assessing the
 financial reasoning capabilities of LLMs. We leverage mock exam questions of
@@ -4839,14 +4121,10 @@ through rigorous evaluation.
 
 
 70. [LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models](http://arxiv.org/abs/2310.08659v4), Yixiao Li, Yifan Yu, Chen Liang, Pengcheng He, Nikos Karampatziakis, Weizhu Chen, Tuo Zhao, 12-10-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Quantization is an indispensable technique for serving Large Language Models
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Quantization is an indispensable technique for serving Large Language Models
 (LLMs) and has recently found its way into LoRA fine-tuning. In this work we
 focus on the scenario where quantization and LoRA fine-tuning are applied
 together on a pre-trained model. In such cases it is common to observe a
@@ -4865,14 +4143,8 @@ precision regimes. The code is available on https://github.com/yxli2123/LoftQ.
 
 71. ["I Want It That Way": Enabling Interactive Decision Support Using Large
   Language Models and Constraint Programming](http://arxiv.org/abs/2312.06908v1), Connor Lawless, Jakob Schoeffer, Lindy Le, Kael Rowan, Shilad Sen, Cristina St. Hill, Jina Suh, Bahar Sarrafzadeh, 12-12-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     A critical factor in the success of decision support systems is the accurate
+    ### Abstract
+    A critical factor in the success of decision support systems is the accurate
 modeling of user preferences. Psychology research has demonstrated that users
 often develop their preferences during the elicitation process, highlighting
 the pivotal role of system-user interaction in developing personalized systems.
@@ -4890,14 +4162,10 @@ decision-making processes.
 
 
 72. [Alignment for Honesty](http://arxiv.org/abs/2312.07000v1), Yuqing Yang, Ethan Chern, Xipeng Qiu, Graham Neubig, Pengfei Liu, 12-12-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Recent research has made significant strides in applying alignment techniques
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Recent research has made significant strides in applying alignment techniques
 to enhance the helpfulness and harmlessness of large language models (LLMs) in
 accordance with human intentions. In this paper, we argue for the importance of
 alignment for honesty, ensuring that LLMs proactively refuse to answer
@@ -4921,14 +4189,8 @@ glossary, as well as all relevant source code.
 
 
 73. [Efficient Few-Shot Clinical Task Adaptation with Large Language Models](http://arxiv.org/abs/2312.07125v1), Kaipeng Zheng, Weiran Huang, Lichao Sun, 12-12-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     Few-shot learning has been studied to adapt models to tasks with very few
+    ### Abstract
+    Few-shot learning has been studied to adapt models to tasks with very few
 samples. It holds profound significance, particularly in clinical tasks, due to
 the high annotation cost of medical images. Several works have explored
 few-shot learning on medical images, yet they still require a large number of
@@ -4952,14 +4214,10 @@ solution secures the 1st place in the MedFMC challenge.
 
 74. [LLM in a flash: Efficient Large Language Model Inference with Limited
   Memory](http://arxiv.org/abs/2312.11514v2), Keivan Alizadeh, Iman Mirzadeh, Dmitry Belenko, Karen Khatamifard, Minsik Cho, Carlo C Del Mundo, Mohammad Rastegari, Mehrdad Farajtabar, 12-12-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Large language models (LLMs) are central to modern natural language
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Large language models (LLMs) are central to modern natural language
 processing, delivering exceptional performance in various tasks. However, their
 substantial computational and memory requirements present challenges,
 especially for devices with limited DRAM capacity. This paper tackles the
@@ -4982,14 +4240,10 @@ devices with limited memory.
 
 
 75. [LLMEval: A Preliminary Study on How to Evaluate Large Language Models](http://arxiv.org/abs/2312.07398v2), Yue Zhang, Ming Zhang, Haipeng Yuan, Shichun Liu, Yongyao Shi, Tao Gui, Qi Zhang, Xuanjing Huang, 12-12-2023
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Recently, the evaluation of Large Language Models has emerged as a popular
+     ### Categories
+     Artificial Intelligence, Computation and Language
+    ### Abstract
+    Recently, the evaluation of Large Language Models has emerged as a popular
 area of research. The three crucial questions for LLM evaluation are ``what,
 where, and how to evaluate''. However, the existing research mainly focuses on
 the first two questions, which are basically what tasks to give the LLM during
@@ -5008,14 +4262,10 @@ publicly available at https://github.com/llmeval .
 
 
 76. [SM70: A Large Language Model for Medical Devices](http://arxiv.org/abs/2312.06974v1), Anubhav Bhatti, Surajsinh Parmar, San Lee, 12-12-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     We are introducing SM70, a 70 billion-parameter Large Language Model that is
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    We are introducing SM70, a 70 billion-parameter Large Language Model that is
 specifically designed for SpassMed's medical devices under the brand name
 'JEE1' (pronounced as G1 and means 'Life'). This large language model provides
 more accurate and safe responses to medical-domain questions. To fine-tune
@@ -5040,14 +4290,10 @@ intricate reasoning.
 
 
 77. [Guiding Pretraining in Reinforcement Learning with Large Language Models](http://arxiv.org/abs/2302.06692v2), Yuqing Du, Olivia Watkins, Zihan Wang, Cédric Colas, Trevor Darrell, Pieter Abbeel, Abhishek Gupta, Jacob Andreas, 13-02-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Reinforcement learning algorithms typically struggle in the absence of a
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    Reinforcement learning algorithms typically struggle in the absence of a
 dense, well-shaped reward function. Intrinsically motivated exploration methods
 address this limitation by rewarding agents for visiting novel states or
 transitions, but these methods offer limited benefits in large environments
@@ -5066,14 +4312,10 @@ https://github.com/yuqingd/ellm.
 
 78. [Large Language Models in the Workplace: A Case Study on Prompt
   Engineering for Job Type Classification](http://arxiv.org/abs/2303.07142v3), Benjamin Clavié, Alexandru Ciceu, Frederick Naylor, Guillaume Soulié, Thomas Brightwell, 13-03-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     This case study investigates the task of job classification in a real-world
+     ### Categories
+     Computation and Language
+    ### Abstract
+    This case study investigates the task of job classification in a real-world
 setting, where the goal is to determine whether an English-language job posting
 is appropriate for a graduate or entry-level position. We explore multiple
 approaches to text classification, including supervised approaches such as
@@ -5096,14 +4338,10 @@ model's performance.
 
 79. [Query-Dependent Prompt Evaluation and Optimization with Offline Inverse
   RL](http://arxiv.org/abs/2309.06553v3), Hao Sun, Alihan Hüyük, Mihaela van der Schaar, 13-09-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     In this study, we aim to enhance the arithmetic reasoning ability of Large
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    In this study, we aim to enhance the arithmetic reasoning ability of Large
 Language Models (LLMs) through zero-shot prompt optimization. We identify a
 previously overlooked objective of query dependency in such optimization and
 elucidate two ensuing challenges that impede the successful and economical
@@ -5125,14 +4363,10 @@ approach.
 
 80. [MEGAVERSE: Benchmarking Large Language Models Across Languages,
   Modalities, Models and Tasks](http://arxiv.org/abs/2311.07463v1), Sanchit Ahuja, Divyanshu Aggarwal, Varun Gumma, Ishaan Watts, Ashutosh Sathe, Millicent Ochieng, Rishav Hada, Prachi Jain, Maxamed Axmed, Kalika Bali, Sunayana Sitaram, 13-11-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Recently, there has been a rapid advancement in research on Large Language
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Recently, there has been a rapid advancement in research on Large Language
 Models (LLMs), resulting in significant progress in several Natural Language
 Processing (NLP) tasks. Consequently, there has been a surge in LLM evaluation
 research to comprehend the models' capabilities and limitations. However, much
@@ -5154,14 +4388,10 @@ performance on non-English languages.
 
 81. [The Impact of Large Language Models on Scientific Discovery: a
   Preliminary Study using GPT-4](http://arxiv.org/abs/2311.07361v2), Microsoft Research AI4Science, Microsoft Azure Quantum, 13-11-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     In recent years, groundbreaking advancements in natural language processing
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    In recent years, groundbreaking advancements in natural language processing
 have culminated in the emergence of powerful large language models (LLMs),
 which have showcased remarkable capabilities across a vast array of domains,
 including the understanding, generation, and translation of natural language,
@@ -5189,14 +4419,10 @@ various scientific prediction capabilities.
 
 82. [Distributed Inference and Fine-tuning of Large Language Models Over The
   Internet](http://arxiv.org/abs/2312.08361v1), Alexander Borzunov, Max Ryabinin, Artem Chumachenko, Dmitry Baranchuk, Tim Dettmers, Younes Belkada, Pavel Samygin, Colin Raffel, 13-12-2023
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     Large language models (LLMs) are useful in many NLP tasks and become more
+     ### Categories
+     Machine Learning
+    ### Abstract
+    Large language models (LLMs) are useful in many NLP tasks and become more
 capable with size, with the best open-source models having over 50 billion
 parameters. However, using these 50B+ models requires high-end hardware, making
 them inaccessible to most researchers. In this work, we investigate methods for
@@ -5217,14 +4443,10 @@ conditions and a real-world setup spanning two continents.
 
 
 83. [PromptBench: A Unified Library for Evaluation of Large Language Models](http://arxiv.org/abs/2312.07910v2), Kaijie Zhu, Qinlin Zhao, Hao Chen, Jindong Wang, Xing Xie, 13-12-2023
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     The evaluation of large language models (LLMs) is crucial to assess their
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    The evaluation of large language models (LLMs) is crucial to assess their
 performance and mitigate potential security risks. In this paper, we introduce
 PromptBench, a unified library to evaluate LLMs. It consists of several key
 components that are easily used and extended by researchers: prompt
@@ -5239,14 +4461,10 @@ supported.
 
 84. [OpenAssistant Conversations -- Democratizing Large Language Model
   Alignment](http://arxiv.org/abs/2304.07327v2), Andreas Köpf, Yannic Kilcher, Dimitri von Rütte, Sotiris Anagnostidis, Zhi-Rui Tam, Keith Stevens, Abdullah Barhoum, Nguyen Minh Duc, Oliver Stanley, Richárd Nagyfi, Shahul ES, Sameer Suri, David Glushkov, Arnav Dantuluri, Andrew Maguire, Christoph Schuhmann, Huu Nguyen, Alexander Mattick, 14-04-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Aligning large language models (LLMs) with human preferences has proven to
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Aligning large language models (LLMs) with human preferences has proven to
 drastically improve usability and has driven rapid adoption as demonstrated by
 ChatGPT. Alignment techniques such as supervised fine-tuning (SFT) and
 reinforcement learning from human feedback (RLHF) greatly reduce the required
@@ -5267,14 +4485,10 @@ permissive licence.
 
 85. [Large Language Models Understand and Can be Enhanced by Emotional
   Stimuli](http://arxiv.org/abs/2307.11760v7), Cheng Li, Jindong Wang, Yixuan Zhang, Kaijie Zhu, Wenxin Hou, Jianxun Lian, Fang Luo, Qiang Yang, Xing Xie, 14-07-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Emotional intelligence significantly impacts our daily behaviors and
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Emotional intelligence significantly impacts our daily behaviors and
 interactions. Although Large Language Models (LLMs) are increasingly viewed as
 a stride toward artificial general intelligence, exhibiting impressive
 performance in numerous tasks, it is still uncertain if LLMs can genuinely
@@ -5302,14 +4516,10 @@ interaction.
 
 
 86. [Agents: An Open-source Framework for Autonomous Language Agents](http://arxiv.org/abs/2309.07870v3), Wangchunshu Zhou, Yuchen Eleanor Jiang, Long Li, Jialong Wu, Tiannan Wang, Shi Qiu, Jintian Zhang, Jing Chen, Ruipu Wu, Shuai Wang, Shiding Zhu, Jiyu Chen, Wentao Zhang, Xiangru Tang, Ningyu Zhang, Huajun Chen, Peng Cui, Mrinmaya Sachan, 14-09-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Recent advances on large language models (LLMs) enable researchers and
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Recent advances on large language models (LLMs) enable researchers and
 developers to build autonomous language agents that can automatically solve
 various tasks and interact with environments, humans, and other agents using
 natural language interfaces. We consider language agents as a promising
@@ -5326,14 +4536,10 @@ researchers. Agents is available at https://github.com/aiwaves-cn/agents.
 
 87. [Clinical Text Summarization: Adapting Large Language Models Can
   Outperform Human Experts](http://arxiv.org/abs/2309.07430v3), Dave Van Veen, Cara Van Uden, Louis Blankemeier, Jean-Benoit Delbrouck, Asad Aali, Christian Bluethgen, Anuj Pareek, Malgorzata Polacin, Eduardo Pontes Reis, Anna Seehofnerova, Nidhi Rohatgi, Poonam Hosamani, William Collins, Neera Ahuja, Curtis P. Langlotz, Jason Hom, Sergios Gatidis, John Pauly, Akshay S. Chaudhari, 14-09-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Sifting through vast textual data and summarizing key information from
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Sifting through vast textual data and summarizing key information from
 electronic health records (EHR) imposes a substantial burden on how clinicians
 allocate their time. Although large language models (LLMs) have shown immense
 promise in natural language processing (NLP) tasks, their efficacy on a diverse
@@ -5357,14 +4563,10 @@ inherently human aspects of medicine.
 
 
 88. [The Rise and Potential of Large Language Model Based Agents: A Survey](http://arxiv.org/abs/2309.07864v3), Zhiheng Xi, Wenxiang Chen, Xin Guo, Wei He, Yiwen Ding, Boyang Hong, Ming Zhang, Junzhe Wang, Senjie Jin, Enyu Zhou, Rui Zheng, Xiaoran Fan, Xiao Wang, Limao Xiong, Yuhao Zhou, Weiran Wang, Changhao Jiang, Yicheng Zou, Xiangyang Liu, Zhangyue Yin, Shihan Dou, Rongxiang Weng, Wensen Cheng, Qi Zhang, Wenjuan Qin, Yongyan Zheng, Xipeng Qiu, Xuanjing Huang, Tao Gui, 14-09-2023
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     For a long time, humanity has pursued artificial intelligence (AI) equivalent
+     ### Categories
+     Artificial Intelligence, Computation and Language
+    ### Abstract
+    For a long time, humanity has pursued artificial intelligence (AI) equivalent
 to or surpassing the human level, with AI agents considered a promising vehicle
 for this pursuit. AI agents are artificial entities that sense their
 environment, make decisions, and take actions. Many efforts have been made to
@@ -5394,14 +4596,8 @@ https://github.com/WooooDyy/LLM-Agent-Paper-List.
 
 89. [MiniGPT-v2: large language model as a unified interface for
   vision-language multi-task learning](http://arxiv.org/abs/2310.09478v3), Jun Chen, Deyao Zhu, Xiaoqian Shen, Xiang Li, Zechun Liu, Pengchuan Zhang, Raghuraman Krishnamoorthi, Vikas Chandra, Yunyang Xiong, Mohamed Elhoseiny, 14-10-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     Large language models have shown their remarkable capabilities as a general
+    ### Abstract
+    Large language models have shown their remarkable capabilities as a general
 interface for various language-related applications. Motivated by this, we
 target to build a unified interface for completing many vision-language tasks
 including image description, visual question answering, and visual grounding,
@@ -5420,14 +4616,10 @@ model and codes are available at https://minigpt-v2.github.io/
 
 90. [Fast Chain-of-Thought: A Glance of Future from Parallel Decoding Leads
   to Answers Faster](http://arxiv.org/abs/2311.08263v1), Hongxuan Zhang, Zhining Liu, Jiaqi Zheng, Chenyi Zhuang, Jinjie Gu, Guihai Chen, 14-11-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     In this work, we propose FastCoT, a model-agnostic framework based on
+     ### Categories
+     Computation and Language
+    ### Abstract
+    In this work, we propose FastCoT, a model-agnostic framework based on
 parallel decoding without any further training of an auxiliary model or
 modification to the LLM itself. FastCoT uses a size-varying context window
 whose size changes with position to conduct parallel decoding and
@@ -5444,14 +4636,10 @@ robustness for different tasks.
 
 
 91. [The ART of LLM Refinement: Ask, Refine, and Trust](http://arxiv.org/abs/2311.07961v1), Kumar Shridhar, Koustuv Sinha, Andrew Cohen, Tianlu Wang, Ping Yu, Ram Pasunuru, Mrinmaya Sachan, Jason Weston, Asli Celikyilmaz, 14-11-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     In recent years, Large Language Models (LLMs) have demonstrated remarkable
+     ### Categories
+     Computation and Language
+    ### Abstract
+    In recent years, Large Language Models (LLMs) have demonstrated remarkable
 generative abilities, but can they judge the quality of their own generations?
 A popular concept, referred to as self-refinement, postulates that LLMs can
 detect and correct the errors in their generations when asked to do so.
@@ -5471,14 +4659,10 @@ model.
 
 92. [Unifying the Perspectives of NLP and Software Engineering: A Survey on
   Language Models for Code](http://arxiv.org/abs/2311.07989v3), Ziyin Zhang, Chaoyu Chen, Bingchang Liu, Cong Liao, Zi Gong, Hang Yu, Jianguo Li, Rui Wang, 14-11-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     In this work we systematically review the recent advancements in code
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    In this work we systematically review the recent advancements in code
 processing with language models, covering 50+ models, 30+ evaluation tasks,
 170+ datasets, and 700 related works. We break down code processing models into
 general language models represented by the GPT family and specialized models
@@ -5494,14 +4678,8 @@ https://github.com/codefuse-ai/Awesome-Code-LLM.
 
 
 93. [CogAgent: A Visual Language Model for GUI Agents](http://arxiv.org/abs/2312.08914v2), Wenyi Hong, Weihan Wang, Qingsong Lv, Jiazheng Xu, Wenmeng Yu, Junhui Ji, Yan Wang, Zihan Wang, Yuxuan Zhang, Juanzi Li, Bin Xu, Yuxiao Dong, Ming Ding, Jie Tang, 14-12-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     People are spending an enormous amount of time on digital devices through
+    ### Abstract
+    People are spending an enormous amount of time on digital devices through
 graphical user interfaces (GUIs), e.g., computer or smartphone screens. Large
 language models (LLMs) such as ChatGPT can assist people in tasks like writing
 emails, but struggle to understand and interact with GUIs, thus limiting their
@@ -5520,14 +4698,10 @@ https://github.com/THUDM/CogVLM .
 
 
 94. [TigerBot: An Open Multilingual Multitask LLM](http://arxiv.org/abs/2312.08688v2), Ye Chen, Wei Cai, Liangmin Wu, Xiaowei Li, Zhanxuan Xin, Cong Fu, 14-12-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     We release and introduce the TigerBot family of large language models (LLMs),
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    We release and introduce the TigerBot family of large language models (LLMs),
 consisting of base and chat models, sized from 7, 13, 70 and 180 billion
 parameters. We develop our models embarking from Llama-2 and BLOOM, and push
 the boundary further in data, training algorithm, infrastructure, and
@@ -5543,14 +4717,10 @@ applications.
 
 
 95. [GPT-4 Technical Report](http://arxiv.org/abs/2303.08774v4),  OpenAI,  :, Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, Red Avila, Igor Babuschkin, Suchir Balaji, Valerie Balcom, Paul Baltescu, Haiming Bao, Mo Bavarian, Jeff Belgum, Irwan Bello, Jake Berdine, Gabriel Bernadett-Shapiro, Christopher Berner, Lenny Bogdonoff, Oleg Boiko, Madelaine Boyd, Anna-Luisa Brakman, Greg Brockman, Tim Brooks, Miles Brundage, Kevin Button, Trevor Cai, Rosie Campbell, Andrew Cann, Brittany Carey, Chelsea Carlson, Rory Carmichael, Brooke Chan, Che Chang, Fotis Chantzis, Derek Chen, Sully Chen, Ruby Chen, Jason Chen, Mark Chen, Ben Chess, Chester Cho, Casey Chu, Hyung Won Chung, Dave Cummings, Jeremiah Currier, Yunxing Dai, Cory Decareaux, Thomas Degry, Noah Deutsch, Damien Deville, Arka Dhar, David Dohan, Steve Dowling, Sheila Dunning, Adrien Ecoffet, Atty Eleti, Tyna Eloundou, David Farhi, Liam Fedus, Niko Felix, Simón Posada Fishman, Juston Forte, Isabella Fulford, Leo Gao, Elie Georges, Christian Gibson, Vik Goel, Tarun Gogineni, Gabriel Goh, Rapha Gontijo-Lopes, Jonathan Gordon, Morgan Grafstein, Scott Gray, Ryan Greene, Joshua Gross, Shixiang Shane Gu, Yufei Guo, Chris Hallacy, Jesse Han, Jeff Harris, Yuchen He, Mike Heaton, Johannes Heidecke, Chris Hesse, Alan Hickey, Wade Hickey, Peter Hoeschele, Brandon Houghton, Kenny Hsu, Shengli Hu, Xin Hu, Joost Huizinga, Shantanu Jain, Shawn Jain, Joanne Jang, Angela Jiang, Roger Jiang, Haozhun Jin, Denny Jin, Shino Jomoto, Billie Jonn, Heewoo Jun, Tomer Kaftan, Łukasz Kaiser, Ali Kamali, Ingmar Kanitscheider, Nitish Shirish Keskar, Tabarak Khan, Logan Kilpatrick, Jong Wook Kim, Christina Kim, Yongjik Kim, Hendrik Kirchner, Jamie Kiros, Matt Knight, Daniel Kokotajlo, Łukasz Kondraciuk, Andrew Kondrich, Aris Konstantinidis, Kyle Kosic, Gretchen Krueger, Vishal Kuo, Michael Lampe, Ikai Lan, Teddy Lee, Jan Leike, Jade Leung, Daniel Levy, Chak Ming Li, Rachel Lim, Molly Lin, Stephanie Lin, Mateusz Litwin, Theresa Lopez, Ryan Lowe, Patricia Lue, Anna Makanju, Kim Malfacini, Sam Manning, Todor Markov, Yaniv Markovski, Bianca Martin, Katie Mayer, Andrew Mayne, Bob McGrew, Scott Mayer McKinney, Christine McLeavey, Paul McMillan, Jake McNeil, David Medina, Aalok Mehta, Jacob Menick, Luke Metz, Andrey Mishchenko, Pamela Mishkin, Vinnie Monaco, Evan Morikawa, Daniel Mossing, Tong Mu, Mira Murati, Oleg Murk, David Mély, Ashvin Nair, Reiichiro Nakano, Rajeev Nayak, Arvind Neelakantan, Richard Ngo, Hyeonwoo Noh, Long Ouyang, Cullen O'Keefe, Jakub Pachocki, Alex Paino, Joe Palermo, Ashley Pantuliano, Giambattista Parascandolo, Joel Parish, Emy Parparita, Alex Passos, Mikhail Pavlov, Andrew Peng, Adam Perelman, Filipe de Avila Belbute Peres, Michael Petrov, Henrique Ponde de Oliveira Pinto,  Michael,  Pokorny, Michelle Pokrass, Vitchyr Pong, Tolly Powell, Alethea Power, Boris Power, Elizabeth Proehl, Raul Puri, Alec Radford, Jack Rae, Aditya Ramesh, Cameron Raymond, Francis Real, Kendra Rimbach, Carl Ross, Bob Rotsted, Henri Roussez, Nick Ryder, Mario Saltarelli, Ted Sanders, Shibani Santurkar, Girish Sastry, Heather Schmidt, David Schnurr, John Schulman, Daniel Selsam, Kyla Sheppard, Toki Sherbakov, Jessica Shieh, Sarah Shoker, Pranav Shyam, Szymon Sidor, Eric Sigler, Maddie Simens, Jordan Sitkin, Katarina Slama, Ian Sohl, Benjamin Sokolowsky, Yang Song, Natalie Staudacher, Felipe Petroski Such, Natalie Summers, Ilya Sutskever, Jie Tang, Nikolas Tezak, Madeleine Thompson, Phil Tillet, Amin Tootoonchian, Elizabeth Tseng, Preston Tuggle, Nick Turley, Jerry Tworek, Juan Felipe Cerón Uribe, Andrea Vallone, Arun Vijayvergiya, Chelsea Voss, Carroll Wainwright, Justin Jay Wang, Alvin Wang, Ben Wang, Jonathan Ward, Jason Wei, CJ Weinmann, Akila Welihinda, Peter Welinder, Jiayi Weng, Lilian Weng, Matt Wiethoff, Dave Willner, Clemens Winter, Samuel Wolrich, Hannah Wong, Lauren Workman, Sherwin Wu, Jeff Wu, Michael Wu, Kai Xiao, Tao Xu, Sarah Yoo, Kevin Yu, Qiming Yuan, Wojciech Zaremba, Rowan Zellers, Chong Zhang, Marvin Zhang, Shengjia Zhao, Tianhao Zheng, Juntang Zhuang, William Zhuk, Barret Zoph, 15-03-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     We report the development of GPT-4, a large-scale, multimodal model which can
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    We report the development of GPT-4, a large-scale, multimodal model which can
 accept image and text inputs and produce text outputs. While less capable than
 humans in many real-world scenarios, GPT-4 exhibits human-level performance on
 various professional and academic benchmarks, including passing a simulated bar
@@ -5566,14 +4736,10 @@ more than 1/1,000th the compute of GPT-4.
 
 96. [Connecting Large Language Models with Evolutionary Algorithms Yields
   Powerful Prompt Optimizers](http://arxiv.org/abs/2309.08532v1), Qingyan Guo, Rui Wang, Junliang Guo, Bei Li, Kaitao Song, Xu Tan, Guoqing Liu, Jiang Bian, Yujiu Yang, 15-09-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large Language Models (LLMs) excel in various tasks, but they rely on
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large Language Models (LLMs) excel in various tasks, but they rely on
 carefully crafted prompts that often demand substantial human effort. To
 automate this process, in this paper, we propose a novel framework for discrete
 prompt optimization, called EvoPrompt, which borrows the idea of evolutionary
@@ -5595,14 +4761,10 @@ LLMs and conventional algorithms.
 
 
 97. [Contrastive Chain-of-Thought Prompting](http://arxiv.org/abs/2311.09277v1), Yew Ken Chia, Guizhen Chen, Luu Anh Tuan, Soujanya Poria, Lidong Bing, 15-11-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Despite the success of chain of thought in enhancing language model
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Despite the success of chain of thought in enhancing language model
 reasoning, the underlying process remains less well understood. Although
 logically sound reasoning appears inherently crucial for chain of thought,
 prior studies surprisingly reveal minimal impact when using invalid
@@ -5620,14 +4782,10 @@ chain-of-thought prompting.
 
 
 98. [Towards Verifiable Text Generation with Symbolic References](http://arxiv.org/abs/2311.09188v1), Lucas Torroba Hennigen, Shannon Shen, Aniruddha Nrusimha, Bernhard Gapp, David Sontag, Yoon Kim, 15-11-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Large language models (LLMs) have demonstrated an impressive ability to
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Large language models (LLMs) have demonstrated an impressive ability to
 synthesize plausible and fluent text. However they remain vulnerable to
 hallucinations, and thus their outputs generally require manual human
 verification for high-stakes applications, which can be time-consuming and
@@ -5643,14 +4801,10 @@ references while maintaining fluency and accuracy.
 
 
 99. [Catwalk: A Unified Language Model Evaluation Framework for Many Datasets](http://arxiv.org/abs/2312.10253v1), Dirk Groeneveld, Anas Awadalla, Iz Beltagy, Akshita Bhagia, Ian Magnusson, Hao Peng, Oyvind Tafjord, Pete Walsh, Kyle Richardson, Jesse Dodge, 15-12-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     The success of large language models has shifted the evaluation paradigms in
+     ### Categories
+     Computation and Language
+    ### Abstract
+    The success of large language models has shifted the evaluation paradigms in
 natural language processing (NLP). The community's interest has drifted towards
 comparing NLP models across many tasks, domains, and datasets, often at an
 extreme scale. This imposes new engineering challenges: efforts in constructing
@@ -5670,14 +4824,10 @@ Catwalk is an ongoing open-source effort: https://github.com/allenai/catwalk.
 
 100. [Extending Context Window of Large Language Models via Semantic
   Compression](http://arxiv.org/abs/2312.09571v1), Weizhi Fei, Xueyan Niu, Pingyi Zhou, Lu Hou, Bo Bai, Lei Deng, Wei Han, 15-12-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Transformer-based Large Language Models (LLMs) often impose limitations on
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Transformer-based Large Language Models (LLMs) often impose limitations on
 the length of the text input to ensure the generation of fluent and relevant
 responses. This constraint restricts their applicability in scenarios involving
 long texts. We propose a novel semantic compression method that enables
@@ -5695,14 +4845,10 @@ reducing the associated computational overhead.
 
 101. [Faithful Persona-based Conversational Dataset Generation with Large
   Language Models](http://arxiv.org/abs/2312.10007v1), Pegah Jandaghi, XiangHai Sheng, Xinyi Bai, Jay Pujara, Hakim Sidahmed, 15-12-2023
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     High-quality conversational datasets are essential for developing AI models
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    High-quality conversational datasets are essential for developing AI models
 that can communicate with users. One way to foster deeper interactions between
 a chatbot and its user is through personas, aspects of the user's character
 that provide insights into their personality, motivations, and behaviors.
@@ -5725,14 +4871,10 @@ during Turing test decreases from 17.2% to 8.8% over three iterations.
 
 102. [GraphPrompt: Unifying Pre-Training and Downstream Tasks for Graph Neural
   Networks](http://arxiv.org/abs/2302.08043v3), Zemin Liu, Xingtong Yu, Yuan Fang, Xinming Zhang, 16-02-2023
-
-   ### Categories
-
-   Machine Learning, Computation and Language
-
-   ### Abstract
-
-     Graphs can model complex relationships between objects, enabling a myriad of
+     ### Categories
+     Machine Learning, Computation and Language
+    ### Abstract
+    Graphs can model complex relationships between objects, enabling a myriad of
 Web applications such as online page/article classification and social
 recommendation. While graph neural networks(GNNs) have emerged as a powerful
 tool for graph representation learning, in an end-to-end supervised setting,
@@ -5753,14 +4895,10 @@ experiments on five public datasets to evaluate and analyze GraphPrompt.
 
 103. [ART: Automatic multi-step reasoning and tool-use for large language
   models](http://arxiv.org/abs/2303.09014v1), Bhargavi Paranjape, Scott Lundberg, Sameer Singh, Hannaneh Hajishirzi, Luke Zettlemoyer, Marco Tulio Ribeiro, 16-03-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Large language models (LLMs) can perform complex reasoning in few- and
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Large language models (LLMs) can perform complex reasoning in few- and
 zero-shot settings by generating intermediate chain of thought (CoT) reasoning
 steps. Further, each reasoning step can rely on external tools to support
 computation beyond the core LLM capabilities (e.g. search/running code). Prior
@@ -5782,14 +4920,10 @@ intervention.
 
 
 104. [PDFTriage: Question Answering over Long, Structured Documents](http://arxiv.org/abs/2309.08872v2), Jon Saad-Falcon, Joe Barrow, Alexa Siu, Ani Nenkova, David Seunghyun Yoon, Ryan A. Rossi, Franck Dernoncourt, 16-09-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Large Language Models (LLMs) have issues with document question answering
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Large Language Models (LLMs) have issues with document question answering
 (QA) in situations where the document is unable to fit in the small context
 length of an LLM. To overcome this issue, most existing works focus on
 retrieving the relevant context from the document, representing them as plain
@@ -5812,14 +4946,10 @@ released soon on Github.
 
 105. [MedAgents: Large Language Models as Collaborators for Zero-shot Medical
   Reasoning](http://arxiv.org/abs/2311.10537v1), Xiangru Tang, Anni Zou, Zhuosheng Zhang, Yilun Zhao, Xingyao Zhang, Arman Cohan, Mark Gerstein, 16-11-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large Language Models (LLMs), despite their remarkable progress across
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large Language Models (LLMs), despite their remarkable progress across
 various general domains, encounter significant barriers in medicine and
 healthcare. This field faces unique challenges such as domain-specific
 terminologies and the reasoning over specialized knowledge. To address these
@@ -5841,14 +4971,10 @@ can be found at \url{https://github.com/gersteinlab/MedAgents}.
 
 
 106. [R-Tuning: Teaching Large Language Models to Refuse Unknown Questions](http://arxiv.org/abs/2311.09677v1), Hanning Zhang, Shizhe Diao, Yong Lin, Yi R. Fung, Qing Lian, Xingyao Wang, Yangyi Chen, Heng Ji, Tong Zhang, 16-11-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Large language models (LLMs) have revolutionized numerous domains with their
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Large language models (LLMs) have revolutionized numerous domains with their
 impressive performance but still face their challenges. A predominant issue is
 the propensity for these models to generate non-existent facts, a concern
 termed hallucination. Our research is motivated by the observation that
@@ -5871,14 +4997,10 @@ will be released at https://github.com/shizhediao/R-Tuning.
 
 
 107. [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU](http://arxiv.org/abs/2312.12456v1), Yixin Song, Zeyu Mi, Haotong Xie, Haibo Chen, 16-12-2023
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     This paper introduces PowerInfer, a high-speed Large Language Model (LLM)
+     ### Categories
+     Machine Learning
+    ### Abstract
+    This paper introduces PowerInfer, a high-speed Large Language Model (LLM)
 inference engine on a personal computer (PC) equipped with a single
 consumer-grade GPU. The key underlying the design of PowerInfer is exploiting
 the high locality inherent in LLM inference, characterized by a power-law
@@ -5900,14 +5022,10 @@ while retaining model accuracy.
 
 108. [Compress, Then Prompt: Improving Accuracy-Efficiency Trade-off of LLM
   Inference with Transferable Prompt](http://arxiv.org/abs/2305.11186v2), Zhaozhuo Xu, Zirui Liu, Beidi Chen, Yuxin Tang, Jue Wang, Kaixiong Zhou, Xia Hu, Anshumali Shrivastava, 17-05-2023
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     While the numerous parameters in Large Language Models (LLMs) contribute to
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    While the numerous parameters in Large Language Models (LLMs) contribute to
 their superior performance, this massive scale makes them inefficient and
 memory-hungry. Thus, they are hard to deploy on commodity hardware, such as one
 single GPU. Given the memory and power constraints of such devices, model
@@ -5932,14 +5050,10 @@ accuracy in an ``in-situ'' way.
 
 
 109. [PaLM 2 Technical Report](http://arxiv.org/abs/2305.10403v3), Rohan Anil, Andrew M. Dai, Orhan Firat, Melvin Johnson, Dmitry Lepikhin, Alexandre Passos, Siamak Shakeri, Emanuel Taropa, Paige Bailey, Zhifeng Chen, Eric Chu, Jonathan H. Clark, Laurent El Shafey, Yanping Huang, Kathy Meier-Hellstern, Gaurav Mishra, Erica Moreira, Mark Omernick, Kevin Robinson, Sebastian Ruder, Yi Tay, Kefan Xiao, Yuanzhong Xu, Yujing Zhang, Gustavo Hernandez Abrego, Junwhan Ahn, Jacob Austin, Paul Barham, Jan Botha, James Bradbury, Siddhartha Brahma, Kevin Brooks, Michele Catasta, Yong Cheng, Colin Cherry, Christopher A. Choquette-Choo, Aakanksha Chowdhery, Clément Crepy, Shachi Dave, Mostafa Dehghani, Sunipa Dev, Jacob Devlin, Mark Díaz, Nan Du, Ethan Dyer, Vlad Feinberg, Fangxiaoyu Feng, Vlad Fienber, Markus Freitag, Xavier Garcia, Sebastian Gehrmann, Lucas Gonzalez, Guy Gur-Ari, Steven Hand, Hadi Hashemi, Le Hou, Joshua Howland, Andrea Hu, Jeffrey Hui, Jeremy Hurwitz, Michael Isard, Abe Ittycheriah, Matthew Jagielski, Wenhao Jia, Kathleen Kenealy, Maxim Krikun, Sneha Kudugunta, Chang Lan, Katherine Lee, Benjamin Lee, Eric Li, Music Li, Wei Li, YaGuang Li, Jian Li, Hyeontaek Lim, Hanzhao Lin, Zhongtao Liu, Frederick Liu, Marcello Maggioni, Aroma Mahendru, Joshua Maynez, Vedant Misra, Maysam Moussalem, Zachary Nado, John Nham, Eric Ni, Andrew Nystrom, Alicia Parrish, Marie Pellat, Martin Polacek, Alex Polozov, Reiner Pope, Siyuan Qiao, Emily Reif, Bryan Richter, Parker Riley, Alex Castro Ros, Aurko Roy, Brennan Saeta, Rajkumar Samuel, Renee Shelby, Ambrose Slone, Daniel Smilkov, David R. So, Daniel Sohn, Simon Tokumine, Dasha Valter, Vijay Vasudevan, Kiran Vodrahalli, Xuezhi Wang, Pidong Wang, Zirui Wang, Tao Wang, John Wieting, Yuhuai Wu, Kelvin Xu, Yunhan Xu, Linting Xue, Pengcheng Yin, Jiahui Yu, Qiao Zhang, Steven Zheng, Ce Zheng, Weikang Zhou, Denny Zhou, Slav Petrov, Yonghui Wu, 17-05-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     We introduce PaLM 2, a new state-of-the-art language model that has better
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    We introduce PaLM 2, a new state-of-the-art language model that has better
 multilingual and reasoning capabilities and is more compute-efficient than its
 predecessor PaLM. PaLM 2 is a Transformer-based model trained using a mixture
 of objectives. Through extensive evaluations on English and multilingual
@@ -5964,14 +5078,10 @@ reported in this report.
 
 
 110. [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](http://arxiv.org/abs/2305.10601v2), Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas L. Griffiths, Yuan Cao, Karthik Narasimhan, 17-05-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Language models are increasingly being deployed for general problem solving
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Language models are increasingly being deployed for general problem solving
 across a wide range of tasks, but are still confined to token-level,
 left-to-right decision-making processes during inference. This means they can
 fall short in tasks that require exploration, strategic lookahead, or where
@@ -5992,14 +5102,10 @@ https://github.com/princeton-nlp/tree-of-thought-llm.
 
 
 111. [OWL: A Large Language Model for IT Operations](http://arxiv.org/abs/2309.09298v1), Hongcheng Guo, Jian Yang, Jiaheng Liu, Liqun Yang, Linzheng Chai, Jiaqi Bai, Junran Peng, Xiaorong Hu, Chao Chen, Dongfeng Zhang, Xu Shi, Tieqiao Zheng, Liangfan Zheng, Bo Zhang, Ke Xu, Zhoujun Li, 17-09-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     With the rapid development of IT operations, it has become increasingly
+     ### Categories
+     Computation and Language
+    ### Abstract
+    With the rapid development of IT operations, it has become increasingly
 crucial to efficiently manage and analyze large volumes of data for practical
 applications. The techniques of Natural Language Processing (NLP) have shown
 remarkable capabilities for various tasks, including named entity recognition,
@@ -6019,14 +5125,10 @@ of IT operations with specialized LLMs.
 
 112. [Self-RAG: Learning to Retrieve, Generate, and Critique through
   Self-Reflection](http://arxiv.org/abs/2310.11511v1), Akari Asai, Zeqiu Wu, Yizhong Wang, Avirup Sil, Hannaneh Hajishirzi, 17-10-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Despite their remarkable capabilities, large language models (LLMs) often
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Despite their remarkable capabilities, large language models (LLMs) often
 produce responses containing factual inaccuracies due to their sole reliance on
 the parametric knowledge they encapsulate. Retrieval-Augmented Generation
 (RAG), an ad hoc approach that augments LMs with retrieval of relevant
@@ -6050,14 +5152,8 @@ to these models.
 
 
 113. [Generalized products and Lorentzian length spaces](http://arxiv.org/abs/2311.10691v1), Elefterios Soultanis, 17-11-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     We construct a Lorentzian length space with an orthogonal splitting on a
+    ### Abstract
+    We construct a Lorentzian length space with an orthogonal splitting on a
 product $I\times X$ of an interval and a metric space, and use this framework
 to consider the relationship between metric and causal geometry, as well as
 synthetic time-like Ricci curvature bounds.
@@ -6070,14 +5166,10 @@ partial rigidity of the splitting under a strong energy condition.
 
 
 114. [Testing Language Model Agents Safely in the Wild](http://arxiv.org/abs/2311.10538v3), Silen Naihin, David Atkinson, Marc Green, Merwane Hamadi, Craig Swift, Douglas Schonholtz, Adam Tauman Kalai, David Bau, 17-11-2023
-
-   ### Categories
-
-   Artificial Intelligence
-
-   ### Abstract
-
-     A prerequisite for safe autonomy-in-the-wild is safe testing-in-the-wild. Yet
+     ### Categories
+     Artificial Intelligence
+    ### Abstract
+    A prerequisite for safe autonomy-in-the-wild is safe testing-in-the-wild. Yet
 real-world autonomous tests face several unique safety challenges, both due to
 the possibility of causing harm during a test, as well as the risk of
 encountering new unsafe agent behavior through interactions with real-world and
@@ -6094,14 +5186,10 @@ in-the-wild tests as autonomous agents grow more capable.
 
 
 115. [A Survey of Reasoning with Foundation Models](http://arxiv.org/abs/2312.11562v4), Jiankai Sun, Chuanyang Zheng, Enze Xie, Zhengying Liu, Ruihang Chu, Jianing Qiu, Jiaqi Xu, Mingyu Ding, Hongyang Li, Mengzhe Geng, Yue Wu, Wenhai Wang, Junsong Chen, Zhangyue Yin, Xiaozhe Ren, Jie Fu, Junxian He, Wu Yuan, Qi Liu, Xihui Liu, Yu Li, Hao Dong, Yu Cheng, Ming Zhang, Pheng Ann Heng, Jifeng Dai, Ping Luo, Jingdong Wang, Ji-Rong Wen, Xipeng Qiu, Yike Guo, Hui Xiong, Qun Liu, Zhenguo Li, 17-12-2023
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Reasoning, a crucial ability for complex problem-solving, plays a pivotal
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    Reasoning, a crucial ability for complex problem-solving, plays a pivotal
 role in various real-world settings such as negotiation, medical diagnosis, and
 criminal investigation. It serves as a fundamental methodology in the field of
 Artificial General Intelligence (AGI). With the ongoing development of
@@ -6118,14 +5206,10 @@ models, and contribute to the development of AGI.
 
 
 116. [AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning](http://arxiv.org/abs/2303.10512v2), Qingru Zhang, Minshuo Chen, Alexander Bukharin, Nikos Karampatziakis, Pengcheng He, Yu Cheng, Weizhu Chen, Tuo Zhao, 18-03-2023
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Fine-tuning large pre-trained language models on downstream tasks has become
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    Fine-tuning large pre-trained language models on downstream tasks has become
 an important paradigm in NLP. However, common practice fine-tunes all of the
 parameters in a pre-trained model, which becomes prohibitive when a large
 number of downstream tasks are present. Therefore, many fine-tuning methods are
@@ -6148,14 +5232,10 @@ publicly available at https://github.com/QingruZhang/AdaLoRA .
 
 
 117. [LIMA: Less Is More for Alignment](http://arxiv.org/abs/2305.11206v1), Chunting Zhou, Pengfei Liu, Puxin Xu, Srini Iyer, Jiao Sun, Yuning Mao, Xuezhe Ma, Avia Efrat, Ping Yu, Lili Yu, Susan Zhang, Gargi Ghosh, Mike Lewis, Luke Zettlemoyer, Omer Levy, 18-05-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Large language models are trained in two stages: (1) unsupervised pretraining
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Large language models are trained in two stages: (1) unsupervised pretraining
 from raw text, to learn general-purpose representations, and (2) large scale
 instruction tuning and reinforcement learning, to better align to end tasks and
 user preferences. We measure the relative importance of these two stages by
@@ -6176,14 +5256,10 @@ tuning data is necessary to teach models to produce high quality output.
 
 
 118. [Reasoning Implicit Sentiment with Chain-of-Thought Prompting](http://arxiv.org/abs/2305.11255v4), Hao Fei, Bobo Li, Qian Liu, Lidong Bing, Fei Li, Tat-Seng Chua, 18-05-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     While sentiment analysis systems try to determine the sentiment polarities of
+     ### Categories
+     Computation and Language
+    ### Abstract
+    While sentiment analysis systems try to determine the sentiment polarities of
 given targets based on the key opinion expressions in input texts, in implicit
 sentiment analysis (ISA) the opinion cues come in an implicit and obscure
 manner. Thus detecting implicit sentiment requires the common-sense and
@@ -6199,14 +5275,10 @@ https://github.com/scofield7419/THOR-ISA.
 
 
 119. [Llama 2: Open Foundation and Fine-Tuned Chat Models](http://arxiv.org/abs/2307.09288v2), Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, Dan Bikel, Lukas Blecher, Cristian Canton Ferrer, Moya Chen, Guillem Cucurull, David Esiobu, Jude Fernandes, Jeremy Fu, Wenyin Fu, Brian Fuller, Cynthia Gao, Vedanuj Goswami, Naman Goyal, Anthony Hartshorn, Saghar Hosseini, Rui Hou, Hakan Inan, Marcin Kardas, Viktor Kerkez, Madian Khabsa, Isabel Kloumann, Artem Korenev, Punit Singh Koura, Marie-Anne Lachaux, Thibaut Lavril, Jenya Lee, Diana Liskovich, Yinghai Lu, Yuning Mao, Xavier Martinet, Todor Mihaylov, Pushkar Mishra, Igor Molybog, Yixin Nie, Andrew Poulton, Jeremy Reizenstein, Rashi Rungta, Kalyan Saladi, Alan Schelten, Ruan Silva, Eric Michael Smith, Ranjan Subramanian, Xiaoqing Ellen Tan, Binh Tang, Ross Taylor, Adina Williams, Jian Xiang Kuan, Puxin Xu, Zheng Yan, Iliyan Zarov, Yuchen Zhang, Angela Fan, Melanie Kambadur, Sharan Narang, Aurelien Rodriguez, Robert Stojnic, Sergey Edunov, Thomas Scialom, 18-07-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     In this work, we develop and release Llama 2, a collection of pretrained and
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    In this work, we develop and release Llama 2, a collection of pretrained and
 fine-tuned large language models (LLMs) ranging in scale from 7 billion to 70
 billion parameters. Our fine-tuned LLMs, called Llama 2-Chat, are optimized for
 dialogue use cases. Our models outperform open-source chat models on most
@@ -6218,14 +5290,10 @@ contribute to the responsible development of LLMs.
 
 
 120. [Investigating Zero- and Few-shot Generalization in Fact Verification](http://arxiv.org/abs/2309.09444v1), Liangming Pan, Yunxiang Zhang, Min-Yen Kan, 18-09-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     In this paper, we explore zero- and few-shot generalization for fact
+     ### Categories
+     Computation and Language
+    ### Abstract
+    In this paper, we explore zero- and few-shot generalization for fact
 verification (FV), which aims to generalize the FV model trained on
 well-resourced domains (e.g., Wikipedia) to low-resourced domains that lack
 human annotations. To this end, we first construct a benchmark dataset
@@ -6240,14 +5308,10 @@ of claims. Finally, we show that two directions of work improve generalization:
 
 121. [LLM4Jobs: Unsupervised occupation extraction and standardization
   leveraging Large Language Models](http://arxiv.org/abs/2309.09708v2), Nan Li, Bo Kang, Tijl De Bie, 18-09-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Automated occupation extraction and standardization from free-text job
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Automated occupation extraction and standardization from free-text job
 postings and resumes are crucial for applications like job recommendation and
 labor market policy formation. This paper introduces LLM4Jobs, a novel
 unsupervised methodology that taps into the capabilities of large language
@@ -6265,14 +5329,10 @@ contexts.
 
 
 122. [MindAgent: Emergent Gaming Interaction](http://arxiv.org/abs/2309.09971v2), Ran Gong, Qiuyuan Huang, Xiaojian Ma, Hoi Vo, Zane Durante, Yusuke Noda, Zilong Zheng, Song-Chun Zhu, Demetri Terzopoulos, Li Fei-Fei, Jianfeng Gao, 18-09-2023
-
-   ### Categories
-
-   Artificial Intelligence
-
-   ### Abstract
-
-     Large Language Models (LLMs) have the capacity of performing complex
+     ### Categories
+     Artificial Intelligence
+    ### Abstract
+    Large Language Models (LLMs) have the capacity of performing complex
 scheduling in a multi-agent system and can coordinate these agents into
 completing sophisticated tasks that require extensive collaboration. However,
 despite the introduction of numerous gaming frameworks, the community has
@@ -6296,14 +5356,10 @@ language corpora.
 
 
 123. [Orca 2: Teaching Small Language Models How to Reason](http://arxiv.org/abs/2311.11045v2), Arindam Mitra, Luciano Del Corro, Shweti Mahajan, Andres Codas, Clarisse Simoes, Sahaj Agarwal, Xuxi Chen, Anastasia Razdaibiedina, Erik Jones, Kriti Aggarwal, Hamid Palangi, Guoqing Zheng, Corby Rosset, Hamed Khanpour, Ahmed Awadallah, 18-11-2023
-
-   ### Categories
-
-   Artificial Intelligence
-
-   ### Abstract
-
-     Orca 1 learns from rich signals, such as explanation traces, allowing it to
+     ### Categories
+     Artificial Intelligence
+    ### Abstract
+    Orca 1 learns from rich signals, such as explanation traces, allowing it to
 outperform conventional instruction-tuned models on benchmarks like BigBench
 Hard and AGIEval. In Orca 2, we continue exploring how improved training
 signals can enhance smaller LMs' reasoning abilities. Research on training
@@ -6328,14 +5384,8 @@ alignment of smaller LMs
 
 124. [A Comprehensive Survey of Attack Techniques, Implementation, and
   Mitigation Strategies in Large Language Models](http://arxiv.org/abs/2312.10982v1), Aysan Esmradi, Daniel Wankit Yip, Chun Fai Chan, 18-12-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     Ensuring the security of large language models (LLMs) is an ongoing challenge
+    ### Abstract
+    Ensuring the security of large language models (LLMs) is an ongoing challenge
 despite their widespread popularity. Developers work to enhance LLMs security,
 but vulnerabilities persist, even in advanced versions like GPT-4. Attackers
 exploit these weaknesses, highlighting the need for proactive cybersecurity
@@ -6355,14 +5405,10 @@ attacks, contributing to robust defense development in this evolving domain.
 
 
 125. [An In-depth Look at Gemini's Language Abilities](http://arxiv.org/abs/2312.11444v2), Syeda Nahida Akter, Zichun Yu, Aashiq Muhamed, Tianyue Ou, Alex Bäuerle, Ángel Alexander Cabrera, Krish Dholakia, Chenyan Xiong, Graham Neubig, 18-12-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     The recently released Google Gemini class of models are the first to
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    The recently released Google Gemini class of models are the first to
 comprehensively report results that rival the OpenAI GPT series across a wide
 variety of tasks. In this paper, we do an in-depth exploration of Gemini's
 language abilities, making two contributions. First, we provide a third-party,
@@ -6385,14 +5431,10 @@ for reproduction can be found at https://github.com/neulab/gemini-benchmark
 
 126. [PolicyGPT: Automated Analysis of Privacy Policies with Large Language
   Models](http://arxiv.org/abs/2309.10238v1), Chenhao Tang, Zhengliang Liu, Chong Ma, Zihao Wu, Yiwei Li, Wei Liu, Dajiang Zhu, Quanzheng Li, Xiang Li, Tianming Liu, Lei Fan, 19-09-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Privacy policies serve as the primary conduit through which online service
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Privacy policies serve as the primary conduit through which online service
 providers inform users about their data collection and usage procedures.
 However, in a bid to be comprehensive and mitigate legal risks, these policy
 documents are often quite verbose. In practical use, users tend to click the
@@ -6415,14 +5457,10 @@ neural network models.
 
 127. [Prompt, Condition, and Generate: Classification of Unsupported Claims
   with In-Context Learning](http://arxiv.org/abs/2309.10359v1), Peter Ebert Christensen, Srishti Yadav, Serge Belongie, 19-09-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Unsupported and unfalsifiable claims we encounter in our daily lives can
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Unsupported and unfalsifiable claims we encounter in our daily lives can
 influence our view of the world. Characterizing, summarizing, and -- more
 generally -- making sense of such claims, however, can be challenging. In this
 work, we focus on fine-grained debate topics and formulate a new task of
@@ -6438,14 +5476,10 @@ useful in applications which rely on narratives , e.g. fact-checking.
 
 
 128. [Gemini: A Family of Highly Capable Multimodal Models](http://arxiv.org/abs/2312.11805v1),  Gemini Team, Rohan Anil, Sebastian Borgeaud, Yonghui Wu, Jean-Baptiste Alayrac, Jiahui Yu, Radu Soricut, Johan Schalkwyk, Andrew M. Dai, Anja Hauth, Katie Millican, David Silver, Slav Petrov, Melvin Johnson, Ioannis Antonoglou, Julian Schrittwieser, Amelia Glaese, Jilin Chen, Emily Pitler, Timothy Lillicrap, Angeliki Lazaridou, Orhan Firat, James Molloy, Michael Isard, Paul R. Barham, Tom Hennigan, Benjamin Lee, Fabio Viola, Malcolm Reynolds, Yuanzhong Xu, Ryan Doherty, Eli Collins, Clemens Meyer, Eliza Rutherford, Erica Moreira, Kareem Ayoub, Megha Goel, George Tucker, Enrique Piqueras, Maxim Krikun, Iain Barr, Nikolay Savinov, Ivo Danihelka, Becca Roelofs, Anaïs White, Anders Andreassen, Tamara von Glehn, Lakshman Yagati, Mehran Kazemi, Lucas Gonzalez, Misha Khalman, Jakub Sygnowski, Alexandre Frechette, Charlotte Smith, Laura Culp, Lev Proleev, Yi Luan, Xi Chen, James Lottes, Nathan Schucher, Federico Lebron, Alban Rrustemi, Natalie Clay, Phil Crone, Tomas Kocisky, Jeffrey Zhao, Bartek Perz, Dian Yu, Heidi Howard, Adam Bloniarz, Jack W. Rae, Han Lu, Laurent Sifre, Marcello Maggioni, Fred Alcober, Dan Garrette, Megan Barnes, Shantanu Thakoor, Jacob Austin, Gabriel Barth-Maron, William Wong, Rishabh Joshi, Rahma Chaabouni, Deeni Fatiha, Arun Ahuja, Ruibo Liu, Yunxuan Li, Sarah Cogan, Jeremy Chen, Chao Jia, Chenjie Gu, Qiao Zhang, Jordan Grimstad, Ale Jakse Hartman, Martin Chadwick, Gaurav Singh Tomar, Xavier Garcia, Evan Senter, Emanuel Taropa, Thanumalayan Sankaranarayana Pillai, Jacob Devlin, Michael Laskin, Diego de Las Casas, Dasha Valter, Connie Tao, Lorenzo Blanco, Adrià Puigdomènech Badia, David Reitter, Mianna Chen, Jenny Brennan, Clara Rivera, Sergey Brin, Shariq Iqbal, Gabriela Surita, Jane Labanowski, Abhi Rao, Stephanie Winkler, Emilio Parisotto, Yiming Gu, Kate Olszewska, Yujing Zhang, Ravi Addanki, Antoine Miech, Annie Louis, Laurent El Shafey, Denis Teplyashin, Geoff Brown, Elliot Catt, Nithya Attaluri, Jan Balaguer, Jackie Xiang, Pidong Wang, Zoe Ashwood, Anton Briukhov, Albert Webson, Sanjay Ganapathy, Smit Sanghavi, Ajay Kannan, Ming-Wei Chang, Axel Stjerngren, Josip Djolonga, Yuting Sun, Ankur Bapna, Matthew Aitchison, Pedram Pejman, Henryk Michalewski, Tianhe Yu, Cindy Wang, Juliette Love, Junwhan Ahn, Dawn Bloxwich, Kehang Han, Peter Humphreys, Thibault Sellam, James Bradbury, Varun Godbole, Sina Samangooei, Bogdan Damoc, Alex Kaskasoli, Sébastien M. R. Arnold, Vijay Vasudevan, Shubham Agrawal, Jason Riesa, Dmitry Lepikhin, Richard Tanburn, Srivatsan Srinivasan, Hyeontaek Lim, Sarah Hodkinson, Pranav Shyam, Johan Ferret, Steven Hand, Ankush Garg, Tom Le Paine, Jian Li, Yujia Li, Minh Giang, Alexander Neitz, Zaheer Abbas, Sarah York, Machel Reid, Elizabeth Cole, Aakanksha Chowdhery, Dipanjan Das, Dominika Rogozińska, Vitaly Nikolaev, Pablo Sprechmann, Zachary Nado, Lukas Zilka, Flavien Prost, Luheng He, Marianne Monteiro, Gaurav Mishra, Chris Welty, Josh Newlan, Dawei Jia, Miltiadis Allamanis, Clara Huiyi Hu, Raoul de Liedekerke, Justin Gilmer, Carl Saroufim, Shruti Rijhwani, Shaobo Hou, Disha Shrivastava, Anirudh Baddepudi, Alex Goldin, Adnan Ozturel, Albin Cassirer, Yunhan Xu, Daniel Sohn, Devendra Sachan, Reinald Kim Amplayo, Craig Swanson, Dessie Petrova, Shashi Narayan, Arthur Guez, Siddhartha Brahma, Jessica Landon, Miteyan Patel, Ruizhe Zhao, Kevin Villela, Luyu Wang, Wenhao Jia, Matthew Rahtz, Mai Giménez, Legg Yeung, Hanzhao Lin, James Keeling, Petko Georgiev, Diana Mincu, Boxi Wu, Salem Haykal, Rachel Saputro, Kiran Vodrahalli, James Qin, Zeynep Cankara, Abhanshu Sharma, Nick Fernando, Will Hawkins, Behnam Neyshabur, Solomon Kim, Adrian Hutter, Priyanka Agrawal, Alex Castro-Ros, George van den Driessche, Tao Wang, Fan Yang, Shuo-yiin Chang, Paul Komarek, Ross McIlroy, Mario Lučić, Guodong Zhang, Wael Farhan, Michael Sharman, Paul Natsev, Paul Michel, Yong Cheng, Yamini Bansal, Siyuan Qiao, Kris Cao, Siamak Shakeri, Christina Butterfield, Justin Chung, Paul Kishan Rubenstein, Shivani Agrawal, Arthur Mensch, Kedar Soparkar, Karel Lenc, Timothy Chung, Aedan Pope, Loren Maggiore, Jackie Kay, Priya Jhakra, Shibo Wang, Joshua Maynez, Mary Phuong, Taylor Tobin, Andrea Tacchetti, Maja Trebacz, Kevin Robinson, Yash Katariya, Sebastian Riedel, Paige Bailey, Kefan Xiao, Nimesh Ghelani, Lora Aroyo, Ambrose Slone, Neil Houlsby, Xuehan Xiong, Zhen Yang, Elena Gribovskaya, Jonas Adler, Mateo Wirth, Lisa Lee, Music Li, Thais Kagohara, Jay Pavagadhi, Sophie Bridgers, Anna Bortsova, Sanjay Ghemawat, Zafarali Ahmed, Tianqi Liu, Richard Powell, Vijay Bolina, Mariko Iinuma, Polina Zablotskaia, James Besley, Da-Woon Chung, Timothy Dozat, Ramona Comanescu, Xiance Si, Jeremy Greer, Guolong Su, Martin Polacek, Raphaël Lopez Kaufman, Simon Tokumine, Hexiang Hu, Elena Buchatskaya, Yingjie Miao, Mohamed Elhawaty, Aditya Siddhant, Nenad Tomasev, Jinwei Xing, Christina Greer, Helen Miller, Shereen Ashraf, Aurko Roy, Zizhao Zhang, Ada Ma, Angelos Filos, Milos Besta, Rory Blevins, Ted Klimenko, Chih-Kuan Yeh, Soravit Changpinyo, Jiaqi Mu, Oscar Chang, Mantas Pajarskas, Carrie Muir, Vered Cohen, Charline Le Lan, Krishna Haridasan, Amit Marathe, Steven Hansen, Sholto Douglas, Rajkumar Samuel, Mingqiu Wang, Sophia Austin, Chang Lan, Jiepu Jiang, Justin Chiu, Jaime Alonso Lorenzo, Lars Lowe Sjösund, Sébastien Cevey, Zach Gleicher, Thi Avrahami, Anudhyan Boral, Hansa Srinivasan, Vittorio Selo, Rhys May, Konstantinos Aisopos, Léonard Hussenot, Livio Baldini Soares, Kate Baumli, Michael B. Chang, Adrià Recasens, Ben Caine, Alexander Pritzel, Filip Pavetic, Fabio Pardo, Anita Gergely, Justin Frye, Vinay Ramasesh, Dan Horgan, Kartikeya Badola, Nora Kassner, Subhrajit Roy, Ethan Dyer, Víctor Campos, Alex Tomala, Yunhao Tang, Dalia El Badawy, Elspeth White, Basil Mustafa, Oran Lang, Abhishek Jindal, Sharad Vikram, Zhitao Gong, Sergi Caelles, Ross Hemsley, Gregory Thornton, Fangxiaoyu Feng, Wojciech Stokowiec, Ce Zheng, Phoebe Thacker, Çağlar Ünlü, Zhishuai Zhang, Mohammad Saleh, James Svensson, Max Bileschi, Piyush Patil, Ankesh Anand, Roman Ring, Katerina Tsihlas, Arpi Vezer, Marco Selvi, Toby Shevlane, Mikel Rodriguez, Tom Kwiatkowski, Samira Daruki, Keran Rong, Allan Dafoe, Nicholas FitzGerald, Keren Gu-Lemberg, Mina Khan, Lisa Anne Hendricks, Marie Pellat, Vladimir Feinberg, James Cobon-Kerr, Tara Sainath, Maribeth Rauh, Sayed Hadi Hashemi, Richard Ives, Yana Hasson, YaGuang Li, Eric Noland, Yuan Cao, Nathan Byrd, Le Hou, Qingze Wang, Thibault Sottiaux, Michela Paganini, Jean-Baptiste Lespiau, Alexandre Moufarek, Samer Hassan, Kaushik Shivakumar, Joost van Amersfoort, Amol Mandhane, Pratik Joshi, Anirudh Goyal, Matthew Tung, Andrew Brock, Hannah Sheahan, Vedant Misra, Cheng Li, Nemanja Rakićević, Mostafa Dehghani, Fangyu Liu, Sid Mittal, Junhyuk Oh, Seb Noury, Eren Sezener, Fantine Huot, Matthew Lamm, Nicola De Cao, Charlie Chen, Gamaleldin Elsayed, Ed Chi, Mahdis Mahdieh, Ian Tenney, Nan Hua, Ivan Petrychenko, Patrick Kane, Dylan Scandinaro, Rishub Jain, Jonathan Uesato, Romina Datta, Adam Sadovsky, Oskar Bunyan, Dominik Rabiej, Shimu Wu, John Zhang, Gautam Vasudevan, Edouard Leurent, Mahmoud Alnahlawi, Ionut Georgescu, Nan Wei, Ivy Zheng, Betty Chan, Pam G Rabinovitch, Piotr Stanczyk, Ye Zhang, David Steiner, Subhajit Naskar, Michael Azzam, Matthew Johnson, Adam Paszke, Chung-Cheng Chiu, Jaume Sanchez Elias, Afroz Mohiuddin, Faizan Muhammad, Jin Miao, Andrew Lee, Nino Vieillard, Sahitya Potluri, Jane Park, Elnaz Davoodi, Jiageng Zhang, Jeff Stanway, Drew Garmon, Abhijit Karmarkar, Zhe Dong, Jong Lee, Aviral Kumar, Luowei Zhou, Jonathan Evens, William Isaac, Zhe Chen, Johnson Jia, Anselm Levskaya, Zhenkai Zhu, Chris Gorgolewski, Peter Grabowski, Yu Mao, Alberto Magni, Kaisheng Yao, Javier Snaider, Norman Casagrande, Paul Suganthan, Evan Palmer, Geoffrey Irving, Edward Loper, Manaal Faruqui, Isha Arkatkar, Nanxin Chen, Izhak Shafran, Michael Fink, Alfonso Castaño, Irene Giannoumis, Wooyeol Kim, Mikołaj Rybiński, Ashwin Sreevatsa, Jennifer Prendki, David Soergel, Adrian Goedeckemeyer, Willi Gierke, Mohsen Jafari, Meenu Gaba, Jeremy Wiesner, Diana Gage Wright, Yawen Wei, Harsha Vashisht, Yana Kulizhskaya, Jay Hoover, Maigo Le, Lu Li, Chimezie Iwuanyanwu, Lu Liu, Kevin Ramirez, Andrey Khorlin, Albert Cui, Tian LIN, Marin Georgiev, Marcus Wu, Ricardo Aguilar, Keith Pallo, Abhishek Chakladar, Alena Repina, Xihui Wu, Tom van der Weide, Priya Ponnapalli, Caroline Kaplan, Jiri Simsa, Shuangfeng Li, Olivier Dousse, Fan Yang, Jeff Piper, Nathan Ie, Minnie Lui, Rama Pasumarthi, Nathan Lintz, Anitha Vijayakumar, Lam Nguyen Thiet, Daniel Andor, Pedro Valenzuela, Cosmin Paduraru, Daiyi Peng, Katherine Lee, Shuyuan Zhang, Somer Greene, Duc Dung Nguyen, Paula Kurylowicz, Sarmishta Velury, Sebastian Krause, Cassidy Hardin, Lucas Dixon, Lili Janzer, Kiam Choo, Ziqiang Feng, Biao Zhang, Achintya Singhal, Tejasi Latkar, Mingyang Zhang, Quoc Le, Elena Allica Abellan, Dayou Du, Dan McKinnon, Natasha Antropova, Tolga Bolukbasi, Orgad Keller, David Reid, Daniel Finchelstein, Maria Abi Raad, Remi Crocker, Peter Hawkins, Robert Dadashi, Colin Gaffney, Sid Lall, Ken Franko, Egor Filonov, Anna Bulanova, Rémi Leblond, Vikas Yadav, Shirley Chung, Harry Askham, Luis C. Cobo, Kelvin Xu, Felix Fischer, Jun Xu, Christina Sorokin, Chris Alberti, Chu-Cheng Lin, Colin Evans, Hao Zhou, Alek Dimitriev, Hannah Forbes, Dylan Banarse, Zora Tung, Jeremiah Liu, Mark Omernick, Colton Bishop, Chintu Kumar, Rachel Sterneck, Ryan Foley, Rohan Jain, Swaroop Mishra, Jiawei Xia, Taylor Bos, Geoffrey Cideron, Ehsan Amid, Francesco Piccinno, Xingyu Wang, Praseem Banzal, Petru Gurita, Hila Noga, Premal Shah, Daniel J. Mankowitz, Alex Polozov, Nate Kushman, Victoria Krakovna, Sasha Brown, MohammadHossein Bateni, Dennis Duan, Vlad Firoiu, Meghana Thotakuri, Tom Natan, Anhad Mohananey, Matthieu Geist, Sidharth Mudgal, Sertan Girgin, Hui Li, Jiayu Ye, Ofir Roval, Reiko Tojo, Michael Kwong, James Lee-Thorp, Christopher Yew, Quan Yuan, Sumit Bagri, Danila Sinopalnikov, Sabela Ramos, John Mellor, Abhishek Sharma, Aliaksei Severyn, Jonathan Lai, Kathy Wu, Heng-Tze Cheng, David Miller, Nicolas Sonnerat, Denis Vnukov, Rory Greig, Jennifer Beattie, Emily Caveness, Libin Bai, Julian Eisenschlos, Alex Korchemniy, Tomy Tsai, Mimi Jasarevic, Weize Kong, Phuong Dao, Zeyu Zheng, Frederick Liu, Fan Yang, Rui Zhu, Mark Geller, Tian Huey Teh, Jason Sanmiya, Evgeny Gladchenko, Nejc Trdin, Andrei Sozanschi, Daniel Toyama, Evan Rosen, Sasan Tavakkol, Linting Xue, Chen Elkind, Oliver Woodman, John Carpenter, George Papamakarios, Rupert Kemp, Sushant Kafle, Tanya Grunina, Rishika Sinha, Alice Talbert, Abhimanyu Goyal, Diane Wu, Denese Owusu-Afriyie, Cosmo Du, Chloe Thornton, Jordi Pont-Tuset, Pradyumna Narayana, Jing Li, Sabaer Fatehi, John Wieting, Omar Ajmeri, Benigno Uria, Tao Zhu, Yeongil Ko, Laura Knight, Amélie Héliou, Ning Niu, Shane Gu, Chenxi Pang, Dustin Tran, Yeqing Li, Nir Levine, Ariel Stolovich, Norbert Kalb, Rebeca Santamaria-Fernandez, Sonam Goenka, Wenny Yustalim, Robin Strudel, Ali Elqursh, Balaji Lakshminarayanan, Charlie Deck, Shyam Upadhyay, Hyo Lee, Mike Dusenberry, Zonglin Li, Xuezhi Wang, Kyle Levin, Raphael Hoffmann, Dan Holtmann-Rice, Olivier Bachem, Summer Yue, Sho Arora, Eric Malmi, Daniil Mirylenka, Qijun Tan, Christy Koh, Soheil Hassas Yeganeh, Siim Põder, Steven Zheng, Francesco Pongetti, Mukarram Tariq, Yanhua Sun, Lucian Ionita, Mojtaba Seyedhosseini, Pouya Tafti, Ragha Kotikalapudi, Zhiyu Liu, Anmol Gulati, Jasmine Liu, Xinyu Ye, Bart Chrzaszcz, Lily Wang, Nikhil Sethi, Tianrun Li, Ben Brown, Shreya Singh, Wei Fan, Aaron Parisi, Joe Stanton, Chenkai Kuang, Vinod Koverkathu, Christopher A. Choquette-Choo, Yunjie Li, TJ Lu, Abe Ittycheriah, Prakash Shroff, Pei Sun, Mani Varadarajan, Sanaz Bahargam, Rob Willoughby, David Gaddy, Ishita Dasgupta, Guillaume Desjardins, Marco Cornero, Brona Robenek, Bhavishya Mittal, Ben Albrecht, Ashish Shenoy, Fedor Moiseev, Henrik Jacobsson, Alireza Ghaffarkhah, Morgane Rivière, Alanna Walton, Clément Crepy, Alicia Parrish, Yuan Liu, Zongwei Zhou, Clement Farabet, Carey Radebaugh, Praveen Srinivasan, Claudia van der Salm, Andreas Fidjeland, Salvatore Scellato, Eri Latorre-Chimoto, Hanna Klimczak-Plucińska, David Bridson, Dario de Cesare, Tom Hudson, Piermaria Mendolicchio, Lexi Walker, Alex Morris, Ivo Penchev, Matthew Mauger, Alexey Guseynov, Alison Reid, Seth Odoom, Lucia Loher, Victor Cotruta, Madhavi Yenugula, Dominik Grewe, Anastasia Petrushkina, Tom Duerig, Antonio Sanchez, Steve Yadlowsky, Amy Shen, Amir Globerson, Adam Kurzrok, Lynette Webb, Sahil Dua, Dong Li, Preethi Lahoti, Surya Bhupatiraju, Dan Hurt, Haroon Qureshi, Ananth Agarwal, Tomer Shani, Matan Eyal, Anuj Khare, Shreyas Rammohan Belle, Lei Wang, Chetan Tekur, Mihir Sanjay Kale, Jinliang Wei, Ruoxin Sang, Brennan Saeta, Tyler Liechty, Yi Sun, Yao Zhao, Stephan Lee, Pandu Nayak, Doug Fritz, Manish Reddy Vuyyuru, John Aslanides, Nidhi Vyas, Martin Wicke, Xiao Ma, Taylan Bilal, Evgenii Eltyshev, Daniel Balle, Nina Martin, Hardie Cate, James Manyika, Keyvan Amiri, Yelin Kim, Xi Xiong, Kai Kang, Florian Luisier, Nilesh Tripuraneni, David Madras, Mandy Guo, Austin Waters, Oliver Wang, Joshua Ainslie, Jason Baldridge, Han Zhang, Garima Pruthi, Jakob Bauer, Feng Yang, Riham Mansour, Jason Gelman, Yang Xu, George Polovets, Ji Liu, Honglong Cai, Warren Chen, XiangHai Sheng, Emily Xue, Sherjil Ozair, Adams Yu, Christof Angermueller, Xiaowei Li, Weiren Wang, Julia Wiesinger, Emmanouil Koukoumidis, Yuan Tian, Anand Iyer, Madhu Gurumurthy, Mark Goldenson, Parashar Shah, MK Blake, Hongkun Yu, Anthony Urbanowicz, Jennimaria Palomaki, Chrisantha Fernando, Kevin Brooks, Ken Durden, Harsh Mehta, Nikola Momchev, Elahe Rahimtoroghi, Maria Georgaki, Amit Raul, Sebastian Ruder, Morgan Redshaw, Jinhyuk Lee, Komal Jalan, Dinghua Li, Ginger Perng, Blake Hechtman, Parker Schuh, Milad Nasr, Mia Chen, Kieran Milan, Vladimir Mikulik, Trevor Strohman, Juliana Franco, Tim Green, Demis Hassabis, Koray Kavukcuoglu, Jeffrey Dean, Oriol Vinyals, 19-12-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     This report introduces a new family of multimodal models, Gemini, that
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    This report introduces a new family of multimodal models, Gemini, that
 exhibit remarkable capabilities across image, audio, video, and text
 understanding. The Gemini family consists of Ultra, Pro, and Nano sizes,
 suitable for applications ranging from complex reasoning tasks to on-device
@@ -6461,14 +5495,10 @@ our approach toward deploying them responsibly to users.
 
 129. [Parameter-Efficient Fine-Tuning Methods for Pretrained Language Models:
   A Critical Review and Assessment](http://arxiv.org/abs/2312.12148v1), Lingling Xu, Haoran Xie, Si-Zhao Joe Qin, Xiaohui Tao, Fu Lee Wang, 19-12-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     With the continuous growth in the number of parameters of transformer-based
+     ### Categories
+     Computation and Language
+    ### Abstract
+    With the continuous growth in the number of parameters of transformer-based
 pretrained language models (PLMs), particularly the emergence of large language
 models (LLMs) with billions of parameters, many natural language processing
 (NLP) tasks have demonstrated remarkable success. However, the enormous size
@@ -6490,14 +5520,10 @@ PEFT in the context of PLMs.
 
 
 130. [MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action](http://arxiv.org/abs/2303.11381v1), Zhengyuan Yang, Linjie Li, Jianfeng Wang, Kevin Lin, Ehsan Azarnasab, Faisal Ahmed, Zicheng Liu, Ce Liu, Michael Zeng, Lijuan Wang, 20-03-2023
-
-   ### Categories
-
-   Computation and Language, Machine Learning
-
-   ### Abstract
-
-     We propose MM-REACT, a system paradigm that integrates ChatGPT with a pool of
+     ### Categories
+     Computation and Language, Machine Learning
+    ### Abstract
+    We propose MM-REACT, a system paradigm that integrates ChatGPT with a pool of
 vision experts to achieve multimodal reasoning and action. In this paper, we
 define and explore a comprehensive list of advanced vision tasks that are
 intriguing to solve, but may exceed the capabilities of existing vision and
@@ -6517,14 +5543,10 @@ https://multimodal-react.github.io/
 
 
 131. [Textbooks Are All You Need](http://arxiv.org/abs/2306.11644v2), Suriya Gunasekar, Yi Zhang, Jyoti Aneja, Caio César Teodoro Mendes, Allie Del Giorno, Sivakanth Gopi, Mojan Javaheripi, Piero Kauffmann, Gustavo de Rosa, Olli Saarikivi, Adil Salim, Shital Shah, Harkirat Singh Behl, Xin Wang, Sébastien Bubeck, Ronen Eldan, Adam Tauman Kalai, Yin Tat Lee, Yuanzhi Li, 20-06-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     We introduce phi-1, a new large language model for code, with significantly
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    We introduce phi-1, a new large language model for code, with significantly
 smaller size than competing models: phi-1 is a Transformer-based model with
 1.3B parameters, trained for 4 days on 8 A100s, using a selection of ``textbook
 quality" data from the web (6B tokens) and synthetically generated textbooks
@@ -6537,14 +5559,10 @@ achieves 45% on HumanEval.
 
 
 132. [Chain-of-Verification Reduces Hallucination in Large Language Models](http://arxiv.org/abs/2309.11495v2), Shehzaad Dhuliawala, Mojtaba Komeili, Jing Xu, Roberta Raileanu, Xian Li, Asli Celikyilmaz, Jason Weston, 20-09-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Generation of plausible yet incorrect factual information, termed
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Generation of plausible yet incorrect factual information, termed
 hallucination, is an unsolved issue in large language models. We study the
 ability of language models to deliberate on the responses they give in order to
 correct their mistakes. We develop the Chain-of-Verification (CoVe) method
@@ -6557,14 +5575,10 @@ Wikidata, closed book MultiSpanQA and longform text generation.
 
 
 133. [OpenChat: Advancing Open-source Language Models with Mixed-Quality Data](http://arxiv.org/abs/2309.11235v1), Guan Wang, Sijie Cheng, Xianyuan Zhan, Xiangang Li, Sen Song, Yang Liu, 20-09-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Nowadays, open-source large language models like LLaMA have emerged. Recent
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Nowadays, open-source large language models like LLaMA have emerged. Recent
 developments have incorporated supervised fine-tuning (SFT) and reinforcement
 learning fine-tuning (RLFT) to align these models with human goals. However,
 SFT methods treat all training data with mixed quality equally, while RLFT
@@ -6588,14 +5602,10 @@ https://github.com/imoneoi/openchat.
 
 
 134. [Contrastive Preference Learning: Learning from Human Feedback without RL](http://arxiv.org/abs/2310.13639v2), Joey Hejna, Rafael Rafailov, Harshit Sikchi, Chelsea Finn, Scott Niekum, W. Bradley Knox, Dorsa Sadigh, 20-10-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence
-
-   ### Abstract
-
-     Reinforcement Learning from Human Feedback (RLHF) has emerged as a popular
+     ### Categories
+     Machine Learning, Artificial Intelligence
+    ### Abstract
+    Reinforcement Learning from Human Feedback (RLHF) has emerged as a popular
 paradigm for aligning models with human intent. Typically RLHF algorithms
 operate in two phases: first, use human preferences to learn a reward function
 and second, align the model by optimizing the learned reward via reinforcement
@@ -6619,14 +5629,10 @@ simpler than prior methods.
 
 
 135. [The Perils & Promises of Fact-checking with Large Language Models](http://arxiv.org/abs/2310.13549v1), Dorian Quelle, Alexandre Bovet, 20-10-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Autonomous fact-checking, using machine learning to verify claims, has grown
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Autonomous fact-checking, using machine learning to verify claims, has grown
 vital as misinformation spreads beyond human fact-checking capacity. Large
 Language Models (LLMs) like GPT-4 are increasingly trusted to verify
 information and write academic papers, lawsuits, and news articles, emphasizing
@@ -6644,14 +5650,10 @@ a deeper comprehension of when agents succeed and when they fail.
 
 136. [Igniting Language Intelligence: The Hitchhiker's Guide From
   Chain-of-Thought Reasoning to Language Agents](http://arxiv.org/abs/2311.11797v1), Zhuosheng Zhang, Yao Yao, Aston Zhang, Xiangru Tang, Xinbei Ma, Zhiwei He, Yiming Wang, Mark Gerstein, Rui Wang, Gongshen Liu, Hai Zhao, 20-11-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large language models (LLMs) have dramatically enhanced the field of language
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large language models (LLMs) have dramatically enhanced the field of language
 intelligence, as demonstrably evidenced by their formidable empirical
 performance across a spectrum of complex reasoning tasks. Additionally,
 theoretical proofs have illuminated their emergent reasoning capabilities,
@@ -6679,14 +5681,8 @@ https://github.com/Zoeyyao27/CoT-Igniting-Agent.
 
 
 137. [Generative Multimodal Models are In-Context Learners](http://arxiv.org/abs/2312.13286v1), Quan Sun, Yufeng Cui, Xiaosong Zhang, Fan Zhang, Qiying Yu, Zhengxiong Luo, Yueze Wang, Yongming Rao, Jingjing Liu, Tiejun Huang, Xinlong Wang, 20-12-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     The human ability to easily solve multimodal tasks in context (i.e., with
+    ### Abstract
+    The human ability to easily solve multimodal tasks in context (i.e., with
 only a few demonstrations or simple instructions), is what current multimodal
 systems have largely struggled to imitate. In this work, we demonstrate that
 the task-agnostic in-context learning capabilities of large multimodal models
@@ -6706,14 +5702,10 @@ research.
 
 
 138. [Mini-GPTs: Efficient Large Language Models through Contextual Pruning](http://arxiv.org/abs/2312.12682v1), Tim Valicenti, Justice Vidal, Ritik Patnaik, 20-12-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     In AI research, the optimization of Large Language Models (LLMs) remains a
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    In AI research, the optimization of Large Language Models (LLMs) remains a
 significant challenge, crucial for advancing the field's practical applications
 and sustainability. Building upon the foundational work of Professor Song Han's
 lab at MIT, this paper introduces a novel approach in developing Mini-GPTs via
@@ -6730,14 +5722,10 @@ development with more hardware compute, refined fine-tuning, and quantization.
 
 
 139. [Time is Encoded in the Weights of Finetuned Language Models](http://arxiv.org/abs/2312.13401v2), Kai Nylund, Suchin Gururangan, Noah A. Smith, 20-12-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     We present time vectors, a simple tool to customize language models to new
+     ### Categories
+     Computation and Language
+    ### Abstract
+    We present time vectors, a simple tool to customize language models to new
 time periods. Time vectors are created by finetuning a language model on data
 from a single time (e.g., a year or month), and then subtracting the weights of
 the original pretrained model. This vector specifies a direction in weight
@@ -6752,14 +5740,10 @@ finetuned models.
 
 
 140. [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT](http://arxiv.org/abs/2302.11382v1), Jules White, Quchen Fu, Sam Hays, Michael Sandborn, Carlos Olea, Henry Gilbert, Ashraf Elnashar, Jesse Spencer-Smith, Douglas C. Schmidt, 21-02-2023
-
-   ### Categories
-
-   Artificial Intelligence
-
-   ### Abstract
-
-     Prompt engineering is an increasingly important skill set needed to converse
+     ### Categories
+     Artificial Intelligence
+    ### Abstract
+    Prompt engineering is an increasingly important skill set needed to converse
 effectively with large language models (LLMs), such as ChatGPT. Prompts are
 instructions given to an LLM to enforce rules, automate processes, and ensure
 specific qualities (and quantities) of generated output. Prompts are also a
@@ -6781,14 +5765,10 @@ from combination with other prompt patterns.
 
 141. [From Classification to Clinical Insights: Towards Analyzing and
   Reasoning About Mobile and Behavioral Health Data With Large Language Models](http://arxiv.org/abs/2311.13063v2), Zachary Englhardt, Chengqian Ma, Margaret E. Morris, Xuhai "Orson" Xu, Chun-Cheng Chang, Lianhui Qin, Daniel McDuff, Xin Liu, Shwetak Patel, Vikram Iyer, 21-11-2023
-
-   ### Categories
-
-   Artificial Intelligence
-
-   ### Abstract
-
-     Passively collected behavioral health data from ubiquitous sensors holds
+     ### Categories
+     Artificial Intelligence
+    ### Abstract
+    Passively collected behavioral health data from ubiquitous sensors holds
 significant promise to provide mental health professionals insights from
 patient's daily lives; however, developing analysis tools to use this data in
 clinical practice requires addressing challenges of generalization across
@@ -6810,14 +5790,8 @@ this approach to interpret self-tracking data.
 
 
 142. [AppAgent: Multimodal Agents as Smartphone Users](http://arxiv.org/abs/2312.13771v2), Chi Zhang, Zhao Yang, Jiaxuan Liu, Yucheng Han, Xin Chen, Zebiao Huang, Bin Fu, Gang Yu, 21-12-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     Recent advancements in large language models (LLMs) have led to the creation
+    ### Abstract
+    Recent advancements in large language models (LLMs) have led to the creation
 of intelligent agents capable of performing complex tasks. This paper
 introduces a novel LLM-based multimodal agent framework designed to operate
 smartphone applications. Our framework enables the agent to operate smartphone
@@ -6836,14 +5810,10 @@ of high-level tasks.
 
 
 143. [Exploring the intersection of Generative AI and Software Development](http://arxiv.org/abs/2312.14262v1), Filipe Calegario, Vanilson Burégio, Francisco Erivaldo, Daniel Moraes Costa Andrade, Kailane Felix, Nathalia Barbosa, Pedro Lucas da Silva Lucena, César França, 21-12-2023
-
-   ### Categories
-
-   Artificial Intelligence
-
-   ### Abstract
-
-     In the ever-evolving landscape of Artificial Intelligence (AI), the synergy
+     ### Categories
+     Artificial Intelligence
+    ### Abstract
+    In the ever-evolving landscape of Artificial Intelligence (AI), the synergy
 between generative AI and Software Engineering emerges as a transformative
 frontier. This whitepaper delves into the unexplored realm, elucidating how
 generative AI techniques can revolutionize software development. Spanning from
@@ -6863,14 +5833,10 @@ software development.
 
 
 144. [Guiding Large Language Models via Directional Stimulus Prompting](http://arxiv.org/abs/2302.11520v4), Zekun Li, Baolin Peng, Pengcheng He, Michel Galley, Jianfeng Gao, Xifeng Yan, 22-02-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     We introduce Directional Stimulus Prompting, a novel framework for guiding
+     ### Categories
+     Computation and Language
+    ### Abstract
+    We introduce Directional Stimulus Prompting, a novel framework for guiding
 black-box large language models (LLMs) toward specific desired outputs. Instead
 of directly adjusting LLMs, our method employs a small tunable policy model
 (e.g., T5) to generate an auxiliary directional stimulus prompt for each input
@@ -6895,14 +5861,10 @@ prompts. The code and data are publicly available at
 
 
 145. [Sparks of Artificial General Intelligence: Early experiments with GPT-4](http://arxiv.org/abs/2303.12712v5), Sébastien Bubeck, Varun Chandrasekaran, Ronen Eldan, Johannes Gehrke, Eric Horvitz, Ece Kamar, Peter Lee, Yin Tat Lee, Yuanzhi Li, Scott Lundberg, Harsha Nori, Hamid Palangi, Marco Tulio Ribeiro, Yi Zhang, 22-03-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Artificial intelligence (AI) researchers have been developing and refining
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Artificial intelligence (AI) researchers have been developing and refining
 large language models (LLMs) that exhibit remarkable capabilities across a
 variety of domains and tasks, challenging our understanding of learning and
 cognition. The latest model developed by OpenAI, GPT-4, was trained using an
@@ -6928,14 +5890,10 @@ future research directions.
 
 
 146. [Active Prompting with Chain-of-Thought for Large Language Models](http://arxiv.org/abs/2302.12246v3), Shizhe Diao, Pengcheng Wang, Yong Lin, Tong Zhang, 23-02-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     The increasing scale of large language models (LLMs) brings emergent
+     ### Categories
+     Computation and Language
+    ### Abstract
+    The increasing scale of large language models (LLMs) brings emergent
 abilities to various complex tasks requiring reasoning, such as arithmetic and
 commonsense reasoning. It is known that the effective design of task-specific
 prompts is critical for LLMs' ability to produce high-quality answers. In
@@ -6959,14 +5917,10 @@ Our code will be available at https://github.com/shizhediao/active-prompt.
 
 
 147. [Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study](http://arxiv.org/abs/2305.13860v1), Yi Liu, Gelei Deng, Zhengzi Xu, Yuekang Li, Yaowen Zheng, Ying Zhang, Lida Zhao, Tianwei Zhang, Yang Liu, 23-05-2023
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Large Language Models (LLMs), like ChatGPT, have demonstrated vast potential
+     ### Categories
+     Artificial Intelligence, Computation and Language
+    ### Abstract
+    Large Language Models (LLMs), like ChatGPT, have demonstrated vast potential
 but also introduce challenges related to content constraints and potential
 misuse. Our study investigates three key research questions: (1) the number of
 different prompt types that can jailbreak LLMs, (2) the effectiveness of
@@ -6984,14 +5938,10 @@ generation and prevention.
 
 
 148. [QLoRA: Efficient Finetuning of Quantized LLMs](http://arxiv.org/abs/2305.14314v1), Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, Luke Zettlemoyer, 23-05-2023
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     We present QLoRA, an efficient finetuning approach that reduces memory usage
+     ### Categories
+     Machine Learning
+    ### Abstract
+    We present QLoRA, an efficient finetuning approach that reduces memory usage
 enough to finetune a 65B parameter model on a single 48GB GPU while preserving
 full 16-bit finetuning task performance. QLoRA backpropagates gradients through
 a frozen, 4-bit quantized pretrained language model into Low Rank
@@ -7020,14 +5970,10 @@ ChatGPT. We release all of our models and code, including CUDA kernels for
 
 149. [The CoT Collection: Improving Zero-shot and Few-shot Learning of
   Language Models via Chain-of-Thought Fine-Tuning](http://arxiv.org/abs/2305.14045v2), Seungone Kim, Se June Joo, Doyoung Kim, Joel Jang, Seonghyeon Ye, Jamin Shin, Minjoon Seo, 23-05-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Language models (LMs) with less than 100B parameters are known to perform
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Language models (LMs) with less than 100B parameters are known to perform
 poorly on chain-of-thought (CoT) reasoning in contrast to large LMs when
 solving unseen tasks. In this work, we aim to equip smaller LMs with the
 step-by-step reasoning capability by instruction tuning with CoT rationales. In
@@ -7047,14 +5993,10 @@ model checkpoints are publicly available.
 
 
 150. [ALCUNA: Large Language Models Meet New Knowledge](http://arxiv.org/abs/2310.14820v1), Xunjian Yin, Baizhou Huang, Xiaojun Wan, 23-10-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     With the rapid development of NLP, large-scale language models (LLMs) excel
+     ### Categories
+     Computation and Language
+    ### Abstract
+    With the rapid development of NLP, large-scale language models (LLMs) excel
 in various tasks across multiple domains now. However, existing benchmarks may
 not adequately measure these models' capabilities, especially when faced with
 new knowledge. In this paper, we address the lack of benchmarks to evaluate
@@ -7075,14 +6017,10 @@ of LLMs in face of new knowledge.
 
 151. [ExpertPrompting: Instructing Large Language Models to be Distinguished
   Experts](http://arxiv.org/abs/2305.14688v1), Benfeng Xu, An Yang, Junyang Lin, Quan Wang, Chang Zhou, Yongdong Zhang, Zhendong Mao, 24-05-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     The answering quality of an aligned large language model (LLM) can be
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    The answering quality of an aligned large language model (LLM) can be
 drastically improved if treated with proper crafting of prompts. In this paper,
 we propose ExpertPrompting to elicit the potential of LLMs to answer as
 distinguished experts. We first utilize In-Context Learning to automatically
@@ -7099,14 +6037,10 @@ ExpertLLaMA model will be made publicly available at
 
 
 152. [Reasoning with Language Model is Planning with World Model](http://arxiv.org/abs/2305.14992v2), Shibo Hao, Yi Gu, Haodi Ma, Joshua Jiahua Hong, Zhen Wang, Daisy Zhe Wang, Zhiting Hu, 24-05-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Large language models (LLMs) have shown remarkable reasoning capabilities,
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Large language models (LLMs) have shown remarkable reasoning capabilities,
 especially when prompted to generate intermediate reasoning steps (e.g.,
 Chain-of-Thought, CoT). However, LLMs can still struggle with problems that are
 easy for humans, such as generating action plans for executing tasks in a given
@@ -7134,14 +6068,10 @@ relative improvement in a plan generation setting.
 
 
 153. [SPRING: Studying the Paper and Reasoning to Play Games](http://arxiv.org/abs/2305.15486v3), Yue Wu, Shrimai Prabhumoye, So Yeon Min, Yonatan Bisk, Ruslan Salakhutdinov, Amos Azaria, Tom Mitchell, Yuanzhi Li, 24-05-2023
-
-   ### Categories
-
-   Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Open-world survival games pose significant challenges for AI algorithms due
+     ### Categories
+     Artificial Intelligence, Machine Learning
+    ### Abstract
+    Open-world survival games pose significant challenges for AI algorithms due
 to their multi-tasking, deep exploration, and goal prioritization requirements.
 Despite reinforcement learning (RL) being popular for solving games, its high
 sample complexity limits its effectiveness in complex open-world games like
@@ -7164,14 +6094,10 @@ any training. Finally, we show the potential of games as a test bed for LLMs.
 
 154. [A Real-World WebAgent with Planning, Long Context Understanding, and
   Program Synthesis](http://arxiv.org/abs/2307.12856v3), Izzeddin Gur, Hiroki Furuta, Austin Huang, Mustafa Safdari, Yutaka Matsuo, Douglas Eck, Aleksandra Faust, 24-07-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Pre-trained large language models (LLMs) have recently achieved better
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    Pre-trained large language models (LLMs) have recently achieved better
 generalization and sample efficiency in autonomous web automation. However, the
 performance on real-world websites has still suffered from (1) open domainness,
 (2) limited context length, and (3) lack of inductive bias on HTML. We
@@ -7192,14 +6118,10 @@ on Mind2Web, an offline task planning evaluation.
 
 155. [Clinfo.ai: An Open-Source Retrieval-Augmented Large Language Model
   System for Answering Medical Questions using Scientific Literature](http://arxiv.org/abs/2310.16146v1), Alejandro Lozano, Scott L Fleming, Chia-Chun Chiang, Nigam Shah, 24-10-2023
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     The quickly-expanding nature of published medical literature makes it
+     ### Categories
+     Artificial Intelligence, Computation and Language
+    ### Abstract
+    The quickly-expanding nature of published medical literature makes it
 challenging for clinicians and researchers to keep up with and summarize
 recent, relevant findings in a timely manner. While several closed-source
 summarization tools based on large language models (LLMs) now exist, rigorous
@@ -7217,14 +6139,10 @@ Clinfo.ai and other publicly available OpenQA systems on PubMedRS-200.
 
 156. [NoteChat: A Dataset of Synthetic Doctor-Patient Conversations
   Conditioned on Clinical Notes](http://arxiv.org/abs/2310.15959v2), Junda Wang, Zonghai Yao, Zhichao Yang, Huixue Zhou, Rumeng Li, Xun Wang, Yucheng Xu, Hong Yu, 24-10-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     We introduce NoteChat, a novel cooperative multi-agent framework leveraging
+     ### Categories
+     Computation and Language
+    ### Abstract
+    We introduce NoteChat, a novel cooperative multi-agent framework leveraging
 Large Language Models (LLMs) to generate patient-physician dialogues. NoteChat
 embodies the principle that an ensemble of role-specific LLMs, through
 structured role-play and strategic prompting, can perform their assigned roles
@@ -7242,14 +6160,10 @@ burnout.
 
 
 157. [LARP: Language-Agent Role Play for Open-World Games](http://arxiv.org/abs/2312.17653v1), Ming Yan, Ruihao Li, Hao Zhang, Hao Wang, Zhilan Yang, Ji Yan, 24-12-2023
-
-   ### Categories
-
-   Artificial Intelligence
-
-   ### Abstract
-
-     Language agents have shown impressive problem-solving skills within defined
+     ### Categories
+     Artificial Intelligence
+    ### Abstract
+    Language agents have shown impressive problem-solving skills within defined
 settings and brief timelines. Yet, with the ever-evolving complexities of
 open-world simulations, there's a pressing need for agents that can flexibly
 adapt to complex environments and consistently maintain a long-term memory to
@@ -7267,14 +6181,10 @@ scenarios. The project page is released at https://miao-ai-lab.github.io/LARP/.
 
 
 158. [WebArena: A Realistic Web Environment for Building Autonomous Agents](http://arxiv.org/abs/2307.13854v3), Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, Graham Neubig, 25-07-2023
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     With advances in generative AI, there is now potential for autonomous agents
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    With advances in generative AI, there is now potential for autonomous agents
 to manage daily tasks via natural language commands. However, current agents
 are primarily created and tested in simplified synthetic environments, leading
 to a disconnect with real-world scenarios. In this paper, we build an
@@ -7299,14 +6209,10 @@ measure such progress.
 
 
 159. [Zephyr: Direct Distillation of LM Alignment](http://arxiv.org/abs/2310.16944v1), Lewis Tunstall, Edward Beeching, Nathan Lambert, Nazneen Rajani, Kashif Rasul, Younes Belkada, Shengyi Huang, Leandro von Werra, Clémentine Fourrier, Nathan Habib, Nathan Sarrazin, Omar Sanseviero, Alexander M. Rush, Thomas Wolf, 25-10-2023
-
-   ### Categories
-
-   Machine Learning, Computation and Language
-
-   ### Abstract
-
-     We aim to produce a smaller language model that is aligned to user intent.
+     ### Categories
+     Machine Learning, Computation and Language
+    ### Abstract
+    We aim to produce a smaller language model that is aligned to user intent.
 Previous research has shown that applying distilled supervised fine-tuning
 (dSFT) on larger models significantly improves task accuracy; however, these
 models are unaligned, i.e. they do not respond well to natural prompts. To
@@ -7323,14 +6229,10 @@ available at https://github.com/huggingface/alignment-handbook.
 
 
 160. [Natural Language Reasoning, A Survey](http://arxiv.org/abs/2303.14725v2), Fei Yu, Hongbo Zhang, Prayag Tiwari, Benyou Wang, 26-03-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     This survey paper proposes a clearer view of natural language reasoning in
+     ### Categories
+     Computation and Language
+    ### Abstract
+    This survey paper proposes a clearer view of natural language reasoning in
 the field of Natural Language Processing (NLP), both conceptually and
 practically. Conceptually, we provide a distinct definition for natural
 language reasoning in NLP, based on both philosophy and NLP scenarios, discuss
@@ -7346,14 +6248,10 @@ techniques and mathematical reasoning.
 
 
 161. [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](http://arxiv.org/abs/2304.13712v2), Jingfeng Yang, Hongye Jin, Ruixiang Tang, Xiaotian Han, Qizhang Feng, Haoming Jiang, Bing Yin, Xia Hu, 26-04-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     This paper presents a comprehensive and practical guide for practitioners and
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    This paper presents a comprehensive and practical guide for practitioners and
 end-users working with Large Language Models (LLMs) in their downstream natural
 language processing (NLP) tasks. We provide discussions and insights into the
 usage of LLMs from the perspectives of models, data, and downstream tasks.
@@ -7379,14 +6277,10 @@ practical guide resources of LLMs, regularly updated, can be found at
 
 162. [MultiTool-CoT: GPT-3 Can Use Multiple External Tools with Chain of
   Thought Prompting](http://arxiv.org/abs/2305.16896v1), Tatsuro Inaba, Hirokazu Kiyomaru, Fei Cheng, Sadao Kurohashi, 26-05-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Large language models (LLMs) have achieved impressive performance on various
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Large language models (LLMs) have achieved impressive performance on various
 reasoning tasks. To further improve the performance, we propose MultiTool-CoT,
 a novel framework that leverages chain-of-thought (CoT) prompting to
 incorporate multiple external tools, such as a calculator and a knowledge
@@ -7397,14 +6291,10 @@ strong baselines and achieves state-of-the-art performance.
 
 
 163. [Large Language Model Alignment: A Survey](http://arxiv.org/abs/2309.15025v1), Tianhao Shen, Renren Jin, Yufei Huang, Chuang Liu, Weilong Dong, Zishan Guo, Xinwei Wu, Yan Liu, Deyi Xiong, 26-09-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Recent years have witnessed remarkable progress made in large language models
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Recent years have witnessed remarkable progress made in large language models
 (LLMs). Such advancements, while garnering significant attention, have
 concurrently elicited various concerns. The potential of these models is
 undeniably vast; however, they may yield texts that are imprecise, misleading,
@@ -7428,14 +6318,10 @@ exploration of LLMs for both capable and safe LLMs.
 
 
 164. [JudgeLM: Fine-tuned Large Language Models are Scalable Judges](http://arxiv.org/abs/2310.17631v1), Lianghui Zhu, Xinggang Wang, Xinlong Wang, 26-10-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Evaluating Large Language Models (LLMs) in open-ended scenarios is
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Evaluating Large Language Models (LLMs) in open-ended scenarios is
 challenging because existing benchmarks and metrics can not measure them
 comprehensively. To address this problem, we propose to fine-tune LLMs as
 scalable judges (JudgeLM) to evaluate LLMs efficiently and effectively in
@@ -7458,14 +6344,10 @@ multimodal models, multiple answers, and multi-turn chat.
 
 
 165. [Algorithm Evolution Using Large Language Model](http://arxiv.org/abs/2311.15249v1), Fei Liu, Xialiang Tong, Mingxuan Yuan, Qingfu Zhang, 26-11-2023
-
-   ### Categories
-
-   Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Optimization can be found in many real-life applications. Designing an
+     ### Categories
+     Artificial Intelligence, Machine Learning
+    ### Abstract
+    Optimization can be found in many real-life applications. Designing an
 effective algorithm for a specific optimization problem typically requires a
 tedious amount of effort from human experts with domain knowledge and algorithm
 design skills. In this paper, we propose a novel approach called Algorithm
@@ -7483,14 +6365,10 @@ attempts that utilize LLMs as search operators in algorithms.
 
 166. [Principled Instructions Are All You Need for Questioning LLaMA-1/2,
   GPT-3.5/4](http://arxiv.org/abs/2312.16171v1), Sondos Mahmoud Bsharat, Aidar Myrzakhan, Zhiqiang Shen, 26-12-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     This paper introduces 26 guiding principles designed to streamline the
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    This paper introduces 26 guiding principles designed to streamline the
 process of querying and prompting large language models. Our goal is to
 simplify the underlying concepts of formulating questions for various scales of
 large language models, examining their abilities, and enhancing user
@@ -7505,14 +6383,10 @@ https://github.com/VILA-Lab/ATLAS.
 
 167. [Supervised Knowledge Makes Large Language Models Better In-context
   Learners](http://arxiv.org/abs/2312.15918v1), Linyi Yang, Shuibai Zhang, Zhuohao Yu, Guangsheng Bao, Yidong Wang, Jindong Wang, Ruochen Xu, Wei Ye, Xing Xie, Weizhu Chen, Yue Zhang, 26-12-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large Language Models (LLMs) exhibit emerging in-context learning abilities
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large Language Models (LLMs) exhibit emerging in-context learning abilities
 through prompt engineering. The recent progress in large-scale generative
 models has further expanded their use in real-world language applications.
 However, the critical challenge of improving the generalizability and
@@ -7535,14 +6409,10 @@ in fostering more reliable LLMs.
 
 
 168. [LLaMA: Open and Efficient Foundation Language Models](http://arxiv.org/abs/2302.13971v1), Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample, 27-02-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     We introduce LLaMA, a collection of foundation language models ranging from
+     ### Categories
+     Computation and Language
+    ### Abstract
+    We introduce LLaMA, a collection of foundation language models ranging from
 7B to 65B parameters. We train our models on trillions of tokens, and show that
 it is possible to train state-of-the-art models using publicly available
 datasets exclusively, without resorting to proprietary and inaccessible
@@ -7552,14 +6422,10 @@ PaLM-540B. We release all our models to the research community.
 
 
 169. [Language Is Not All You Need: Aligning Perception with Language Models](http://arxiv.org/abs/2302.14045v2), Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, Saksham Singhal, Shuming Ma, Tengchao Lv, Lei Cui, Owais Khan Mohammed, Barun Patra, Qiang Liu, Kriti Aggarwal, Zewen Chi, Johan Bjorck, Vishrav Chaudhary, Subhojit Som, Xia Song, Furu Wei, 27-02-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     A big convergence of language, multimodal perception, action, and world
+     ### Categories
+     Computation and Language
+    ### Abstract
+    A big convergence of language, multimodal perception, action, and world
 modeling is a key step toward artificial general intelligence. In this work, we
 introduce Kosmos-1, a Multimodal Large Language Model (MLLM) that can perceive
 general modalities, learn in context (i.e., few-shot), and follow instructions
@@ -7580,14 +6446,10 @@ capability of MLLMs.
 
 
 170. [Ecosystem Graphs: The Social Footprint of Foundation Models](http://arxiv.org/abs/2303.15772v1), Rishi Bommasani, Dilara Soylu, Thomas I. Liao, Kathleen A. Creel, Percy Liang, 28-03-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence
-
-   ### Abstract
-
-     Foundation models (e.g. ChatGPT, StableDiffusion) pervasively influence
+     ### Categories
+     Machine Learning, Artificial Intelligence
+    ### Abstract
+    Foundation models (e.g. ChatGPT, StableDiffusion) pervasively influence
 society, warranting immediate social attention. While the models themselves
 garner much attention, to accurately characterize their impact, we must
 consider the broader sociotechnical ecosystem. We propose Ecosystem Graphs as a
@@ -7610,14 +6472,10 @@ policymakers.
 
 171. [LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init
   Attention](http://arxiv.org/abs/2303.16199v2), Renrui Zhang, Jiaming Han, Chris Liu, Peng Gao, Aojun Zhou, Xiangfei Hu, Shilin Yan, Pan Lu, Hongsheng Li, Yu Qiao, 28-03-2023
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     We present LLaMA-Adapter, a lightweight adaption method to efficiently
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    We present LLaMA-Adapter, a lightweight adaption method to efficiently
 fine-tune LLaMA into an instruction-following model. Using 52K self-instruct
 demonstrations, LLaMA-Adapter only introduces 1.2M learnable parameters upon
 the frozen LLaMA 7B model, and costs less than one hour for fine-tuning on 8
@@ -7639,14 +6497,10 @@ https://github.com/OpenGVLab/LLaMA-Adapter.
 
 172. [MLCopilot: Unleashing the Power of Large Language Models in Solving
   Machine Learning Tasks](http://arxiv.org/abs/2304.14979v1), Lei Zhang, Yuge Zhang, Kan Ren, Dongsheng Li, Yuqing Yang, 28-04-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence
-
-   ### Abstract
-
-     The field of machine learning (ML) has gained widespread adoption, leading to
+     ### Categories
+     Machine Learning, Artificial Intelligence
+    ### Abstract
+    The field of machine learning (ML) has gained widespread adoption, leading to
 a significant demand for adapting ML to specific scenarios, which is yet
 expensive and non-trivial. The predominant approaches towards the automation of
 solving ML tasks (e.g., AutoML) are often time consuming and hard to understand
@@ -7665,14 +6519,10 @@ high levels of competitiveness.
 
 
 173. [Tab-CoT: Zero-shot Tabular Chain of Thought](http://arxiv.org/abs/2305.17812v1), Ziqi Jin, Wei Lu, 28-05-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     The chain-of-though (CoT) prompting methods were successful in various
+     ### Categories
+     Computation and Language
+    ### Abstract
+    The chain-of-though (CoT) prompting methods were successful in various
 natural language processing (NLP) tasks thanks to their ability to unveil the
 underlying complex reasoning processes. Such reasoning processes typically
 exhibit implicitly structured steps. Recent efforts also started investigating
@@ -7688,14 +6538,10 @@ tasks.
 
 174. [ChatGPT's One-year Anniversary: Are Open-Source Large Language Models
   Catching up?](http://arxiv.org/abs/2311.16989v4), Hailin Chen, Fangkai Jiao, Xingxuan Li, Chengwei Qin, Mathieu Ravaut, Ruochen Zhao, Caiming Xiong, Shafiq Joty, 28-11-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Upon its release in late 2022, ChatGPT has brought a seismic shift in the
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Upon its release in late 2022, ChatGPT has brought a seismic shift in the
 entire landscape of AI, both in research and commerce. Through
 instruction-tuning a large language model (LLM) with supervised fine-tuning and
 reinforcement learning from human feedback, it showed that a model could answer
@@ -7713,14 +6559,10 @@ LLM has claimed to be on par or better than ChatGPT.
 
 175. [ChatGPT's One-year Anniversary: Are Open-Source Large Language Models
   Catching up?](http://arxiv.org/abs/2311.16989v4), Hailin Chen, Fangkai Jiao, Xingxuan Li, Chengwei Qin, Mathieu Ravaut, Ruochen Zhao, Caiming Xiong, Shafiq Joty, 28-11-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Upon its release in late 2022, ChatGPT has brought a seismic shift in the
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Upon its release in late 2022, ChatGPT has brought a seismic shift in the
 entire landscape of AI, both in research and commerce. Through
 instruction-tuning a large language model (LLM) with supervised fine-tuning and
 reinforcement learning from human feedback, it showed that a model could answer
@@ -7738,14 +6580,10 @@ LLM has claimed to be on par or better than ChatGPT.
 
 176. [Challenge LLMs to Reason About Reasoning: A Benchmark to Unveil
   Cognitive Depth in LLMs](http://arxiv.org/abs/2312.17080v1), Zhongshen Zeng, Pengguang Chen, Haiyun Jiang, Jiaya Jia, 28-12-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     In this work, we introduce a novel evaluation paradigm for Large Language
+     ### Categories
+     Computation and Language
+    ### Abstract
+    In this work, we introduce a novel evaluation paradigm for Large Language
 Models, one that challenges them to engage in meta-reasoning. This approach
 addresses critical shortcomings in existing math problem-solving benchmarks,
 traditionally used to evaluate the cognitive capabilities of agents. Our
@@ -7768,14 +6606,10 @@ LLMs.
 
 
 177. [Experiential Co-Learning of Software-Developing Agents](http://arxiv.org/abs/2312.17025v2), Chen Qian, Yufan Dang, Jiahao Li, Wei Liu, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun, 28-12-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Recent advancements in large language models (LLMs) have brought significant
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Recent advancements in large language models (LLMs) have brought significant
 changes to various domains, especially through LLM-driven autonomous agents.
 These agents are now capable of collaborating seamlessly, splitting tasks and
 enhancing accuracy, thus minimizing the need for human involvement. However,
@@ -7791,14 +6625,8 @@ tasks.
 
 178. [MobileVLM : A Fast, Strong and Open Vision Language Assistant for Mobile
   Devices](http://arxiv.org/abs/2312.16886v2), Xiangxiang Chu, Limeng Qiao, Xinyang Lin, Shuang Xu, Yang Yang, Yiming Hu, Fei Wei, Xinyu Zhang, Bo Zhang, Xiaolin Wei, Chunhua Shen, 28-12-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     We present MobileVLM, a competent multimodal vision language model (MMVLM)
+    ### Abstract
+    We present MobileVLM, a competent multimodal vision language model (MMVLM)
 targeted to run on mobile devices. It is an amalgamation of a myriad of
 architectural designs and techniques that are mobile-oriented, which comprises
 a set of language models at the scale of 1.4B and 2.7B parameters, trained from
@@ -7813,14 +6641,10 @@ https://github.com/Meituan-AutoML/MobileVLM.
 
 
 179. [AutoAgents: A Framework for Automatic Agent Generation](http://arxiv.org/abs/2309.17288v2), Guangyao Chen, Siwei Dong, Yu Shu, Ge Zhang, Jaward Sesay, Börje F. Karlsson, Jie Fu, Yemin Shi, 29-09-2023
-
-   ### Categories
-
-   Artificial Intelligence
-
-   ### Abstract
-
-     Large language models (LLMs) have enabled remarkable advances in automated
+     ### Categories
+     Artificial Intelligence
+    ### Abstract
+    Large language models (LLMs) have enabled remarkable advances in automated
 task-solving with multi-agent systems. However, most existing LLM-based
 multi-agent approaches rely on predefined agents to handle simple tasks,
 limiting the adaptability of multi-agent collaboration to different scenarios.
@@ -7841,14 +6665,8 @@ available at https://github.com/Link-AGI/AutoAgents.
 
 
 180. [Large Language Models as Evolutionary Optimizers](http://arxiv.org/abs/2310.19046v2), Shengcai Liu, Caishun Chen, Xinghua Qu, Ke Tang, Yew-Soon Ong, 29-10-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     Evolutionary algorithms (EAs) have achieved remarkable success in tackling
+    ### Abstract
+    Evolutionary algorithms (EAs) have achieved remarkable success in tackling
 complex combinatorial optimization problems. However, EAs often demand
 carefully-designed operators with the aid of domain expertise to achieve
 satisfactory performance. In this work, we present the first study on large
@@ -7876,14 +6694,10 @@ challenges.
 
 181. [TeacherLM: Teaching to Fish Rather Than Giving the Fish, Language
   Modeling Likewise](http://arxiv.org/abs/2310.19019v2), Nan He, Hanyu Lai, Chenyang Zhao, Zirui Cheng, Junting Pan, Ruoyu Qin, Ruofan Lu, Rui Lu, Yunchen Zhang, Gangming Zhao, Zhaohui Hou, Zhiyuan Huang, Shaoqing Lu, Ding Liang, Mingjie Zhan, 29-10-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large Language Models (LLMs) exhibit impressive reasoning and data
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large Language Models (LLMs) exhibit impressive reasoning and data
 augmentation capabilities in various NLP tasks. However, what about small
 models? In this work, we propose TeacherLM-7.1B, capable of annotating relevant
 fundamentals, chain of thought, and common mistakes for most NLP samples, which
@@ -7899,14 +6713,10 @@ augmented datasets as open-source.
 
 
 182. [Large Language Models for Generative Information Extraction: A Survey](http://arxiv.org/abs/2312.17617v1), Derong Xu, Wei Chen, Wenjun Peng, Chao Zhang, Tong Xu, Xiangyu Zhao, Xian Wu, Yefeng Zheng, Enhong Chen, 29-12-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Information extraction (IE) aims to extract structural knowledge (such as
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Information extraction (IE) aims to extract structural knowledge (such as
 entities, relations, and events) from plain natural language texts. Recently,
 generative Large Language Models (LLMs) have demonstrated remarkable
 capabilities in text understanding and generation, allowing for generalization
@@ -7925,14 +6735,10 @@ repository and consistently update related resources at:
 
 
 183. [BloombergGPT: A Large Language Model for Finance](http://arxiv.org/abs/2303.17564v3), Shijie Wu, Ozan Irsoy, Steven Lu, Vadim Dabravolski, Mark Dredze, Sebastian Gehrmann, Prabhanjan Kambadur, David Rosenberg, Gideon Mann, 30-03-2023
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     The use of NLP in the realm of financial technology is broad and complex,
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    The use of NLP in the realm of financial technology is broad and complex,
 with applications ranging from sentiment analysis and named entity recognition
 to question answering. Large Language Models (LLMs) have been shown to be
 effective on a variety of tasks; however, no LLM specialized for the financial
@@ -7952,14 +6758,10 @@ C) detailing our experience in training BloombergGPT.
 
 184. [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging
   Face](http://arxiv.org/abs/2303.17580v4), Yongliang Shen, Kaitao Song, Xu Tan, Dongsheng Li, Weiming Lu, Yueting Zhuang, 30-03-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Solving complicated AI tasks with different domains and modalities is a key
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Solving complicated AI tasks with different domains and modalities is a key
 step toward artificial general intelligence. While there are numerous AI models
 available for various domains and modalities, they cannot handle complicated AI
 tasks autonomously. Considering large language models (LLMs) have exhibited
@@ -7982,14 +6784,10 @@ realization of artificial general intelligence.
 
 185. [Less Likely Brainstorming: Using Language Models to Generate Alternative
   Hypotheses](http://arxiv.org/abs/2305.19339v1), Liyan Tang, Yifan Peng, Yanshan Wang, Ying Ding, Greg Durrett, Justin F. Rousseau, 30-05-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     A human decision-maker benefits the most from an AI assistant that corrects
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    A human decision-maker benefits the most from an AI assistant that corrects
 for their biases. For problems such as generating interpretation of a radiology
 report given findings, a system predicting only highly likely outcomes may be
 less useful, where such outcomes are already obvious to the user. To alleviate
@@ -8010,14 +6808,10 @@ capability of generating less likely outputs is improved.
 
 
 186. [EHRTutor: Enhancing Patient Understanding of Discharge Instructions](http://arxiv.org/abs/2310.19212v1), Zihao Zhang, Zonghai Yao, Huixue Zhou, Feiyun ouyang, Hong Yu, 30-10-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large language models have shown success as a tutor in education in various
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large language models have shown success as a tutor in education in various
 fields. Educating patients about their clinical visits plays a pivotal role in
 patients' adherence to their treatment plans post-discharge. This paper
 presents EHRTutor, an innovative multi-component framework leveraging the Large
@@ -8033,14 +6827,10 @@ training.
 
 
 187. [Evaluating Large Language Models: A Comprehensive Survey](http://arxiv.org/abs/2310.19736v3), Zishan Guo, Renren Jin, Chuang Liu, Yufei Huang, Dan Shi,  Supryadi, Linhao Yu, Yan Liu, Jiaxuan Li, Bojian Xiong, Deyi Xiong, 30-10-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large language models (LLMs) have demonstrated remarkable capabilities across
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large language models (LLMs) have demonstrated remarkable capabilities across
 a broad spectrum of tasks. They have attracted significant attention and been
 deployed in numerous downstream applications. Nevertheless, akin to a
 double-edged sword, LLMs also present potential risks. They could suffer from
@@ -8069,14 +6859,8 @@ https://github.com/tjunlp-lab/Awesome-LLMs-Evaluation-Papers.
 
 188. [Pushing Boundaries: Exploring Zero Shot Object Classification with Large
   Multimodal Models](http://arxiv.org/abs/2401.00127v1), Ashhadul Islam, Md. Rafiul Biswas, Wajdi Zaghouani, Samir Brahim Belhaouari, Zubair Shah, 30-12-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     $ $The synergy of language and vision models has given rise to Large Language
+    ### Abstract
+    $ $The synergy of language and vision models has given rise to Large Language
 and Vision Assistant models (LLVAs), designed to engage users in rich
 conversational experiences intertwined with image-based queries. These
 comprehensive multimodal models seamlessly integrate vision encoders with Large
@@ -8101,14 +6885,10 @@ potential of LLVAs and their versatile applications in real-world scenarios.
 
 
 189. [Faithful Chain-of-Thought Reasoning](http://arxiv.org/abs/2301.13379v3), Qing Lyu, Shreya Havaldar, Adam Stein, Li Zhang, Delip Rao, Eric Wong, Marianna Apidianaki, Chris Callison-Burch, 31-01-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     While Chain-of-Thought (CoT) prompting boosts Language Models' (LM)
+     ### Categories
+     Computation and Language
+    ### Abstract
+    While Chain-of-Thought (CoT) prompting boosts Language Models' (LM)
 performance on a gamut of complex reasoning tasks, the generated reasoning
 chain does not necessarily reflect how the model arrives at the answer (aka.
 faithfulness). We propose Faithful CoT, a reasoning framework involving two
@@ -8126,14 +6906,10 @@ synergy between faithfulness and accuracy.
 
 
 190. [Large Language Models Can Be Easily Distracted by Irrelevant Context](http://arxiv.org/abs/2302.00093v3), Freda Shi, Xinyun Chen, Kanishka Misra, Nathan Scales, David Dohan, Ed Chi, Nathanael Schärli, Denny Zhou, 31-01-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large language models have achieved impressive performance on various natural
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large language models have achieved impressive performance on various natural
 language processing tasks. However, so far they have been evaluated primarily
 on benchmarks where all information in the input context is relevant for
 solving the task. In this work, we investigate the distractibility of large
@@ -8151,14 +6927,10 @@ information.
 
 191. [Large Language Models are Versatile Decomposers: Decompose Evidence and
   Questions for Table-based Reasoning](http://arxiv.org/abs/2301.13808v3), Yunhu Ye, Binyuan Hui, Min Yang, Binhua Li, Fei Huang, Yongbin Li, 31-01-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Table-based reasoning has shown remarkable progress in combining deep models
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Table-based reasoning has shown remarkable progress in combining deep models
 with discrete reasoning, which requires reasoning over both free-form natural
 language (NL) questions and structured tabular data. However, previous
 table-based reasoning solutions usually suffer from significant performance
@@ -8182,14 +6954,10 @@ dataset.
 
 
 192. [Learning From Mistakes Makes LLM Better Reasoner](http://arxiv.org/abs/2310.20689v2), Shengnan An, Zexiong Ma, Zeqi Lin, Nanning Zheng, Jian-Guang Lou, Weizhu Chen, 31-10-2023
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large language models (LLMs) recently exhibited remarkable reasoning
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large language models (LLMs) recently exhibited remarkable reasoning
 capabilities on solving math problems. To further improve this capability, this
 work proposes Learning from Mistakes (LeMa), akin to human learning processes.
 Consider a human student who failed to solve a math problem, he will learn from
@@ -8210,14 +6978,10 @@ available at https://github.com/microsoft/LEMA.
 
 193. [DocLLM: A layout-aware generative language model for multimodal document
   understanding](http://arxiv.org/abs/2401.00908v1), Dongsheng Wang, Natraj Raman, Mathieu Sibue, Zhiqiang Ma, Petr Babkin, Simerjot Kaur, Yulong Pei, Armineh Nourbakhsh, Xiaomo Liu, 31-12-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Enterprise documents such as forms, invoices, receipts, reports, contracts,
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Enterprise documents such as forms, invoices, receipts, reports, contracts,
 and other similar records, often carry rich semantics at the intersection of
 textual and spatial modalities. The visual cues offered by their complex
 layouts play a crucial role in comprehending these documents effectively. In
@@ -8238,14 +7002,10 @@ and generalizes well to 4 out of 5 previously unseen datasets.
 
 
 194. [Improving Text Embeddings with Large Language Models](http://arxiv.org/abs/2401.00368v1), Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu Wei, 31-12-2023
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     In this paper, we introduce a novel and simple method for obtaining
+     ### Categories
+     Computation and Language
+    ### Abstract
+    In this paper, we introduce a novel and simple method for obtaining
 high-quality text embeddings using only synthetic data and less than 1k
 training steps. Unlike existing methods that often depend on multi-stage
 intermediate pre-training with billions of weakly-supervised text pairs,
@@ -8264,14 +7024,8 @@ benchmarks.
 
 195. [Opening A Pandora's Box: Things You Should Know in the Era of Custom
   GPTs](http://arxiv.org/abs/2401.00905v1), Guanhong Tao, Siyuan Cheng, Zhuo Zhang, Junmin Zhu, Guangyu Shen, Xiangyu Zhang, 31-12-2023
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     The emergence of large language models (LLMs) has significantly accelerated
+    ### Abstract
+    The emergence of large language models (LLMs) has significantly accelerated
 the development of a wide range of applications across various fields. There is
 a growing trend in the construction of specialized platforms based on LLMs,
 such as the newly introduced custom GPTs by OpenAI. While custom GPTs provide
@@ -8286,19 +7040,15 @@ STRIDE threat modeling framework, we identify 26 potential attack vectors, with
 emphasize the urgent need for robust security and privacy measures in the
 custom GPT ecosystem, especially in light of the forthcoming launch of the
 official GPT store by OpenAI.
-
-
 ## 2024 (33 papers)
 
+
+
 1. [A Computational Framework for Behavioral Assessment of LLM Therapists](http://arxiv.org/abs/2401.00820v1), Yu Ying Chiu, Ashish Sharma, Inna Wanyin Lin, Tim Althoff, 01-01-2024
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     The emergence of ChatGPT and other large language models (LLMs) has greatly
+     ### Categories
+     Computation and Language
+    ### Abstract
+    The emergence of ChatGPT and other large language models (LLMs) has greatly
 increased interest in utilizing LLMs as therapists to support individuals
 struggling with mental health challenges. However, due to the lack of
 systematic studies, our understanding of how LLM therapists behave, i.e., ways
@@ -8327,14 +7077,10 @@ research to ensure quality care.
 
 2. [Beyond Efficiency: A Systematic Survey of Resource-Efficient Large
   Language Models](http://arxiv.org/abs/2401.00625v2), Guangji Bai, Zheng Chai, Chen Ling, Shiyu Wang, Jiaying Lu, Nan Zhang, Tingwei Shi, Ziyang Yu, Mengdan Zhu, Yifei Zhang, Carl Yang, Yue Cheng, Liang Zhao, 01-01-2024
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     The burgeoning field of Large Language Models (LLMs), exemplified by
+     ### Categories
+     Machine Learning
+    ### Abstract
+    The burgeoning field of Large Language Models (LLMs), exemplified by
 sophisticated models like OpenAI's ChatGPT, represents a significant
 advancement in artificial intelligence. These models, however, bring forth
 substantial challenges in the high consumption of computational, memory,
@@ -8358,14 +7104,10 @@ developing more sustainable and efficient LLMs in a rapidly evolving landscape.
 
 3. [General-purpose foundation models for increased autonomy in
   robot-assisted surgery](http://arxiv.org/abs/2401.00678v1), Samuel Schmidgall, Ji Woong Kim, Alan Kuntz, Ahmed Ezzat Ghazi, Axel Krieger, 01-01-2024
-
-   ### Categories
-
-   Machine Learning
-
-   ### Abstract
-
-     The dominant paradigm for end-to-end robot learning focuses on optimizing
+     ### Categories
+     Machine Learning
+    ### Abstract
+    The dominant paradigm for end-to-end robot learning focuses on optimizing
 task-specific objectives that solve a single robotic problem such as picking up
 an object or reaching a target position. However, recent work on high-capacity
 models in robotics has shown promise toward being trained on large collections
@@ -8389,14 +7131,10 @@ surgery.
 
 4. [If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code
   Empowers Large Language Models to Serve as Intelligent Agents](http://arxiv.org/abs/2401.00812v2), Ke Yang, Jiateng Liu, John Wu, Chaoqi Yang, Yi R. Fung, Sha Li, Zixuan Huang, Xu Cao, Xingyao Wang, Yiquan Wang, Heng Ji, Chengxiang Zhai, 01-01-2024
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     The prominent large language models (LLMs) of today differ from past language
+     ### Categories
+     Computation and Language
+    ### Abstract
+    The prominent large language models (LLMs) of today differ from past language
 models not only in size, but also in the fact that they are trained on a
 combination of natural language and formal language (code). As a medium between
 humans and computers, code translates high-level goals into executable steps,
@@ -8418,14 +7156,10 @@ directions of empowering LLMs with code.
 
 
 5. [The Earth is Flat? Unveiling Factual Errors in Large Language Models](http://arxiv.org/abs/2401.00761v1), Wenxuan Wang, Juluan Shi, Zhaopeng Tu, Youliang Yuan, Jen-tse Huang, Wenxiang Jiao, Michael R. Lyu, 01-01-2024
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Large Language Models (LLMs) like ChatGPT are foundational in various
+     ### Categories
+     Artificial Intelligence, Computation and Language
+    ### Abstract
+    Large Language Models (LLMs) like ChatGPT are foundational in various
 applications due to their extensive knowledge from pre-training and
 fine-tuning. Despite this, they are prone to generating factual and commonsense
 errors, raising concerns in critical areas like healthcare, journalism, and
@@ -8450,14 +7184,10 @@ code, data, and results available for future research endeavors.
 
 
 6. [A Comprehensive Study of Knowledge Editing for Large Language Models](http://arxiv.org/abs/2401.01286v3), Ningyu Zhang, Yunzhi Yao, Bozhong Tian, Peng Wang, Shumin Deng, Mengru Wang, Zekun Xi, Shengyu Mao, Jintian Zhang, Yuansheng Ni, Siyuan Cheng, Ziwen Xu, Xin Xu, Jia-Chen Gu, Yong Jiang, Pengjun Xie, Fei Huang, Lei Liang, Zhiqiang Zhang, Xiaowei Zhu, Jun Zhou, Huajun Chen, 02-01-2024
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     Large Language Models (LLMs) have shown extraordinary capabilities in
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    Large Language Models (LLMs) have shown extraordinary capabilities in
 understanding and generating text that closely mirrors human communication.
 However, a primary limitation lies in the significant computational demands
 during training, arising from their extensive parameterization. This challenge
@@ -8485,14 +7215,10 @@ outlining its broad and impactful implications.
 
 7. [A Comprehensive Survey of Hallucination Mitigation Techniques in Large
   Language Models](http://arxiv.org/abs/2401.01313v3), S. M Towhidul Islam Tonmoy, S M Mehedi Zaman, Vinija Jain, Anku Rani, Vipula Rawte, Aman Chadha, Amitava Das, 02-01-2024
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     As Large Language Models (LLMs) continue to advance in their ability to write
+     ### Categories
+     Computation and Language
+    ### Abstract
+    As Large Language Models (LLMs) continue to advance in their ability to write
 human-like text, a key challenge remains around their tendency to hallucinate
 generating content that appears factual but is ungrounded. This issue of
 hallucination is arguably the biggest hindrance to safely deploying these
@@ -8520,14 +7246,10 @@ phenomena within the realm of LLMs.
 
 
 8. [LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning](http://arxiv.org/abs/2401.01325v1), Hongye Jin, Xiaotian Han, Jingfeng Yang, Zhimeng Jiang, Zirui Liu, Chia-Yuan Chang, Huiyuan Chen, Xia Hu, 02-01-2024
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     This work elicits LLMs' inherent ability to handle long contexts without
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    This work elicits LLMs' inherent ability to handle long contexts without
 fine-tuning. The limited length of the training sequence during training may
 limit the application of Large Language Models (LLMs) on long input sequences
 for inference. In this work, we argue that existing LLMs themselves have
@@ -8545,14 +7267,10 @@ length.
 
 
 9. [LLaMA Beyond English: An Empirical Study on Language Capability Transfer](http://arxiv.org/abs/2401.01055v2), Jun Zhao, Zhihao Zhang, Luhui Gao, Qi Zhang, Tao Gui, Xuanjing Huang, 02-01-2024
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     In recent times, substantial advancements have been witnessed in large
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    In recent times, substantial advancements have been witnessed in large
 language models (LLMs), exemplified by ChatGPT, showcasing remarkable
 proficiency across a range of complex tasks. However, many mainstream LLMs
 (e.g. LLaMA) are pretrained on English-dominant corpus, which limits their
@@ -8578,14 +7296,8 @@ the community in developing non-English LLMs.
 
 10. [Enhancing the medical foundation model with multi-scale and
   cross-modality feature learning](http://arxiv.org/abs/2401.01583v1), Weijian Huang, Cheng Li, Hong-Yu Zhou, Jiarun Liu, Hao Yang, Yong Liang, Shanshan Wang, 03-01-2024
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     The development of multi-modal medical foundation models has attracted
+    ### Abstract
+    The development of multi-modal medical foundation models has attracted
 significant attention in the field of medicine and healthcare due to their
 promising prospects in various clinical applications. One area of focus in this
 research direction is the extractions of features at different scales. While
@@ -8604,14 +7316,10 @@ performance of medical foundation models.
 
 11. [Exploring the Frontiers of LLMs in Psychological Applications: A
   Comprehensive Review](http://arxiv.org/abs/2401.01519v2), Luoma Ke, Song Tong, Peng Cheng, Kaiping Peng, 03-01-2024
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence
-
-   ### Abstract
-
-     This paper explores the frontiers of large language models (LLMs) in
+     ### Categories
+     Machine Learning, Artificial Intelligence
+    ### Abstract
+    This paper explores the frontiers of large language models (LLMs) in
 psychology applications. Psychology has undergone several theoretical changes,
 and the current use of Artificial Intelligence (AI) and Machine Learning,
 particularly LLMs, promises to open up new research directions. We provide a
@@ -8637,14 +7345,8 @@ advantages responsibly while addressing associated risks.
 
 
 12. [Few-shot Adaptation of Multi-modal Foundation Models: A Survey](http://arxiv.org/abs/2401.01736v2), Fan Liu, Tianshu Zhang, Wenwen Dai, Wenwen Cai, Xiaocong Zhou, Delong Chen, 03-01-2024
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     Multi-modal (vision-language) models, such as CLIP, are replacing traditional
+    ### Abstract
+    Multi-modal (vision-language) models, such as CLIP, are replacing traditional
 supervised pre-training models (e.g., ImageNet-based pre-training) as the new
 generation of visual foundation models. These models with robust and aligned
 semantic representations learned from billions of internet image-text pairs and
@@ -8670,14 +7372,10 @@ knowledge utilization.
 
 
 13. [Large Language Models Relearn Removed Concepts](http://arxiv.org/abs/2401.01814v1), Michelle Lo, Shay B. Cohen, Fazl Barez, 03-01-2024
-
-   ### Categories
-
-   Artificial Intelligence
-
-   ### Abstract
-
-     Advances in model editing through neuron pruning hold promise for removing
+     ### Categories
+     Artificial Intelligence
+    ### Abstract
+    Advances in model editing through neuron pruning hold promise for removing
 undesirable concepts from large language models. However, it remains unclear
 whether models have the capacity to reacquire pruned concepts after editing. To
 investigate this, we evaluate concept relearning in models by tracking concept
@@ -8696,14 +7394,8 @@ and fluidity of concept representations in LLMs post concept removal.
 
 14. [Correctness Comparison of ChatGPT-4, Bard, Claude-2, and Copilot for
   Spatial Tasks](http://arxiv.org/abs/2401.02404v2), Hartwig H. Hochmair, Levente Juhasz, Takoda Kemp, 04-01-2024
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     Generative AI including large language models (LLMs) have recently gained
+    ### Abstract
+    Generative AI including large language models (LLMs) have recently gained
 significant interest in the geo-science community through its versatile
 task-solving capabilities including coding, spatial computations, generation of
 sample data, time-series forecasting, toponym recognition, or image
@@ -8719,14 +7411,10 @@ chatbots across most task categories.
 
 
 15. [LLM Augmented LLMs: Expanding Capabilities through Composition](http://arxiv.org/abs/2401.02412v1), Rachit Bansal, Bidisha Samanta, Siddharth Dalmia, Nitish Gupta, Shikhar Vashishth, Sriram Ganapathy, Abhishek Bapna, Prateek Jain, Partha Talukdar, 04-01-2024
-
-   ### Categories
-
-   Machine Learning, Artificial Intelligence, Computation and Language
-
-   ### Abstract
-
-     Foundational models with billions of parameters which have been trained on
+     ### Categories
+     Machine Learning, Artificial Intelligence, Computation and Language
+    ### Abstract
+    Foundational models with billions of parameters which have been trained on
 large corpora of data have demonstrated non-trivial skills in a variety of
 domains. However, due to their monolithic structure, it is challenging and
 expensive to augment them or impart new skills. On the other hand, due to their
@@ -8749,14 +7437,10 @@ fully fine-tuned counterparts.
 
 
 16. [LLaMA Pro: Progressive LLaMA with Block Expansion](http://arxiv.org/abs/2401.02415v1), Chengyue Wu, Yukang Gan, Yixiao Ge, Zeyu Lu, Jiahao Wang, Ye Feng, Ping Luo, Ying Shan, 04-01-2024
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Humans generally acquire new skills without compromising the old; however,
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Humans generally acquire new skills without compromising the old; however,
 the opposite holds for Large Language Models (LLMs), e.g., from LLaMA to
 CodeLLaMA. To this end, we propose a new post-pretraining method for LLMs with
 an expansion of Transformer blocks. We tune the expanded blocks using only new
@@ -8774,14 +7458,10 @@ various environments.
 
 
 17. [LLaVA-Phi: Efficient Multi-Modal Assistant with Small Language Model](http://arxiv.org/abs/2401.02330v2), Yichen Zhu, Minjie Zhu, Ning Liu, Zhicai Ou, Xiaofeng Mou, Jian Tang, 04-01-2024
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     In this paper, we introduce LLaVA-$\phi$ (LLaVA-Phi), an efficient
+     ### Categories
+     Computation and Language
+    ### Abstract
+    In this paper, we introduce LLaVA-$\phi$ (LLaVA-Phi), an efficient
 multi-modal assistant that harnesses the power of the recently advanced small
 language model, Phi-2, to facilitate multi-modal dialogues. LLaVA-Phi marks a
 notable advancement in the realm of compact multi-modal models. It demonstrates
@@ -8799,14 +7479,10 @@ efficiency.The project is available at {https://github.com/zhuyiche/llava-phi}.
 
 
 18. [TinyLlama: An Open-Source Small Language Model](http://arxiv.org/abs/2401.02385v1), Peiyuan Zhang, Guangtao Zeng, Tianduo Wang, Wei Lu, 04-01-2024
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     We present TinyLlama, a compact 1.1B language model pretrained on around 1
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    We present TinyLlama, a compact 1.1B language model pretrained on around 1
 trillion tokens for approximately 3 epochs. Building on the architecture and
 tokenizer of Llama 2, TinyLlama leverages various advances contributed by the
 open-source community (e.g., FlashAttention), achieving better computational
@@ -8818,14 +7494,10 @@ https://github.com/jzhang38/TinyLlama.
 
 
 19. [Understanding LLMs: A Comprehensive Overview from Training to Inference](http://arxiv.org/abs/2401.02038v2), Yiheng Liu, Hao He, Tianle Han, Xu Zhang, Mengyuan Liu, Jiaming Tian, Yutong Zhang, Jiaqi Wang, Xiaohui Gao, Tianyang Zhong, Yi Pan, Shaochen Xu, Zihao Wu, Zhengliang Liu, Xin Zhang, Shu Zhang, Xintao Hu, Tuo Zhang, Ning Qiang, Tianming Liu, Bao Ge, 04-01-2024
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     The introduction of ChatGPT has led to a significant increase in the
+     ### Categories
+     Computation and Language
+    ### Abstract
+    The introduction of ChatGPT has led to a significant increase in the
 utilization of Large Language Models (LLMs) for addressing downstream tasks.
 There's an increasing focus on cost-efficient training and deployment within
 this context. Low-cost training and deployment of LLMs represent the future
@@ -8840,14 +7512,10 @@ utilization and provides insights into their future development.
 
 
 20. [DeepSeek LLM: Scaling Open-Source Language Models with Longtermism](http://arxiv.org/abs/2401.02954v1),  DeepSeek-AI,  :, Xiao Bi, Deli Chen, Guanting Chen, Shanhuang Chen, Damai Dai, Chengqi Deng, Honghui Ding, Kai Dong, Qiushi Du, Zhe Fu, Huazuo Gao, Kaige Gao, Wenjun Gao, Ruiqi Ge, Kang Guan, Daya Guo, Jianzhong Guo, Guangbo Hao, Zhewen Hao, Ying He, Wenjie Hu, Panpan Huang, Erhang Li, Guowei Li, Jiashi Li, Yao Li, Y. K. Li, Wenfeng Liang, Fangyun Lin, A. X. Liu, Bo Liu, Wen Liu, Xiaodong Liu, Xin Liu, Yiyuan Liu, Haoyu Lu, Shanghao Lu, Fuli Luo, Shirong Ma, Xiaotao Nie, Tian Pei, Yishi Piao, Junjie Qiu, Hui Qu, Tongzheng Ren, Zehui Ren, Chong Ruan, Zhangli Sha, Zhihong Shao, Junxiao Song, Xuecheng Su, Jingxiang Sun, Yaofeng Sun, Minghui Tang, Bingxuan Wang, Peiyi Wang, Shiyu Wang, Yaohui Wang, Yongji Wang, Tong Wu, Y. Wu, Xin Xie, Zhenda Xie, Ziwei Xie, Yiliang Xiong, Hanwei Xu, R. X. Xu, Yanhong Xu, Dejian Yang, Yuxiang You, Shuiping Yu, Xingkai Yu, B. Zhang, Haowei Zhang, Lecong Zhang, Liyue Zhang, Mingchuan Zhang, Minghua Zhang, Wentao Zhang, Yichao Zhang, Chenggang Zhao, Yao Zhao, Shangyan Zhou, Shunfeng Zhou, Qihao Zhu, Yuheng Zou, 05-01-2024
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     The rapid development of open-source large language models (LLMs) has been
+     ### Categories
+     Computation and Language, Artificial Intelligence, Machine Learning
+    ### Abstract
+    The rapid development of open-source large language models (LLMs) has been
 truly remarkable. However, the scaling law described in previous literature
 presents varying conclusions, which casts a dark cloud over scaling LLMs. We
 delve into the study of scaling laws and present our distinctive findings that
@@ -8867,14 +7535,10 @@ compared to GPT-3.5.
 
 21. [From LLM to Conversational Agent: A Memory Enhanced Architecture with
   Fine-Tuning of Large Language Models](http://arxiv.org/abs/2401.02777v1), Na Liu, Liangyu Chen, Xiaoyu Tian, Wei Zou, Kaijiang Chen, Ming Cui, 05-01-2024
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     This paper introduces RAISE (Reasoning and Acting through Scratchpad and
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    This paper introduces RAISE (Reasoning and Acting through Scratchpad and
 Examples), an advanced architecture enhancing the integration of Large Language
 Models (LLMs) like GPT-4 into conversational agents. RAISE, an enhancement of
 the ReAct framework, incorporates a dual-component memory system, mirroring
@@ -8891,14 +7555,10 @@ versatile conversational agents.
 
 
 22. [Thousands of AI Authors on the Future of AI](http://arxiv.org/abs/2401.02843v1), Katja Grace, Harlan Stewart, Julia Fabienne Sandkühler, Stephen Thomas, Ben Weinstein-Raun, Jan Brauner, 05-01-2024
-
-   ### Categories
-
-   Artificial Intelligence, Machine Learning
-
-   ### Abstract
-
-     In the largest survey of its kind, 2,778 researchers who had published in
+     ### Categories
+     Artificial Intelligence, Machine Learning
+    ### Abstract
+    In the largest survey of its kind, 2,778 researchers who had published in
 top-tier artificial intelligence (AI) venues gave predictions on the pace of AI
 progress and the nature and impacts of advanced AI systems The aggregate
 forecasts give at least a 50% chance of AI systems achieving several milestones
@@ -8926,14 +7586,10 @@ risks from AI systems ought to be prioritized more.
 
 
 23. [Soaring from 4K to 400K: Extending LLM's Context with Activation Beacon](http://arxiv.org/abs/2401.03462v1), Peitian Zhang, Zheng Liu, Shitao Xiao, Ninglu Shao, Qiwei Ye, Zhicheng Dou, 07-01-2024
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     The utilization of long contexts poses a big challenge for large language
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    The utilization of long contexts poses a big challenge for large language
 models due to their limited context window length. Although the context window
 can be extended through fine-tuning, it will result in a considerable cost at
 both training and inference time, and exert an unfavorable impact to the LLM's
@@ -8956,14 +7612,10 @@ available at the BGE repository.
 
 
 24. [Mixtral of Experts](http://arxiv.org/abs/2401.04088v1), Albert Q. Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch, Blanche Savary, Chris Bamford, Devendra Singh Chaplot, Diego de las Casas, Emma Bou Hanna, Florian Bressand, Gianna Lengyel, Guillaume Bour, Guillaume Lample, Lélio Renard Lavaud, Lucile Saulnier, Marie-Anne Lachaux, Pierre Stock, Sandeep Subramanian, Sophia Yang, Szymon Antoniak, Teven Le Scao, Théophile Gervet, Thibaut Lavril, Thomas Wang, Timothée Lacroix, William El Sayed, 08-01-2024
-
-   ### Categories
-
-   Machine Learning, Computation and Language
-
-   ### Abstract
-
-     We introduce Mixtral 8x7B, a Sparse Mixture of Experts (SMoE) language model.
+     ### Categories
+     Machine Learning, Computation and Language
+    ### Abstract
+    We introduce Mixtral 8x7B, a Sparse Mixture of Experts (SMoE) language model.
 Mixtral has the same architecture as Mistral 7B, with the difference that each
 layer is composed of 8 feedforward blocks (i.e. experts). For every token, at
 each layer, a router network selects two experts to process the current state
@@ -8981,14 +7633,10 @@ the base and instruct models are released under the Apache 2.0 license.
 
 25. [Chain-of-Table: Evolving Tables in the Reasoning Chain for Table
   Understanding](http://arxiv.org/abs/2401.04398v1), Zilong Wang, Hao Zhang, Chun-Liang Li, Julian Martin Eisenschlos, Vincent Perot, Zifeng Wang, Lesly Miculicich, Yasuhisa Fujii, Jingbo Shang, Chen-Yu Lee, Tomas Pfister, 09-01-2024
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Table-based reasoning with large language models (LLMs) is a promising
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Table-based reasoning with large language models (LLMs) is a promising
 direction to tackle many table understanding tasks, such as table-based
 question answering and fact verification. Compared with generic reasoning,
 table-based reasoning requires the extraction of underlying semantics from both
@@ -9010,14 +7658,10 @@ choices.
 
 26. [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety
   Training](http://arxiv.org/abs/2401.05566v2), Evan Hubinger, Carson Denison, Jesse Mu, Mike Lambert, Meg Tong, Monte MacDiarmid, Tamera Lanham, Daniel M. Ziegler, Tim Maxwell, Newton Cheng, Adam Jermyn, Amanda Askell, Ansh Radhakrishnan, Cem Anil, David Duvenaud, Deep Ganguli, Fazl Barez, Jack Clark, Kamal Ndousse, Kshitij Sachan, Michael Sellitto, Mrinank Sharma, Nova DasSarma, Roger Grosse, Shauna Kravec, Yuntao Bai, Zachary Witten, Marina Favaro, Jan Brauner, Holden Karnofsky, Paul Christiano, Samuel R. Bowman, Logan Graham, Jared Kaplan, Sören Mindermann, Ryan Greenblatt, Buck Shlegeris, Nicholas Schiefer, Ethan Perez, 10-01-2024
-
-   ### Categories
-
-   Artificial Intelligence, Computation and Language, Machine Learning
-
-   ### Abstract
-
-     Humans are capable of strategically deceptive behavior: behaving helpfully in
+     ### Categories
+     Artificial Intelligence, Computation and Language, Machine Learning
+    ### Abstract
+    Humans are capable of strategically deceptive behavior: behaving helpfully in
 most situations, but then behaving very differently in order to pursue
 alternative objectives when given the opportunity. If an AI system learned such
 a deceptive strategy, could we detect it and remove it using current
@@ -9040,14 +7684,10 @@ remove such deception and create a false impression of safety.
 
 
 27. [The Impact of Reasoning Step Length on Large Language Models](http://arxiv.org/abs/2401.04925v2), Mingyu Jin, Qinkai Yu, Dong shu, Haiyan Zhao, Wenyue Hua, Yanda Meng, Yongfeng Zhang, Mengnan Du, 10-01-2024
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Chain of Thought (CoT) is significant in improving the reasoning abilities of
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Chain of Thought (CoT) is significant in improving the reasoning abilities of
 large language models (LLMs). However, the correlation between the
 effectiveness of CoT and the length of reasoning steps in prompts remains
 largely unknown. To shed light on this, we have conducted several empirical
@@ -9071,14 +7711,10 @@ inference sequences.
 
 
 28. [TrustLLM: Trustworthiness in Large Language Models](http://arxiv.org/abs/2401.05561v2), Lichao Sun, Yue Huang, Haoran Wang, Siyuan Wu, Qihui Zhang, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, Xiner Li, Zhengliang Liu, Yixin Liu, Yijue Wang, Zhikun Zhang, Bhavya Kailkhura, Caiming Xiong, Chaowei Xiao, Chunyuan Li, Eric Xing, Furong Huang, Hao Liu, Heng Ji, Hongyi Wang, Huan Zhang, Huaxiu Yao, Manolis Kellis, Marinka Zitnik, Meng Jiang, Mohit Bansal, James Zou, Jian Pei, Jian Liu, Jianfeng Gao, Jiawei Han, Jieyu Zhao, Jiliang Tang, Jindong Wang, John Mitchell, Kai Shu, Kaidi Xu, Kai-Wei Chang, Lifang He, Lifu Huang, Michael Backes, Neil Zhenqiang Gong, Philip S. Yu, Pin-Yu Chen, Quanquan Gu, Ran Xu, Rex Ying, Shuiwang Ji, Suman Jana, Tianlong Chen, Tianming Liu, Tianyi Zhou, Willian Wang, Xiang Li, Xiangliang Zhang, Xiao Wang, Xing Xie, Xun Chen, Xuyu Wang, Yan Liu, Yanfang Ye, Yinzhi Cao, Yong Chen, Yue Zhao, 10-01-2024
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Large language models (LLMs), exemplified by ChatGPT, have gained
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Large language models (LLMs), exemplified by ChatGPT, have gained
 considerable attention for their excellent natural language processing
 capabilities. Nonetheless, these LLMs present many challenges, particularly in
 the realm of trustworthiness. Therefore, ensuring the trustworthiness of LLMs
@@ -9108,14 +7744,10 @@ effectiveness.
 
 29. [Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language
   Model Systems](http://arxiv.org/abs/2401.05778v1), Tianyu Cui, Yanling Wang, Chuanpu Fu, Yong Xiao, Sijia Li, Xinhao Deng, Yunpeng Liu, Qinglin Zhang, Ziyi Qiu, Peiyang Li, Zhixing Tan, Junwu Xiong, Xinyu Kong, Zujie Wen, Ke Xu, Qi Li, 11-01-2024
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Large language models (LLMs) have strong capabilities in solving diverse
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Large language models (LLMs) have strong capabilities in solving diverse
 natural language processing tasks. However, the safety and security issues of
 LLM systems have become the major obstacle to their widespread application.
 Many studies have extensively investigated risks in LLM systems and developed
@@ -9137,14 +7769,8 @@ LLM systems.
 
 30. [Seven Failure Points When Engineering a Retrieval Augmented Generation
   System](http://arxiv.org/abs/2401.05856v1), Scott Barnett, Stefanus Kurniawan, Srikanth Thudumu, Zach Brannelly, Mohamed Abdelrazek, 11-01-2024
-
-   ### Categories
-
-   
-
-   ### Abstract
-
-     Software engineers are increasingly adding semantic search capabilities to
+    ### Abstract
+    Software engineers are increasingly adding semantic search capabilities to
 applications using a strategy known as Retrieval Augmented Generation (RAG). A
 RAG system involves finding documents that semantically match a query and then
 passing the documents to a large language model (LLM) such as ChatGPT to
@@ -9165,14 +7791,10 @@ community.
 
 31. [The Benefits of a Concise Chain of Thought on Problem-Solving in Large
   Language Models](http://arxiv.org/abs/2401.05618v1), Matthew Renze, Erhan Guven, 11-01-2024
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     In this paper, we introduce Concise Chain-of-Thought (CCoT) prompting. We
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    In this paper, we introduce Concise Chain-of-Thought (CCoT) prompting. We
 compared standard CoT and CCoT prompts to see how conciseness impacts response
 length and correct-answer accuracy. We evaluated this using GPT-3.5 and GPT-4
 with a multiple-choice question-and-answer (MCQA) benchmark. CCoT reduced
@@ -9188,14 +7810,10 @@ step-by-step reasoning in LLMs.
 
 32. [How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to
   Challenge AI Safety by Humanizing LLMs](http://arxiv.org/abs/2401.06373v1), Yi Zeng, Hongpeng Lin, Jingwen Zhang, Diyi Yang, Ruoxi Jia, Weiyan Shi, 12-01-2024
-
-   ### Categories
-
-   Computation and Language, Artificial Intelligence
-
-   ### Abstract
-
-     Most traditional AI safety research has approached AI models as machines and
+     ### Categories
+     Computation and Language, Artificial Intelligence
+    ### Abstract
+    Most traditional AI safety research has approached AI models as machines and
 centered on algorithm-focused attacks developed by security experts. As large
 language models (LLMs) become increasingly common and competent, non-expert
 users can also impose risks during daily interactions. This paper introduces a
@@ -9215,14 +7833,10 @@ mitigation for highly interactive LLMs
 
 33. [Intention Analysis Prompting Makes Large Language Models A Good
   Jailbreak Defender](http://arxiv.org/abs/2401.06561v1), Yuqi Zhang, Liang Ding, Lefei Zhang, Dacheng Tao, 12-01-2024
-
-   ### Categories
-
-   Computation and Language
-
-   ### Abstract
-
-     Aligning large language models (LLMs) with human values, particularly in the
+     ### Categories
+     Computation and Language
+    ### Abstract
+    Aligning large language models (LLMs) with human values, particularly in the
 face of stealthy and complex jailbreaks, presents a formidable challenge. In
 this study, we present a simple yet highly effective defense strategy, i.e.,
 Intention Analysis Prompting (IAPrompt). The principle behind is to trigger
@@ -9236,5 +7850,3 @@ response (averagely -46.5% attack success rate) and maintain the general
 helpfulness. Further analyses present some insights into how our method works.
 To facilitate reproducibility, We release our code and scripts at:
 https://github.com/alphadl/SafeLLM_with_IntentionAnalysis
-
-
