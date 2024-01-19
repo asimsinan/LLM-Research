@@ -1,3 +1,5 @@
+A curated list of papers on Large Language Models by year. I'll try to update the list if new papers are published. Let me know if I am missing important papers or there are errors.
+
 ## 2017 (1 paper)
 
 
