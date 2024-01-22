@@ -48,7 +48,6 @@ for paper in papers:
 # Open the Markdown file
 with open('Readme.md', 'w') as f:
     f.write(f"A curated list of papers on Large Language Models by year. I'll try to update the list if new papers are published. Let me know if I am missing important papers.\n\n")
-    f.write(f"**Note:** Not all the papers are shown on the main page due to size limitations. You can see the full list in raw format.\n\n")
     f.write(f"## TO-DO:\n\n")
     f.write(f"* Add tools, frameworks etc.tutorials\n\n"
             f"* Open source models\n\n"
