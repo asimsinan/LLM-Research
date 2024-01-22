@@ -46,7 +46,7 @@ for paper in papers:
         papers_by_year[paper_details["year"]].append(paper_details)
 
 # Open the Markdown file
-with open('Readme.md', 'w') as f:
+with open('../Readme.md', 'w') as f:
     f.write(f"A curated list of papers on Large Language Models by year. I'll try to update the list if new papers are published. Let me know if I am missing important papers.\n\n")
     f.write(f"## TO-DO:\n\n")
     f.write(f"* Add tools, frameworks etc.tutorials\n\n"
