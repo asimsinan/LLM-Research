@@ -2,7 +2,7 @@ import arxiv,os
 from datetime import datetime
 import json
 download_location = "LLM"
-with open('Papers.json', 'r') as f:
+with open('papers.json', 'r') as f:
     papers = json.load(f)
 
 client = arxiv.Client()
