@@ -33,10 +33,10 @@ def add_paper_by_id(paper_id):
     paper_json[paper_id]["categories"]=paper.categories
     rename_file(directory+"/"+paper_json[paper_id]["download_name"])
 
-    with open('papers.json', 'r') as f:
+    with open('./src/papers.json', 'r') as f:
         papers = json.load(f)
         papers.append(paper_json)
-    with open('papers.json', 'w') as f:
+    with open('./src/papers.json', 'w') as f:
         json.dump(papers, f)
 
 
