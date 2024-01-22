@@ -36,7 +36,7 @@ keyword_mapping = {
 
     # Add more mappings as needed
 }
-with open('papers1.json', 'r') as f:
+with open('papers.json', 'r') as f:
     papers = json.load(f)
 
 # Group the papers by year
