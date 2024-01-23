@@ -112,5 +112,6 @@ def add_paper_by_id(paper_id):
     # with open('./src/papers.json', 'w') as f:
     #    json.dump(papers, f)
 
-
-add_paper_by_id("2401.08092")
+new_papers=['2305.18290','2305.13048','2305.03047','2301.13688','2211.09110']
+for paper in new_papers:
+    add_paper_by_id(paper)

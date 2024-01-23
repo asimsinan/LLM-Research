@@ -3,6 +3,8 @@ A curated list of papers on Large Language Models by year. I'll try to update th
 ## TO-DO:
 
 * Add tools, frameworks etc.tutorials
+* 
+* Categorize papers (milestone, RAG related etc).
 
 * Open source models
 
@@ -17,6 +19,6 @@ A curated list of papers on Large Language Models by year. I'll try to update th
 - [2019](2019.md) (6 papers)
 - [2020](2020.md) (8 papers)
 - [2021](2021.md) (45 papers)
-- [2022](2022.md) (46 papers)
-- [2023](2023.md) (189 papers)
+- [2022](2022.md) (47 papers)
+- [2023](2023.md) (194 papers)
 - [2024](2024.md) (38 papers)
