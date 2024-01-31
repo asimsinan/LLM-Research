@@ -2,11 +2,13 @@ A curated list of papers on Large Language Models by year. I'll try to update th
 
 ## TO-DO:
 
-* Add tools, frameworks etc.tutorials
-* 
+* Add tools, frameworks etc.
+
+* Add tutorials
+  
 * Categorize papers (milestone, RAG related etc).
 
-* Open source models
+* Add open source models
 
 * Add datasets, benchmarks etc.
 
