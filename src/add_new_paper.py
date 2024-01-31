@@ -106,12 +106,7 @@ def add_paper_by_id(paper_id):
         f.write(f"     {summarize(abstract)}\n")
         print(paper["title"])
 
-    # with open('./src/papers.json', 'r') as f:
-    #    papers = json.load(f)
-    #    papers.append(paper_json)
-    # with open('./src/papers.json', 'w') as f:
-    #    json.dump(papers, f)
 
-new_papers=['2211.05100','2212.12017','2211.09085']
+new_papers=['']
 for paper in new_papers:
     add_paper_by_id(paper)
