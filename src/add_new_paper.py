@@ -36,7 +36,8 @@ keyword_mapping = {
     'math.MG': 'Algebraic Geometry',
     'math.MP': 'Mathematical Physics',
     'eess.SP': 'Signal Processing',
-    'cs.OS': 'Operating Systems'
+    'cs.OS': 'Operating Systems',
+    '68T50':'Natural Language Processing'
 
     # Add more mappings as needed
 }
@@ -107,6 +108,6 @@ def add_paper_by_id(paper_id):
         print(paper["title"])
 
 
-new_papers=['']
+new_papers=['2401.15347']
 for paper in new_papers:
     add_paper_by_id(paper)

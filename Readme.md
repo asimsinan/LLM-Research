@@ -23,4 +23,4 @@ A curated list of papers on Large Language Models by year. I'll try to update th
 - [2021](2021.md) (44 papers)
 - [2022](2022.md) (49 papers)
 - [2023](2023.md) (196 papers)
-- [2024](2024.md) (39 papers)
+- [2024](2024.md) (42 papers)
