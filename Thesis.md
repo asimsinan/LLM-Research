@@ -1,4 +1,5 @@
 * [Türkiye](Turkiye.md) (2)
-* [USA](USA.md) (3)
-* [Sweden](Sweden.md) (4)
-* [Netherlands](Netherlands.md) (1)
+* [USA](USA.md) (57)
+* [Sweden](Sweden.md) (26)
+* [Canada](Canada.md) (9)
+* [Netherlands](Netherlands.md) (7)

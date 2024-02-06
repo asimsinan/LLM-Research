@@ -14,7 +14,7 @@ A curated list of papers on Large Language Models by year, tools, frameworks, th
   
 * Add university courses thought around the world
 
-## [Thesis](Thesis.md)
+## [Open Access Thesis](Thesis.md)
 
 ## Papers
 

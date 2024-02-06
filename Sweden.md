@@ -1,8 +1,52 @@
-## 2023
-1. [Tesfagiorgis, Y. G., & Monteiro Silva, B. M. (2023). Large language models as an interface to interact with API tools in natural language, Master's Thesis, Linnaeus University](http://urn.kb.se/resolve?urn=urn:nbn:se:lnu:diva-124976)
+## 2022
+1. [Bonde, O. (2022). Generating Terraform Configuration Files with Large Language Models, Master's Thesis, KTH](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-317049)
+
+2. [Liu, E. K. Y. (2022). Can Wizards be Polyglots: Towards a Multilingual Knowledge-grounded Dialogue System, Master's Thesis,Uppsala University.](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-477541)
+
+3. [Galatolo, A. (2022). Towards Automatic Generation of Personality-Adapted Speech and Emotions for a Conversational Companion Robot, Master's Thesis, KTH](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-320702)
    
-1. [Ivarsson, S., & Setterström, J. (2023). Automated Alignment of Software Requirements and Test Cases, Master's Thesis, Chalmers University of Technology](http://hdl.handle.net/20.500.12380/306739)
 
-1. [Sakaoglu, S. (2023). KARTAL: Web Application Vulnerability Hunting Using Large Language Models: Novel method for detecting logical vulnerabilities in web applications with finetuned Large Language Models, Master's Thesis, 2023, KTH](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-337159)
+## 2023
+1. [Tesfagiorgis, Y. G. (2023). Large language models as an interface to interact with API tools in natural language, Master's Thesis, Linnaeus University](http://urn.kb.se/resolve?urn=urn:nbn:se:lnu:diva-124976)
+   
+2. [Ivarsson, S. (2023). Automated Alignment of Software Requirements and Test Cases, Master's Thesis, Chalmers University of Technology](http://hdl.handle.net/20.500.12380/306739)
 
-1. [Zhao, P. (2023). An Empirical Study on Using Codex for Automated Program Repair, Master's Thesis, 2023, KTH](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-337037)
+3. [Sakaoglu, S. (2023). KARTAL: Web Application Vulnerability Hunting Using Large Language Models: Novel method for detecting logical vulnerabilities in web applications with finetuned Large Language Models, Master's Thesis, 2023, KTH](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-337159)
+
+4. [Zhao, P. (2023). An Empirical Study on Using Codex for Automated Program Repair, Master's Thesis, 2023, KTH](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-337037)
+
+5. [Praas, R. (2023). Self-Reflection on Chain-of-Thought Reasoning in Large Language Models, Master's Thesis, KTH](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-339871)
+
+6. [Kniele, A. (2023). Characterizing, classifying and transforming language model distributions, Master's Thesis, Uppsala University.](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-506668)
+
+7. [Helgesson Hallström, C. (2023). Language Models as Evaluators: A Novel Framework for Automatic Evaluation of News Article Summaries, Master's Thesis, KTH.](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-333921)
+
+8. [Ekvall, H.(2023). Integrating ChatGPT into the UX Design Process: Ideation and Prototyping with LLMs, Master's Thesis, Umeå University.](http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-211251)
+
+9. [Becerra, T. (2023). Automatic Summarization of Validated Intelligence Events, Master's Thesis, Chalmers University of Technology.](http://hdl.handle.net/20.500.12380/307441)
+
+10. [Pinti, D. (2023). Relevant Phrase Generation for Language Learners, Master's Thesis, Politecnico di Torino.](http://hdl.handle.net/20.500.12380/307388)
+
+11. [Sandberg, A. (2023). Methods for Reducing Costs of Running Large-Scale Machine Learning Models, Master's Thesis, Chalmers University of Technology.](http://hdl.handle.net/20.500.12380/307408)
+   
+12. [García Castellanos, A. (2023). Topological regularization and relative latent representations, Master's Thesis, KTH.](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-340944)
+
+13. [Döringer Kana, F. (2023). Synthetic data generation for domain adaptation of a retriever-reader Question Answering system for the Telecom domain: Comparing dense embeddings with BM25 for Open Domain Question Answering, Master's Thesis, KTH](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-337147)
+
+14. [Cruz, E. (2023). An initial investigation of Automatic Program Repair for Solidity Smart Contracts with Large Language Models, Master's Thesis, ](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-337231)
+   
+15. [Kulesz, O. (2023). The impact of Large Language Models on the publishing sectors: Books, academic journals, newspapers, Master's Thesis, Linnaeus University](http://urn.kb.se/resolve?urn=urn:nbn:se:lnu:diva-119366)
+
+16. [Kheirkhahzadeh, M. (2023). Speech Classification using Acoustic embedding and Large Language Models Applied on Alzheimer’s Disease Prediction Task, Master's Thesis, KTH.](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-332408)
+
+17. [Vallecillos Ruiz, F. (2023). Round-Trip Translation: A New Path for Automatic Program Repair using Large Language Models, Master's Thesis, KTH](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-339915)
+
+18. [Bissessar, D.(2022). Evaluation of methods for question answering data generation: Using large language models, Master's Thesis, Linköping University.](http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-187956)
+
+19. [Sventickaite, E. E. (2022). Distillation or loss of information?: The effects of distillation on model redundancy, Master's Thesis, Uppsala University.](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-480058)
+
+20. [Zarris, D. (2023). Educational Artificial Intelligent Chatbot: Teacher Assistant & Study Buddy.](http://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-101584)
+    
+21. [Jie, H. (2023). Information Extraction for Test Identification in Repair Reports in the Automotive Domain, Master's Thesis,  Uppsala University.](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-505634)
+22. [Luo, H. (2023). Prompt-learning and Zero-shot Text Classification with Domain-specific Textual Data, Master's Thesis, Uppsala University.](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-504646)
+23. [Mondal, A. (2023). A Prompting Framework for Natural Language Processing in the Medical Field: Assessing the Potential of Large Language Models for Swedish Healthcare, Master's Thesis, KTH.](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-328900)
