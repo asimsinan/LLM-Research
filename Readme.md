@@ -16,6 +16,6 @@ A curated list of papers on Large Language Models by year, tools, frameworks, th
   
 ## 2. [University Courses](UniversityCourses.md)
 
-## 3. [Open Access Thesis](Thesis.md)
+## 3. [Open Access Theses](Theses.md)
 
 ## 4. [Papers](Papers.md)
