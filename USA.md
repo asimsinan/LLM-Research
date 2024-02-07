@@ -1,7 +1,15 @@
+## 2020
+1. [Stonebraker, R. (2020). LucidDream: Dynamic Story Generation through Directed Chatbot Interactions, Master's Thesis, University of Alaska – Fairbanks](http://hdl.handle.net/11122/11880)
+
+## 2021
+1. [Fang, J. (2021). An Application of Customized GPT-2 Text Generator for Modern Content Creators, Master's Thesis, University of California, Los Angeles.](https://escholarship.org/uc/item/3rd9v7xm)
+2. [Wu, S. (2021). Design and Implementation of LBW–A Mental Health Application for Children, Master's Thesis, Vanderbilt University.](http://hdl.handle.net/1803/16986)
 ## 2022
 1. [Jakesch, M. (2022). Assessing the Effects and Risks of Large Language Models in AI-Mediated Communication, Doctoral dissertation, Cornell University.](http://hdl.handle.net/1813/112933)
    
-1. [Robinson, J. (2022). Leveraging Large Language Models Trained on Code for Symbol Binding, Master's Thesis, Brigham Young University).](https://scholarsarchive.byu.edu/context/etd/article/11127/viewcontent/8242915722867320200801_etd.pdf)
+2.  [Pezeshkpour, P. (2022). Introducing Gradient-Based Methods and Diagnostic Benchmarks to Trace Errors Back to the Training Data, Doctoral dissertation, UC Irvine.](https://escholarship.org/uc/item/0q44k5d4)
+   
+3. [Robinson, J. (2022). Leveraging Large Language Models Trained on Code for Symbol Binding, Master's Thesis, Brigham Young University.](https://scholarsarchive.byu.edu/context/etd/article/11127/viewcontent/8242915722867320200801_etd.pdf)
    
 ## 2023
 1. [Agashe, S. (2023). LLM-Coordination: Developing Coordinating Agents With Large Language Models, Master's Thesis, University of California, Santa Cruz.](https://escholarship.org/uc/item/4rm2z5w5)
@@ -18,7 +26,7 @@
 
 7. [Arya, P. (2023). Creating Conversational Systems with Temporal Reasoning in Zero Resource Domains with Synthetic Data and Large Language Models, Master's Thesis, The Ohio State University.](http://rave.ohiolink.edu/etdc/view?acc_num=osu1683239825568604)
 
-8. [Dang, J. A. M. (2023). Challenges and Methods for Alignment of Large Language Models with Human Preferences,Master's Thesis, University of California, Los Angeles.](https://escholarship.org/uc/item/5sn5z1z3)
+8. [Dang, J. A. M. (2023). Challenges and Methods for Alignment of Large Language Models with Human Preferences, Master's Thesis, University of California, Los Angeles.](https://escholarship.org/uc/item/5sn5z1z3)
 
 9. [Pandza, C. (2023). Using Natural Language Processing to Organize and Analyze Oral History Projects, Master's Thesis, Columbia University).](https://doi.org/10.7916/3f5m-6d44)
 
@@ -77,30 +85,35 @@
 39. [Gamieldien, Y. (2023). Innovating the Study of Self-Regulated Learning: An Exploration through NLP, Generative AI, and LLMs, Doctoral dissertation, Virginia Tech.](http://hdl.handle.net/10919/116274)
 40. [Mandal, S. (2023). Learning-Based Automated Software Creation, Doctoral dissertation, Texas A&M University.](http://hdl.handle.net/1969.1/199803)
 41. [Holtzman, A. (2023). Interpretation Errors: Extracting Functionality From Generative Models of Language by Understanding Them Better, Doctoral dissertation, University of Washington.](http://hdl.handle.net/1773/50752)
+    
+42. [Wang, Y. (2023). AI and Big Data in Health: Boosting Reliability and Efficiency in Predictive Healthcare Models, Doctoral dissertation, University of California, Santa Barbara.](https://escholarship.org/uc/item/5js5b28r)
+43. [Wang, H. (2023). Efficient Natural Language Processing with Limited Data and Resources, Doctoral dissertation, University of California, Santa Barbara.](https://escholarship.org/uc/item/41z5j7ng)
+44. [Wu, T. (2023). How Machine Understands You and Me: Naturally Learn and Generalize in Task-oriented Dialogues, Doctoral dissertation, Georgia Tech.](http://hdl.handle.net/1853/72684)
 
-42. [Pezeshkpour, P. (2022). Introducing Gradient-Based Methods and Diagnostic Benchmarks to Trace Errors Back to the Training Data, Doctoral dissertation, UC Irvine.](https://escholarship.org/uc/item/0q44k5d4)
-43. [Wang, Y. (2023). AI and Big Data in Health: Boosting Reliability and Efficiency in Predictive Healthcare Models, Doctoral dissertation, University of California, Santa Barbara.](https://escholarship.org/uc/item/5js5b28r)
-44. [Wang, H. (2023). Efficient Natural Language Processing with Limited Data and Resources, Doctoral dissertation, University of California, Santa Barbara.](https://escholarship.org/uc/item/41z5j7ng)
-45. [Wu, T. (2023). How Machine Understands You and Me: Naturally Learn and Generalize in Task-oriented Dialogues, Doctoral dissertation, Georgia Tech.](http://hdl.handle.net/1853/72684)
+45. [Shakir, U. (2023). A Novel Method for Thematically Analyzing Student Responses to Open-ended Case Scenarios, Doctoral dissertation, Virginia Polytechnic Institute and State University.](http://hdl.handle.net/10919/117103)
+46. [Geng, S. (2023). Personalized foundation models for decision-making, Doctoral dissertation, Rutgers University-School of Graduate Studies.](https://rucore.libraries.rutgers.edu/rutgers-lib/69065/)
+47. [Yue, X. (2023). Data Synthesis: Boosting Utility and Privacy in Natural Language Processing, Doctoral dissertation, The Ohio State University.](http://rave.ohiolink.edu/etdc/view?acc_num=osu1689933342097582)
 
-47. [Shakir, U. (2023). A Novel Method for Thematically Analyzing Student Responses to Open-ended Case Scenarios, Doctoral dissertation, Virginia Polytechnic Institute and State University.](http://hdl.handle.net/10919/117103)
-48. [Geng, S. (2023). Personalized foundation models for decision-making, Doctoral dissertation, Rutgers University-School of Graduate Studies.](https://rucore.libraries.rutgers.edu/rutgers-lib/69065/)
-49. [Yue, X. (2023). Data Synthesis: Boosting Utility and Privacy in Natural Language Processing, Doctoral dissertation, The Ohio State University.](http://rave.ohiolink.edu/etdc/view?acc_num=osu1689933342097582)
+48. [Jesse, K. R. (2023). Modeling Source Code For Developers, Doctoral dissertation, University of California, Davis.](https://escholarship.org/uc/item/84j9w2p4)
+49. [Ahmed, T. (2023). Learning Program Embedding From Unlabeled Source Code, Doctoral dissertation, University of California, Davis.](https://escholarship.org/uc/item/92s294t8)
+50. [Slack, D. (2023). Robust Interactions With Machine Learning Models, Doctoral dissertation, University of California, Irvine.](https://escholarship.org/uc/item/1gb45688)
 
-50. [Jesse, K. R. (2023). Modeling Source Code For Developers, Doctoral dissertation, University of California, Davis.](https://escholarship.org/uc/item/84j9w2p4)
-51. [Ahmed, T. (2023). Learning Program Embedding From Unlabeled Source Code, Doctoral dissertation, University of California, Davis.](https://escholarship.org/uc/item/92s294t8)
-52. [Slack, D. (2023). Robust Interactions With Machine Learning Models, Doctoral dissertation, University of California, Irvine.](https://escholarship.org/uc/item/1gb45688)
+51. [Shaw, A. G. (2023). The Influence of Political Media on Large Language Models: Impacts on Information Synthesis, Reasoning, and Demographic Representation, Master's Thesis, Brigham Young University.](https://scholarsarchive.byu.edu/context/etd/article/11068/viewcontent/7632919122867320220801_etd.pdf)
 
-55. [Shaw, A. G. (2023). The Influence of Political Media on Large Language Models: Impacts on Information Synthesis, Reasoning, and Demographic Representation, Master's Thesis, Brigham Young University.](https://scholarsarchive.byu.edu/context/etd/article/11068/viewcontent/7632919122867320220801_etd.pdf)
+52. [Ansaldo, G. (2023). AgentSpeak: A Framework for Agent-Based Modeling with Integrated Large Language Models; Case Study: Analyzing Policy Interventions in Electric Vehicle Adoption, Master's Thesis, Northeastern University.](http://hdl.handle.net/2047/D20621578)
+53. [Chavan, A. (2023). Constituency Parsing via Few Shot Prompting, Master's Thesis, Rutgers The State University of New Jersey, School of Graduate Studies).](https://rucore.libraries.rutgers.edu/rutgers-lib/70462/)
 
-57. [Ansaldo, G. (2023). AgentSpeak: A Framework for Agent-Based Modeling with Integrated Large Language Models; Case Study: Analyzing Policy Interventions in Electric Vehicle Adoption, Master's Thesis, Northeastern University.](http://hdl.handle.net/2047/D20621578)
-58. [Chavan, A. (2023). Constituency Parsing via Few Shot Prompting, Master's Thesis, Rutgers The State University of New Jersey, School of Graduate Studies).](https://rucore.libraries.rutgers.edu/rutgers-lib/70462/)
+54. [Gangadhar, G. K. (2023). When is retrieval better than generation?, Master's Thesis, Rutgers University-School of Graduate Studies.](https://rucore.libraries.rutgers.edu/rutgers-lib/70461/)
 
-60. [Gangadhar, G. K. (2023). When is retrieval better than generation?, Master's Thesis, Rutgers University-School of Graduate Studies.](https://rucore.libraries.rutgers.edu/rutgers-lib/70461/)
+55. [Purohit, S. (2023). AI Commentator: Narrating Sports Games through Multimodal Perception and Large Language Models, Master's Thesis, MIT](http://hdl.handle.net/1721.1/151608)
 
-1. [Azaria, A. (2023). ChatGPT: More Human-Like Than Computer-Like, but Not Necessarily in a Good Way. CogSci., ](https://escholarship.org/uc/item/9hk4f6t4)
+56. [Colón-Hernández, P. (2023). A Conversational Agent for Dynamic Procedural Interactions, Doctoral dissertation, Massachusetts Institute of Technology.](http://hdl.handle.net/1721.1/151990)
+57. [Garcia, D. C. (2023). Diversity Equity and Inclusion Language Analyzer, Master's Thesis, California State University System.](http://hdl.handle.net/20.500.12680/zk51vq704)
+58. [Huang, J. (2023). AI-generated Tweets Detection: A Comprehensive report for GPT3-text discrimination, Master's Thesis, California State University System.](http://hdl.handle.net/20.500.12680/d791sp95m)
+59. [Venkataramanan, A. (2023). stability. gpt: Combining GPT-4 and Stable Diffusion to Generate Storybooks That Are Textually and Visually Cohesive, Master's Thesis, University of California, Santa Cruz.](https://escholarship.org/uc/item/0cs5c52m)
+60. [Press, O. (2023). Complementing Scale: Novel Guidance Methods for Improving Language Models, Doctoral dissertation, University of Washington.](http://hdl.handle.net/1773/50754)
+61. [Jones, D. (2023). Training A Soothsayer: A Study on the Efficacy and Accuracy of A ‘ChatGPT Approach’to International Relations, Master's Thesis, The University of Chicago.](https://knowledge.uchicago.edu/record/6122/files/M.A.%20Thesis%20Final%20Submission%20-%20Dani%20Jones.pdf)
 
-1. [Purohit, S. (2023). AI Commentator: Narrating Sports Games through Multimodal Perception and Large Language Models, Master's Thesis, MIT](http://hdl.handle.net/1721.1/151608)
 
-1. [Colón-Hernández, P. (2023). A Conversational Agent for Dynamic Procedural Interactions, Doctoral dissertation, Massachusetts Institute of Technology.](http://hdl.handle.net/1721.1/151990)
-   
+## 2024
+1. [Shaik, M.K. (2024). Developing a Wikipedia-Based Q&A System with BERT and RoBERTa: A Comparative Analysis and Implications for Chat GPT, Master's Thesis, California State University System.](http://hdl.handle.net/20.500.12680/1257b112c)
