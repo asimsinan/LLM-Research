@@ -12,19 +12,10 @@ A curated list of papers on Large Language Models by year, tools, frameworks, th
 
 * Add datasets, benchmarks etc.
 
-## [Online Courses](OnlineCourses.md)
+## 1. [Online Courses](OnlineCourses.md)
   
-## [University Courses](UniversityCourses.md)
+## 2. [University Courses](UniversityCourses.md)
 
-## [Open Access Thesis](Thesis.md)
+## 3. [Open Access Thesis](Thesis.md)
 
-## Papers
-
-### [2017](2017.md) (1 paper)
-### [2018](2018.md) (1 paper)
-### [2019](2019.md) (6 papers)
-### [2020](2020.md) (8 papers)
-### [2021](2021.md) (44 papers)
-### [2022](2022.md) (49 papers)
-### [2023](2023.md) (196 papers)
-### [2024](2024.md) (42 papers)
+## 4. [Papers](Papers.md)
