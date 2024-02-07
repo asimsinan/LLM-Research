@@ -13,4 +13,4 @@
 13. [11-667: Large Language Models Methods and Applications, Carnegie Mellon University](https://cmu-llms.org)
 14. [CS224N: Natural Language Processing with Deep Learning, Stanford University](https://web.stanford.edu/class/cs224n/)
 15. [6.5940: TinyML and Efficient Deep Learning Computing, MIT](https://hanlab.mit.edu/courses/2023-fall-65940)
-16. [COMP790-101: Large Language Models,University of Toronto](https://github.com/craffel/llm-seminar)
+16. [COMP790-101: Large Language Models, University of Toronto](https://github.com/craffel/llm-seminar)
