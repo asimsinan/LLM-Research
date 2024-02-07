@@ -12,7 +12,7 @@ A curated list of papers on Large Language Models by year, tools, frameworks, th
 
 * Add datasets, benchmarks etc.
   
-* Add university courses thought around the world
+## [University Courses](Courses.md)
 
 ## [Open Access Thesis](Thesis.md)
 
