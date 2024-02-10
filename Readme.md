@@ -4,8 +4,6 @@ A curated list of papers on Large Language Models by year, tools, frameworks, th
 
 ## TO-DO:
 
-* Add tools, frameworks etc.
-
 * Add tutorials
   
 * Categorize papers (milestone, RAG related etc).
@@ -14,7 +12,7 @@ A curated list of papers on Large Language Models by year, tools, frameworks, th
 
 * Add datasets, benchmarks etc.
 
-## 1. [Online Courses](OnlineCourses.md)
+## 1. [Tools & Frameworks](ToolsFrameworks.md)
   
 ## 2. [University Courses](UniversityCourses.md)
 

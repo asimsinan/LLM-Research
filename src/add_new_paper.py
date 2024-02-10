@@ -91,7 +91,15 @@ def add_paper_by_id(paper_id):
     rename_file(directory + "/" + paper_json[paper_id]["download_name"])
 
     paper = paper_json[paper_id]
-    with open('./src/' + paper_id + '.md', 'w') as f:
+    directory = './src/'
+    filename = paper_id + '.md'
+    full_path = os.path.join(directory, filename)
+
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+    with open(full_path, 'w') as f:
+
         # Write the paper title, authors, and published date
         f.write(
             f"\n\n{1}. [{paper['title']}]({paper['abs_url']}), {','.join(paper['authors'])}, {paper['published_date']}\n")
@@ -108,6 +116,6 @@ def add_paper_by_id(paper_id):
         print(paper["title"])
 
 
-new_papers=['2401.15347']
+new_papers=['']
 for paper in new_papers:
     add_paper_by_id(paper)
