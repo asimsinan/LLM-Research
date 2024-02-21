@@ -37,7 +37,9 @@ keyword_mapping = {
     'math.MP': 'Mathematical Physics',
     'eess.SP': 'Signal Processing',
     'cs.OS': 'Operating Systems',
-    '68T50':'Natural Language Processing'
+    '68T50':'Natural Language Processing',
+    'cs.GT':'Computer Science and Game Theory',
+    'H.3.3':'Information Search and Retrieval'
 
     # Add more mappings as needed
 }
