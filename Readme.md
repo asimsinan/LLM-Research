@@ -2,18 +2,26 @@ A curated list of papers on Large Language Models by year (Bullet Points were ge
 
 [![DOI](https://sandbox.zenodo.org/badge/745140104.svg)](https://sandbox.zenodo.org/doi/10.5072/zenodo.27133)
 
-## 1. [Open Source Models](OpenSourceModels.md)
+## 1. [Papers](Papers.md)
 
-## 2. [Datasets](Datasets.md)
+## 2. [Open Access Theses](Theses.md)
 
-## 3. [Benchmarks](Bencmarks.md)
+## 3. [University Courses](UniversityCourses.md)
 
-## 4. [Tutorials](Tutorials.md)
+## 4. [Tools & Frameworks](ToolsFrameworks.md)
 
-## 5. [Tools & Frameworks](ToolsFrameworks.md)
+## 5. [Open Source Models](OpenSourceModels.md)
+
+## 6. [Datasets](Datasets.md)
+
+## 7. [Benchmarks](Bencmarks.md)
+
+## 8. [Tutorials](Tutorials.md)
+
+
   
-## 6. [University Courses](UniversityCourses.md)
 
-## 7. [Open Access Theses](Theses.md)
 
-## 8. [Papers](Papers.md)
+
+
+
