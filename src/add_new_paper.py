@@ -118,6 +118,6 @@ def add_paper_by_id(paper_id):
         print(paper["title"])
 
 
-new_papers=['']
+new_papers=['2403.03640','2402.14334','2403.05313']
 for paper in new_papers:
     add_paper_by_id(paper)
