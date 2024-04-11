@@ -14,6 +14,6 @@
 14. [CS224N: Natural Language Processing with Deep Learning, Stanford University](https://web.stanford.edu/class/cs224n/)
 15. [6.5940: TinyML and Efficient Deep Learning Computing, MIT](https://hanlab.mit.edu/courses/2023-fall-65940)
 16. [COMP790-101: Large Language Models, University of Toronto](https://github.com/craffel/llm-seminar)
-17. [CS25: Transformers United V3, Stanford University](https://web.stanford.edu/class/cs25/)
+17. [CS25: Transformers United V4, Stanford University](https://web.stanford.edu/class/cs25/)
 18. [CS 601.471/671 NLP: Self-supervised Models, John Hopkins University](https://self-supervised.cs.jhu.edu/sp2023/index.html)
 19. [IAP 2024: Introduction to Data-Centric AI, MIT](https://dcai.csail.mit.edu)

@@ -39,7 +39,8 @@ keyword_mapping = {
     'cs.OS': 'Operating Systems',
     '68T50':'Natural Language Processing',
     'cs.GT':'Computer Science and Game Theory',
-    'H.3.3':'Information Search and Retrieval'
+    'H.3.3':'Information Search and Retrieval',
+    'cs.PL':"Programming Languages"
 
     # Add more mappings as needed
 }
@@ -118,6 +119,6 @@ def add_paper_by_id(paper_id):
         print(paper["title"])
 
 
-new_papers=['2403.03640','2402.14334','2403.05313']
+new_papers=['']
 for paper in new_papers:
     add_paper_by_id(paper)
