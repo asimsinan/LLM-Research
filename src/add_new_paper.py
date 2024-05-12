@@ -40,7 +40,10 @@ keyword_mapping = {
     '68T50':'Natural Language Processing',
     'cs.GT':'Computer Science and Game Theory',
     'H.3.3':'Information Search and Retrieval',
-    'cs.PL':"Programming Languages"
+    'cs.PL':"Programming Languages",
+    'econ.GN':"General Economics",
+    'q-fin.EC':"Quantitative Finance",
+    'q-bio.OT':"Quantitative Biology"
 
     # Add more mappings as needed
 }
