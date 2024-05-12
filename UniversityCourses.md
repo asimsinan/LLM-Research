@@ -17,3 +17,4 @@
 17. [CS25: Transformers United V4, Stanford University](https://web.stanford.edu/class/cs25/)
 18. [CS 601.471/671 NLP: Self-supervised Models, John Hopkins University](https://self-supervised.cs.jhu.edu/sp2023/index.html)
 19. [IAP 2024: Introduction to Data-Centric AI, MIT](https://dcai.csail.mit.edu)
+20. [CS388: Natural Language Processing, UT Austin](https://www.cs.utexas.edu/~gdurrett/courses/online-course/materials.html)
