@@ -16,8 +16,6 @@ A curated list of papers on Large Language Models by year (Bullet Points were ge
 
 ## 7. [Benchmarks](Bencmarks.md)
 
-## 8. [Tutorials](Tutorials.md)
-
 
   
 
