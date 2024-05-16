@@ -1,4 +1,4 @@
-* [Türkiye](Turkiye.md) (3 Master's Theses)
+* [Türkiye](Turkiye.md) (33 Master's Theses, 5 Doctoral Dissertations)
 * [USA](USA.md) (27 Master's Theses, 38 Doctoral Dissertations)
 * [Sweden](Sweden.md) (49 Master's Theses)
 * [Canada](Canada.md) (14 Master's Theses, 1 Doctoral Dissertation)
