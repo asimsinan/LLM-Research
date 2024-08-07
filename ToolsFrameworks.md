@@ -94,4 +94,3 @@
 84. [instructlab:](https://github.com/instructlab/instructlab) InstructLab uses a novel synthetic data-based alignment tuning method for Large Language Models (LLMs.) 
 85. [MemGPT:](https://github.com/cpacker/MemGPT) MemGPT allows you to build LLM agents with long term memory & custom tools
 86. [phidata:](https://github.com/phidatahq/phidata) Build AI Assistants with memory, knowledge and tools
-87. [firecrawl:](https://github.com/mendableai/firecrawl) Crawl and convert any website into LLM-ready markdown or structured data
