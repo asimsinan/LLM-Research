@@ -2,7 +2,7 @@ import subprocess
 from transformers import pipeline
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 import torch
-import arxiv, os, re
+import arxiv, os, re,fnmatch
 from datetime import datetime
 import json
 
@@ -97,7 +97,7 @@ def add_paper_by_id(paper_id):
     rename_file(directory + "/" + paper_json[paper_id]["download_name"])
 
     paper = paper_json[paper_id]
-    directory = './src/'
+    directory = 'papers'
     filename = paper_id + '.md'
     full_path = os.path.join(directory, filename)
 
@@ -122,6 +122,28 @@ def add_paper_by_id(paper_id):
         print(paper["title"])
 
 
-new_papers=[]
+
+def find_pdf_files(folder_path):
+    # Initialize an empty list to store PDF file names
+    pdf_file_names = []
+
+    # Ensure the folder path ends with a slash for proper concatenation
+    if not folder_path.endswith(os.sep):
+        folder_path += os.sep
+
+    # Get a list of all files in the specified folder
+    all_files = os.listdir(folder_path)
+
+    # Filter the list to include only PDF files
+    pdf_files = [file for file in all_files if fnmatch.fnmatch(file, '*.pdf')]
+
+    # Add the PDF file names to the list, excluding the '.pdf' extension
+    for pdf_file in pdf_files:
+        pdf_file_names.append(pdf_file.replace('.pdf', ''))
+
+    sorted_pdf_file_names = sorted(pdf_file_names)
+    return sorted_pdf_file_names
+folder_path = '/Users/sinanyuksel/Desktop/LLM Papers/new papers'
+new_papers = find_pdf_files(folder_path)
 for paper in new_papers:
     add_paper_by_id(paper)
