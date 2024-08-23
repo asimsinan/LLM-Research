@@ -10,6 +10,7 @@ A curated list of papers on Large Language Models by year (Bullet Points were ge
 * Create a Roadmap maybe?
 * Add tutorials (not sure)
 * Add free online courses (not sure)
+* Add X accounts who share llm based posts
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11244018.svg)](https://doi.org/10.5281/zenodo.11244018)
 
