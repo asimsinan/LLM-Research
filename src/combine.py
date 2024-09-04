@@ -19,4 +19,4 @@ def combine_specific_prefix_files(src_dir,prefix):
         final_file.write(combined_content)
 
 # Example usage
-#combine_specific_prefix_files('./papers','24')
+combine_specific_prefix_files('./papers','24')
