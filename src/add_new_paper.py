@@ -26,6 +26,7 @@ keyword_mapping = {
     'cs.NE': 'Neural and Evolutionary Computing',
     'I.2.7': 'Natural Language Processing',
     'q-fin.GN': 'General Finance',
+    'cond-mat.mtrl-sci':'Material Science',
     'cs.DC': 'Distributed, Parallel, and Cluster Computing',
     'cs.IT': 'Information Theory',
     'math.IT': 'Information Theory',
@@ -147,3 +148,4 @@ folder_path = '/Users/sinanyuksel/Desktop/LLM Papers/new papers'
 new_papers = find_pdf_files(folder_path)
 for paper in new_papers:
     add_paper_by_id(paper)
+
