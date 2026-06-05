@@ -4,9 +4,7 @@ A curated list of papers on Large Language Models by year (Bullet Points were ge
 
 **To-Do:**
 * Create a website to automatize the work (Maybe using LLM Based Agents?)
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11244018.svg)](https://doi.org/10.5281/zenodo.11244018)
-
+  
 ## 1. [Papers](Papers.md)
 
 ## 2. [Open Access Theses](Theses.md)
